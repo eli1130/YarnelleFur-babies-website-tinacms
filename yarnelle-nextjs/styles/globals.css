@@ -1,0 +1,60 @@
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+:root {
+  --white: #ffffff;
+  --offwhite: #f7f7f7;
+  --light-gray: #e5e5e5;
+  --mid-gray: #aaaaaa;
+  --black: #111111;
+  --text: #1a1a1a;
+  --text-light: #555555;
+  --red: #cc0000;
+  --red-dark: #aa0000;
+}
+html { scroll-behavior: smooth; }
+body {
+  font-family: 'Jost', sans-serif;
+  background: var(--white);
+  color: var(--text);
+  font-weight: 300;
+  line-height: 1.7;
+}
+
+/* NAV */
+.announcement { background: var(--black); color: var(--white); text-align: center; padding: 0.6rem 1rem; font-size: 0.75rem; letter-spacing: 0.08em; text-transform: uppercase; }
+.announcement a { color: var(--white); text-decoration: underline; }
+nav { position: sticky; top: 0; z-index: 100; background: var(--white); border-bottom: 1px solid var(--light-gray); padding: 0 2rem; display: flex; align-items: center; justify-content: space-between; height: 68px; }
+.nav-logo { font-family: 'Cormorant Garamond', serif; font-size: 1.5rem; font-weight: 400; color: var(--black); text-decoration: none; }
+.nav-logo span { color: var(--red); font-style: italic; }
+.nav-links { display: flex; align-items: center; gap: 2rem; list-style: none; }
+.nav-links a { font-size: 0.72rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--text); text-decoration: none; transition: color 0.2s; }
+.nav-links a:hover, .nav-links a.active { color: var(--red); }
+.nav-links .nav-cta a { background: var(--red); color: var(--white); padding: 0.5rem 1.2rem; border-radius: 2px; }
+.nav-links .nav-cta a:hover { background: var(--red-dark); color: var(--white); }
+.nav-hamburger { display: none; flex-direction: column; gap: 5px; cursor: pointer; background: none; border: none; padding: 4px; }
+.nav-hamburger span { display: block; width: 24px; height: 2px; background: var(--black); }
+
+/* FOOTER */
+footer { background: var(--black); border-top: 1px solid #222; padding: 3rem 4rem; }
+.footer-inner { max-width: 1200px; margin: 0 auto; display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: 3rem; }
+.footer-brand p { font-size: 0.82rem; color: #666; line-height: 1.7; max-width: 260px; margin-top: 1rem; }
+.footer-col h5 { font-size: 0.68rem; letter-spacing: 0.18em; text-transform: uppercase; color: #666; margin-bottom: 1rem; }
+.footer-col a { display: block; font-size: 0.85rem; color: #aaa; text-decoration: none; margin-bottom: 0.5rem; transition: color 0.2s; }
+.footer-col a:hover { color: var(--white); }
+.footer-col p { font-size: 0.85rem; color: #aaa; line-height: 1.7; margin-bottom: 0.4rem; }
+.footer-bottom { max-width: 1200px; margin: 2.5rem auto 0; padding-top: 1.5rem; border-top: 1px solid #222; display: flex; justify-content: space-between; align-items: center; font-size: 0.75rem; color: #555; }
+
+/* BUTTONS */
+.btn-primary { background: var(--red); color: #fff; padding: 0.85rem 2rem; text-decoration: none; font-size: 0.78rem; letter-spacing: 0.12em; text-transform: uppercase; border-radius: 2px; transition: background 0.2s; display: inline-block; font-family: 'Jost', sans-serif; border: none; cursor: pointer; }
+.btn-primary:hover { background: var(--red-dark); }
+.btn-secondary { border: 1px solid var(--mid-gray); color: var(--text); padding: 0.85rem 2rem; text-decoration: none; font-size: 0.78rem; letter-spacing: 0.12em; text-transform: uppercase; border-radius: 2px; transition: all 0.2s; display: inline-block; font-family: 'Jost', sans-serif; background: none; cursor: pointer; }
+.btn-secondary:hover { border-color: var(--black); color: var(--black); }
+
+@media (max-width: 900px) {
+  nav { padding: 0 1.5rem; }
+  .nav-links { display: none; }
+  .nav-hamburger { display: flex; }
+  .nav-links.open { display: flex; flex-direction: column; position: absolute; top: 68px; left: 0; right: 0; background: var(--white); border-bottom: 1px solid var(--light-gray); padding: 1.5rem 2rem; gap: 1.25rem; z-index: 99; }
+  footer { padding: 3rem 1.5rem; }
+  .footer-inner { grid-template-columns: 1fr 1fr; gap: 2rem; }
+  .footer-bottom { flex-direction: column; gap: 0.5rem; text-align: center; }
+}

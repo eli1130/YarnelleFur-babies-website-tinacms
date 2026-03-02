@@ -1,0 +1,248 @@
+.hero {
+  background: #111111;
+  padding: 3rem 5rem 3.5rem;
+  border-bottom: 3px solid #cc0000;
+}
+.backLink {
+  display: inline-block;
+  font-size: 0.72rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #aaaaaa;
+  text-decoration: none;
+  margin-bottom: 1.5rem;
+  transition: color 0.2s;
+}
+.backLink:hover { color: #ffffff; }
+.breederTag {
+  font-size: 0.68rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: #cc0000;
+  margin-bottom: 0.75rem;
+  display: block;
+}
+.hero h1 {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: clamp(2.2rem, 4vw, 3.5rem);
+  font-weight: 300;
+  color: #ffffff;
+  line-height: 1.1;
+  margin-bottom: 0.75rem;
+}
+.price {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.5rem;
+  color: #cc0000;
+  font-style: italic;
+}
+.body {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 3.5rem 4rem;
+  display: grid;
+  grid-template-columns: 1fr 300px;
+  gap: 3rem;
+  align-items: start;
+}
+.main { min-width: 0; }
+.sectionTitle {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #111111;
+  margin-bottom: 1.25rem;
+  padding-bottom: 0.75rem;
+  border-bottom: 1px solid #e5e5e5;
+}
+.puppyGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.75rem;
+  margin-bottom: 3rem;
+}
+.puppyGrid img {
+  width: 100%;
+  aspect-ratio: 1;
+  object-fit: cover;
+  border-radius: 4px;
+}
+.detailsGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.75rem;
+  margin-bottom: 3rem;
+}
+.detailBox {
+  background: #f7f7f7;
+  border: 1px solid #e5e5e5;
+  border-radius: 4px;
+  padding: 1rem 1.25rem;
+}
+.full { grid-column: span 2; }
+.detailLabel {
+  font-size: 0.62rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: #cc0000;
+  margin-bottom: 0.35rem;
+  display: block;
+}
+.puppiesList { margin-bottom: 3rem; }
+.puppyRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.9rem 0;
+  border-bottom: 1px solid #e5e5e5;
+}
+.puppyRow:first-child { border-top: 1px solid #e5e5e5; }
+.puppyName { font-size: 0.95rem; }
+.puppyGender {
+  font-size: 0.68rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #aaaaaa;
+}
+.puppyPrice {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.1rem;
+  color: #cc0000;
+  font-style: italic;
+}
+.puppyStatus {
+  font-size: 0.68rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #888;
+  background: #f7f7f7;
+  padding: 0.2rem 0.5rem;
+  border-radius: 2px;
+}
+.reserved { color: #cc0000; background: #fff0f0; }
+.parentsGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  margin-bottom: 3rem;
+}
+.parentCard {
+  border: 1px solid #e5e5e5;
+  border-radius: 4px;
+  overflow: hidden;
+}
+.parentCard img {
+  width: 100%;
+  aspect-ratio: 4/3;
+  object-fit: cover;
+  display: block;
+}
+.parentCardBody { padding: 1rem 1.25rem; }
+.parentRole {
+  font-size: 0.62rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: #cc0000;
+  margin-bottom: 0.25rem;
+  display: block;
+}
+.parentName {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: #111111;
+  margin-bottom: 0.25rem;
+}
+.parentDesc { font-size: 0.82rem; color: #555555; }
+.prevGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.5rem;
+  margin-bottom: 3rem;
+}
+.prevGrid img {
+  width: 100%;
+  aspect-ratio: 1;
+  object-fit: cover;
+  border-radius: 3px;
+}
+.sidebar { position: sticky; top: 84px; }
+.quickFacts {
+  border: 1px solid #e5e5e5;
+  border-radius: 4px;
+  overflow: hidden;
+  margin-bottom: 1.5rem;
+}
+.quickFactsTitle {
+  background: #f7f7f7;
+  padding: 0.85rem 1.25rem;
+  font-size: 0.72rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  border-bottom: 1px solid #e5e5e5;
+}
+.factRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.75rem 1.25rem;
+  border-bottom: 1px solid #e5e5e5;
+  font-size: 0.85rem;
+}
+.factRow:last-child { border-bottom: none; }
+.factRow span:first-child { color: #555555; }
+.factRow span:last-child { text-align: right; }
+.reserveBox {
+  border: 1px solid #e5e5e5;
+  border-radius: 4px;
+  padding: 1.25rem;
+}
+.reserveTitle {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.15rem;
+  font-weight: 400;
+  color: #111111;
+  margin-bottom: 1rem;
+}
+.btnReserve {
+  display: block;
+  width: 100%;
+  background: #cc0000;
+  color: #ffffff;
+  text-align: center;
+  padding: 0.85rem;
+  font-size: 0.72rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  text-decoration: none;
+  border-radius: 2px;
+  margin-bottom: 0.75rem;
+}
+.btnReserve:hover { background: #aa0000; }
+.btnApply {
+  display: block;
+  width: 100%;
+  border: 1px solid #e5e5e5;
+  color: #1a1a1a;
+  text-align: center;
+  padding: 0.85rem;
+  font-size: 0.72rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  text-decoration: none;
+  border-radius: 2px;
+  margin-bottom: 0.75rem;
+}
+.btnApply:hover { border-color: #111111; }
+.reserveNote { font-size: 0.78rem; color: #555555; line-height: 1.6; }
+
+@media (max-width: 960px) {
+  .hero { padding: 2rem 1.5rem 2.5rem; }
+  .body { grid-template-columns: 1fr; padding: 2rem 1.5rem; }
+  .sidebar { position: static; }
+  .puppyGrid { grid-template-columns: repeat(2, 1fr); }
+  .detailsGrid { grid-template-columns: 1fr; }
+  .full { grid-column: span 1; }
+  .parentsGrid { grid-template-columns: 1fr; }
+  .prevGrid { grid-template-columns: repeat(3, 1fr); }
+}
