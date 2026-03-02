@@ -120,14 +120,7 @@ export default function Reviews() {
         </div>
       </section>
 
-      <section className="facebook-cta">
-        <h2>See More on <em>Facebook</em></h2>
-        <p>Follow us on Facebook and Instagram for the latest puppy updates, litter announcements, and happy family photos!</p>
-        <div className="cta-buttons">
-          <a href="https://www.instagram.com/yarnellefurbabies/" target="_blank" rel="noopener" className="btn-primary">📷 Follow on Instagram</a>
-          <Link href="/#apply" className="btn-secondary">Apply for a Puppy</Link>
-        </div>
-      </section>
+
 
       <footer>
         <div className="footer-inner">
