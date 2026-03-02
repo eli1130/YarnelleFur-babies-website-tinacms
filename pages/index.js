@@ -13,10 +13,17 @@ export default function Home({ litters }) {
   const handleSubmit = async (e) => {
     e.preventDefault()
     setFormStatus('sending')
-    const body = new URLSearchParams({ 'form-name': 'puppy-application', ...formData })
     try {
-      await fetch('/', { method: 'POST', headers: { 'Content-Type': 'application/x-www-form-urlencoded' }, body: body.toString() })
-      setFormStatus('success')
+      const res = await fetch('/api/apply', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(formData)
+      })
+      if (res.ok) {
+        setFormStatus('success')
+      } else {
+        setFormStatus('error')
+      }
     } catch {
       setFormStatus('error')
     }
@@ -177,14 +184,9 @@ export default function Home({ litters }) {
           ) : (
             <form
               name="puppy-application"
-              method="POST"
-              data-netlify="true"
-              netlify-honeypot="bot-field"
               onSubmit={handleSubmit}
               style={{ display: 'flex', flexDirection: 'column', gap: '1rem', background: '#fff', border: '1px solid #e5e5e5', borderRadius: 4, padding: '2.5rem' }}
             >
-              <input type="hidden" name="form-name" value="puppy-application" />
-              <input type="hidden" name="bot-field" />
 
               <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '1rem' }}>
                 {[
