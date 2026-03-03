@@ -1,5 +1,5 @@
 [build]
-  command = "next build"
+  command = "tinacms build && next build"
   publish = ".next"
 
 [build.environment]
