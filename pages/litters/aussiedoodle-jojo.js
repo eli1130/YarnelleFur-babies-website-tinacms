@@ -15,6 +15,6 @@ const litter = {
   sire: { name:'Ash', desc:'AKC Toy Poodle' },
   damPhoto: IMG, sirePhoto: IMG,
   prevPhotos: [IMG,IMG,IMG,IMG],
-  deposit: 200, contact: 'Kathy · (260) 410-7925',
+  deposit: 200, contact: 'Brooke · (260) 443-9035',
 };
 export default function Page() { return <LitterPage litter={litter} />; }
