@@ -18,6 +18,6 @@ const litter = {
   sire: { name:'Bonsai', desc:'AKC Blue Merle Standard Poodle · 60 lbs' },
   damPhoto: IMG, sirePhoto: IMG,
   prevPhotos: [IMG,IMG,IMG,IMG,IMG,IMG,IMG],
-  deposit: 400, contact: 'Kathy · (260) 410-7925',
+  deposit: 400, contact: 'Brooke · (260) 443-9035',
 };
 export default function Page() { return <LitterPage litter={litter} />; }
