@@ -329,22 +329,7 @@ export default function Home() {
             </div>
           </Link>
 
-          <Link href="/litters/goldendoodle-diana" className="litter-card">
-            <div className="litter-card-image">
-              <img src="https://res.cloudinary.com/dyzfpnrhg/image/upload/image_0004.jpg" alt="Merle Goldendoodle" />
-              <span className="availability-badge">1 Available</span>
-            </div>
-            <div className="litter-card-body">
-              <div className="litter-family">John &amp; Kathy Yarnelle</div>
-              <h3>Merle Mini F1BB Goldendoodles</h3>
-              <p className="litter-desc">F1BB Merle Mini Goldendoodles — most hypoallergenic generation with stunning merle patterns. Princess Diana × Billy litter.</p>
-              <div className="litter-meta">
-                <span className="litter-price">$800</span>
-                <span className="litter-avail">1 Available</span>
-              </div>
-              <span className="view-litter">View Litter →</span>
-            </div>
-          </Link>
+
 
           <Link href="/litters/bernedoodle-meadow" className="litter-card">
             <div className="litter-card-image">
