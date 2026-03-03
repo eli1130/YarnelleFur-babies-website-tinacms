@@ -18,6 +18,6 @@ const litter = {
   sire: { name:'Bamboo', desc:'AKC Standard Poodle' },
   damPhoto: IMG, sirePhoto: IMG,
   prevPhotos: [IMG,IMG,IMG,IMG,IMG,IMG],
-  deposit: 400, contact: 'Luke · (260) 213-1685',
+  deposit: 400, contact: 'Brooke · (260) 443-9035',
 };
 export default function Page() { return <LitterPage litter={litter} />; }
