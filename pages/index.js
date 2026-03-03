@@ -189,7 +189,7 @@ export default function Home() {
           <li><Link href="/">Home</Link></li>
           <li><Link href="/about">About Us</Link></li>
           <li><Link href="/gotjesus">Got Jesus?</Link></li>
-          <li><Link href="/litters">Available Litters</Link></li>
+          <li><Link href="/#litters">Available Litters</Link></li>
           <li><Link href="/reviews">Reviews</Link></li>
           <li><Link href="/faq">FAQ &amp; Products</Link></li>
           <li className="nav-cta"><a href="#apply">Apply Now</a></li>
@@ -206,7 +206,7 @@ export default function Home() {
           <h1>Welcome to<br />Yarnelle<br /><em>Fur-Babies</em></h1>
           <p className="hero-sub">A small, family-run breeding program on a beautiful 10-acre farm — where every puppy is loved daily and raised with children from birth.</p>
           <div className="hero-buttons">
-            <Link href="/litters" className="btn-primary">View Available Puppies</Link>
+            <Link href="/#litters" className="btn-primary">View Available Puppies</Link>
             <Link href="/about" className="btn-secondary" style={{ borderColor: '#555', color: '#fff' }}>Meet Our Family</Link>
           </div>
         </div>
@@ -278,7 +278,7 @@ export default function Home() {
         </div>
         <div className="litters-grid">
 
-          <Link href="/litter-saint-lucy" className="litter-card">
+          <Link href="/litters/saint-lucy" className="litter-card">
             <div className="litter-card-image">
               <img src="https://res.cloudinary.com/dyzfpnrhg/image/upload/image_0001.jpg" alt="Saint Berdoodle" />
               <span className="availability-badge">5 Available</span>
@@ -295,7 +295,7 @@ export default function Home() {
             </div>
           </Link>
 
-          <Link href="/litter-aussiedoodle-jojo" className="litter-card">
+          <Link href="/litters/aussiedoodle-jojo" className="litter-card">
             <div className="litter-card-image">
               <img src="https://res.cloudinary.com/dyzfpnrhg/image/upload/image_0002.jpg" alt="Toy Aussiedoodle" />
               <span className="availability-badge">2 Available</span>
@@ -312,7 +312,7 @@ export default function Home() {
             </div>
           </Link>
 
-          <Link href="/litter-bernedoodle-flower" className="litter-card">
+          <Link href="/litters/bernedoodle-flower" className="litter-card">
             <div className="litter-card-image">
               <img src="https://res.cloudinary.com/dyzfpnrhg/image/upload/image_0003.jpg" alt="Mini Bernedoodle" />
               <span className="availability-badge">1 Available</span>
@@ -329,7 +329,7 @@ export default function Home() {
             </div>
           </Link>
 
-          <Link href="/litter-goldendoodle-diana" className="litter-card">
+          <Link href="/litters/goldendoodle-diana" className="litter-card">
             <div className="litter-card-image">
               <img src="https://res.cloudinary.com/dyzfpnrhg/image/upload/image_0004.jpg" alt="Merle Goldendoodle" />
               <span className="availability-badge">1 Available</span>
@@ -346,7 +346,7 @@ export default function Home() {
             </div>
           </Link>
 
-          <Link href="/litter-bernedoodle-meadow" className="litter-card">
+          <Link href="/litters/bernedoodle-meadow" className="litter-card">
             <div className="litter-card-image">
               <img src="https://res.cloudinary.com/dyzfpnrhg/image/upload/image_0005.jpg" alt="Mini Multigen Bernedoodle" />
               <span className="availability-badge">1 Available</span>
@@ -363,7 +363,7 @@ export default function Home() {
             </div>
           </Link>
 
-          <Link href="/litter-saint-blake" className="litter-card">
+          <Link href="/litters/saint-blake" className="litter-card">
             <div className="litter-card-image">
               <img src="https://res.cloudinary.com/dyzfpnrhg/image/upload/image_0006.jpg" alt="Saint Berdoodle Blake" />
               <span className="availability-badge">5 Available</span>
@@ -380,7 +380,7 @@ export default function Home() {
             </div>
           </Link>
 
-          <Link href="/litter-colliedoodle-liberty" className="litter-card">
+          <Link href="/litters/colliedoodle-liberty" className="litter-card">
             <div className="litter-card-image">
               <img src="https://res.cloudinary.com/dyzfpnrhg/image/upload/image_0007.jpg" alt="Colliedoodle" />
               <span className="availability-badge">2 Available</span>
@@ -397,7 +397,7 @@ export default function Home() {
             </div>
           </Link>
 
-          <Link href="/litter-cavapoo-honey" className="litter-card">
+          <Link href="/litters/cavapoo-honey" className="litter-card">
             <div className="litter-card-image">
               <img src="https://res.cloudinary.com/dyzfpnrhg/image/upload/image_0008.jpg" alt="Cavapoo" />
               <span className="availability-badge">2 Available</span>
@@ -414,7 +414,7 @@ export default function Home() {
             </div>
           </Link>
 
-          <Link href="/litter-saint-gracie" className="litter-card">
+          <Link href="/litters/saint-gracie" className="litter-card">
             <div className="litter-card-image">
               <img src="https://res.cloudinary.com/dyzfpnrhg/image/upload/image_0009.jpg" alt="Saint Berdoodle Gracie" />
               <span className="availability-badge">7 Available</span>
@@ -431,7 +431,7 @@ export default function Home() {
             </div>
           </Link>
 
-          <Link href="/litter-goldendoodle-helga" className="litter-card">
+          <Link href="/litters/goldendoodle-helga" className="litter-card">
             <div className="litter-card-image">
               <img src="https://res.cloudinary.com/dyzfpnrhg/image/upload/image_0010.jpg" alt="Micro Mini Goldendoodle" />
               <span className="availability-badge">2 Available</span>
@@ -448,7 +448,7 @@ export default function Home() {
             </div>
           </Link>
 
-          <Link href="/litter-bernedoodle-sky" className="litter-card">
+          <Link href="/litters/bernedoodle-sky" className="litter-card">
             <div className="litter-card-image">
               <img src="https://res.cloudinary.com/dyzfpnrhg/image/upload/image_0011.jpg" alt="Medium Bernedoodle" />
               <span className="availability-badge">1 Available</span>
@@ -639,7 +639,7 @@ export default function Home() {
             <Link href="/">Home</Link>
             <Link href="/about">About Us</Link>
             <Link href="/gotjesus">Got Jesus?</Link>
-            <Link href="/litters">Available Litters</Link>
+            <Link href="/#litters">Available Litters</Link>
             <Link href="/reviews">Reviews</Link>
             <Link href="/faq">FAQ &amp; Products</Link>
           </div>
