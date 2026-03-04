@@ -12,7 +12,10 @@ jobs:
           node-version: 18
       - run: npm install
       - run: npx tinacms build --local --skip-cloud-checks
+      - run: find . -name "tina-lock.json" 2>/dev/null || echo "tina-lock.json not found"
+      - run: ls -la tina/ || echo "tina folder contents above"
       - uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "chore: update tina-lock.json"
           file_pattern: tina/tina-lock.json
+          
