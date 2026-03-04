@@ -1,4 +1,4 @@
-name: Commit tina-lock.json
+name: Generate tina-lock.json
 on:
   push:
     branches: [main]
@@ -11,11 +11,7 @@ jobs:
         with:
           node-version: 18
       - run: npm install
-      - run: npx tinacms build --skip-cloud-checks
-        env:
-          NEXT_PUBLIC_TINA_CLIENT_ID: ${{ secrets.NEXT_PUBLIC_TINA_CLIENT_ID }}
-          TINA_TOKEN: ${{ secrets.TINA_TOKEN }}
-          TINA_BRANCH: main
+      - run: npx tinacms build --local
       - uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "chore: update tina-lock.json"
