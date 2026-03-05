@@ -11,7 +11,7 @@
   "grooming": "Roughly every 4 months",
   "temperament": "Friendly, watchful, calm, gentle, sweet, love to cuddle, incredibly friendly with other dogs, cats, and kiddos",
   "deposit": "$400",
-  "contact": "Kathy · (260) 410-7925",
+  "contact": "Brooke-(260)443-9035",
   "damName": "Lucy",
   "damDesc": "Standard F1 Saint Berdoodle · 100 lbs",
   "damPhoto": "",
@@ -19,11 +19,49 @@
   "sireDesc": "AKC Blue Merle Standard Poodle · 60 lbs",
   "sirePhoto": "",
   "puppies": [
-    { "name": "Leena", "gender": "Girl", "price": "$1,200", "status": "Available", "photos": [] },
-    { "name": "Lilly", "gender": "Girl", "price": "$1,200", "status": "Available", "photos": [] },
-    { "name": "Liam", "gender": "Boy", "price": "$1,200", "status": "Available", "photos": [] },
-    { "name": "Lachlan", "gender": "Boy", "price": "$1,200", "status": "Available", "photos": [] },
-    { "name": "Laiken", "gender": "Girl", "price": "$2,000", "status": "Available", "photos": [] }
+    {
+      "name": "Leena",
+      "gender": "Girl",
+      "price": "$1,200",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://res.cloudinary.com/dyzfpnrhg/image/upload/v1772590575/typorama_uhv61c.png"
+        }
+      ]
+    },
+    {
+      "name": "Lilly",
+      "gender": "Girl",
+      "price": "$1,200",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://res.cloudinary.com/dyzfpnrhg/image/upload/v1772590573/typorama_qxxzil.png"
+        }
+      ]
+    },
+    {
+      "name": "Liam",
+      "gender": "Boy",
+      "price": "$1,200",
+      "status": "Available",
+      "photos": []
+    },
+    {
+      "name": "Lachlan",
+      "gender": "Boy",
+      "price": "$1,200",
+      "status": "Available",
+      "photos": []
+    },
+    {
+      "name": "Laiken",
+      "gender": "Girl",
+      "price": "$2,000",
+      "status": "Available",
+      "photos": []
+    }
   ],
   "previousPuppies": []
 }
