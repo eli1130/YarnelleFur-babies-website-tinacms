@@ -1,19 +1,47 @@
-import LitterPage from '../../components/LitterPage';
-const IMG = 'https://res.cloudinary.com/dyzfpnrhg/image/upload/image_0011.jpg';
-const litter = {
-  title: 'Medium F1B Bernedoodles', breeder: 'Hunter & Sarah Nicodemus', generation: 'F1B',
-  priceRange: '$1,500', parents: 'Sky × Thor',
-  photos: [IMG,IMG,IMG,IMG,IMG],
-  dob: 'TBD', takeHome: 'TBD',
-  size: '35–55 lbs', grooming: 'Every 6–8 weeks',
-  temperament: 'Ideal mid-size family dog, plush coat, gentle nature, great with kids',
-  puppies: [
-    { name:'TBD', gender:'Girl', price:'$1,500' },
-  ],
-  dam: { name:'Sky', desc:'Medium Bernedoodle' },
-  sire: { name:'Thor', desc:'AKC Mini Poodle' },
-  damPhoto: IMG, sirePhoto: IMG,
-  prevPhotos: [IMG,IMG,IMG,IMG],
-  deposit: 300, contact: 'Sarah · (260) 494-0405',
-};
-export default function Page() { return <LitterPage litter={litter} />; }
+import { useTina } from 'tinacms/dist/react'
+import { client } from '../../tina/__generated__/client'
+import LitterPage from '../../components/LitterPage'
+
+const FALLBACK = 'https://res.cloudinary.com/dyzfpnrhg/image/upload/image_0003.jpg'
+
+export default function Page(props) {
+  const { data } = useTina({
+    query: props.query,
+    variables: props.variables,
+    data: props.data,
+  })
+
+  const d = data.litter
+  const litter = {
+    title: d.title,
+    breeder: d.breeder,
+    generation: d.generation,
+    priceRange: d.priceRange,
+    parents: d.litterTitle,
+    dob: d.dateOfBirth,
+    takeHome: d.takeHomeDate,
+    size: d.estimatedSize,
+    grooming: d.grooming,
+    temperament: d.temperament,
+    deposit: parseInt(d.deposit?.replace(/\D/g, '')) || 200,
+    contact: d.contact,
+    dam: { name: d.damName, desc: d.damDesc },
+    sire: { name: d.sireName, desc: d.sireDesc },
+    damPhoto: d.damPhoto || FALLBACK,
+    sirePhoto: d.sirePhoto || FALLBACK,
+    photos: [FALLBACK, FALLBACK, FALLBACK, FALLBACK, FALLBACK],
+    prevPhotos: [FALLBACK, FALLBACK, FALLBACK, FALLBACK],
+    puppies: (d.puppies || []).map(p => ({ name: p.name, gender: p.gender, price: p.price })),
+  }
+
+  return <LitterPage litter={litter} />
+}
+
+export async function getStaticProps() {
+  const { data, query, variables } = await client.queries.litter({
+    relativePath: 'bernedoodle-sky.json',
+  })
+  return {
+    props: { data, query, variables },
+  }
+}

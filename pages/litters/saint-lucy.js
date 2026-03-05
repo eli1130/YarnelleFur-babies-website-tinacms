@@ -1,23 +1,47 @@
-import LitterPage from '../../components/LitterPage';
-const IMG = 'https://res.cloudinary.com/dyzfpnrhg/image/upload/image_0001.jpg';
-const litter = {
-  title: 'Saint Berdoodles', breeder: 'John & Kathy Yarnelle', generation: 'F1B',
-  priceRange: '$1,200 — $2,000', parents: 'Lucy × Bonsai',
-  photos: [IMG,IMG,IMG,IMG,IMG],
-  dob: 'January 7, 2026', takeHome: 'March 4, 2026',
-  size: '75–90+ lbs', grooming: 'Roughly every 4 months',
-  temperament: 'Friendly, watchful, calm, gentle, sweet, love to cuddle, incredibly friendly with other dogs, cats, and kiddos',
-  puppies: [
-    { name:'Leena', gender:'Girl', price:'$1,200' },
-    { name:'Lilly', gender:'Girl', price:'$1,200' },
-    { name:'Liam', gender:'Boy', price:'$1,200' },
-    { name:'Lachlan', gender:'Boy', price:'$1,200' },
-    { name:'Laiken', gender:'Girl', price:'$2,000' },
-  ],
-  dam: { name:'Lucy', desc:'Standard F1 Saint Berdoodle · 100 lbs' },
-  sire: { name:'Bonsai', desc:'AKC Blue Merle Standard Poodle · 60 lbs' },
-  damPhoto: IMG, sirePhoto: IMG,
-  prevPhotos: [IMG,IMG,IMG,IMG,IMG,IMG,IMG],
-  deposit: 400, contact: 'Brooke · (260) 443-9035',
-};
-export default function Page() { return <LitterPage litter={litter} />; }
+import { useTina } from 'tinacms/dist/react'
+import { client } from '../../tina/__generated__/client'
+import LitterPage from '../../components/LitterPage'
+
+const FALLBACK = 'https://res.cloudinary.com/dyzfpnrhg/image/upload/image_0001.jpg'
+
+export default function Page(props) {
+  const { data } = useTina({
+    query: props.query,
+    variables: props.variables,
+    data: props.data,
+  })
+
+  const d = data.litter
+  const litter = {
+    title: d.title,
+    breeder: d.breeder,
+    generation: d.generation,
+    priceRange: d.priceRange,
+    parents: d.litterTitle,
+    dob: d.dateOfBirth,
+    takeHome: d.takeHomeDate,
+    size: d.estimatedSize,
+    grooming: d.grooming,
+    temperament: d.temperament,
+    deposit: parseInt(d.deposit?.replace(/\D/g, '')) || 200,
+    contact: d.contact,
+    dam: { name: d.damName, desc: d.damDesc },
+    sire: { name: d.sireName, desc: d.sireDesc },
+    damPhoto: d.damPhoto || FALLBACK,
+    sirePhoto: d.sirePhoto || FALLBACK,
+    photos: [FALLBACK, FALLBACK, FALLBACK, FALLBACK, FALLBACK],
+    prevPhotos: [FALLBACK, FALLBACK, FALLBACK, FALLBACK],
+    puppies: (d.puppies || []).map(p => ({ name: p.name, gender: p.gender, price: p.price })),
+  }
+
+  return <LitterPage litter={litter} />
+}
+
+export async function getStaticProps() {
+  const { data, query, variables } = await client.queries.litter({
+    relativePath: 'saint-lucy.json',
+  })
+  return {
+    props: { data, query, variables },
+  }
+}

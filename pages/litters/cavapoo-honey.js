@@ -1,20 +1,47 @@
-import LitterPage from '../../components/LitterPage';
-const IMG = 'https://res.cloudinary.com/dyzfpnrhg/image/upload/image_0008.jpg';
-const litter = {
-  title: 'Cavapoos', breeder: 'Dakoda & Brooke Labenz', generation: 'F1B',
-  priceRange: '$2,000', parents: 'Honey × Teddy',
-  photos: [IMG,IMG,IMG,IMG,IMG],
-  dob: 'TBD', takeHome: 'TBD',
-  size: '10–20 lbs', grooming: 'Every 6–8 weeks',
-  temperament: 'Small in size, enormous in personality, affectionate, low-shedding, great lap dogs',
-  puppies: [
-    { name:'TBD', gender:'Girl', price:'$2,000' },
-    { name:'TBD', gender:'Boy', price:'$2,000' },
-  ],
-  dam: { name:'Honey', desc:'F1 Cavapoo' },
-  sire: { name:'Teddy', desc:'AKC Toy Poodle' },
-  damPhoto: IMG, sirePhoto: IMG,
-  prevPhotos: [IMG,IMG,IMG,IMG],
-  deposit: 400, contact: 'Brooke · (260) 443-9035',
-};
-export default function Page() { return <LitterPage litter={litter} />; }
+import { useTina } from 'tinacms/dist/react'
+import { client } from '../../tina/__generated__/client'
+import LitterPage from '../../components/LitterPage'
+
+const FALLBACK = 'https://res.cloudinary.com/dyzfpnrhg/image/upload/image_0002.jpg'
+
+export default function Page(props) {
+  const { data } = useTina({
+    query: props.query,
+    variables: props.variables,
+    data: props.data,
+  })
+
+  const d = data.litter
+  const litter = {
+    title: d.title,
+    breeder: d.breeder,
+    generation: d.generation,
+    priceRange: d.priceRange,
+    parents: d.litterTitle,
+    dob: d.dateOfBirth,
+    takeHome: d.takeHomeDate,
+    size: d.estimatedSize,
+    grooming: d.grooming,
+    temperament: d.temperament,
+    deposit: parseInt(d.deposit?.replace(/\D/g, '')) || 200,
+    contact: d.contact,
+    dam: { name: d.damName, desc: d.damDesc },
+    sire: { name: d.sireName, desc: d.sireDesc },
+    damPhoto: d.damPhoto || FALLBACK,
+    sirePhoto: d.sirePhoto || FALLBACK,
+    photos: [FALLBACK, FALLBACK, FALLBACK, FALLBACK, FALLBACK],
+    prevPhotos: [FALLBACK, FALLBACK, FALLBACK, FALLBACK],
+    puppies: (d.puppies || []).map(p => ({ name: p.name, gender: p.gender, price: p.price })),
+  }
+
+  return <LitterPage litter={litter} />
+}
+
+export async function getStaticProps() {
+  const { data, query, variables } = await client.queries.litter({
+    relativePath: 'cavapoo-honey.json',
+  })
+  return {
+    props: { data, query, variables },
+  }
+}

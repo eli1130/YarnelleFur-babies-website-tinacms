@@ -1,7 +1,7 @@
 import { defineConfig } from "tinacms";
 
 export default defineConfig({
- branch: process.env.TINA_BRANCH || "main",
+  branch: process.env.TINA_BRANCH || "main",
   clientId: process.env.NEXT_PUBLIC_TINA_CLIENT_ID,
   token: process.env.TINA_TOKEN,
 
@@ -27,6 +27,7 @@ export default defineConfig({
         path: "content/litters",
         format: "json",
         ui: {
+          router: ({ document }) => `/litters/${document._sys.filename}`,
           filename: {
             readonly: false,
             slugify: (values) =>

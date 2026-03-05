@@ -23,6 +23,7 @@ var config_default = defineConfig({
         path: "content/litters",
         format: "json",
         ui: {
+          router: ({ document }) => `/litters/${document._sys.filename}`,
           filename: {
             readonly: false,
             slugify: (values) => `${values?.slug || values?.title?.toLowerCase().replace(/ /g, "-")}`
