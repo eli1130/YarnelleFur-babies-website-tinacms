@@ -11,16 +11,14 @@ export default defineConfig({
   },
 
   media: {
-    tina: {
-      mediaRoot: "uploads",
-      publicFolder: "public",
+    loadCustomStore: async () => {
+      const pack = await import("next-tinacms-cloudinary");
+      return pack.TinaCloudCloudinaryMediaStore;
     },
   },
 
   schema: {
     collections: [
-
-      // ── LITTERS ──────────────────────────────────────────────
       {
         name: "litter",
         label: "Litters",
@@ -40,44 +38,30 @@ export default defineConfig({
           { type: "string", name: "breeder", label: "Breeder (e.g. John & Kathy Yarnelle)" },
           { type: "string", name: "generation", label: "Generation (e.g. F1B)" },
           { type: "string", name: "priceRange", label: "Price Range (e.g. $1,200 — $2,000)" },
-          { type: "string", name: "litterTitle", label: "Litter Title (e.g. Lucy × Bonsai)" },
+          { type: "string", name: "litterTitle", label: "Litter Title (e.g. Lucy x Bonsai)" },
           { type: "string", name: "dateOfBirth", label: "Date of Birth" },
           { type: "string", name: "takeHomeDate", label: "Take Home Date" },
           { type: "string", name: "estimatedSize", label: "Estimated Size" },
           { type: "string", name: "grooming", label: "Grooming Frequency" },
           { type: "string", name: "temperament", label: "Temperament", ui: { component: "textarea" } },
           { type: "string", name: "deposit", label: "Deposit Amount (e.g. $400)" },
-          { type: "string", name: "contact", label: "Contact (e.g. Kathy · (260) 410-7925)" },
-
-          // Dam
+          { type: "string", name: "contact", label: "Contact (e.g. Kathy - (260) 410-7925)" },
           { type: "string", name: "damName", label: "Dam Name" },
           { type: "string", name: "damDesc", label: "Dam Description" },
           { type: "image", name: "damPhoto", label: "Dam Photo" },
-
-          // Sire
           { type: "string", name: "sireName", label: "Sire Name" },
           { type: "string", name: "sireDesc", label: "Sire Description" },
           { type: "image", name: "sirePhoto", label: "Sire Photo" },
-
-          // Puppies
           {
-            type: "object",
-            name: "puppies",
-            label: "Available Puppies",
-            list: true,
-            ui: {
-              itemProps: (item) => ({ label: item?.name || "Puppy" }),
-            },
+            type: "object", name: "puppies", label: "Available Puppies", list: true,
+            ui: { itemProps: (item) => ({ label: item?.name || "Puppy" }) },
             fields: [
               { type: "string", name: "name", label: "Puppy Name" },
               { type: "string", name: "gender", label: "Gender", options: ["Girl", "Boy"] },
               { type: "string", name: "price", label: "Price (e.g. $1,200)" },
               { type: "string", name: "status", label: "Status", options: ["Available", "Reserved", "Sold"] },
               {
-                type: "object",
-                name: "photos",
-                label: "Puppy Photos",
-                list: true,
+                type: "object", name: "photos", label: "Puppy Photos", list: true,
                 fields: [
                   { type: "image", name: "src", label: "Photo" },
                   { type: "string", name: "alt", label: "Alt text" },
@@ -85,13 +69,8 @@ export default defineConfig({
               },
             ],
           },
-
-          // Previous puppies gallery
           {
-            type: "object",
-            name: "previousPuppies",
-            label: "Previous Puppy Photos",
-            list: true,
+            type: "object", name: "previousPuppies", label: "Previous Puppy Photos", list: true,
             fields: [
               { type: "image", name: "src", label: "Photo" },
               { type: "string", name: "alt", label: "Alt text" },
@@ -99,26 +78,16 @@ export default defineConfig({
           },
         ],
       },
-
-      // ── PAGES ─────────────────────────────────────────────────
       {
-        name: "page",
-        label: "Pages",
-        path: "content/pages",
-        format: "json",
+        name: "page", label: "Pages", path: "content/pages", format: "json",
         fields: [
           { type: "string", name: "title", label: "Page Title" },
           { type: "string", name: "heroHeading", label: "Hero Heading" },
           { type: "string", name: "heroSubtext", label: "Hero Subtext", ui: { component: "textarea" } },
         ],
       },
-
-      // ── SITE SETTINGS ─────────────────────────────────────────
       {
-        name: "settings",
-        label: "Site Settings",
-        path: "content/settings",
-        format: "json",
+        name: "settings", label: "Site Settings", path: "content/settings", format: "json",
         fields: [
           { type: "string", name: "announcementBar", label: "Announcement Bar Text" },
           { type: "string", name: "phone", label: "Primary Phone (Brooke)" },
@@ -127,19 +96,11 @@ export default defineConfig({
           { type: "string", name: "cashappUrl", label: "CashApp URL" },
         ],
       },
-
-      // ── REVIEWS ───────────────────────────────────────────────
       {
-        name: "reviews",
-        label: "Reviews",
-        path: "content/reviews",
-        format: "json",
+        name: "reviews", label: "Reviews", path: "content/reviews", format: "json",
         fields: [
           {
-            type: "object",
-            name: "reviewImages",
-            label: "Review Screenshots",
-            list: true,
+            type: "object", name: "reviewImages", label: "Review Screenshots", list: true,
             fields: [
               { type: "image", name: "src", label: "Review Screenshot" },
               { type: "string", name: "alt", label: "Reviewer Name" },
@@ -147,7 +108,6 @@ export default defineConfig({
           },
         ],
       },
-
     ],
   },
 });
