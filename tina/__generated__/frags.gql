@@ -1,0 +1,64 @@
+fragment LitterParts on Litter {
+  __typename
+  title
+  slug
+  breeder
+  generation
+  priceRange
+  litterTitle
+  dateOfBirth
+  takeHomeDate
+  estimatedSize
+  grooming
+  temperament
+  deposit
+  contact
+  damName
+  damDesc
+  damPhoto
+  sireName
+  sireDesc
+  sirePhoto
+  puppies {
+    __typename
+    name
+    gender
+    price
+    status
+    photos {
+      __typename
+      src
+      alt
+    }
+  }
+  previousPuppies {
+    __typename
+    src
+    alt
+  }
+}
+
+fragment PageParts on Page {
+  __typename
+  title
+  heroHeading
+  heroSubtext
+}
+
+fragment SettingsParts on Settings {
+  __typename
+  announcementBar
+  phone
+  email
+  instagramUrl
+  cashappUrl
+}
+
+fragment ReviewsParts on Reviews {
+  __typename
+  reviewImages {
+    __typename
+    src
+    alt
+  }
+}
