@@ -12,6 +12,16 @@ export default function Page(props) {
   })
 
   const d = data.litter
+
+  // Build puppy photos array from all puppies' photos, fallback if none
+  const allPuppyPhotos = (d.puppies || []).flatMap(p =>
+    (p.photos || []).map(ph => ph.src).filter(Boolean)
+  )
+  const photos = allPuppyPhotos.length > 0 ? allPuppyPhotos : [FALLBACK, FALLBACK, FALLBACK, FALLBACK, FALLBACK]
+
+  // Build previous puppy photos
+  const prevPhotos = (d.previousPuppies || []).map(p => p.src).filter(Boolean)
+
   const litter = {
     title: d.title,
     breeder: d.breeder,
@@ -29,9 +39,14 @@ export default function Page(props) {
     sire: { name: d.sireName, desc: d.sireDesc },
     damPhoto: d.damPhoto || FALLBACK,
     sirePhoto: d.sirePhoto || FALLBACK,
-    photos: [FALLBACK, FALLBACK, FALLBACK, FALLBACK, FALLBACK],
-    prevPhotos: [FALLBACK, FALLBACK, FALLBACK, FALLBACK],
-    puppies: (d.puppies || []).map(p => ({ name: p.name, gender: p.gender, price: p.price })),
+    photos,
+    prevPhotos: prevPhotos.length > 0 ? prevPhotos : [FALLBACK, FALLBACK, FALLBACK, FALLBACK],
+    puppies: (d.puppies || []).map(p => ({
+      name: p.name,
+      gender: p.gender,
+      price: p.price,
+      status: p.status,
+    })),
   }
 
   return <LitterPage litter={litter} />
