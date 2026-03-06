@@ -1,10 +1,13 @@
 import { useTina } from 'tinacms/dist/react'
 import { client } from '../../tina/__generated__/client'
 import LitterPage from '../../components/LitterPage'
+import { useRouter } from 'next/router'
+import { useEffect } from 'react'
 
 const FALLBACK = 'https://res.cloudinary.com/dyzfpnrhg/image/upload/image_0001.jpg'
 
 export default function Page(props) {
+  const router = useRouter()
   const { data } = useTina({
     query: props.query,
     variables: props.variables,
@@ -13,13 +16,18 @@ export default function Page(props) {
 
   const d = data.litter
 
-  // Build puppy photos array from all puppies' photos, fallback if none
+  useEffect(() => {
+    if (d.active === false) {
+      router.replace('/')
+    }
+  }, [d.active])
+
+  if (d.active === false) return null
+
   const allPuppyPhotos = (d.puppies || []).flatMap(p =>
     (p.photos || []).map(ph => ph.src).filter(Boolean)
   )
   const photos = allPuppyPhotos.length > 0 ? allPuppyPhotos : [FALLBACK, FALLBACK, FALLBACK, FALLBACK, FALLBACK]
-
-  // Build previous puppy photos
   const prevPhotos = (d.previousPuppies || []).map(p => p.src).filter(Boolean)
 
   const litter = {
