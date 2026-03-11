@@ -403,7 +403,8 @@ export default function Home() {
             </div>
           </Link>
 
-          
+          </div>
+      </section>
 
       {/* ADOPTION PROCESS */}
       <section className="process-section">
