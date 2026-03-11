@@ -116,6 +116,7 @@ type LitterPreviousPuppies {
 
 type Litter implements Node & Document {
   active: Boolean
+  sortOrder: Float
   title: String!
   slug: String
   breeder: String
@@ -147,6 +148,16 @@ type Litter implements Node & Document {
 input BooleanFilter {
   eq: Boolean
   exists: Boolean
+}
+
+input NumberFilter {
+  lt: Float
+  lte: Float
+  gte: Float
+  gt: Float
+  eq: Float
+  exists: Boolean
+  in: [Float]
 }
 
 input StringFilter {
@@ -183,6 +194,7 @@ input LitterPreviousPuppiesFilter {
 
 input LitterFilter {
   active: BooleanFilter
+  sortOrder: NumberFilter
   title: StringFilter
   slug: StringFilter
   breeder: StringFilter
@@ -358,6 +370,7 @@ input LitterPreviousPuppiesMutation {
 
 input LitterMutation {
   active: Boolean
+  sortOrder: Float
   title: String
   slug: String
   breeder: String
