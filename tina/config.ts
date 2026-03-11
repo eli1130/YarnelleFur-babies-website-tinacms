@@ -48,26 +48,10 @@ export default defineConfig({
           { type: "string", name: "contact", label: "Contact (e.g. Kathy - (260) 410-7925)" },
           { type: "string", name: "damName", label: "Dam Name" },
           { type: "string", name: "damDesc", label: "Dam Description" },
-          {
-            type: "image",
-            name: "damPhoto",
-            label: "Dam Photo",
-            ui: {
-              format(value) { return value; },
-              parse(value) { return value; },
-            },
-          },
+          { type: "image", name: "damPhoto", label: "Dam Photo" },
           { type: "string", name: "sireName", label: "Sire Name" },
           { type: "string", name: "sireDesc", label: "Sire Description" },
-          {
-            type: "image",
-            name: "sirePhoto",
-            label: "Sire Photo",
-            ui: {
-              format(value) { return value; },
-              parse(value) { return value; },
-            },
-          },
+          { type: "image", name: "sirePhoto", label: "Sire Photo" },
           {
             type: "object", name: "puppies", label: "Available Puppies", list: true,
             ui: { itemProps: (item) => ({ label: item?.name || "Puppy" }) },
@@ -79,15 +63,7 @@ export default defineConfig({
               {
                 type: "object", name: "photos", label: "Puppy Photos", list: true,
                 fields: [
-                  {
-                    type: "image",
-                    name: "src",
-                    label: "Photo",
-                    ui: {
-                      format(value) { return value; },
-                      parse(value) { return value; },
-                    },
-                  },
+                  { type: "image", name: "src", label: "Photo" },
                   { type: "string", name: "alt", label: "Alt text" },
                 ],
               },
@@ -96,15 +72,7 @@ export default defineConfig({
           {
             type: "object", name: "previousPuppies", label: "Previous Puppy Photos", list: true,
             fields: [
-              {
-                type: "image",
-                name: "src",
-                label: "Photo",
-                ui: {
-                  format(value) { return value; },
-                  parse(value) { return value; },
-                },
-              },
+              { type: "image", name: "src", label: "Photo" },
               { type: "string", name: "alt", label: "Alt text" },
             ],
           },
@@ -134,15 +102,7 @@ export default defineConfig({
           {
             type: "object", name: "reviewImages", label: "Review Screenshots", list: true,
             fields: [
-              {
-                type: "image",
-                name: "src",
-                label: "Review Screenshot",
-                ui: {
-                  format(value) { return value; },
-                  parse(value) { return value; },
-                },
-              },
+              { type: "image", name: "src", label: "Review Screenshot" },
               { type: "string", name: "alt", label: "Reviewer Name" },
             ],
           },
