@@ -6,6 +6,13 @@ import { useEffect } from 'react'
 
 const FALLBACK = 'https://res.cloudinary.com/dyzfpnrhg/image/upload/image_0001.jpg'
 
+function cleanUrl(url) {
+  if (!url) return null
+  return url
+    .replace(/^\/uploads/, '')
+    .replace(/^https:\/\/assets\.tina\.io\/[a-f0-9-]+/, '')
+}
+
 export default function Page(props) {
   const router = useRouter()
   const { data } = useTina({
@@ -13,23 +20,18 @@ export default function Page(props) {
     variables: props.variables,
     data: props.data,
   })
-
   const d = data.litter
-
   useEffect(() => {
     if (d.active === false) {
       router.replace('/')
     }
   }, [d.active])
-
   if (d.active === false) return null
-
   const allPuppyPhotos = (d.puppies || []).flatMap(p =>
-    (p.photos || []).map(ph => ph.src).filter(Boolean)
+    (p.photos || []).map(ph => cleanUrl(ph.src)).filter(Boolean)
   )
   const photos = allPuppyPhotos.length > 0 ? allPuppyPhotos : [FALLBACK, FALLBACK, FALLBACK, FALLBACK, FALLBACK]
-  const prevPhotos = (d.previousPuppies || []).map(p => p.src).filter(Boolean)
-
+  const prevPhotos = (d.previousPuppies || []).map(p => cleanUrl(p.src)).filter(Boolean)
   const litter = {
     title: d.title,
     breeder: d.breeder,
@@ -45,8 +47,8 @@ export default function Page(props) {
     contact: d.contact,
     dam: { name: d.damName, desc: d.damDesc },
     sire: { name: d.sireName, desc: d.sireDesc },
-    damPhoto: d.damPhoto || FALLBACK,
-    sirePhoto: d.sirePhoto || FALLBACK,
+    damPhoto: cleanUrl(d.damPhoto) || FALLBACK,
+    sirePhoto: cleanUrl(d.sirePhoto) || FALLBACK,
     photos,
     prevPhotos: prevPhotos.length > 0 ? prevPhotos : [FALLBACK, FALLBACK, FALLBACK, FALLBACK],
     puppies: (d.puppies || []).map(p => ({
@@ -56,13 +58,12 @@ export default function Page(props) {
       status: p.status,
     })),
   }
-
   return <LitterPage litter={litter} />
 }
 
 export async function getStaticProps() {
   const { data, query, variables } = await client.queries.litter({
-    relativePath: 'saint-blake.json',
+    relativePath: `saint-blake.json`,
   })
   return {
     props: { data, query, variables },
