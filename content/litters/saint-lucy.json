@@ -2,7 +2,7 @@
   "title": "Saint Berdoodles",
   "slug": "saint-lucy",
   "breeder": "John & Kathy Yarnelle",
-  "generation": "F1B",
+  "generation": "test",
   "priceRange": "$1,200 — $2,000",
   "litterTitle": "Lucy × Bonsai",
   "dateOfBirth": "January 7, 2026",
@@ -26,7 +26,7 @@
       "status": "Available",
       "photos": [
         {
-          "src": "https://res.cloudinary.com/dyzfpnrhg/image/upload/v1772590575/typorama_uhv61c.png"
+          "src": "/uploadshttps://res.cloudinary.com/dyzfpnrhg/image/upload/v1772590575/typorama_uhv61c.png"
         }
       ]
     },
