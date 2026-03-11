@@ -14,10 +14,10 @@
   "contact": "Brooke-(260)443-9035",
   "damName": "Lucy",
   "damDesc": "Standard F1 Saint Berdoodle · 100 lbs",
-  "damPhoto": "https://res.cloudinary.com/dyzfpnrhg/image/upload/v1772152653/image_0043.jpg",
+  "damPhoto": "",
   "sireName": "Bonsai",
   "sireDesc": "AKC Blue Merle Standard Poodle · 60 lbs",
-  "sirePhoto": "https://res.cloudinary.com/dyzfpnrhg/image/upload/v1772152635/image_0044.jpg",
+  "sirePhoto": "",
   "puppies": [
     {
       "name": "Leena",
@@ -37,7 +37,7 @@
       "status": "Available",
       "photos": [
         {
-          "src": "https://res.cloudinary.com/dyzfpnrhg/image/upload/v1772590573/typorama_qxxzil.png"
+          "src": "/uploadshttps://res.cloudinary.com/dyzfpnrhg/image/upload/v1772590573/typorama_qxxzil.png"
         }
       ]
     },
@@ -48,7 +48,7 @@
       "status": "Available",
       "photos": [
         {
-          "src": "https://res.cloudinary.com/dyzfpnrhg/image/upload/v1772590575/typorama_abp27b.png"
+          "src": "/uploadshttps://res.cloudinary.com/dyzfpnrhg/image/upload/v1772590575/typorama_abp27b.png"
         }
       ]
     },
@@ -59,7 +59,7 @@
       "status": "Available",
       "photos": [
         {
-          "src": "https://res.cloudinary.com/dyzfpnrhg/image/upload/v1772590571/typorama_prizqd.png"
+          "src": "/uploadshttps://res.cloudinary.com/dyzfpnrhg/image/upload/v1772590571/typorama_prizqd.png"
         }
       ]
     },
@@ -70,7 +70,7 @@
       "status": "Available",
       "photos": [
         {
-          "src": "https://res.cloudinary.com/dyzfpnrhg/image/upload/v1772590573/typorama_pox7x4.png"
+          "src": "/uploadshttps://res.cloudinary.com/dyzfpnrhg/image/upload/v1772590573/typorama_pox7x4.png"
         }
       ]
     }
