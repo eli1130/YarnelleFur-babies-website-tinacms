@@ -4,30 +4,34 @@
   "slug": "bernedoodle-flower",
   "breeder": "John & Kathy Yarnelle",
   "generation": "F1B",
-  "priceRange": "$1,200",
+  "priceRange": "$1,000",
   "litterTitle": "Flower × Sycamore",
-  "dateOfBirth": "TBD",
-  "takeHomeDate": "TBD",
-  "estimatedSize": "25–45 lbs",
+  "dateOfBirth": "November 18th, 2025",
+  "takeHomeDate": "Ready Now!",
+  "estimatedSize": "30-40 lbs",
   "grooming": "Every 6–8 weeks",
   "temperament": "Affectionate, low-shedding, gentle, great with families and children",
   "deposit": "$200",
-  "contact": "Kathy · (260) 410-7925",
+  "contact": "Brooke · (260) 410-7925",
   "damName": "Flower",
   "damDesc": "Mini Bernedoodle",
-  "damPhoto": "",
+  "damPhoto": "https://res.cloudinary.com/dyzfpnrhg/image/upload/v1772152699/image_0060.jpg",
   "sireName": "Sycamore",
   "sireDesc": "AKC Mini Poodle",
   "cardDesc": "Mini F1B Bernedoodles — low-shedding, affectionate tricolor beauties. Flower × Sycamore litter.",
-  "sirePhoto": "",
+  "cardPhoto": "https://res.cloudinary.com/dyzfpnrhg/image/upload/v1772152715/image_0003.jpg",
+  "sirePhoto": "https://res.cloudinary.com/dyzfpnrhg/image/upload/v1772152695/image_0061.jpg",
   "puppies": [
     {
-      "name": "TBD",
-      "gender": "Girl",
-      "price": "$1,200",
+      "name": "Finnigan",
+      "gender": "Boy",
+      "price": "$1,000",
       "status": "Available",
-      "photos": []
+      "photos": [
+        {
+          "src": "https://res.cloudinary.com/dyzfpnrhg/image/upload/v1772152715/image_0003.jpg"
+        }
+      ]
     }
-  ],
-  "previousPuppies": []
+  ]
 }
