@@ -63,7 +63,7 @@ export default function Page(props) {
 
 export async function getStaticProps() {
   const { data, query, variables } = await client.queries.litter({
-    relativePath: 'saint-lucy.json',
+    relativePath: `saint-lucy.json`,
   })
   return {
     props: { data, query, variables },
