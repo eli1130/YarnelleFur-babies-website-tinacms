@@ -37,7 +37,7 @@
       "status": "Available",
       "photos": [
         {
-          "src": "https://res.cloudinary.com/dyzfpnrhg/image/upload/v1772590573/typorama_qxxzil.png"
+          "src": "/uploadshttps://res.cloudinary.com/dyzfpnrhg/image/upload/v1772590573/typorama_qxxzil.png"
         }
       ]
     },
@@ -48,7 +48,7 @@
       "status": "Available",
       "photos": [
         {
-          "src": "https://res.cloudinary.com/dyzfpnrhg/image/upload/v1772590575/typorama_abp27b.png"
+          "src": "/uploadshttps://res.cloudinary.com/dyzfpnrhg/image/upload/v1772590575/typorama_abp27b.png"
         }
       ]
     },
@@ -59,7 +59,7 @@
       "status": "Available",
       "photos": [
         {
-          "src": "https://res.cloudinary.com/dyzfpnrhg/image/upload/v1772590571/typorama_prizqd.png"
+          "src": "/uploadshttps://res.cloudinary.com/dyzfpnrhg/image/upload/v1772590571/typorama_prizqd.png"
         }
       ]
     },
@@ -70,32 +70,32 @@
       "status": "Available",
       "photos": [
         {
-          "src": "https://res.cloudinary.com/dyzfpnrhg/image/upload/v1772590573/typorama_pox7x4.png"
+          "src": "/uploadshttps://res.cloudinary.com/dyzfpnrhg/image/upload/v1772590573/typorama_pox7x4.png"
         }
       ]
     }
   ],
   "previousPuppies": [
     {
-      "src": "https://res.cloudinary.com/dyzfpnrhg/image/upload/v1772152697/image_0075.jpg"
+      "src": "/uploadshttps://res.cloudinary.com/dyzfpnrhg/image/upload/v1772152697/image_0075.jpg"
     },
     {
-      "src": "https://res.cloudinary.com/dyzfpnrhg/image/upload/v1772152688/image_0076.jpg"
+      "src": "/uploadshttps://res.cloudinary.com/dyzfpnrhg/image/upload/v1772152688/image_0076.jpg"
     },
     {
-      "src": "https://res.cloudinary.com/dyzfpnrhg/image/upload/v1772152690/image_0077.jpg"
+      "src": "/uploadshttps://res.cloudinary.com/dyzfpnrhg/image/upload/v1772152690/image_0077.jpg"
     },
     {
-      "src": "https://res.cloudinary.com/dyzfpnrhg/image/upload/v1772152698/image_0048.jpg"
+      "src": "/uploadshttps://res.cloudinary.com/dyzfpnrhg/image/upload/v1772152698/image_0048.jpg"
     },
     {
-      "src": "https://res.cloudinary.com/dyzfpnrhg/image/upload/v1772152697/image_0049.jpg"
+      "src": "/uploadshttps://res.cloudinary.com/dyzfpnrhg/image/upload/v1772152697/image_0049.jpg"
     },
     {
-      "src": "https://res.cloudinary.com/dyzfpnrhg/image/upload/v1772152651/image_0080.jpg"
+      "src": "/uploadshttps://res.cloudinary.com/dyzfpnrhg/image/upload/v1772152651/image_0080.jpg"
     },
     {
-      "src": "https://res.cloudinary.com/dyzfpnrhg/image/upload/v1772152656/image_0081.jpg"
+      "src": "/uploadshttps://res.cloudinary.com/dyzfpnrhg/image/upload/v1772152656/image_0081.jpg"
     }
   ]
 }
