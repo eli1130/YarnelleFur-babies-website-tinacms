@@ -295,22 +295,7 @@ export default function Home() {
             </div>
           </Link>
 
-          <Link href="/litters/aussiedoodle-jojo" className="litter-card">
-            <div className="litter-card-image">
-              <img src="https://res.cloudinary.com/dyzfpnrhg/image/upload/image_0002.jpg" alt="Toy Aussiedoodle" />
-              <span className="availability-badge">2 Available</span>
-            </div>
-            <div className="litter-card-body">
-              <div className="litter-family">John &amp; Kathy Yarnelle</div>
-              <h3>Toy Aussiedoodles</h3>
-              <p className="litter-desc">F1 Toy Aussiedoodles — intelligent, playful, compact. Jojo × Ash litter.</p>
-              <div className="litter-meta">
-                <span className="litter-price">$1,200 – $1,800</span>
-                <span className="litter-avail">2 Available</span>
-              </div>
-              <span className="view-litter">View Litter →</span>
-            </div>
-          </Link>
+          
 
           <Link href="/litters/bernedoodle-flower" className="litter-card">
             <div className="litter-card-image">
@@ -365,22 +350,7 @@ export default function Home() {
             </div>
           </Link>
 
-          <Link href="/litters/colliedoodle-liberty" className="litter-card">
-            <div className="litter-card-image">
-              <img src="https://res.cloudinary.com/dyzfpnrhg/image/upload/image_0007.jpg" alt="Colliedoodle" />
-              <span className="availability-badge">2 Available</span>
-            </div>
-            <div className="litter-card-body">
-              <div className="litter-family">Luke &amp; Eli Yarnelle</div>
-              <h3>F1 Colliedoodles</h3>
-              <p className="litter-desc">F1 Colliedoodles — rare and beautiful, combining the grace of a Collie with Poodle intelligence. Liberty × Thomas litter.</p>
-              <div className="litter-meta">
-                <span className="litter-price">$650</span>
-                <span className="litter-avail">2 Available</span>
-              </div>
-              <span className="view-litter">View Litter →</span>
-            </div>
-          </Link>
+          
 
           <Link href="/litters/cavapoo-honey" className="litter-card">
             <div className="litter-card-image">
@@ -433,25 +403,7 @@ export default function Home() {
             </div>
           </Link>
 
-          <Link href="/litters/bernedoodle-sky" className="litter-card">
-            <div className="litter-card-image">
-              <img src="https://res.cloudinary.com/dyzfpnrhg/image/upload/image_0011.jpg" alt="Medium Bernedoodle" />
-              <span className="availability-badge">1 Available</span>
-            </div>
-            <div className="litter-card-body">
-              <div className="litter-family">Hunter &amp; Sarah Nicodemus</div>
-              <h3>Medium F1B Bernedoodles</h3>
-              <p className="litter-desc">Medium F1B Bernedoodles — ideal mid-size family dog, plush coat, gentle nature. Sky × Thor litter.</p>
-              <div className="litter-meta">
-                <span className="litter-price">$1,500</span>
-                <span className="litter-avail">1 Available</span>
-              </div>
-              <span className="view-litter">View Litter →</span>
-            </div>
-          </Link>
-
-        </div>
-      </section>
+          
 
       {/* ADOPTION PROCESS */}
       <section className="process-section">
