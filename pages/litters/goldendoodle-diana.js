@@ -64,6 +64,7 @@ export default function Page(props) {
 export async function getStaticProps() {
   const { data, query, variables } = await client.queries.litter({
     relativePath: `goldendoodle-diana.json`,
+  })
   return {
     props: { data, query, variables },
   }
