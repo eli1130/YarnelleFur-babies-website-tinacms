@@ -8,7 +8,9 @@ const FALLBACK = 'https://res.cloudinary.com/dyzfpnrhg/image/upload/image_0001.j
 
 function cleanUrl(url) {
   if (!url) return null
-  return url.replace(/^\/uploads/, '')
+  return url
+    .replace(/^\/uploads/, '')
+    .replace(/^https:\/\/assets\.tina\.io\/[a-f0-9-]+/, '')
 }
 
 export default function Page(props) {
@@ -58,6 +60,7 @@ export default function Page(props) {
   }
   return <LitterPage litter={litter} />
 }
+
 export async function getStaticProps() {
   const { data, query, variables } = await client.queries.litter({
     relativePath: 'saint-lucy.json',
