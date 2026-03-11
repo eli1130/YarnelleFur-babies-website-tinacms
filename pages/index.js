@@ -512,15 +512,3 @@ export async function getStaticProps() {
     },
   }
 }
-```
-
-Paste this into `pages/index.js` locally, then run:
-```
-npx tinacms dev -c "next dev"
-```
-
-Wait for ready, `Ctrl+C`, then:
-```
-git add .
-git commit -m "Dynamic litter cards from TinaCMS"
-git push
