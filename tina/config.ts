@@ -33,7 +33,7 @@ export default defineConfig({
           },
         },
         fields: [
-          { type: "boolean", name: "active", label: "Active (uncheck to hide this litter)" },
+          { type: "boolean", name: "active", label: "Active (uncheck to hide this litter)", ui: { defaultValue: true } },
           { type: "string", name: "title", label: "Breed Title", required: true },
           { type: "string", name: "slug", label: "URL Slug (e.g. saint-lucy)", required: true },
           { type: "string", name: "breeder", label: "Breeder (e.g. John & Kathy Yarnelle)" },
