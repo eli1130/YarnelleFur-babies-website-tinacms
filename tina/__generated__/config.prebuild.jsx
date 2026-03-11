@@ -31,7 +31,7 @@ var config_default = defineConfig({
         fields: [
           { type: "boolean", name: "active", label: "Active (uncheck to hide this litter)", ui: { defaultValue: true } },
           { type: "string", name: "title", label: "Breed Title", required: true },
-          { type: "string", name: "slug", label: "URL Slug (e.g. saint-lucy)", required: true },
+          { type: "string", name: "slug", label: "URL Slug (e.g. saint-lucy)" },
           { type: "string", name: "breeder", label: "Breeder (e.g. John & Kathy Yarnelle)" },
           { type: "string", name: "generation", label: "Generation (e.g. F1B)" },
           { type: "string", name: "priceRange", label: "Price Range (e.g. $1,200 \u2014 $2,000)" },

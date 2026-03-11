@@ -117,7 +117,7 @@ type LitterPreviousPuppies {
 type Litter implements Node & Document {
   active: Boolean
   title: String!
-  slug: String!
+  slug: String
   breeder: String
   generation: String
   priceRange: String
