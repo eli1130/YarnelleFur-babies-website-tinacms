@@ -115,6 +115,7 @@ type LitterPreviousPuppies {
 }
 
 type Litter implements Node & Document {
+  active: Boolean
   title: String!
   slug: String!
   breeder: String
@@ -139,6 +140,11 @@ type Litter implements Node & Document {
   id: ID!
   _sys: SystemInfo!
   _values: JSON!
+}
+
+input BooleanFilter {
+  eq: Boolean
+  exists: Boolean
 }
 
 input StringFilter {
@@ -174,6 +180,7 @@ input LitterPreviousPuppiesFilter {
 }
 
 input LitterFilter {
+  active: BooleanFilter
   title: StringFilter
   slug: StringFilter
   breeder: StringFilter
@@ -346,6 +353,7 @@ input LitterPreviousPuppiesMutation {
 }
 
 input LitterMutation {
+  active: Boolean
   title: String
   slug: String
   breeder: String

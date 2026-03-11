@@ -1,5 +1,6 @@
 fragment LitterParts on Litter {
   __typename
+  active
   title
   slug
   breeder

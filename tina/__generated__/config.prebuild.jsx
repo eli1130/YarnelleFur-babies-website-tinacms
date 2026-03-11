@@ -9,14 +9,13 @@ var config_default = defineConfig({
     publicFolder: "public"
   },
   media: {
-    tina: {
-      mediaRoot: "uploads",
-      publicFolder: "public"
+    loadCustomStore: async () => {
+      const pack = await import("next-tinacms-cloudinary");
+      return pack.TinaCloudCloudinaryMediaStore;
     }
   },
   schema: {
     collections: [
-      // ── LITTERS ──────────────────────────────────────────────
       {
         name: "litter",
         label: "Litters",
@@ -30,36 +29,32 @@ var config_default = defineConfig({
           }
         },
         fields: [
+          { type: "boolean", name: "active", label: "Active (uncheck to hide this litter)" },
           { type: "string", name: "title", label: "Breed Title", required: true },
           { type: "string", name: "slug", label: "URL Slug (e.g. saint-lucy)", required: true },
           { type: "string", name: "breeder", label: "Breeder (e.g. John & Kathy Yarnelle)" },
           { type: "string", name: "generation", label: "Generation (e.g. F1B)" },
           { type: "string", name: "priceRange", label: "Price Range (e.g. $1,200 \u2014 $2,000)" },
-          { type: "string", name: "litterTitle", label: "Litter Title (e.g. Lucy \xD7 Bonsai)" },
+          { type: "string", name: "litterTitle", label: "Litter Title (e.g. Lucy x Bonsai)" },
           { type: "string", name: "dateOfBirth", label: "Date of Birth" },
           { type: "string", name: "takeHomeDate", label: "Take Home Date" },
           { type: "string", name: "estimatedSize", label: "Estimated Size" },
           { type: "string", name: "grooming", label: "Grooming Frequency" },
           { type: "string", name: "temperament", label: "Temperament", ui: { component: "textarea" } },
           { type: "string", name: "deposit", label: "Deposit Amount (e.g. $400)" },
-          { type: "string", name: "contact", label: "Contact (e.g. Kathy \xB7 (260) 410-7925)" },
-          // Dam
+          { type: "string", name: "contact", label: "Contact (e.g. Kathy - (260) 410-7925)" },
           { type: "string", name: "damName", label: "Dam Name" },
           { type: "string", name: "damDesc", label: "Dam Description" },
           { type: "image", name: "damPhoto", label: "Dam Photo" },
-          // Sire
           { type: "string", name: "sireName", label: "Sire Name" },
           { type: "string", name: "sireDesc", label: "Sire Description" },
           { type: "image", name: "sirePhoto", label: "Sire Photo" },
-          // Puppies
           {
             type: "object",
             name: "puppies",
             label: "Available Puppies",
             list: true,
-            ui: {
-              itemProps: (item) => ({ label: item?.name || "Puppy" })
-            },
+            ui: { itemProps: (item) => ({ label: item?.name || "Puppy" }) },
             fields: [
               { type: "string", name: "name", label: "Puppy Name" },
               { type: "string", name: "gender", label: "Gender", options: ["Girl", "Boy"] },
@@ -77,7 +72,6 @@ var config_default = defineConfig({
               }
             ]
           },
-          // Previous puppies gallery
           {
             type: "object",
             name: "previousPuppies",
@@ -90,7 +84,6 @@ var config_default = defineConfig({
           }
         ]
       },
-      // ── PAGES ─────────────────────────────────────────────────
       {
         name: "page",
         label: "Pages",
@@ -102,7 +95,6 @@ var config_default = defineConfig({
           { type: "string", name: "heroSubtext", label: "Hero Subtext", ui: { component: "textarea" } }
         ]
       },
-      // ── SITE SETTINGS ─────────────────────────────────────────
       {
         name: "settings",
         label: "Site Settings",
@@ -116,7 +108,6 @@ var config_default = defineConfig({
           { type: "string", name: "cashappUrl", label: "CashApp URL" }
         ]
       },
-      // ── REVIEWS ───────────────────────────────────────────────
       {
         name: "reviews",
         label: "Reviews",
