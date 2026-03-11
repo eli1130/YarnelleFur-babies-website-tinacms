@@ -15,6 +15,10 @@ export default defineConfig({
       const pack = await import("next-tinacms-cloudinary");
       return pack.TinaCloudCloudinaryMediaStore;
     },
+    tina: {
+      uploadDir: "/",
+      publicFolder: "public",
+    },
   },
 
   schema: {
