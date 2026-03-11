@@ -48,6 +48,8 @@ var config_default = defineConfig({
           { type: "image", name: "damPhoto", label: "Dam Photo" },
           { type: "string", name: "sireName", label: "Sire Name" },
           { type: "string", name: "sireDesc", label: "Sire Description" },
+          { type: "string", name: "cardDesc", label: "Homepage Card Description", ui: { component: "textarea" } },
+          { type: "image", name: "cardPhoto", label: "Homepage Card Photo" },
           { type: "image", name: "sirePhoto", label: "Sire Photo" },
           {
             type: "object",

@@ -19,6 +19,8 @@ fragment LitterParts on Litter {
   damPhoto
   sireName
   sireDesc
+  cardDesc
+  cardPhoto
   sirePhoto
   puppies {
     __typename

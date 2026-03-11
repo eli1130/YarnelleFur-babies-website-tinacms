@@ -134,6 +134,8 @@ type Litter implements Node & Document {
   damPhoto: String
   sireName: String
   sireDesc: String
+  cardDesc: String
+  cardPhoto: String
   sirePhoto: String
   puppies: [LitterPuppies]
   previousPuppies: [LitterPreviousPuppies]
@@ -199,6 +201,8 @@ input LitterFilter {
   damPhoto: ImageFilter
   sireName: StringFilter
   sireDesc: StringFilter
+  cardDesc: StringFilter
+  cardPhoto: ImageFilter
   sirePhoto: ImageFilter
   puppies: LitterPuppiesFilter
   previousPuppies: LitterPreviousPuppiesFilter
@@ -372,6 +376,8 @@ input LitterMutation {
   damPhoto: String
   sireName: String
   sireDesc: String
+  cardDesc: String
+  cardPhoto: String
   sirePhoto: String
   puppies: [LitterPuppiesMutation]
   previousPuppies: [LitterPreviousPuppiesMutation]
