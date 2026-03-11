@@ -1,8 +1,9 @@
 import Head from 'next/head';
 import Link from 'next/link';
 import { useState } from 'react';
+import { client } from '../tina/__generated__/client';
 
-export default function Home() {
+export default function Home({ litters }) {
   const [navOpen, setNavOpen] = useState(false);
   const [formData, setFormData] = useState({
     'first-name': '', 'last-name': '', email: '', phone: '',
@@ -270,140 +271,40 @@ export default function Home() {
       </div>
 
       {/* AVAILABLE LITTERS */}
-      <section className="litters-section">
+      <section className="litters-section" id="litters">
         <div className="section-header">
           <span className="overline">Our Puppies</span>
           <h2>Available <em>Breeds &amp; Litters</em></h2>
           <p>Click any breed to view full litter details, meet the parents, and see available puppies.</p>
         </div>
         <div className="litters-grid">
-
-          <Link href="/litters/saint-lucy" className="litter-card">
-            <div className="litter-card-image">
-              <img src="https://res.cloudinary.com/dyzfpnrhg/image/upload/image_0001.jpg" alt="Saint Berdoodle" />
-              <span className="availability-badge">5 Available</span>
-            </div>
-            <div className="litter-card-body">
-              <div className="litter-family">John &amp; Kathy Yarnelle</div>
-              <h3>Saint Berdoodles</h3>
-              <p className="litter-desc">Standard F1B Saint Berdoodles — gentle giants with sweet temperaments. Lucy × Bonsai litter.</p>
-              <div className="litter-meta">
-                <span className="litter-price">$1,200 – $2,000</span>
-                <span className="litter-avail">5 Available</span>
-              </div>
-              <span className="view-litter">View Litter →</span>
-            </div>
-          </Link>
-
-          
-
-          <Link href="/litters/bernedoodle-flower" className="litter-card">
-            <div className="litter-card-image">
-              <img src="https://res.cloudinary.com/dyzfpnrhg/image/upload/image_0003.jpg" alt="Mini Bernedoodle" />
-              <span className="availability-badge">1 Available</span>
-            </div>
-            <div className="litter-card-body">
-              <div className="litter-family">John &amp; Kathy Yarnelle</div>
-              <h3>Mini F1B Bernedoodles</h3>
-              <p className="litter-desc">Mini F1B Bernedoodles — low-shedding, affectionate tricolor beauties. Flower × Sycamore litter.</p>
-              <div className="litter-meta">
-                <span className="litter-price">$1,200</span>
-                <span className="litter-avail">1 Available</span>
-              </div>
-              <span className="view-litter">View Litter →</span>
-            </div>
-          </Link>
-
-
-
-          <Link href="/litters/bernedoodle-meadow" className="litter-card">
-            <div className="litter-card-image">
-              <img src="https://res.cloudinary.com/dyzfpnrhg/image/upload/image_0005.jpg" alt="Mini Multigen Bernedoodle" />
-              <span className="availability-badge">1 Available</span>
-            </div>
-            <div className="litter-card-body">
-              <div className="litter-family">Luke &amp; Eli Yarnelle</div>
-              <h3>Mini Multigen Bernedoodles</h3>
-              <p className="litter-desc">Multigen Mini Bernedoodles — predictable coats, exceptional temperaments. Meadow May × Sycamore litter.</p>
-              <div className="litter-meta">
-                <span className="litter-price">$800</span>
-                <span className="litter-avail">1 Available</span>
-              </div>
-              <span className="view-litter">View Litter →</span>
-            </div>
-          </Link>
-
-          <Link href="/litters/saint-blake" className="litter-card">
-            <div className="litter-card-image">
-              <img src="https://res.cloudinary.com/dyzfpnrhg/image/upload/image_0006.jpg" alt="Saint Berdoodle Blake" />
-              <span className="availability-badge">5 Available</span>
-            </div>
-            <div className="litter-card-body">
-              <div className="litter-family">Luke &amp; Eli Yarnelle</div>
-              <h3>Saint Berdoodles — Blake</h3>
-              <p className="litter-desc">Standard F1B Saint Berdoodles — big-hearted, fluffy, endlessly cuddly. Blake × Bamboo litter.</p>
-              <div className="litter-meta">
-                <span className="litter-price">$1,000 – $2,000</span>
-                <span className="litter-avail">5 Available</span>
-              </div>
-              <span className="view-litter">View Litter →</span>
-            </div>
-          </Link>
-
-          
-
-          <Link href="/litters/cavapoo-honey" className="litter-card">
-            <div className="litter-card-image">
-              <img src="https://res.cloudinary.com/dyzfpnrhg/image/upload/image_0008.jpg" alt="Cavapoo" />
-              <span className="availability-badge">2 Available</span>
-            </div>
-            <div className="litter-card-body">
-              <div className="litter-family">Dakoda &amp; Brooke Labenz</div>
-              <h3>Cavapoos</h3>
-              <p className="litter-desc">F1B Red Cavapoos — small in size, enormous in personality. Honey × Teddy litter.</p>
-              <div className="litter-meta">
-                <span className="litter-price">$2,000</span>
-                <span className="litter-avail">2 Available</span>
-              </div>
-              <span className="view-litter">View Litter →</span>
-            </div>
-          </Link>
-
-          <Link href="/litters/saint-gracie" className="litter-card">
-            <div className="litter-card-image">
-              <img src="https://res.cloudinary.com/dyzfpnrhg/image/upload/image_0009.jpg" alt="Saint Berdoodle Gracie" />
-              <span className="availability-badge">7 Available</span>
-            </div>
-            <div className="litter-card-body">
-              <div className="litter-family">Dakoda &amp; Brooke Labenz</div>
-              <h3>Saint Berdoodles — Gracie</h3>
-              <p className="litter-desc">Standard F1B Saint Berdoodles — gentle giants, cuddly, calm, and great with families. Gracie × Pumpkin litter.</p>
-              <div className="litter-meta">
-                <span className="litter-price">$1,850 – $2,000</span>
-                <span className="litter-avail">7 Available</span>
-              </div>
-              <span className="view-litter">View Litter →</span>
-            </div>
-          </Link>
-
-          <Link href="/litters/goldendoodle-helga" className="litter-card">
-            <div className="litter-card-image">
-              <img src="https://res.cloudinary.com/dyzfpnrhg/image/upload/image_0010.jpg" alt="Micro Mini Goldendoodle" />
-              <span className="availability-badge">2 Available</span>
-            </div>
-            <div className="litter-card-body">
-              <div className="litter-family">Hunter &amp; Sarah Nicodemus</div>
-              <h3>Micro Mini Goldendoodles</h3>
-              <p className="litter-desc">Micro Mini F1B Goldendoodles — tiny bundles of golden joy, low-shedding. Helga × Cedar litter.</p>
-              <div className="litter-meta">
-                <span className="litter-price">$1,500</span>
-                <span className="litter-avail">2 Available</span>
-              </div>
-              <span className="view-litter">View Litter →</span>
-            </div>
-          </Link>
-
-          </div>
+          {litters
+            .filter(l => l.active !== false)
+            .map(l => {
+              const availableCount = (l.puppies || []).filter(p => p.status === 'Available').length
+              const cardPhoto = l.cardPhoto
+                ? l.cardPhoto.replace(/^\/uploads/, '').replace(/^https:\/\/assets\.tina\.io\/[a-f0-9-]+/, '')
+                : 'https://res.cloudinary.com/dyzfpnrhg/image/upload/image_0001.jpg'
+              return (
+                <Link key={l.slug} href={`/litters/${l.slug}`} className="litter-card">
+                  <div className="litter-card-image">
+                    <img src={cardPhoto} alt={l.title} />
+                    <span className="availability-badge">{availableCount} Available</span>
+                  </div>
+                  <div className="litter-card-body">
+                    <div className="litter-family">{l.breeder}</div>
+                    <h3>{l.title}</h3>
+                    <p className="litter-desc">{l.cardDesc}</p>
+                    <div className="litter-meta">
+                      <span className="litter-price">{l.priceRange}</span>
+                      <span className="litter-avail">{availableCount} Available</span>
+                    </div>
+                    <span className="view-litter">View Litter →</span>
+                  </div>
+                </Link>
+              )
+            })}
+        </div>
       </section>
 
       {/* ADOPTION PROCESS */}
@@ -462,7 +363,6 @@ export default function Home() {
             <h2>Puppy <em>Application</em></h2>
             <p>Please take a moment to fill this out — it helps us get to know you and find the perfect match. We look forward to adding you to our tribe!</p>
           </div>
-
           {submitted ? (
             <div className="success-message">
               <h3>Application Received! 🐾</h3>
@@ -498,15 +398,12 @@ export default function Home() {
                   <select name="breed" required onChange={handleChange}>
                     <option value="">Select a breed...</option>
                     <option>Saint Berdoodles — John &amp; Kathy (Lucy)</option>
-                    <option>Toy Aussiedoodles — John &amp; Kathy</option>
                     <option>Mini F1B Bernedoodles — John &amp; Kathy</option>
-                    <option>Merle Mini F1BB Goldendoodles — John &amp; Kathy</option>
                     <option>Mini Multigen Bernedoodles — Luke &amp; Eli</option>
                     <option>Saint Berdoodles (Blake) — Luke &amp; Eli</option>
-                    <option>F1 Colliedoodles — Luke &amp; Eli</option>
                     <option>Cavapoos — Dakoda &amp; Brooke</option>
+                    <option>Saint Berdoodles (Gracie) — Dakoda &amp; Brooke</option>
                     <option>Micro Mini Goldendoodles — Hunter &amp; Sarah</option>
-                    <option>Medium F1B Bernedoodles — Hunter &amp; Sarah</option>
                     <option>Not sure yet</option>
                   </select>
                 </div>
@@ -606,3 +503,24 @@ export default function Home() {
     </>
   );
 }
+
+export async function getStaticProps() {
+  const { data } = await client.queries.litterConnection()
+  return {
+    props: {
+      litters: data.litterConnection.edges.map(e => e.node),
+    },
+  }
+}
+```
+
+Paste this into `pages/index.js` locally, then run:
+```
+npx tinacms dev -c "next dev"
+```
+
+Wait for ready, `Ctrl+C`, then:
+```
+git add .
+git commit -m "Dynamic litter cards from TinaCMS"
+git push
