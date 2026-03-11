@@ -211,7 +211,7 @@ export default function Home() {
           </div>
         </div>
         <div className="hero-image-right">
-          <img src="/images/family-hero.jpg" alt="The Yarnelle Family" />
+          <img src="https://res.cloudinary.com/dyzfpnrhg/image/upload/v1773259955/family%20photo.avif" alt="The Yarnelle Family" />
         </div>
       </section>
 
