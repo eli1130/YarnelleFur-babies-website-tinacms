@@ -16,8 +16,8 @@ export default defineConfig({
       return pack.TinaCloudCloudinaryMediaStore;
     },
     tina: {
-      uploadDir: "/",
       publicFolder: "public",
+      mediaRoot: "",
     },
   },
 
