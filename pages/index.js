@@ -279,8 +279,9 @@ export default function Home({ litters }) {
         </div>
         <div className="litters-grid">
           {litters
-            .filter(l => l.active !== false)
-            .map(l => {
+           .filter(l => l.active !== false)
+           .sort((a, b) => (a.sortOrder || 99) - (b.sortOrder || 99))
+           .map(l => {
               const availableCount = (l.puppies || []).filter(p => p.status === 'Available').length
               const cardPhoto = l.cardPhoto
                 ? l.cardPhoto.replace(/^\/uploads/, '').replace(/^https:\/\/assets\.tina\.io\/[a-f0-9-]+/, '')
