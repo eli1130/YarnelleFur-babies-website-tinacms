@@ -1,1 +1,94 @@
-{"active":true,"title":"Saint Berdoodles — Gracie","slug":"saint-gracie","breeder":"Dakoda & Brooke Labenz","generation":"F1B","priceRange":"$1,850 — $2,000","litterTitle":"Gracie × Pumpkin","dateOfBirth":"TBD","takeHomeDate":"TBD","estimatedSize":"75–90+ lbs","grooming":"Roughly every 4 months","temperament":"Gentle giants, cuddly, calm, patient, great with families and children","deposit":"$400","contact":"Brooke · (260) 443-9035","damName":"Gracie","damDesc":"Standard F1 Saint Berdoodle","damPhoto":"","sireName":"Pumpkin","sireDesc":"AKC Standard Poodle","sirePhoto":"","puppies":[{"name":"TBD","gender":"Girl","price":"$1,850","status":"Available","photos":[]},{"name":"TBD","gender":"Boy","price":"$1,850","status":"Available","photos":[]},{"name":"TBD","gender":"Girl","price":"$2,000","status":"Available","photos":[]},{"name":"TBD","gender":"Boy","price":"$1,850","status":"Available","photos":[]},{"name":"TBD","gender":"Girl","price":"$2,000","status":"Available","photos":[]},{"name":"TBD","gender":"Boy","price":"$1,850","status":"Available","photos":[]},{"name":"TBD","gender":"Girl","price":"$1,850","status":"Available","photos":[]}],"previousPuppies":[]}
+{
+  "active": true,
+  "sortOrder": 6,
+  "title": "Saint Berdoodles — Gracie",
+  "slug": "saint-gracie",
+  "breeder": "Dakoda & Brooke Labenz",
+  "generation": "F1B",
+  "priceRange": "$1,850 — $2,000",
+  "litterTitle": "Gracie × Pumpkin",
+  "dateOfBirth": "Febuary 1, 2026",
+  "takeHomeDate": "March 29, 2026",
+  "estimatedSize": "75–90+ lbs",
+  "grooming": "Roughly every 3-4 months",
+  "temperament": "Friendly, watchful, calm, gentle, sweet, love to cuddle, incredibly friendly with other dogs, cats, and kiddos",
+  "deposit": "$400",
+  "contact": "Brooke · (260) 443-9035",
+  "damName": "Gracie",
+  "damDesc": "Standard F1 Saint Berdoodle",
+  "damPhoto": "https://res.cloudinary.com/dyzfpnrhg/image/upload/v1772152540/image_0140.jpg",
+  "sireName": "Pumpkin",
+  "sireDesc": "AKC Standard Poodle",
+  "cardDesc": "Standard F1B Saint Berdoodles — gentle giants, cuddly, calm, and great with families. Gracie × Pumpkin litter.",
+  "cardPhoto": "https://res.cloudinary.com/dyzfpnrhg/image/upload/v1773014840/typorama_hchte5.png",
+  "sirePhoto": "https://res.cloudinary.com/dyzfpnrhg/image/upload/v1772152626/image_0141.jpg",
+  "puppies": [
+    {
+      "name": "Gunner",
+      "gender": "Boy",
+      "price": "$2,000",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://res.cloudinary.com/dyzfpnrhg/image/upload/v1773014789/typorama_qhgwnv.png"
+        }
+      ]
+    },
+    {
+      "name": "Gemma",
+      "gender": "Girl",
+      "price": "$2,000",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://res.cloudinary.com/dyzfpnrhg/image/upload/v1773014840/typorama_hchte5.png"
+        }
+      ]
+    },
+    {
+      "name": "Grady",
+      "gender": "Boy",
+      "price": "$1,850",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://res.cloudinary.com/dyzfpnrhg/image/upload/v1773014790/typorama_rhgex7.png"
+        }
+      ]
+    },
+    {
+      "name": "Granger",
+      "gender": "Boy",
+      "price": "$1,850",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://res.cloudinary.com/dyzfpnrhg/image/upload/v1773014841/typorama_ethnzw.png"
+        }
+      ]
+    },
+    {
+      "name": "Graham",
+      "gender": "Boy",
+      "price": "$1,850",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://res.cloudinary.com/dyzfpnrhg/image/upload/v1773014820/typorama_q3f6gg.png"
+        }
+      ]
+    },
+    {
+      "name": "Georgia",
+      "gender": "Girl",
+      "price": "$1,850",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://res.cloudinary.com/dyzfpnrhg/image/upload/v1773014793/typorama_uvdcmq.png"
+        }
+      ]
+    }
+  ],
+  "previousPuppies": []
+}
