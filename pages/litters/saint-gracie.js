@@ -30,7 +30,7 @@ export default function Page(props) {
   const allPuppyPhotos = (d.puppies || []).flatMap(p =>
     (p.photos || []).map(ph => cleanUrl(ph.src)).filter(Boolean)
   )
-  const photos = allPuppyPhotos.length > 0 ? allPuppyPhotos : [FALLBACK, FALLBACK, FALLBACK, FALLBACK, FALLBACK]
+  const photos = allPuppyPhotos.length > 0 ? allPuppyPhotos : []
   const prevPhotos = (d.previousPuppies || []).map(p => cleanUrl(p.src)).filter(Boolean)
   const litter = {
     title: d.title,
