@@ -70,6 +70,9 @@ export default function About() {
         .footer-col a:hover { color:var(--white); }
         .footer-col p { font-size:0.85rem; color:#aaa; line-height:1.7; margin-bottom:0.4rem; }
         .footer-bottom { max-width:1200px; margin:2.5rem auto 0; padding-top:1.5rem; border-top:1px solid #222; display:flex; justify-content:space-between; align-items:center; font-size:0.75rem; color:#555; }
+        .photo-grid-wix { display:grid; grid-template-columns:1fr 1.4fr 1fr; grid-template-rows:1fr 1fr; gap:0.75rem; margin-bottom:2.5rem; }
+        .photo-grid-wix img { width:100%; height:220px; object-fit:cover; border-radius:4px; display:block; }
+        .photo-grid-wix .center { grid-row: span 2; height:100%; }
         @media (max-width:900px) {
           nav { padding:0 1.5rem; }
           .nav-links { display:none; }
@@ -84,6 +87,9 @@ export default function About() {
           .footer-inner { grid-template-columns:1fr 1fr; gap:2rem; }
           .footer-brand { grid-column:span 2; }
           .footer-bottom { flex-direction:column; gap:0.5rem; text-align:center; }
+          .photo-grid-wix { grid-template-columns:1fr; }
+          .photo-grid-wix img { height:200px; }
+          .photo-grid-wix .center { height:200px; }
         }
       `}</style>
 
@@ -116,12 +122,12 @@ export default function About() {
             <span className="overline">The Founders</span>
             <h2>John &amp; Kathy <em>Yarnelle</em></h2>
           </div>
-          <div className="photo-grid-featured">
-            <img src="https://res.cloudinary.com/dyzfpnrhg/image/upload/image_0015.jpg" alt="John and Kathy Yarnelle" />
-            <div className="right-col">
-              <img src="https://res.cloudinary.com/dyzfpnrhg/image/upload/image_0012.jpg" alt="The Yarnelle Farm" />
-              <img src="https://res.cloudinary.com/dyzfpnrhg/image/upload/image_0021.jpg" alt="Yarnelle property" />
-            </div>
+          <div className="photo-grid-3">
+           <img src="https://res.cloudinary.com/dyzfpnrhg/image/upload/image_0015.jpg" alt="John and Kathy Yarnelle" />
+           <img src="https://res.cloudinary.com/dyzfpnrhg/image/upload/v1772152703/image_0013.jpg" alt="John and Kathy Yarnelle" />
+           <img src="https://res.cloudinary.com/dyzfpnrhg/image/upload/v1773354010/Horse_pic_eovn9g.avif" alt="Yarnelle Farm horses" />
+           <img src="https://res.cloudinary.com/dyzfpnrhg/image/upload/v1772152622/image_0020.jpg" alt="Yarnelle property" />
+           </div>
           </div>
           <div className="family-bio">
             <p>John and Kathy Yarnelle are the heart and soul of Yarnelle Fur-Babies. They have been raising equine livestock for over <strong>35 years</strong> and have built a reputation for excellence through Yarnelle Farms Equine, LLC. As their family grew — through biological children, adoptions from Guatemala, and an ongoing journey adopting from Haiti — so did their love of raising exceptional dogs and doodles. All of our dogs and puppies are loved on <strong>DAILY</strong>. They live on a 10-acre farm with 6 acres of in-ground fencing so their dogs can run and play every single day.</p>
@@ -136,11 +142,14 @@ export default function About() {
             <span className="overline">The Mullendores</span>
             <h2>Travis &amp; Hannah <em>Mullendore</em></h2>
           </div>
-          <div className="photo-grid-3">
-            <img src="https://res.cloudinary.com/dyzfpnrhg/image/upload/image_0017.jpg" alt="Travis and Hannah Mullendore" />
-            <img src="https://res.cloudinary.com/dyzfpnrhg/image/upload/image_0040.jpg" alt="Hannah with puppies" />
-            <img src="https://res.cloudinary.com/dyzfpnrhg/image/upload/image_0041.jpg" alt="Mullendore kids with puppies" />
-          </div>
+         <div className="photo-grid-wix">
+         <img src="https://res.cloudinary.com/dyzfpnrhg/image/upload/image_0017.jpg" alt="Travis and Hannah Mullendore" />
+         <img className="center" src="https://res.cloudinary.com/dyzfpnrhg/image/upload/v1773354453/66ab5b_9e368b186e944f2f9985d1ab7f210a91_mv2_w2w307.avif" alt="Mullendore family" />
+         <img src="https://res.cloudinary.com/dyzfpnrhg/image/upload/v1773354453/66ab5b_d2b117d4847b43ceb2b09dcc88e9dd18_mv2_qesfuw.avif" alt="Mullendore kids" />
+         <img src="https://res.cloudinary.com/dyzfpnrhg/image/upload/v1773354453/66ab5b_e035be34f77f4fa48a6c28a135914210_mv2_vmom5g.avif" alt="Mullendore with puppy" />
+         <img src="https://res.cloudinary.com/dyzfpnrhg/image/upload/v1773354453/66ab5b_b89e81c078b44f60b05bfc7dbd2b618d_mv2_qx99px.avif" alt="Mullendore kids with puppy" />
+         <img src="https://res.cloudinary.com/dyzfpnrhg/image/upload/v1773354453/66ab5b_afafdff0818649d1af3d5b5511d775de_mv2_ykue2e.avif" alt="Mullendore baby with puppy" />
+        </div>
           <div className="family-bio">
             <p>Meet Hannah and her family! Travis and Hannah have five little ones — <strong>Shiloh, Micah, Olive, Uriah, and Boaz</strong>. We are so incredibly blessed to have these kiddos in our lives. Uriah and Boaz are their newly adopted boys from <strong>Haiti</strong> and we are so excited and beyond blessed! Rest assured — between these five and their cousins, our puppies are incredibly well socialized!</p>
           </div>
@@ -154,11 +163,12 @@ export default function About() {
             <span className="overline">The Nicodemus Family</span>
             <h2>Hunter &amp; Sarah <em>Nicodemus</em></h2>
           </div>
-          <div className="photo-grid-3">
-            <img src="https://res.cloudinary.com/dyzfpnrhg/image/upload/image_0018.jpg" alt="Hunter and Sarah Nicodemus" />
-            <img src="https://res.cloudinary.com/dyzfpnrhg/image/upload/image_0042.jpg" alt="Sarah with puppies" />
-            <img src="https://res.cloudinary.com/dyzfpnrhg/image/upload/image_0043.jpg" alt="Nicodemus kids with puppies" />
-          </div>
+          <div className="photo-grid-wix">
+          <img src="https://res.cloudinary.com/dyzfpnrhg/image/upload/image_0018.jpg" alt="Hunter and Sarah Nicodemus" style={{objectFit:'contain', background:'#f7f7f7'}} />
+          <img className="center" src="https://res.cloudinary.com/dyzfpnrhg/image/upload/v1773354943/66ab5b_9d27f3058d7144e79f184b4d7fcda135_mv2_by1s8n.avif" alt="Nicodemus family" style={{objectFit:'contain', background:'#f7f7f7'}} />
+          <img src="https://res.cloudinary.com/dyzfpnrhg/image/upload/v1773354943/66ab5b_967e34bfca374a58a26182a1159d6baf_mv2_bbps3t.avif" alt="Nicodemus kids" style={{objectFit:'contain', background:'#f7f7f7'}} />
+          <img src="https://res.cloudinary.com/dyzfpnrhg/image/upload/v1773354943/66ab5b_8df2d5432f224dc78e93b2603db6f0db_mv2_idvltg.avif" alt="Nicodemus family with puppies" style={{objectFit:'contain', background:'#f7f7f7'}} />
+        </div>
           <div className="family-bio">
             <p>Meet Sarah and her family! Hunter and Sarah have four little ones — <strong>Esther, Jonah John, Seth Jr., and Noah</strong>. Seth Jr. is named after the oldest boy in the Yarnelle family, Seth Yarnelle, who we tragically lost in an accident when he was just 2.5 years old. We miss him dearly. All four kids sure enjoy <strong>all of the puppy love!</strong></p>
           </div>
@@ -173,9 +183,12 @@ export default function About() {
             <h2>Dakoda &amp; Brooke <em>Labenz</em></h2>
           </div>
           <div className="photo-grid-3">
-            <img src="https://res.cloudinary.com/dyzfpnrhg/image/upload/image_0016.jpg" alt="Dakoda and Brooke Labenz" />
-            <img src="https://res.cloudinary.com/dyzfpnrhg/image/upload/image_0044.jpg" alt="Brooke with puppies" />
-            <img src="https://res.cloudinary.com/dyzfpnrhg/image/upload/image_0045.jpg" alt="Labenz girls with puppies" />
+            <img src="https://res.cloudinary.com/dyzfpnrhg/image/upload/image_0016.jpg" alt="Dakoda and Brooke Labenz" style={{objectFit:'contain', background:'#f7f7f7'}} />
+            <img src="https://res.cloudinary.com/dyzfpnrhg/image/upload/v1773355280/66ab5b_14d7f9bb97804b729bd525928f90c1df_mv2_pm6kzr.avif" alt="Brooke with family" style={{objectFit:'contain', background:'#f7f7f7'}} />
+            <img src="https://res.cloudinary.com/dyzfpnrhg/image/upload/v1773355278/66ab5b_10781144b70342d99fabbdbadf8c81e2_mv2_esx7k4.avif" alt="Labenz girls" style={{objectFit:'contain', background:'#f7f7f7'}} />
+            <img src="https://res.cloudinary.com/dyzfpnrhg/image/upload/v1773355278/66ab5b_731a9340371c448b9f12c8ede0d35cf0_mv2_prfqgy.avif" alt="Labenz girls with puppy" style={{objectFit:'contain', background:'#f7f7f7'}} />
+            <img src="https://res.cloudinary.com/dyzfpnrhg/image/upload/v1773355278/66ab5b_dbe35e37f653496badf3b06732247a98_mv2_my1t6y.avif" alt="Brooke with puppy" style={{objectFit:'contain', background:'#f7f7f7'}} />
+            <img src="https://res.cloudinary.com/dyzfpnrhg/image/upload/v1773355278/66ab5b_565d0698797c47a68c9e72b052977605_mv2_mcobii.avif" alt="Labenz family" style={{objectFit:'contain', background:'#f7f7f7'}} />
           </div>
           <div className="family-bio">
             <p>Meet Brooke and her family! Brooke and Dakoda have three little girls — <strong>Opal, Norah, and Vaeda</strong>. All three girls have made it very clear that they <strong>LOVE</strong> their puppy cuddles! Brooke is the main sales contact here at Yarnelle Fur-Babies, helping her mom and dad out since they aren&apos;t so &ldquo;tech savvy&rdquo;! She will be answering most of your questions, giving you updates on your puppies, and of course helping take care of them!</p>
@@ -191,9 +204,9 @@ export default function About() {
             <h2>Seth, Luke &amp; Eli <em>Yarnelle</em></h2>
           </div>
           <div className="photo-grid-3">
-            <img src="https://res.cloudinary.com/dyzfpnrhg/image/upload/image_0047.jpg" alt="Visiting Seth's grave" />
-            <img src="https://res.cloudinary.com/dyzfpnrhg/image/upload/image_0019.jpg" alt="Seth Yarnelle" />
-            <img src="https://res.cloudinary.com/dyzfpnrhg/image/upload/image_0046.jpg" alt="Luke and Eli with dogs" />
+           <img src="https://res.cloudinary.com/dyzfpnrhg/image/upload/image_0019.jpg" alt="Seth Yarnelle" style={{objectFit:'contain', background:'#f7f7f7'}} />
+           <img src="https://res.cloudinary.com/dyzfpnrhg/image/upload/v1773355648/66ab5b_cee5a0e65b7b40faa35d23fea0b4b0a7_mv2_bo11xk.avif" alt="Luke and Eli with dogs" style={{objectFit:'contain', background:'#f7f7f7'}} />
+           <img src="https://res.cloudinary.com/dyzfpnrhg/image/upload/v1773355652/66ab5b_506da0417d9f4d228ebfb2e2d8ac1cd7_mv2_knloy5.avif" alt="Luke and Eli" style={{objectFit:'contain', background:'#f7f7f7'}} />
           </div>
           <div className="family-bio">
             <p>Meet Seth, Luke, and Eli! Our three handsome boys are adopted from <strong>Guatemala</strong> and have been such a blessing to our family. Seth passed away in a tragic accident when he was just <strong>2.5 years old</strong>. He had a deep passion for all animals he came into contact with. We miss him every day. Luke and Eli are both an incredible help with all the dogs and puppies, and love to spend time with them whenever they have the chance! 🤍</p>
