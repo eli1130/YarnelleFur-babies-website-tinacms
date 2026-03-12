@@ -127,7 +127,6 @@ export default function About() {
            <img src="https://res.cloudinary.com/dyzfpnrhg/image/upload/v1772152703/image_0013.jpg" alt="John and Kathy Yarnelle" />
            <img src="https://res.cloudinary.com/dyzfpnrhg/image/upload/v1773354010/Horse_pic_eovn9g.avif" alt="Yarnelle Farm horses" />
            <img src="https://res.cloudinary.com/dyzfpnrhg/image/upload/v1772152622/image_0020.jpg" alt="Yarnelle property" />
-           </div>
           </div>
           <div className="family-bio">
             <p>John and Kathy Yarnelle are the heart and soul of Yarnelle Fur-Babies. They have been raising equine livestock for over <strong>35 years</strong> and have built a reputation for excellence through Yarnelle Farms Equine, LLC. As their family grew — through biological children, adoptions from Guatemala, and an ongoing journey adopting from Haiti — so did their love of raising exceptional dogs and doodles. All of our dogs and puppies are loved on <strong>DAILY</strong>. They live on a 10-acre farm with 6 acres of in-ground fencing so their dogs can run and play every single day.</p>
