@@ -50,8 +50,8 @@ const STYLES = `
   .parent-role { font-size:0.62rem; letter-spacing:0.18em; text-transform:uppercase; color:var(--red); margin-bottom:0.25rem; display:block; }
   .parent-name { font-family:'Cormorant Garamond',serif; font-size:1.2rem; font-weight:400; color:var(--black); margin-bottom:0.25rem; }
   .parent-desc { font-size:0.82rem; color:var(--text-light); }
-  .prev-grid { display:grid; grid-template-columns:repeat(4,1fr); gap:0.5rem; margin-bottom:3rem; }
-  .parent-card img { width:100%; height:auto; display:block; }
+  .prev-grid { display:grid; grid-template-columns:repeat(4,1fr); gap:0.75rem; margin-bottom:3rem; }
+  .prev-grid img { width:100%; height:220px; object-fit:cover; border-radius:4px; display:block; }
   .litter-sidebar { position:sticky; top:84px; }
   .quick-facts { border:1px solid var(--light-gray); border-radius:4px; overflow:hidden; margin-bottom:1.5rem; }
   .quick-facts-title { background:var(--offwhite); padding:0.85rem 1.25rem; font-size:0.72rem; letter-spacing:0.15em; text-transform:uppercase; color:var(--text); border-bottom:1px solid var(--light-gray); }
@@ -87,7 +87,7 @@ const STYLES = `
     .litter-details { grid-template-columns:1fr; }
     .detail-box.full { grid-column:span 1; }
     .parents-grid { grid-template-columns:1fr; }
-    .prev-grid { grid-template-columns:repeat(3,1fr); }
+    .prev-grid { grid-template-columns:repeat(2,1fr); }
     footer { padding:3rem 1.5rem; }
     .footer-inner { grid-template-columns:1fr 1fr; gap:2rem; }
     .footer-brand { grid-column:span 2; }
