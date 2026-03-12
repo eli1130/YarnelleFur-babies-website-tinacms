@@ -146,7 +146,7 @@ export default function About() {
          <img className="center" src="https://res.cloudinary.com/dyzfpnrhg/image/upload/v1773354453/66ab5b_9e368b186e944f2f9985d1ab7f210a91_mv2_w2w307.avif" alt="Mullendore family" />
          <img src="https://res.cloudinary.com/dyzfpnrhg/image/upload/v1773354453/66ab5b_d2b117d4847b43ceb2b09dcc88e9dd18_mv2_qesfuw.avif" alt="Mullendore kids" />
          <img src="https://res.cloudinary.com/dyzfpnrhg/image/upload/v1773354453/66ab5b_e035be34f77f4fa48a6c28a135914210_mv2_vmom5g.avif" alt="Mullendore with puppy" />
-         <img src="https://res.cloudinary.com/dyzfpnrhg/image/upload/v1773354453/66ab5b_b89e81c078b44f60b05bfc7dbd2b618d_mv2_qx99px.avif" alt="Mullendore kids with puppy" />
+         <img src="https://res.cloudinary.com/dyzfpnrhg/image/upload/v1773354453/66ab5b_b89e81c078b44f60b05bfc7dbd2b618d_mv2_qx99px.avif" alt="Mullendore kids with puppy" style={{objectFit:'contain', background:'transparent'}} />
          <img src="https://res.cloudinary.com/dyzfpnrhg/image/upload/v1773354453/66ab5b_afafdff0818649d1af3d5b5511d775de_mv2_ykue2e.avif" alt="Mullendore baby with puppy" style={{objectFit:'contain', background:'transparent'}} />
         </div>
           <div className="family-bio">
