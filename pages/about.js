@@ -145,9 +145,9 @@ export default function About() {
          <img src="https://res.cloudinary.com/dyzfpnrhg/image/upload/image_0017.jpg" alt="Travis and Hannah Mullendore" />
          <img className="center" src="https://res.cloudinary.com/dyzfpnrhg/image/upload/v1773354453/66ab5b_9e368b186e944f2f9985d1ab7f210a91_mv2_w2w307.avif" alt="Mullendore family" />
          <img src="https://res.cloudinary.com/dyzfpnrhg/image/upload/v1773354453/66ab5b_d2b117d4847b43ceb2b09dcc88e9dd18_mv2_qesfuw.avif" alt="Mullendore kids" />
-         <img src="https://res.cloudinary.com/dyzfpnrhg/image/upload/v1773354453/66ab5b_e035be34f77f4fa48a6c28a135914210_mv2_vmom5g.avif" alt="Mullendore with puppy" style={{objectFit:'contain', background:'transparent'}} />
+         <img src="https://res.cloudinary.com/dyzfpnrhg/image/upload/v1773354453/66ab5b_e035be34f77f4fa48a6c28a135914210_mv2_vmom5g.avif" alt="Mullendore with puppy" />
          <img src="https://res.cloudinary.com/dyzfpnrhg/image/upload/v1773354453/66ab5b_b89e81c078b44f60b05bfc7dbd2b618d_mv2_qx99px.avif" alt="Mullendore kids with puppy" />
-         <img src="https://res.cloudinary.com/dyzfpnrhg/image/upload/v1773354453/66ab5b_afafdff0818649d1af3d5b5511d775de_mv2_ykue2e.avif" alt="Mullendore baby with puppy" />
+         <img src="https://res.cloudinary.com/dyzfpnrhg/image/upload/v1773354453/66ab5b_afafdff0818649d1af3d5b5511d775de_mv2_ykue2e.avif" alt="Mullendore baby with puppy" style={{objectFit:'contain', background:'transparent'}} />
         </div>
           <div className="family-bio">
             <p>Meet Hannah and her family! Travis and Hannah have five little ones — <strong>Shiloh, Micah, Olive, Uriah, and Boaz</strong>. We are so incredibly blessed to have these kiddos in our lives. Uriah and Boaz are their newly adopted boys from <strong>Haiti</strong> and we are so excited and beyond blessed! Rest assured — between these five and their cousins, our puppies are incredibly well socialized!</p>
@@ -182,7 +182,7 @@ export default function About() {
             <h2>Dakoda &amp; Brooke <em>Labenz</em></h2>
           </div>
           <div className="photo-grid-3">
-            <img src="https://res.cloudinary.com/dyzfpnrhg/image/upload/image_0016.jpg" alt="Dakoda and Brooke Labenz" style={{objectFit:'contain', background:'#f7f7f7'}} />
+            <img src="https://res.cloudinary.com/dyzfpnrhg/image/upload/image_0016.jpg" alt="Dakoda and Brooke Labenz" style={{objectFit:'contain', background:'transparent'}} />
             <img src="https://res.cloudinary.com/dyzfpnrhg/image/upload/v1773355280/66ab5b_14d7f9bb97804b729bd525928f90c1df_mv2_pm6kzr.avif" alt="Brooke with family" style={{objectFit:'contain', background:'transparent'}} />
             <img src="https://res.cloudinary.com/dyzfpnrhg/image/upload/v1773355278/66ab5b_10781144b70342d99fabbdbadf8c81e2_mv2_esx7k4.avif" alt="Labenz girls" style={{objectFit:'contain', background:'transparent'}} />
             <img src="https://res.cloudinary.com/dyzfpnrhg/image/upload/v1773355278/66ab5b_731a9340371c448b9f12c8ede0d35cf0_mv2_prfqgy.avif" alt="Labenz girls with puppy" style={{objectFit:'contain', background:'transparent'}} />
