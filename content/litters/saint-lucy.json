@@ -1,6 +1,8 @@
 {
   "active": true,
-  "title": "Saint Berdoodles",
+  "sortOrder": 1,
+  "title": "Saint Berdoodles-Lucy",
+  "slug": "saint-Lucy",
   "breeder": "John & Kathy Yarnelle",
   "generation": "F1B",
   "priceRange": "$1,200 — $2,000",
@@ -14,10 +16,12 @@
   "contact": "Brooke-(260)443-9035",
   "damName": "Lucy",
   "damDesc": "Standard F1 Saint Berdoodle · 100 lbs",
-  "damPhoto": "",
+  "damPhoto": "https://res.cloudinary.com/dyzfpnrhg/image/upload/v1772152653/image_0043.jpg",
   "sireName": "Bonsai",
   "sireDesc": "AKC Blue Merle Standard Poodle · 60 lbs",
-  "sirePhoto": "",
+  "cardDesc": "Standard F1B Saint Berdoodles — gentle giants with sweet temperaments. Lucy × Bonsai litter.",
+  "cardPhoto": "https://res.cloudinary.com/dyzfpnrhg/image/upload/v1772590573/typorama_pox7x4.png",
+  "sirePhoto": "https://res.cloudinary.com/dyzfpnrhg/image/upload/v1772152635/image_0044.jpg",
   "puppies": [
     {
       "name": "Leena",
