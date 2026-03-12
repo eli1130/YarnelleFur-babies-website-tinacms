@@ -50,7 +50,7 @@ export default function Page(props) {
     damPhoto: cleanUrl(d.damPhoto) || FALLBACK,
     sirePhoto: cleanUrl(d.sirePhoto) || FALLBACK,
     photos,
-    prevPhotos: prevPhotos.length > 0 ? prevPhotos : [FALLBACK, FALLBACK, FALLBACK, FALLBACK],
+    prevPhotos: prevPhotos.length > 0 ? prevPhotos : [],
     puppies: (d.puppies || []).map(p => ({
       name: p.name,
       gender: p.gender,
