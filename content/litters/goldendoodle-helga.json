@@ -16,25 +16,47 @@
   "contact": "Sarah · (260) 494-0405",
   "damName": "Helga",
   "damDesc": "Micro Mini Goldendoodle",
-  "damPhoto": "",
+  "damPhoto": "https://res.cloudinary.com/dyzfpnrhg/image/upload/v1772152671/image_0110.jpg",
   "sireName": "Cedar",
   "sireDesc": "AKC Toy Poodle",
-  "sirePhoto": "",
+  "cardPhoto": "https://res.cloudinary.com/dyzfpnrhg/image/upload/v1772152706/image_0010.jpg",
+  "sirePhoto": "https://res.cloudinary.com/dyzfpnrhg/image/upload/v1772152677/image_0111.jpg",
   "puppies": [
     {
-      "name": "TBD",
+      "name": "Helena",
       "gender": "Girl",
       "price": "$1,500",
       "status": "Available",
-      "photos": []
+      "photos": [
+        {
+          "src": "https://res.cloudinary.com/dyzfpnrhg/image/upload/v1772152706/image_0010.jpg"
+        }
+      ]
     },
     {
-      "name": "TBD",
-      "gender": "Boy",
+      "name": "Hadassah",
+      "gender": "Girl",
       "price": "$1,500",
       "status": "Available",
-      "photos": []
+      "photos": [
+        {
+          "src": "https://res.cloudinary.com/dyzfpnrhg/image/upload/v1772152668/image_0109.jpg"
+        }
+      ]
     }
   ],
-  "previousPuppies": []
+  "previousPuppies": [
+    {
+      "src": "https://res.cloudinary.com/dyzfpnrhg/image/upload/v1772152685/image_0112.jpg"
+    },
+    {
+      "src": "https://res.cloudinary.com/dyzfpnrhg/image/upload/v1772152679/image_0113.jpg"
+    },
+    {
+      "src": "https://res.cloudinary.com/dyzfpnrhg/image/upload/v1772152701/image_0114.jpg"
+    },
+    {
+      "src": "https://res.cloudinary.com/dyzfpnrhg/image/upload/v1772152694/image_0115.jpg"
+    }
+  ]
 }
