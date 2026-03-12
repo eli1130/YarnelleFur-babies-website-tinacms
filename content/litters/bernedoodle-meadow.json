@@ -1,1 +1,39 @@
-{"active":true,"title":"Mini Multigen Bernedoodles","slug":"bernedoodle-meadow","breeder":"Luke & Eli Yarnelle","generation":"Multigen","priceRange":"$800","litterTitle":"Meadow May × Sycamore","dateOfBirth":"TBD","takeHomeDate":"TBD","estimatedSize":"25–45 lbs","grooming":"Every 6–8 weeks","temperament":"Predictable coats, exceptional temperament, great with families","deposit":"$200","contact":"Luke · (260) 213-1685","damName":"Meadow May","damDesc":"Mini Bernedoodle","damPhoto":"","sireName":"Sycamore","sireDesc":"AKC Mini Poodle","sirePhoto":"","puppies":[{"name":"TBD","gender":"Girl","price":"$800","status":"Available","photos":[]}],"previousPuppies":[]}
+{
+  "active": true,
+  "sortOrder": 3,
+  "title": "Mini Multigen Bernedoodles",
+  "slug": "bernedoodle-meadow",
+  "breeder": "Luke & Eli Yarnelle",
+  "generation": "Multigen",
+  "priceRange": "$800",
+  "litterTitle": "Meadow May × Sycamore",
+  "dateOfBirth": "October 27, 2025",
+  "takeHomeDate": "Ready Now!",
+  "estimatedSize": "40–45 lbs",
+  "grooming": "Roughly every 4–6 months",
+  "temperament": "Very intelligent, energetic, playful, sweet, and love to cuddle",
+  "deposit": "$400",
+  "contact": "Luke · (260) 213-1685",
+  "damName": "Meadow May",
+  "damDesc": "Mini Bernedoodle",
+  "damPhoto": "https://res.cloudinary.com/dyzfpnrhg/image/upload/v1772152683/image_0066.jpg",
+  "sireName": "Sycamore",
+  "sireDesc": "AKC Mini Poodle",
+  "cardDesc": "Multigen Mini Bernedoodles — predictable coats, exceptional temperaments. Meadow May × Sycamore litter.",
+  "cardPhoto": "https://res.cloudinary.com/dyzfpnrhg/image/upload/v1772152707/image_0005.jpg",
+  "sirePhoto": "https://res.cloudinary.com/dyzfpnrhg/image/upload/v1772152695/image_0061.jpg",
+  "puppies": [
+    {
+      "name": "Milo",
+      "gender": "Boy",
+      "price": "$800",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://res.cloudinary.com/dyzfpnrhg/image/upload/v1772152707/image_0005.jpg"
+        }
+      ]
+    }
+  ],
+  "previousPuppies": []
+}
