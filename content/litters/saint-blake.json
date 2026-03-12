@@ -1,1 +1,54 @@
-{"active":true,"title":"Saint Berdoodles — Blake","slug":"saint-blake","breeder":"Luke & Eli Yarnelle","generation":"F1B","priceRange":"$1,000 — $2,000","litterTitle":"Blake × Bamboo","dateOfBirth":"TBD","takeHomeDate":"TBD","estimatedSize":"75–90+ lbs","grooming":"Roughly every 4 months","temperament":"Big-hearted, fluffy, endlessly cuddly, great with families and kids","deposit":"$400","contact":"Luke · (260) 213-1685","damName":"Blake","damDesc":"Standard F1 Saint Berdoodle","damPhoto":"","sireName":"Bamboo","sireDesc":"AKC Standard Poodle","sirePhoto":"","puppies":[{"name":"TBD","gender":"Girl","price":"$1,000","status":"Available","photos":[]},{"name":"TBD","gender":"Boy","price":"$1,000","status":"Available","photos":[]},{"name":"TBD","gender":"Girl","price":"$2,000","status":"Available","photos":[]},{"name":"TBD","gender":"Boy","price":"$1,000","status":"Available","photos":[]},{"name":"TBD","gender":"Girl","price":"$1,000","status":"Available","photos":[]}],"previousPuppies":[]}
+{
+  "active": true,
+  "sortOrder": 4,
+  "title": "Saint Berdoodles — Blake",
+  "slug": "saint-blake",
+  "breeder": "Luke & Eli Yarnelle",
+  "generation": "F1B",
+  "priceRange": "$1,000 — $2,000",
+  "litterTitle": "Blake × Bamboo",
+  "dateOfBirth": "December 11, 2025",
+  "takeHomeDate": "Ready Now!",
+  "estimatedSize": "75+ lbs",
+  "grooming": "Roughly every 4-6 months",
+  "temperament": "Friendly, watchful, calm, gentle, sweet, love to cuddle, incredibly friendly with other dogs, cats, and kiddos",
+  "deposit": "$400",
+  "contact": "Brooke · (260) 443-9035",
+  "damName": "Blake",
+  "damDesc": "Standard F1 Saint Berdoodle",
+  "damPhoto": "https://res.cloudinary.com/dyzfpnrhg/image/upload/v1772152681/image_0073.jpg",
+  "sireName": "Bamboo",
+  "sireDesc": "AKC Standard Poodle",
+  "cardDesc": "Standard F1B Saint Berdoodles — big-hearted, fluffy, endlessly cuddly. Blake × Bamboo litter.",
+  "cardPhoto": "https://res.cloudinary.com/dyzfpnrhg/image/upload/v1772590567/typorama_bgbi8e.jpg",
+  "sirePhoto": "https://res.cloudinary.com/dyzfpnrhg/image/upload/v1772152698/image_0074.jpg",
+  "puppies": [
+    {
+      "name": "Benson",
+      "gender": "Boy",
+      "price": "$1,400",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://res.cloudinary.com/dyzfpnrhg/image/upload/v1772590567/typorama_bgbi8e.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Brody",
+      "gender": "Boy",
+      "price": "$800",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://res.cloudinary.com/dyzfpnrhg/image/upload/v1772590571/typorama_xkvw0h.png"
+        }
+      ]
+    }
+  ],
+  "previousPuppies": [
+    {
+      "src": "https://res.cloudinary.com/dyzfpnrhg/image/upload/v1772152633/image_0045.jpg"
+    }
+  ]
+}
