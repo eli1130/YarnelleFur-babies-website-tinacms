@@ -45,13 +45,13 @@ const STYLES = `
   .puppy-status.reserved { color:var(--red); background:#fff0f0; }
   .parents-grid { display:grid; grid-template-columns:1fr 1fr; gap:1rem; margin-bottom:3rem; }
   .parent-card { border:1px solid var(--light-gray); border-radius:4px; overflow:hidden; }
-  .parent-card img { width:100%; aspect-ratio:4/3; object-fit:cover; display:block; }
+  .parent-card img { width:100%; height:auto; display:block; }
   .parent-card-body { padding:1rem 1.25rem; }
   .parent-role { font-size:0.62rem; letter-spacing:0.18em; text-transform:uppercase; color:var(--red); margin-bottom:0.25rem; display:block; }
   .parent-name { font-family:'Cormorant Garamond',serif; font-size:1.2rem; font-weight:400; color:var(--black); margin-bottom:0.25rem; }
   .parent-desc { font-size:0.82rem; color:var(--text-light); }
   .prev-grid { display:grid; grid-template-columns:repeat(4,1fr); gap:0.5rem; margin-bottom:3rem; }
-  .prev-grid img { width:100%; height:auto; border-radius:3px; display:block; }
+  .parent-card img { width:100%; height:auto; display:block; }
   .litter-sidebar { position:sticky; top:84px; }
   .quick-facts { border:1px solid var(--light-gray); border-radius:4px; overflow:hidden; margin-bottom:1.5rem; }
   .quick-facts-title { background:var(--offwhite); padding:0.85rem 1.25rem; font-size:0.72rem; letter-spacing:0.15em; text-transform:uppercase; color:var(--text); border-bottom:1px solid var(--light-gray); }
