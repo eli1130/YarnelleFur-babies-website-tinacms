@@ -10,8 +10,6 @@ const reviewImages = [
   { src: 'https://res.cloudinary.com/dyzfpnrhg/image/upload/image_0035.jpg', alt: 'Review from Rachael Louise' },
   { src: 'https://res.cloudinary.com/dyzfpnrhg/image/upload/image_0036.jpg', alt: 'Review from Sami James' },
   { src: 'https://res.cloudinary.com/dyzfpnrhg/image/upload/image_0037.jpg', alt: 'Review from Bailey Dailey' },
-  { src: 'https://res.cloudinary.com/dyzfpnrhg/image/upload/image_0038.jpg', alt: 'Review from Jenny Finney' },
-  { src: 'https://res.cloudinary.com/dyzfpnrhg/image/upload/image_0039.jpg', alt: 'Review from Elizabeth Bower' },
 ];
 
 export default function Reviews() {
