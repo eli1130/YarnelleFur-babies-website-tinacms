@@ -185,7 +185,7 @@ export default function FAQ() {
           <li><Link href="/">Home</Link></li>
           <li><Link href="/about">About Us</Link></li>
           <li><Link href="/gotjesus">Got Jesus?</Link></li>
-          <li><Link href="/litters">Available Litters</Link></li>
+          <li><Link href="/#litters">Available Litters</Link></li>
           <li><Link href="/reviews">Reviews</Link></li>
           <li><Link href="/faq" className="active">FAQ &amp; Products</Link></li>
           <li className="nav-cta"><Link href="/#apply">Apply Now</Link></li>
