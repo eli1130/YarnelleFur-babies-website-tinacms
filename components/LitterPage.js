@@ -75,6 +75,20 @@ const STYLES = `
   .footer-col a:hover { color:var(--white); }
   .footer-col p { font-size:0.85rem; color:#aaa; line-height:1.7; margin-bottom:0.4rem; }
   .footer-bottom { max-width:1200px; margin:2.5rem auto 0; padding-top:1.5rem; border-top:1px solid #222; display:flex; justify-content:space-between; align-items:center; font-size:0.75rem; color:#555; }
+
+  /* CAROUSEL */
+  .carousel { position:relative; margin-bottom:3rem; }
+  .carousel-track-wrap { overflow:hidden; border-radius:4px; }
+  .carousel-track { display:flex; transition:transform 0.4s ease; }
+  .carousel-track img { width:100%; flex-shrink:0; height:420px; object-fit:contain; background:transparent; border-radius:4px; }
+  .carousel-btn { position:absolute; top:50%; transform:translateY(-50%); background:rgba(0,0,0,0.55); border:none; color:#fff; font-size:1.4rem; width:42px; height:42px; border-radius:50%; cursor:pointer; display:flex; align-items:center; justify-content:center; z-index:10; transition:background 0.2s; }
+  .carousel-btn:hover { background:rgba(0,0,0,0.85); }
+  .carousel-btn.prev { left:10px; }
+  .carousel-btn.next { right:10px; }
+  .carousel-dots { display:flex; justify-content:center; gap:6px; margin-top:0.75rem; }
+  .carousel-dot { width:8px; height:8px; border-radius:50%; background:var(--light-gray); border:none; cursor:pointer; transition:background 0.2s; padding:0; }
+  .carousel-dot.active { background:var(--red); }
+
   @media (max-width:960px) {
     nav { padding:0 1.5rem; }
     .nav-links { display:none; }
@@ -88,12 +102,43 @@ const STYLES = `
     .detail-box.full { grid-column:span 1; }
     .parents-grid { grid-template-columns:1fr; }
     .prev-grid { grid-template-columns:repeat(2,1fr); }
+    .carousel-track img { height:280px; }
     footer { padding:3rem 1.5rem; }
     .footer-inner { grid-template-columns:1fr 1fr; gap:2rem; }
     .footer-brand { grid-column:span 2; }
     .footer-bottom { flex-direction:column; gap:0.5rem; text-align:center; }
   }
 `;
+
+function Carousel({ photos, alt }) {
+  const [index, setIndex] = useState(0);
+  const total = photos.length;
+  const prev = () => setIndex((index - 1 + total) % total);
+  const next = () => setIndex((index + 1) % total);
+  if (total === 0) return null;
+  return (
+    <div className="carousel">
+      <div className="carousel-track-wrap">
+        <div className="carousel-track" style={{ transform: `translateX(-${index * 100}%)` }}>
+          {photos.map((src, i) => (
+            <img key={i} src={src} alt={`${alt} ${i + 1}`} />
+          ))}
+        </div>
+      </div>
+      {total > 1 && (
+        <>
+          <button className="carousel-btn prev" onClick={prev}>&#8249;</button>
+          <button className="carousel-btn next" onClick={next}>&#8250;</button>
+          <div className="carousel-dots">
+            {photos.map((_, i) => (
+              <button key={i} className={`carousel-dot${i === index ? ' active' : ''}`} onClick={() => setIndex(i)} />
+            ))}
+          </div>
+        </>
+      )}
+    </div>
+  );
+}
 
 export default function LitterPage({ litter }) {
   const [navOpen, setNavOpen] = useState(false);
@@ -118,7 +163,7 @@ export default function LitterPage({ litter }) {
           <li><Link href="/gotjesus">Got Jesus?</Link></li>
           <li><Link href="/#litters">Available Litters</Link></li>
           <li><Link href="/reviews">Reviews</Link></li>
-          <li><Link href="/facility">Our Facility</Link></li> 
+          <li><Link href="/facility">Our Facility</Link></li>
           <li><Link href="/faq">FAQ &amp; Products</Link></li>
           <li className="nav-cta"><Link href="/#apply">Apply Now</Link></li>
         </ul>
@@ -136,11 +181,15 @@ export default function LitterPage({ litter }) {
         <main className="litter-main">
 
           <h2 className="section-title">Current Litter — {litter.parents}</h2>
-          <div className="puppy-grid">
-            {litter.photos.map((src, i) => (
-              <img key={i} src={src} alt={`${litter.title} puppy`} />
-            ))}
-          </div>
+          {litter.showCarousel ? (
+            <Carousel photos={litter.photos} alt={litter.title} />
+          ) : (
+            <div className="puppy-grid">
+              {litter.photos.map((src, i) => (
+                <img key={i} src={src} alt={`${litter.title} puppy`} />
+              ))}
+            </div>
+          )}
 
           <h2 className="section-title">Litter Details</h2>
           <div className="litter-details">
@@ -186,11 +235,15 @@ export default function LitterPage({ litter }) {
           {litter.prevPhotos && litter.prevPhotos.length > 0 && (
             <>
               <h2 className="section-title">Previous {litter.title} Puppies</h2>
-              <div className="prev-grid">
-                {litter.prevPhotos.map((src, i) => (
-                  <img key={i} src={src} alt="Previous puppy" />
-                ))}
-              </div>
+              {litter.showPrevCarousel ? (
+                <Carousel photos={litter.prevPhotos} alt={`Previous ${litter.title}`} />
+              ) : (
+                <div className="prev-grid">
+                  {litter.prevPhotos.map((src, i) => (
+                    <img key={i} src={src} alt="Previous puppy" />
+                  ))}
+                </div>
+              )}
             </>
           )}
 
@@ -224,7 +277,8 @@ export default function LitterPage({ litter }) {
             <h5>Navigate</h5>
             <Link href="/">Home</Link><Link href="/about">About Us</Link>
             <Link href="/gotjesus">Got Jesus?</Link><Link href="/#litters">Available Litters</Link>
-            <Link href="/reviews">Reviews</Link><Link href="/faq">FAQ &amp; Products</Link>
+            <Link href="/reviews">Reviews</Link><Link href="/facility">Our Facility</Link>
+            <Link href="/faq">FAQ &amp; Products</Link>
           </div>
           <div className="footer-col">
             <h5>Contact</h5>
