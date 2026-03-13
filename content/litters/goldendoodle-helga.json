@@ -46,6 +46,7 @@
       ]
     }
   ],
+  "showCarousel": true,
   "previousPuppies": [
     {
       "src": "https://res.cloudinary.com/dyzfpnrhg/image/upload/v1772152685/image_0112.jpg"
