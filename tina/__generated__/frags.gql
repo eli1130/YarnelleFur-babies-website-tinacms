@@ -35,6 +35,8 @@ fragment LitterParts on Litter {
       alt
     }
   }
+  showCarousel
+  showPrevCarousel
   previousPuppies {
     __typename
     src
