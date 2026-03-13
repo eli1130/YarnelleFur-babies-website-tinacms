@@ -353,7 +353,7 @@ export default function Home({ litters }) {
               <h4>Can't Pick Up? We'll Deliver!</h4>
               <p>We offer ground transport for local delivery, and air transport via puppy nanny for out-of-state families — personally flown by Luke Yarnelle anywhere in the US.</p>
             </div>
-            <Link href="/contact" className="btn-primary">Contact for Pricing</Link>
+            <Link href="mailto:yarnellefurbabies@gmail.com?subject=Delivery%20Pricing%20Inquiry" className="btn-primary">Contact for Pricing</Link>
           </div>
         </div>
       </section>
