@@ -73,6 +73,8 @@ export default defineConfig({
               },
             ],
           },
+          { type: "boolean", name: "showCarousel", label: "Show Current Photos as Carousel (instead of grid)" },
+          { type: "boolean", name: "showPrevCarousel", label: "Show Previous Photos as Carousel (instead of grid)" },
           {
             type: "object", name: "previousPuppies", label: "Previous Puppy Photos", list: true,
             fields: [
