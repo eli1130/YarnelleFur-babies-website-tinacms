@@ -133,7 +133,7 @@ export default function GotJesus() {
         <h2>Blessed to Share Our <em>Faith</em></h2>
         <p>Our faith is at the center of everything we do — how we care for our animals, how we raise our family, and how we welcome each of you into the Yarnelle Fur-Babies family. God bless!</p>
         <div className="cta-buttons">
-          <Link href="/litters" className="btn-primary">View Available Puppies</Link>
+          <Link href="/#litters" className="btn-primary">View Available Puppies</Link>
           <Link href="/about" className="btn-secondary">Meet Our Family</Link>
         </div>
       </section>
