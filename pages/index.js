@@ -20,7 +20,7 @@ export default function Home({ litters }) {
   async function handleSubmit(e) {
     e.preventDefault();
     const body = new URLSearchParams({ 'form-name': 'puppy-application', ...formData }).toString();
-    await fetch('/', {
+    await fetch('https://yarnellefur-babies.com/', {
       method: 'POST',
       headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
       body,
