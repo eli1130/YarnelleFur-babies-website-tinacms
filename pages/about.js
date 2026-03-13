@@ -237,7 +237,7 @@ export default function About() {
             <Link href="/gotjesus">Got Jesus?</Link>
             <Link href="/#litters">Available Litters</Link>
             <Link href="/reviews">Reviews</Link>
-            <Link href="/facility">Our Facility</Link></li>
+            <Link href="/facility">Our Facility</Link>
             <Link href="/faq">FAQ &amp; Products</Link>
           </div>
           <div className="footer-col">
