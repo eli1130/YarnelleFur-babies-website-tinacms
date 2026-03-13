@@ -254,9 +254,13 @@ export default function FAQ() {
           </div>
           <div className="footer-col">
             <h5>Navigate</h5>
-            <Link href="/">Home</Link><Link href="/about">About Us</Link>
-            <Link href="/gotjesus">Got Jesus?</Link><Link href="/litters">Available Litters</Link>
-            <Link href="/reviews">Reviews</Link><Link href="/faq">FAQ &amp; Products</Link>
+            <Link href="/">Home</Link>
+            <Link href="/about">About Us</Link>
+            <Link href="/gotjesus">Got Jesus?</Link>
+            <Link href="/#litters">Available Litters</Link>
+            <Link href="/reviews">Reviews</Link>
+            <Link href="/facility">Our Facility</Link>
+            <Link href="/faq">FAQ &amp; Products</Link>
           </div>
           <div className="footer-col">
             <h5>Contact</h5>
