@@ -88,6 +88,11 @@ const STYLES = `
   .carousel-dots { display:flex; justify-content:center; gap:6px; margin-top:0.75rem; }
   .carousel-dot { width:8px; height:8px; border-radius:50%; background:var(--light-gray); border:none; cursor:pointer; transition:background 0.2s; padding:0; }
   .carousel-dot.active { background:var(--red); }
+  .puppy-carousel-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:1.5rem; margin-bottom:3rem; }
+  .puppy-carousel-card { border:1px solid var(--light-gray); border-radius:4px; overflow:hidden; padding:1rem; }
+  .puppy-carousel-name { font-family:'Cormorant Garamond',serif; font-size:1.1rem; font-weight:400; color:var(--black); margin-bottom:0.75rem; text-align:center; }
+  .puppy-carousel-card .carousel { margin-bottom:0; }
+  .puppy-carousel-card .carousel-track img { height:280px; }
 
   @media (max-width:960px) {
     nav { padding:0 1.5rem; }
@@ -102,6 +107,7 @@ const STYLES = `
     .detail-box.full { grid-column:span 1; }
     .parents-grid { grid-template-columns:1fr; }
     .prev-grid { grid-template-columns:repeat(2,1fr); }
+    .puppy-carousel-grid { grid-template-columns:repeat(2,1fr); }
     .carousel-track img { height:280px; }
     footer { padding:3rem 1.5rem; }
     .footer-inner { grid-template-columns:1fr 1fr; gap:2rem; }
@@ -191,14 +197,23 @@ export default function LitterPage({ litter }) {
             </div>
           )}
 
-          <h2 className="section-title">Litter Details</h2>
-          <div className="litter-details">
-            <div className="detail-box"><span className="detail-label">Date of Birth</span><div className="detail-value">{litter.dob}</div></div>
-            <div className="detail-box"><span className="detail-label">Take Home Date</span><div className="detail-value">{litter.takeHome}</div></div>
-            <div className="detail-box"><span className="detail-label">Estimated Size</span><div className="detail-value">{litter.size}</div></div>
-            <div className="detail-box"><span className="detail-label">Grooming</span><div className="detail-value">{litter.grooming}</div></div>
-            <div className="detail-box full"><span className="detail-label">Temperament</span><div className="detail-value">{litter.temperament}</div></div>
-          </div>
+          <h2 className="section-title">Current Litter — {litter.parents}</h2>
+          {litter.showCarousel ? (
+           <div className="puppy-carousel-grid">
+             {litter.puppyCarousels.map((puppy, i) => (
+              <div key={i} className="puppy-carousel-card">
+               <div className="puppy-carousel-name">{puppy.name}</div>
+               <Carousel photos={puppy.photos} alt={puppy.name} />
+             </div>
+           ))}
+         </div>
+      ) : (
+        <div className="puppy-grid">
+         {litter.photos.map((src, i) => (
+           <img key={i} src={src} alt={`${litter.title} puppy`} />
+         ))}
+       </div>
+     )}
 
           <h2 className="section-title">Available Puppies</h2>
           <div className="puppies-list">
