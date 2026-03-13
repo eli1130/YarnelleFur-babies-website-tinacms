@@ -4,5 +4,7 @@ const nextConfig = {
     domains: ['res.cloudinary.com'],
   },
   transpilePackages: ['next-tinacms-cloudinary'],
+  experimental: { serverActions: true },
 }
+
 module.exports = nextConfig
