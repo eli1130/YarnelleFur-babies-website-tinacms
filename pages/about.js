@@ -219,7 +219,7 @@ export default function About() {
         <h2>Ready to Find Your <em>Perfect Pup?</em></h2>
         <p>Browse our available litters or fill out an application — we&apos;d love to welcome you into the Yarnelle family!</p>
         <div className="cta-buttons">
-          <Link href="/litters" className="btn-primary">View Available Puppies</Link>
+          <Link href="/#litters" className="btn-primary">View Available Puppies</Link>
           <Link href="/#apply" className="btn-secondary">Apply Now</Link>
         </div>
       </section>
@@ -235,8 +235,9 @@ export default function About() {
             <Link href="/">Home</Link>
             <Link href="/about">About Us</Link>
             <Link href="/gotjesus">Got Jesus?</Link>
-            <Link href="/litters">Available Litters</Link>
+            <Link href="/#litters">Available Litters</Link>
             <Link href="/reviews">Reviews</Link>
+            <Link href="/facility">Our Facility</Link></li>
             <Link href="/faq">FAQ &amp; Products</Link>
           </div>
           <div className="footer-col">
