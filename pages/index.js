@@ -20,12 +20,10 @@ export default function Home({ litters }) {
  async function handleSubmit(e) {
   e.preventDefault();
   const formData = new FormData(e.target);
-  const body = new URLSearchParams(formData).toString();
-  
-  await fetch('/', {
+  await fetch('https://formspree.io/f/mgonzeel', {
     method: 'POST',
-    headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-    body,
+    body: formData,
+    headers: { 'Accept': 'application/json' },
   });
   setSubmitted(true);
 }
@@ -375,7 +373,6 @@ export default function Home({ litters }) {
             </div>
           ) : (
             <form name="puppy-application" onSubmit={handleSubmit}>
-              <input type="hidden" name="form-name" value="puppy-application" />
               <div className="honeypot"><input name="bot-field" onChange={handleChange} /></div>
               <div className="form-grid">
                 <div className="form-field">
