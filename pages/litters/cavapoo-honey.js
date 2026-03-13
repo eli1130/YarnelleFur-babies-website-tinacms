@@ -57,6 +57,12 @@ export default function Page(props) {
       price: p.price,
       status: p.status,
     })),
+    puppyCarousels: (d.puppies || []).map(p => ({
+      name: p.name,
+      photos: (p.photos || []).map(ph => cleanUrl(ph.src)).filter(Boolean),
+})),
+showCarousel: d.showCarousel || false,
+showPrevCarousel: d.showPrevCarousel || false,
   }
   return <LitterPage litter={litter} />
 }
