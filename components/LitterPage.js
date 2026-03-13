@@ -186,16 +186,7 @@ export default function LitterPage({ litter }) {
       <div className="litter-body">
         <main className="litter-main">
 
-          <h2 className="section-title">Current Litter — {litter.parents}</h2>
-          {litter.showCarousel ? (
-            <Carousel photos={litter.photos} alt={litter.title} />
-          ) : (
-            <div className="puppy-grid">
-              {litter.photos.map((src, i) => (
-                <img key={i} src={src} alt={`${litter.title} puppy`} />
-              ))}
-            </div>
-          )}
+         
 
           <h2 className="section-title">Current Litter — {litter.parents}</h2>
           {litter.showCarousel ? (
