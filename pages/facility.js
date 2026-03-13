@@ -12,6 +12,7 @@ export default function Facility() {
         <meta name="description" content="Tour our 10-acre farm facility in Columbia City, Indiana — heated puppy nursery, outdoor pens, a beautiful pond, and a deck built with love by John Yarnelle himself." />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Jost:wght@300;400;500&display=swap" rel="stylesheet" />
+        <link rel="icon" href="https://res.cloudinary.com/dyzfpnrhg/image/upload/v1773365064/IMG_5493_gvo13y.jpg" />
       </Head>
 
       <style>{`
