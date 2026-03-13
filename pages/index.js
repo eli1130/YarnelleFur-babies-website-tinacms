@@ -17,16 +17,18 @@ export default function Home({ litters }) {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   }
 
-  async function handleSubmit(e) {
-    e.preventDefault();
-    const body = new URLSearchParams({ 'form-name': 'puppy-application', ...formData }).toString();
-    await fetch('/api/submit-form', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ 'form-name': 'puppy-application', ...formData }),
-    });
-    setSubmitted(true);
-  }
+ async function handleSubmit(e) {
+  e.preventDefault();
+  const formData = new FormData(e.target);
+  const body = new URLSearchParams(formData).toString();
+  
+  await fetch('/', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+    body,
+  });
+  setSubmitted(true);
+}
 
   return (
     <>
