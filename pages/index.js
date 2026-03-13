@@ -34,8 +34,8 @@ export default function Home({ litters }) {
         <title>Yarnelle Fur-Babies | Family-Raised Doodles — Columbia City, IN</title>
         <meta name="description" content="Family-raised doodle puppies from a close-knit family of 16 on a 10-acre farm in Columbia City, Indiana. Health-tested, socialized with children from birth." />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="icon" href="https://res.cloudinary.com/dyzfpnrhg/image/upload/v1773365064/IMG_5493_gvo13y.jpg" />
         <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Jost:wght@300;400;500&display=swap" rel="stylesheet" />
+        <link rel="icon" href="https://res.cloudinary.com/dyzfpnrhg/image/upload/v1773365064/IMG_5493_gvo13y.jpg" />
       </Head>
 
       <style>{`
