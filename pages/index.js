@@ -6,11 +6,11 @@ import { client } from '../tina/__generated__/client';
 export default function Home({ litters }) {
   const [navOpen, setNavOpen] = useState(false);
   const [formData, setFormData] = useState({
-    'first-name': '', 'last-name': '', email: '', phone: '',
-    'city-state': '', breed: '', 'rent-own': 'Own', purpose: 'Family Pet',
-    'dog-experience': 'Yes', vet: '', 'other-pets': '', referral: '',
-    'family-info': '', 'bot-field': ''
-  });
+  'first-name': '', 'last-name': '', email: '', phone: '',
+  'city-state': '', breed: '', 'rent-own': '', purpose: '',
+  'dog-experience': '', vet: '', 'other-pets': '', referral: '',
+  'family-info': '', 'bot-field': ''
+});
   const [submitted, setSubmitted] = useState(false);
 
   function handleChange(e) {
