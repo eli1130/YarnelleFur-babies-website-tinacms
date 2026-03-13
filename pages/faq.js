@@ -241,7 +241,7 @@ export default function FAQ() {
         <h2>Ready to Bring Home Your <em>Fur-Baby?</em></h2>
         <p>Browse our available litters or fill out an application today — we&apos;d love to find the perfect match for your family!</p>
         <div className="cta-buttons">
-          <Link href="/litters" className="btn-primary">View Available Puppies</Link>
+          <Link href="/#litters" className="btn-primary">View Available Puppies</Link>
           <Link href="/#apply" className="btn-secondary">Apply Now</Link>
         </div>
       </section>
