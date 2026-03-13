@@ -89,8 +89,8 @@ export default function About() {
           .footer-brand { grid-column:span 2; }
           .footer-bottom { flex-direction:column; gap:0.5rem; text-align:center; }
           .photo-grid-wix { grid-template-columns:1fr; }
-          .photo-grid-wix img { height:200px; }
-          .photo-grid-wix .center { height:200px; }
+          .photo-grid-wix img { height:auto; }
+          .photo-grid-wix .center { height:auto; }
         }
       `}</style>
 
