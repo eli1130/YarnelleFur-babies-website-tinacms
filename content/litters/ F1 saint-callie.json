@@ -1,9 +1,9 @@
 {
   "sortOrder": 6,
-  "title": "F1 Saint berdoodles- Callie",
-  "slug": " F1 saint-callie",
+  "title": "F1B Saint berdoodles- Callie",
+  "slug": " F1B saint-callie",
   "breeder": "Dakoda & Brooke Labenz",
-  "generation": "F1",
+  "generation": "F1B",
   "priceRange": "$1,200 — $2,000",
   "litterTitle": "Callie × Pumpkin",
   "dateOfBirth": "February 14th, 2026",
@@ -14,5 +14,123 @@
   "deposit": "$400",
   "contact": "Brooke · (260) 443-9035",
   "damName": "Callie",
-  "damDesc": "Standard F1 Saint Berdoodle 80lbs"
+  "damDesc": "Standard F1 Saint Berdoodle 80lbs",
+  "damPhoto": "https://res.cloudinary.com/dyzfpnrhg/image/upload/v1773612750/typorama_oci8hn.png",
+  "sireName": "Pumpkin",
+  "sireDesc": "AKC Standard Poodle 70 lbs",
+  "cardDesc": "Standard F1B Saint Berdoodles — gentle giants, cuddly, calm, and great with families. Callie × Pumpkin litter.\n\n",
+  "cardPhoto": "https://res.cloudinary.com/dyzfpnrhg/image/upload/v1773612752/typorama_ni9kkh.png",
+  "sirePhoto": "https://res.cloudinary.com/dyzfpnrhg/image/upload/v1772152626/image_0141.jpg",
+  "puppies": [
+    {
+      "name": "Cece",
+      "gender": "Girl",
+      "price": "$2,000",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://res.cloudinary.com/dyzfpnrhg/image/upload/v1773612751/typorama_bo3rod.png"
+        }
+      ]
+    },
+    {
+      "name": "Calliope",
+      "gender": "Girl",
+      "price": "$1,200",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://res.cloudinary.com/dyzfpnrhg/image/upload/v1773612752/typorama_fjqizk.png"
+        }
+      ]
+    },
+    {
+      "name": "Camille",
+      "gender": "Girl",
+      "price": "$1,200",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://res.cloudinary.com/dyzfpnrhg/image/upload/v1773612755/typorama_zvf3bi.png"
+        }
+      ]
+    },
+    {
+      "name": "Candy",
+      "gender": "Girl",
+      "price": "$2,000",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://res.cloudinary.com/dyzfpnrhg/image/upload/v1773612752/typorama_ni9kkh.png"
+        }
+      ]
+    },
+    {
+      "name": "Charlotte",
+      "gender": "Girl",
+      "price": "$1,200",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://res.cloudinary.com/dyzfpnrhg/image/upload/v1773612760/typorama_uwk0o9.png"
+        }
+      ]
+    },
+    {
+      "name": "Chloe",
+      "gender": "Girl",
+      "price": "$1,200",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://res.cloudinary.com/dyzfpnrhg/image/upload/v1773612760/typorama_tjwcue.png"
+        }
+      ]
+    },
+    {
+      "name": "Chuck",
+      "gender": "Boy",
+      "price": "$1,200",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://res.cloudinary.com/dyzfpnrhg/image/upload/v1773612760/typorama_fcnbsw.png"
+        }
+      ]
+    },
+    {
+      "name": "Claire",
+      "gender": "Girl",
+      "price": "$2,000",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://res.cloudinary.com/dyzfpnrhg/image/upload/v1773612760/typorama_synsmq.png"
+        }
+      ]
+    },
+    {
+      "name": "Cooper",
+      "gender": "Boy",
+      "price": "$1,200",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://res.cloudinary.com/dyzfpnrhg/image/upload/v1773612760/typorama_t3zx7u.png"
+        }
+      ]
+    },
+    {
+      "name": "Charles",
+      "gender": "Boy",
+      "price": "$1,200",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://res.cloudinary.com/dyzfpnrhg/image/upload/v1773612761/typorama_pi5k9m.png"
+        }
+      ]
+    }
+  ]
 }
