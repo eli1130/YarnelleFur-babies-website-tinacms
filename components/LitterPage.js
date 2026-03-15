@@ -186,25 +186,61 @@ export default function LitterPage({ litter }) {
       <div className="litter-body">
         <main className="litter-main">
 
-         
-
           <h2 className="section-title">Current Litter — {litter.parents}</h2>
           {litter.showCarousel ? (
-           <div className="puppy-carousel-grid">
-             {litter.puppyCarousels.map((puppy, i) => (
-              <div key={i} className="puppy-carousel-card">
-               <div className="puppy-carousel-name">{puppy.name}</div>
-               <Carousel photos={puppy.photos} alt={puppy.name} />
-             </div>
-           ))}
-         </div>
-      ) : (
-        <div className="puppy-grid">
-         {litter.photos.map((src, i) => (
-           <img key={i} src={src} alt={`${litter.title} puppy`} />
-         ))}
-       </div>
-     )}
+            <div className="puppy-carousel-grid">
+              {litter.puppyCarousels.map((puppy, i) => (
+                <div key={i} className="puppy-carousel-card">
+                  <div className="puppy-carousel-name">{puppy.name}</div>
+                  <Carousel photos={puppy.photos} alt={puppy.name} />
+                </div>
+              ))}
+            </div>
+          ) : (
+            <div className="puppy-grid">
+              {litter.photos.map((src, i) => (
+                <img key={i} src={src} alt={`${litter.title} puppy`} />
+              ))}
+            </div>
+          )}
+
+          {(litter.dob || litter.takeHome || litter.size || litter.grooming || litter.temperament) && (
+            <>
+              <h2 className="section-title">Litter Details</h2>
+              <div className="litter-details">
+                {litter.dob && (
+                  <div className="detail-box">
+                    <span className="detail-label">Date of Birth</span>
+                    <span className="detail-value">{litter.dob}</span>
+                  </div>
+                )}
+                {litter.takeHome && (
+                  <div className="detail-box">
+                    <span className="detail-label">Take Home Date</span>
+                    <span className="detail-value">{litter.takeHome}</span>
+                  </div>
+                )}
+                {litter.size && (
+                  <div className="detail-box">
+                    <span className="detail-label">Estimated Size</span>
+                    <span className="detail-value">{litter.size}</span>
+                  </div>
+                )}
+                {litter.grooming && (
+                  <div className="detail-box">
+                    <span className="detail-label">Grooming</span>
+                    <span className="detail-value">{litter.grooming}</span>
+                  </div>
+                )}
+                {litter.temperament && (
+                  <div className="detail-box full">
+                    <span className="detail-label">Temperament</span>
+                    <span className="detail-value">{litter.temperament}</span>
+                  </div>
+                )}
+              </div>
+            </>
+          )}
 
           <h2 className="section-title">Available Puppies</h2>
           <div className="puppies-list">
