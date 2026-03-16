@@ -131,6 +131,17 @@
           "src": "https://res.cloudinary.com/dyzfpnrhg/image/upload/v1773612761/typorama_pi5k9m.png"
         }
       ]
+    },
+    {
+      "name": "Cora",
+      "gender": "Girl",
+      "price": "$2,000",
+      "status": "Reserved",
+      "photos": [
+        {
+          "src": "https://res.cloudinary.com/dyzfpnrhg/image/upload/v1773633872/typorama_pqhf7d.png"
+        }
+      ]
     }
   ]
 }
