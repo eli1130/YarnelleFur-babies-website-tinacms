@@ -15,12 +15,12 @@
   "deposit": "$400",
   "contact": "Brooke · (260) 443-9035",
   "damName": "Honey",
-  "damDesc": "F1 Cavapoo",
+  "damDesc": "F1 Cavapoo 7 lbs",
   "damPhoto": "https://res.cloudinary.com/dyzfpnrhg/image/upload/v1772152686/image_0102.jpg",
-  "sireName": "Teddy",
-  "sireDesc": "AKC Toy Poodle",
+  "sireName": "Teddy ",
+  "sireDesc": "AKC Toy Poodle 9 lbs",
   "cardDesc": "F1B Red Cavapoos — small in size, enormous in personality. Honey × Teddy litter.",
-  "cardPhoto": "https://res.cloudinary.com/dyzfpnrhg/image/upload/v1772152661/image_0097.jpg",
+  "cardPhoto": "https://res.cloudinary.com/dyzfpnrhg/image/upload/v1773612749/typorama_j6iyat.png",
   "sirePhoto": "https://res.cloudinary.com/dyzfpnrhg/image/upload/v1772152693/image_0103.jpg",
   "puppies": [
     {
@@ -29,6 +29,12 @@
       "price": "$2,000",
       "status": "Available",
       "photos": [
+        {
+          "src": "https://res.cloudinary.com/dyzfpnrhg/image/upload/v1773612746/typorama_r0s8dr.png"
+        },
+        {
+          "src": "https://res.cloudinary.com/dyzfpnrhg/image/upload/v1773612749/typorama_xb8huf.png"
+        },
         {
           "src": "https://res.cloudinary.com/dyzfpnrhg/image/upload/v1772152632/image_0092.jpg"
         }
@@ -41,10 +47,27 @@
       "status": "Available",
       "photos": [
         {
+          "src": "https://res.cloudinary.com/dyzfpnrhg/image/upload/v1773612749/typorama_j6iyat.png"
+        },
+        {
+          "src": "https://res.cloudinary.com/dyzfpnrhg/image/upload/v1773612750/typorama_jeitsp.png"
+        },
+        {
           "src": "https://res.cloudinary.com/dyzfpnrhg/image/upload/v1772152661/image_0097.jpg"
         }
       ]
     }
   ],
-  "previousPuppies": []
+  "showCarousel": true,
+  "previousPuppies": [
+    {
+      "src": "https://res.cloudinary.com/dyzfpnrhg/image/upload/v1773625630/IMG_7878_akoybg.jpg"
+    },
+    {
+      "src": "https://res.cloudinary.com/dyzfpnrhg/image/upload/v1773625661/IMG_7887_qtgrbp.jpg"
+    },
+    {
+      "src": "https://res.cloudinary.com/dyzfpnrhg/image/upload/v1773625683/IMG_9268_p2zfdb.jpg"
+    }
+  ]
 }
