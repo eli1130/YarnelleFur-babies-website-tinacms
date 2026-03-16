@@ -24,17 +24,6 @@
   "sirePhoto": "https://res.cloudinary.com/dyzfpnrhg/image/upload/v1772152635/image_0044.jpg",
   "puppies": [
     {
-      "name": "Leena",
-      "gender": "Girl",
-      "price": "$1,000",
-      "status": "Available",
-      "photos": [
-        {
-          "src": "https://res.cloudinary.com/dyzfpnrhg/image/upload/v1772590575/typorama_uhv61c.png"
-        }
-      ]
-    },
-    {
       "name": "Lilly",
       "gender": "Girl",
       "price": "$1,200",
