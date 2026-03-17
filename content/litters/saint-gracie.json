@@ -88,6 +88,12 @@
           "src": "https://res.cloudinary.com/dyzfpnrhg/image/upload/v1773014793/typorama_uvdcmq.png"
         }
       ]
+    },
+    {
+      "name": "Gianna",
+      "gender": "Girl",
+      "price": "$1,850",
+      "status": "Reserved"
     }
   ],
   "previousPuppies": []
