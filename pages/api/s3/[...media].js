@@ -14,7 +14,7 @@ export default createMediaHandler({
     forcePathStyle: false,
   },
   bucket: process.env.NEXT_PUBLIC_S3_BUCKET || "",
-  cdnUrl: process.env.NEXT_PUBLIC_S3_PUBLIC_URL,
+  cdnUrl: "https://pub-e847384c23164145a930ab957dbde017.r2.dev",
   authorized: async (req, _res) => {
     try {
       const user = await isAuthorized(req);
