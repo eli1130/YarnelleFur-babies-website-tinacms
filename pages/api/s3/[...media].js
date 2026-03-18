@@ -11,7 +11,7 @@ export default createMediaHandler({
     },
     region: "us-east-005",
     endpoint: "https://s3.us-east-005.backblazeb2.com",
-    forcePathStyle: false,
+    forcePathStyle: true,
   },
   bucket: process.env.NEXT_PUBLIC_S3_BUCKET || "",
   authorized: async (req, _res) => {
