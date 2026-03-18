@@ -13,6 +13,7 @@
     "@aws-sdk/s3-request-presigner": "^3.1012.0",
     "@tinacms/auth": "^1.1.2",
     "@tinacms/cli": "^2.1.9",
+    "fs-extra": "^11.3.4",
     "next": "14.2.3",
     "next-tinacms-cloudinary": "^23.0.1",
     "next-tinacms-s3": "^20.0.2",
