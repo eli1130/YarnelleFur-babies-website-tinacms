@@ -3,25 +3,29 @@ import { isAuthorized } from "@tinacms/auth";
 
 export const config = mediaHandlerConfig;
 
-export default createMediaHandler({
-  config: {
-    credentials: {
-      accessKeyId: process.env.NEXT_PUBLIC_S3_ACCESS_KEY || "",
-      secretAccessKey: process.env.S3_SECRET_KEY || "",
+export default createMediaHandler(
+  {
+    config: {
+      credentials: {
+        accessKeyId: process.env.NEXT_PUBLIC_S3_ACCESS_KEY || "",
+        secretAccessKey: process.env.S3_SECRET_KEY || "",
+      },
+      region: "auto",
+      endpoint: process.env.NEXT_PUBLIC_S3_ENDPOINT,
+      forcePathStyle: false,
     },
-    region: "auto",
-    endpoint: process.env.NEXT_PUBLIC_S3_ENDPOINT,
-    forcePathStyle: false,
+    bucket: process.env.NEXT_PUBLIC_S3_BUCKET || "",
+    authorized: async (req, _res) => {
+      try {
+        const user = await isAuthorized(req);
+        return user && user.verified;
+      } catch (e) {
+        console.error(e);
+        return false;
+      }
+    },
   },
-  bucket: process.env.NEXT_PUBLIC_S3_BUCKET || "",
-  cdnUrl: "https://pub-e847384c23164145a930ab957dbde017.r2.dev",
-  authorized: async (req, _res) => {
-    try {
-      const user = await isAuthorized(req);
-      return user && user.verified;
-    } catch (e) {
-      console.error(e);
-      return false;
-    }
-  },
-});
+  {
+    cdnUrl: "https://pub-e847384c23164145a930ab957dbde017.r2.dev/",
+  }
+);
