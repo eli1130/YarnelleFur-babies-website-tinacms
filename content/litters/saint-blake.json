@@ -27,12 +27,7 @@
       "name": "Benson",
       "gender": "Boy",
       "price": "$1,400",
-      "status": "Sold",
-      "photos": [
-        {
-          "src": "https://res.cloudinary.com/dyzfpnrhg/image/upload/v1772590567/typorama_bgbi8e.jpg"
-        }
-      ]
+      "status": "Sold"
     },
     {
       "name": "Brody",
