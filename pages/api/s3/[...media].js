@@ -24,6 +24,11 @@ export default createMediaHandler(
         return false;
       }
     },
+    mediaUploadOptions: (filename) => {
+      const ext = filename.substring(filename.lastIndexOf("."));
+      const base = filename.substring(0, filename.lastIndexOf("."));
+      return { filename: `${base}-${Date.now()}${ext}` };
+    },
   },
   {
     cdnUrl: "https://pub-e847384c23164145a930ab957dbde017.r2.dev/",
