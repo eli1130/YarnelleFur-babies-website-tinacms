@@ -43,7 +43,9 @@
       "price": "$2,000",
       "status": "Available",
       "photos": [
-        {},
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/gemma.JPEG"
+        },
         {
           "src": "https://res.cloudinary.com/dyzfpnrhg/image/upload/v1773014840/typorama_hchte5.png"
         }
@@ -56,6 +58,9 @@
       "status": "Available",
       "photos": [
         {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Grady.JPEG"
+        },
+        {
           "src": "https://res.cloudinary.com/dyzfpnrhg/image/upload/v1773014790/typorama_rhgex7.png"
         }
       ]
@@ -66,6 +71,9 @@
       "price": "$1,850",
       "status": "Available",
       "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/granger.JPEG"
+        },
         {
           "src": "https://res.cloudinary.com/dyzfpnrhg/image/upload/v1773014841/typorama_ethnzw.png"
         }
@@ -78,6 +86,9 @@
       "status": "Available",
       "photos": [
         {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Graham.JPEG"
+        },
+        {
           "src": "https://res.cloudinary.com/dyzfpnrhg/image/upload/v1773014820/typorama_q3f6gg.png"
         }
       ]
@@ -88,6 +99,9 @@
       "price": "$1,850",
       "status": "Available",
       "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Georgia.JPEG"
+        },
         {
           "src": "https://res.cloudinary.com/dyzfpnrhg/image/upload/v1773014793/typorama_uvdcmq.png"
         }
