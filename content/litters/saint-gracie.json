@@ -30,6 +30,9 @@
       "status": "Available",
       "photos": [
         {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/typorama.jpeg"
+        },
+        {
           "src": "https://res.cloudinary.com/dyzfpnrhg/image/upload/v1773014789/typorama_qhgwnv.png"
         }
       ]
@@ -40,6 +43,7 @@
       "price": "$2,000",
       "status": "Available",
       "photos": [
+        {},
         {
           "src": "https://res.cloudinary.com/dyzfpnrhg/image/upload/v1773014840/typorama_hchte5.png"
         }
@@ -96,5 +100,6 @@
       "status": "Reserved"
     }
   ],
+  "showCarousel": true,
   "previousPuppies": []
 }
