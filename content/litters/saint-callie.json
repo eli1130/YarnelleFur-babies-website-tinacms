@@ -19,7 +19,7 @@
   "sireName": "Pumpkin",
   "sireDesc": "AKC Standard Poodle 70 lbs",
   "cardDesc": "Standard F1B Saint Berdoodles — gentle giants, cuddly, calm, and great with families. Callie × Pumpkin litter.\n\n",
-  "cardPhoto": "https://res.cloudinary.com/dyzfpnrhg/image/upload/v1773612752/typorama_ni9kkh.png",
+  "cardPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/claire.JPEG",
   "sirePhoto": "https://res.cloudinary.com/dyzfpnrhg/image/upload/v1772152626/image_0141.jpg",
   "puppies": [
     {
@@ -28,6 +28,9 @@
       "price": "$2,000",
       "status": "Available",
       "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/cece.PNG"
+        },
         {
           "src": "https://res.cloudinary.com/dyzfpnrhg/image/upload/v1773612751/typorama_bo3rod.png"
         }
@@ -40,6 +43,9 @@
       "status": "Available",
       "photos": [
         {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/calliope.PNG"
+        },
+        {
           "src": "https://res.cloudinary.com/dyzfpnrhg/image/upload/v1773612752/typorama_fjqizk.png"
         }
       ]
@@ -50,6 +56,9 @@
       "price": "$1,200",
       "status": "Available",
       "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/camille.PNG"
+        },
         {
           "src": "https://res.cloudinary.com/dyzfpnrhg/image/upload/v1773612755/typorama_zvf3bi.png"
         }
@@ -62,6 +71,9 @@
       "status": "Available",
       "photos": [
         {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/candy.PNG"
+        },
+        {
           "src": "https://res.cloudinary.com/dyzfpnrhg/image/upload/v1773612752/typorama_ni9kkh.png"
         }
       ]
@@ -72,6 +84,9 @@
       "price": "$1,200",
       "status": "Available",
       "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/charlotte.JPEG"
+        },
         {
           "src": "https://res.cloudinary.com/dyzfpnrhg/image/upload/v1773612760/typorama_uwk0o9.png"
         }
@@ -84,6 +99,9 @@
       "status": "Available",
       "photos": [
         {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/chloe.PNG"
+        },
+        {
           "src": "https://res.cloudinary.com/dyzfpnrhg/image/upload/v1773612760/typorama_tjwcue.png"
         }
       ]
@@ -94,6 +112,9 @@
       "price": "$1,200",
       "status": "Available",
       "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/chuck.PNG"
+        },
         {
           "src": "https://res.cloudinary.com/dyzfpnrhg/image/upload/v1773612760/typorama_fcnbsw.png"
         }
@@ -106,6 +127,9 @@
       "status": "Available",
       "photos": [
         {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/claire.JPEG"
+        },
+        {
           "src": "https://res.cloudinary.com/dyzfpnrhg/image/upload/v1773612760/typorama_synsmq.png"
         }
       ]
@@ -117,6 +141,9 @@
       "status": "Available",
       "photos": [
         {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/cooper.PNG"
+        },
+        {
           "src": "https://res.cloudinary.com/dyzfpnrhg/image/upload/v1773612760/typorama_t3zx7u.png"
         }
       ]
@@ -125,7 +152,7 @@
       "name": "Charles",
       "gender": "Boy",
       "price": "$1,200",
-      "status": "Available",
+      "status": "Reserved",
       "photos": [
         {
           "src": "https://res.cloudinary.com/dyzfpnrhg/image/upload/v1773612761/typorama_pi5k9m.png"
@@ -143,5 +170,6 @@
         }
       ]
     }
-  ]
+  ],
+  "showCarousel": true
 }
