@@ -12,7 +12,7 @@ export default function Facility() {
         <meta name="description" content="Tour our 10-acre farm facility in Columbia City, Indiana — heated puppy nursery, outdoor pens, a beautiful pond, and a deck built with love by John Yarnelle himself." />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Jost:wght@300;400;500&display=swap" rel="stylesheet" />
-        <link rel="icon" href="https://res.cloudinary.com/dyzfpnrhg/image/upload/v1773365064/IMG_5493_gvo13y.jpg" />
+        <link rel="icon" href="https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_5493_gvo13y.jpg" />
       </Head>
 
       <style>{`
@@ -171,9 +171,9 @@ export default function Facility() {
             <p>Our dogs roam 10 acres of beautiful Indiana farmland — including a pond, open fields, and 6 acres of in-ground fencing so they can run and play every single day.</p>
           </div>
           <div className="grid-3">
-            <img className="facility-img" src="https://res.cloudinary.com/dyzfpnrhg/image/upload/v1772152624/image_0021.jpg" alt="Yarnelle farm and barn" />
-            <img className="facility-img" src="https://res.cloudinary.com/dyzfpnrhg/image/upload/v1772152628/image_0022.jpg" alt="Dogs by the pond" />
-            <img className="facility-img" src="https://res.cloudinary.com/dyzfpnrhg/image/upload/v1772152626/image_0023.jpg" alt="Outdoor puppy pen" />
+            <img className="facility-img" src="https://pub-e847384c23164145a930ab957dbde017.r2.dev/image_0021.jpg" alt="Yarnelle farm and barn" />
+            <img className="facility-img" src="https://pub-e847384c23164145a930ab957dbde017.r2.dev/image_0022.jpg" alt="Dogs by the pond" />
+            <img className="facility-img" src="https://pub-e847384c23164145a930ab957dbde017.r2.dev/image_0023.jpg" alt="Outdoor puppy pen" />
           </div>
         </div>
       </section>
@@ -187,8 +187,8 @@ export default function Facility() {
             <p>Puppies begin exploring the outdoors from 6 weeks of age on our beautiful handcrafted deck — a favorite spot for both puppies and visitors alike.</p>
           </div>
           <div className="grid-2">
-            <img className="facility-img tall" src="https://res.cloudinary.com/dyzfpnrhg/image/upload/v1772152525/image_0024.jpg" alt="Puppy deck view" />
-            <img className="facility-img tall" src="https://res.cloudinary.com/dyzfpnrhg/image/upload/v1772152524/image_0025.jpg" alt="Deck with seating area" />
+            <img className="https://pub-e847384c23164145a930ab957dbde017.r2.dev/image_0024.jpg" alt="Puppy deck view" />
+            <img className="facility-img tall" src="https://pub-e847384c23164145a930ab957dbde017.r2.dev/image_0025.jpg" alt="Deck with seating area" />
           </div>
         </div>
       </section>
@@ -202,13 +202,13 @@ export default function Facility() {
             <p>Our state-of-the-art nursery was custom built by John Yarnelle. It features individual whelping areas, climate control, and everything needed to give every litter the best possible start.</p>
           </div>
           <div className="grid-2" style={{marginBottom:'0.75rem'}}>
-            <img className="facility-img tall" src="https://res.cloudinary.com/dyzfpnrhg/image/upload/v1772152519/image_0026.jpg" alt="Puppy in nursery" />
-            <img className="facility-img tall" src="https://res.cloudinary.com/dyzfpnrhg/image/upload/v1772152521/image_0027.jpg" alt="Nursery interior overview" />
+            <img className="facility-img tall" src="https://pub-e847384c23164145a930ab957dbde017.r2.dev/image_0026.jpg" alt="Puppy in nursery" />
+            <img className="facility-img tall" src="https://pub-e847384c23164145a930ab957dbde017.r2.dev/image_0027.jpg" alt="Nursery interior overview" />
           </div>
           <div className="grid-3">
-            <img className="facility-img" src="https://res.cloudinary.com/dyzfpnrhg/image/upload/v1772152712/image_0028.jpg" alt="Nursery whelping area" />
-            <img className="facility-img" src="https://res.cloudinary.com/dyzfpnrhg/image/upload/v1772152711/image_0029.jpg" alt="Nursery kennel area" />
-            <img className="facility-img" src="https://res.cloudinary.com/dyzfpnrhg/image/upload/v1772152525/image_0030.jpg" alt="Nursery grooming station" />
+            <img className="facility-img" src="https://pub-e847384c23164145a930ab957dbde017.r2.dev/image_0028.jpg" alt="Nursery whelping area" />
+            <img className="facility-img" src="https://pub-e847384c23164145a930ab957dbde017.r2.dev/image_0029.jpg" alt="Nursery kennel area" />
+            <img className="facility-img" src="https://pub-e847384c23164145a930ab957dbde017.r2.dev/image_0030.jpg" alt="Nursery grooming station" />
           </div>
         </div>
       </section>
