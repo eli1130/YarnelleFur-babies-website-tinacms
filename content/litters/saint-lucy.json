@@ -16,12 +16,12 @@
   "contact": "Brooke-(260)443-9035",
   "damName": "Lucy",
   "damDesc": "Standard F1 Saint Berdoodle · 100 lbs",
-  "damPhoto": "https://res.cloudinary.com/dyzfpnrhg/image/upload/v1772152653/image_0043.jpg",
+  "damPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/image_0043.jpg",
   "sireName": "Bonsai",
   "sireDesc": "AKC Blue Merle Standard Poodle · 60 lbs",
   "cardDesc": "Standard F1B Saint Berdoodles — gentle giants with sweet temperaments. Lucy × Bonsai litter.",
-  "cardPhoto": "https://res.cloudinary.com/dyzfpnrhg/image/upload/v1772590573/typorama_pox7x4.png",
-  "sirePhoto": "https://res.cloudinary.com/dyzfpnrhg/image/upload/v1772152635/image_0044.jpg",
+  "cardPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/typorama_pox7x4.png",
+  "sirePhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/image_0044.jpg",
   "puppies": [
     {
       "name": "Lilly",
@@ -30,7 +30,7 @@
       "status": "Available",
       "photos": [
         {
-          "src": "/uploadshttps://res.cloudinary.com/dyzfpnrhg/image/upload/v1772590573/typorama_qxxzil.png"
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/typorama_qxxzil.png"
         }
       ]
     },
@@ -41,7 +41,7 @@
       "status": "Available",
       "photos": [
         {
-          "src": "/uploadshttps://res.cloudinary.com/dyzfpnrhg/image/upload/v1772590575/typorama_abp27b.png"
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/typorama_abp27b.png"
         }
       ]
     },
@@ -52,7 +52,7 @@
       "status": "Available",
       "photos": [
         {
-          "src": "/uploadshttps://res.cloudinary.com/dyzfpnrhg/image/upload/v1772590571/typorama_prizqd.png"
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/typorama_prizqd.png"
         }
       ]
     },
@@ -63,32 +63,32 @@
       "status": "Available",
       "photos": [
         {
-          "src": "/uploadshttps://res.cloudinary.com/dyzfpnrhg/image/upload/v1772590573/typorama_pox7x4.png"
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/typorama_pox7x4.png"
         }
       ]
     }
   ],
   "previousPuppies": [
     {
-      "src": "https://res.cloudinary.com/dyzfpnrhg/image/upload/v1772152633/image_0045.jpg"
+      "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/image_0045.jpg"
     },
     {
-      "src": "https://res.cloudinary.com/dyzfpnrhg/image/upload/v1772152644/image_0046.jpg"
+      "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/image_0046.jpg"
     },
     {
-      "src": "https://res.cloudinary.com/dyzfpnrhg/image/upload/v1772152645/image_0047.jpg"
+      "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/image_0047.jpg"
     },
     {
-      "src": "/uploadshttps://res.cloudinary.com/dyzfpnrhg/image/upload/v1772152698/image_0048.jpg"
+      "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/image_0048.jpg"
     },
     {
-      "src": "/uploadshttps://res.cloudinary.com/dyzfpnrhg/image/upload/v1772152697/image_0049.jpg"
+      "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/image_0049.jpg"
     },
     {
-      "src": "https://res.cloudinary.com/dyzfpnrhg/image/upload/v1772152636/image_0050.jpg"
+      "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/image_0050.jpg"
     },
     {
-      "src": "https://res.cloudinary.com/dyzfpnrhg/image/upload/v1772152634/image_0051.jpg"
+      "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/image_0051.jpg"
     }
   ]
 }
