@@ -3,13 +3,13 @@ import Link from 'next/link';
 import { useState } from 'react';
 
 const reviewImages = [
-  { src: 'https://res.cloudinary.com/dyzfpnrhg/image/upload/image_0031.jpg', alt: 'Review from Katie Hendrickson' },
-  { src: 'https://res.cloudinary.com/dyzfpnrhg/image/upload/image_0032.jpg', alt: 'Review from Taylor Varnes' },
-  { src: 'https://res.cloudinary.com/dyzfpnrhg/image/upload/image_0033.jpg', alt: 'Review from Ryann Grabher' },
-  { src: 'https://res.cloudinary.com/dyzfpnrhg/image/upload/image_0034.jpg', alt: 'Review from Alex Bo Kim' },
-  { src: 'https://res.cloudinary.com/dyzfpnrhg/image/upload/image_0035.jpg', alt: 'Review from Rachael Louise' },
-  { src: 'https://res.cloudinary.com/dyzfpnrhg/image/upload/image_0036.jpg', alt: 'Review from Sami James' },
-  { src: 'https://res.cloudinary.com/dyzfpnrhg/image/upload/image_0037.jpg', alt: 'Review from Bailey Dailey' },
+  { src: 'https://pub-e847384c23164145a930ab957dbde017.r2.dev/image_0031.jpg', alt: 'Review from Katie Hendrickson' },
+  { src: 'https://pub-e847384c23164145a930ab957dbde017.r2.dev/image_0032.jpg', alt: 'Review from Taylor Varnes' },
+  { src: 'https://pub-e847384c23164145a930ab957dbde017.r2.dev/image_0033.jpg', alt: 'Review from Ryann Grabher' },
+  { src: 'https://pub-e847384c23164145a930ab957dbde017.r2.dev/image_0034.jpg', alt: 'Review from Alex Bo Kim' },
+  { src: 'https://pub-e847384c23164145a930ab957dbde017.r2.dev/image_0035.jpg', alt: 'Review from Rachael Louise' },
+  { src: 'https://pub-e847384c23164145a930ab957dbde017.r2.dev/image_0036.jpg', alt: 'Review from Sami James' },
+  { src: 'https://pub-e847384c23164145a930ab957dbde017.r2.dev/image_0037.jpg', alt: 'Review from Bailey Dailey' },
 ];
 
 export default function Reviews() {
@@ -21,7 +21,7 @@ export default function Reviews() {
         <title>Customer Reviews | Yarnelle Fur-Babies</title>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Jost:wght@300;400;500&display=swap" rel="stylesheet" />
-        <link rel="icon" href="https://res.cloudinary.com/dyzfpnrhg/image/upload/v1773365064/IMG_5493_gvo13y.jpg" />
+        <link rel="icon" href="https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_5493_gvo13y.jpg" />
       </Head>
 
       <style>{`
