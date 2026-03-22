@@ -214,7 +214,7 @@ export default function Home({ litters }) {
           </div>
         </div>
         <div className="hero-image-right">
-          <img src="https://res.cloudinary.com/dyzfpnrhg/image/upload/v1773259955/family%20photo.avif" alt="The Yarnelle Family" />
+          <img src="https://pub-e847384c23164145a930ab957dbde017.r2.dev/66ab5b_448585b1bcec4e2299b81d66b11538a9_mv2_evkcl9.avif" alt="The Yarnelle Family" />
         </div>
       </section>
 
