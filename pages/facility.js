@@ -187,7 +187,7 @@ export default function Facility() {
             <p>Puppies begin exploring the outdoors from 6 weeks of age on our beautiful handcrafted deck — a favorite spot for both puppies and visitors alike.</p>
           </div>
           <div className="grid-2">
-            <img className="https://pub-e847384c23164145a930ab957dbde017.r2.dev/image_0024.jpg" alt="Puppy deck view" />
+            <img className="facility-img" src="https://pub-e847384c23164145a930ab957dbde017.r2.dev/image_0024.jpg" alt="Puppy deck view" />
             <img className="facility-img tall" src="https://pub-e847384c23164145a930ab957dbde017.r2.dev/image_0025.jpg" alt="Deck with seating area" />
           </div>
         </div>
