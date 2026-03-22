@@ -15,12 +15,12 @@
   "contact": "Brooke · (260) 443-9035",
   "damName": "Callie",
   "damDesc": "Standard F1 Saint Berdoodle 80lbs",
-  "damPhoto": "https://res.cloudinary.com/dyzfpnrhg/image/upload/v1773612750/typorama_oci8hn.png",
+  "damPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/typorama_oci8hn.png",
   "sireName": "Pumpkin",
   "sireDesc": "AKC Standard Poodle 70 lbs",
   "cardDesc": "Standard F1B Saint Berdoodles — gentle giants, cuddly, calm, and great with families. Callie × Pumpkin litter.\n\n",
   "cardPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/claire.JPEG",
-  "sirePhoto": "https://res.cloudinary.com/dyzfpnrhg/image/upload/v1772152626/image_0141.jpg",
+  "sirePhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/image_0141.jpg",
   "puppies": [
     {
       "name": "Cece",
@@ -32,7 +32,7 @@
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/cece.PNG"
         },
         {
-          "src": "https://res.cloudinary.com/dyzfpnrhg/image/upload/v1773612751/typorama_bo3rod.png"
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/typorama_bo3rod.png"
         }
       ]
     },
@@ -46,7 +46,7 @@
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/calliope.PNG"
         },
         {
-          "src": "https://res.cloudinary.com/dyzfpnrhg/image/upload/v1773612752/typorama_fjqizk.png"
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/typorama_fjqizk.png"
         }
       ]
     },
@@ -60,7 +60,7 @@
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/camille.PNG"
         },
         {
-          "src": "https://res.cloudinary.com/dyzfpnrhg/image/upload/v1773612755/typorama_zvf3bi.png"
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/typorama_zvf3bi.png"
         }
       ]
     },
@@ -74,7 +74,7 @@
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/candy.PNG"
         },
         {
-          "src": "https://res.cloudinary.com/dyzfpnrhg/image/upload/v1773612752/typorama_ni9kkh.png"
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/typorama_ni9kkh.png"
         }
       ]
     },
@@ -88,7 +88,7 @@
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/charlotte.JPEG"
         },
         {
-          "src": "https://res.cloudinary.com/dyzfpnrhg/image/upload/v1773612760/typorama_uwk0o9.png"
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/typorama_uwk0o9.png"
         }
       ]
     },
@@ -102,7 +102,7 @@
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/chloe.PNG"
         },
         {
-          "src": "https://res.cloudinary.com/dyzfpnrhg/image/upload/v1773612760/typorama_tjwcue.png"
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/typorama_tjwcue.png"
         }
       ]
     },
@@ -116,7 +116,7 @@
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/chuck.PNG"
         },
         {
-          "src": "https://res.cloudinary.com/dyzfpnrhg/image/upload/v1773612760/typorama_fcnbsw.png"
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/typorama_fcnbsw.png"
         }
       ]
     },
@@ -130,7 +130,7 @@
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/claire.JPEG"
         },
         {
-          "src": "https://res.cloudinary.com/dyzfpnrhg/image/upload/v1773612760/typorama_synsmq.png"
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/typorama_synsmq.png"
         }
       ]
     },
@@ -144,7 +144,7 @@
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/cooper.PNG"
         },
         {
-          "src": "https://res.cloudinary.com/dyzfpnrhg/image/upload/v1773612760/typorama_t3zx7u.png"
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/typorama_t3zx7u.png"
         }
       ]
     },
@@ -155,7 +155,7 @@
       "status": "Reserved",
       "photos": [
         {
-          "src": "https://res.cloudinary.com/dyzfpnrhg/image/upload/v1773612761/typorama_pi5k9m.png"
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/typorama_pi5k9m.png"
         }
       ]
     },
@@ -166,7 +166,7 @@
       "status": "Reserved",
       "photos": [
         {
-          "src": "https://res.cloudinary.com/dyzfpnrhg/image/upload/v1773633872/typorama_pqhf7d.png"
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/typorama_pqhf7d.png"
         }
       ]
     }
