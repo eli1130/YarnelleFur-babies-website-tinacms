@@ -16,12 +16,12 @@
   "contact": "Sarah · (260) 494-0405",
   "damName": "Helga",
   "damDesc": "Micro Mini Goldendoodle",
-  "damPhoto": "https://res.cloudinary.com/dyzfpnrhg/image/upload/v1772152671/image_0110.jpg",
+  "damPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/image_0110.jpg",
   "sireName": "Cedar",
   "sireDesc": "AKC Toy Poodle",
   "cardDesc": "Micro Mini F1B Goldendoodles — tiny bundles of golden joy, low-shedding. Helga × Cedar litter.",
-  "cardPhoto": "https://res.cloudinary.com/dyzfpnrhg/image/upload/v1773369993/phonto_hiuleb.jpg",
-  "sirePhoto": "https://res.cloudinary.com/dyzfpnrhg/image/upload/v1772152677/image_0111.jpg",
+  "cardPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/phonto_hiuleb.jpg",
+  "sirePhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/image_0111.jpg",
   "puppies": [
     {
       "name": "Hadassah",
@@ -30,10 +30,10 @@
       "status": "Available",
       "photos": [
         {
-          "src": "https://res.cloudinary.com/dyzfpnrhg/image/upload/v1773369993/phonto_hiuleb.jpg"
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/phonto_hiuleb.jpg"
         },
         {
-          "src": "https://res.cloudinary.com/dyzfpnrhg/image/upload/v1772152668/image_0109.jpg"
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/image_0109.jpg"
         }
       ]
     }
@@ -41,16 +41,16 @@
   "showCarousel": true,
   "previousPuppies": [
     {
-      "src": "https://res.cloudinary.com/dyzfpnrhg/image/upload/v1772152685/image_0112.jpg"
+      "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/image_0112.jpg"
     },
     {
-      "src": "https://res.cloudinary.com/dyzfpnrhg/image/upload/v1772152679/image_0113.jpg"
+      "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/image_0113.jpg"
     },
     {
-      "src": "https://res.cloudinary.com/dyzfpnrhg/image/upload/v1772152701/image_0114.jpg"
+      "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/image_0114.jpg"
     },
     {
-      "src": "https://res.cloudinary.com/dyzfpnrhg/image/upload/v1772152694/image_0115.jpg"
+      "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/image_0115.jpg"
     }
   ]
 }
