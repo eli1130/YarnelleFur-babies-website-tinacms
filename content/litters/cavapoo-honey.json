@@ -16,12 +16,12 @@
   "contact": "Brooke · (260) 443-9035",
   "damName": "Honey",
   "damDesc": "F1 Cavapoo 7 lbs",
-  "damPhoto": "https://res.cloudinary.com/dyzfpnrhg/image/upload/v1772152686/image_0102.jpg",
+  "damPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/image_0102.jpg",
   "sireName": "Teddy ",
   "sireDesc": "AKC Toy Poodle 9 lbs",
   "cardDesc": "F1B Red Cavapoos — small in size, enormous in personality. Honey × Teddy litter.",
   "cardPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/hh.PNG",
-  "sirePhoto": "https://res.cloudinary.com/dyzfpnrhg/image/upload/v1772152693/image_0103.jpg",
+  "sirePhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/image_0103.jpg",
   "puppies": [
     {
       "name": "Hayes",
@@ -53,13 +53,13 @@
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Hank.PNG"
         },
         {
-          "src": "https://res.cloudinary.com/dyzfpnrhg/image/upload/v1773612749/typorama_j6iyat.png"
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/typorama_j6iyat.png"
         },
         {
-          "src": "https://res.cloudinary.com/dyzfpnrhg/image/upload/v1773612750/typorama_jeitsp.png"
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/typorama_jeitsp.png"
         },
         {
-          "src": "https://res.cloudinary.com/dyzfpnrhg/image/upload/v1772152661/image_0097.jpg"
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/image_0097.jpg"
         }
       ]
     }
@@ -67,13 +67,13 @@
   "showCarousel": true,
   "previousPuppies": [
     {
-      "src": "https://res.cloudinary.com/dyzfpnrhg/image/upload/v1773625630/IMG_7878_akoybg.jpg"
+      "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_7878_akoybg.jpg"
     },
     {
-      "src": "https://res.cloudinary.com/dyzfpnrhg/image/upload/v1773625661/IMG_7887_qtgrbp.jpg"
+      "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_7887_qtgrbp.jpg"
     },
     {
-      "src": "https://res.cloudinary.com/dyzfpnrhg/image/upload/v1773625683/IMG_9268_p2zfdb.jpg"
+      "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_9268_p2zfdb.jpg"
     }
   ]
 }
