@@ -20,17 +20,17 @@
   "sireName": "Bonsai",
   "sireDesc": "AKC Blue Merle Standard Poodle · 60 lbs",
   "cardDesc": "Standard F1B Saint Berdoodles — gentle giants with sweet temperaments. Lucy × Bonsai litter.",
-  "cardPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/typorama_pox7x4.png",
+  "cardPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/typorama_prizqd.png",
   "sirePhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/image_0044.jpg",
   "puppies": [
     {
       "name": "Lilly",
       "gender": "Girl",
       "price": "$1,200",
-      "status": "Available",
+      "status": "Reserved",
       "photos": [
         {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/typorama_qxxzil.png"
+          "src": ""
         }
       ]
     },
@@ -60,10 +60,10 @@
       "name": "Laiken",
       "gender": "Girl",
       "price": "$2,000",
-      "status": "Available",
+      "status": "Reserved",
       "photos": [
         {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/typorama_pox7x4.png"
+          "src": ""
         }
       ]
     }
