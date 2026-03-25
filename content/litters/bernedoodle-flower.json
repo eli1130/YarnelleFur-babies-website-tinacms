@@ -21,18 +21,5 @@
   "sireDesc": "Mini F1 Bernedoodle 42lbs",
   "cardDesc": "Mini F1B Bernedoodles — low-shedding, affectionate tricolor beauties. Flower × Sycamore litter.",
   "cardPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/image_0003.jpg",
-  "sirePhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/image_0061.jpg",
-  "puppies": [
-    {
-      "name": "Finnigan",
-      "gender": "Boy",
-      "price": "$1,000",
-      "status": "Available",
-      "photos": [
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/image_0003.jpg"
-        }
-      ]
-    }
-  ]
+  "sirePhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/image_0061.jpg"
 }
