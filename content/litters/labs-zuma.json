@@ -14,6 +14,70 @@
   "contact": "Sarah · (260) 494-0405",
   "damName": "Zuma",
   "damDesc": "Standard Lab 65 lbs",
+  "damPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/phonto.JPG",
   "sireName": "Hoosier",
-  "sireDesc": "Standard Lab 70 lbs"
+  "sireDesc": "Standard Lab 70 lbs",
+  "cardPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/phonto%205.JPG",
+  "sirePhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_0264.JPG",
+  "puppies": [
+    {
+      "name": "Zadie",
+      "gender": "Girl",
+      "price": "$1,200",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/phonto%207.JPG"
+        }
+      ]
+    },
+    {
+      "name": "Zelma",
+      "gender": "Girl",
+      "price": "$1,200",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/phonto%208.JPG"
+        }
+      ]
+    },
+    {
+      "name": "Zella",
+      "gender": "Girl",
+      "price": "$1,200",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/phonto%209.JPG"
+        }
+      ]
+    },
+    {
+      "name": "Zinnia",
+      "gender": "Girl",
+      "price": "$1,200",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/phonto%2010.JPG"
+        }
+      ]
+    },
+    {
+      "name": "Zeb",
+      "gender": "Boy",
+      "price": "$1,200",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/phonto%202.JPG"
+        }
+      ]
+    },
+    {},
+    {},
+    {},
+    {}
+  ]
 }
