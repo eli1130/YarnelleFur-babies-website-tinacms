@@ -1,0 +1,19 @@
+{
+  "sortOrder": 8,
+  "title": "Labradors",
+  "slug": "labs-zuma",
+  "breeder": "Hunter & Sarah Nicodemus",
+  "priceRange": "$1,200",
+  "litterTitle": "Zuma × Hoosier",
+  "dateOfBirth": "March 5, 2026",
+  "takeHomeDate": "April 30, 2026",
+  "estimatedSize": "60-75 lbs",
+  "grooming": "N/A",
+  "temperament": "Labrador Retrievers are friendly, outgoing, and loyal dogs known for their gentle, playful and eager-to-please nature.",
+  "deposit": "$400",
+  "contact": "Sarah · (260) 494-0405",
+  "damName": "Zuma",
+  "damDesc": "Standard Lab 65 lbs",
+  "sireName": "Hoosier",
+  "sireDesc": "Standard Lab 70 lbs"
+}
