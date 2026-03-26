@@ -58,9 +58,9 @@
     },
     {
       "name": "Laiken",
-      "gender": "Girl",
+      "gender": "Boy",
       "price": "$2,000",
-      "status": "Reserved",
+      "status": "Sold",
       "photos": [
         {
           "src": ""
