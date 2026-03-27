@@ -198,7 +198,7 @@ export default function Home({ litters }) {
        <li className="nav-cta"><a href="#apply">Apply Now</a></li>
      </ul>
      <button className="nav-hamburger" onClick={() => setNavOpen(!navOpen)} aria-label="Menu">
-       <span /><span /><span />
+       <span></span><span></span><span></span>
      </button>
     </nav>
 
