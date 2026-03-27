@@ -173,7 +173,7 @@ export default function LitterPage({ litter }) {
           <li><Link href="/faq">FAQ &amp; Products</Link></li>
           <li className="nav-cta"><Link href="/#apply">Apply Now</Link></li>
         </ul>
-        <button className="nav-hamburger" onClick={() => setNavOpen(!navOpen)} aria-label="Menu"><span /><span /><span /></button>
+        <button className="nav-hamburger" onClick={() => setNavOpen(!navOpen)} aria-label="Menu"><span></span><span></span><span></span></button>
       </nav>
 
       <section className="litter-hero">
