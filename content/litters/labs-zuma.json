@@ -8,7 +8,7 @@
   "dateOfBirth": "March 5, 2026",
   "takeHomeDate": "April 30, 2026",
   "estimatedSize": "60-75 lbs",
-  "grooming": "N/A",
+  "grooming": "Labradors should be bathed every 6–8 weeks and groomed weekly to keep their coat healthy.",
   "temperament": "Labrador Retrievers are friendly, outgoing, and loyal dogs known for their gentle, playful and eager-to-please nature.",
   "deposit": "$200",
   "contact": "Sarah · (260) 494-0405",
@@ -17,6 +17,7 @@
   "damPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/phonto.JPG",
   "sireName": "Hoosier",
   "sireDesc": "Standard Lab 70 lbs",
+  "cardDesc": "Labradors - Labrador Retrievers are friendly, outgoing, and loyal dogs. Zuma x Hoosier litter.",
   "cardPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/phonto%205.JPG",
   "sirePhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_0264.JPG",
   "puppies": [
@@ -75,9 +76,49 @@
         }
       ]
     },
-    {},
-    {},
-    {},
-    {}
+    {
+      "name": "Zeke",
+      "gender": "Boy",
+      "price": "$1,200",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/phonto%203.JPG"
+        }
+      ]
+    },
+    {
+      "name": "Zion",
+      "gender": "Boy",
+      "price": "$1,200",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/phonto%204.JPG"
+        }
+      ]
+    },
+    {
+      "name": "Zach",
+      "gender": "Boy",
+      "price": "$1,200",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/phonto%205.JPG"
+        }
+      ]
+    },
+    {
+      "name": "Zayden",
+      "gender": "Boy",
+      "price": "$1,200",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/phonto%206.JPG"
+        }
+      ]
+    }
   ]
 }
