@@ -17,6 +17,22 @@ export async function getStaticProps({ params }) {
   const { data } = await client.queries.litter({ relativePath: `${params.slug}.json` });
   const node = data.litter;
 
+  const puppies = (node.puppies || []).map(p => ({
+    name: p.name || '',
+    gender: p.gender || '',
+    price: p.price || '',
+    status: p.status || '',
+    photos: (p.photos || []).map(ph => ph.src).filter(Boolean),
+  }));
+
+  const prevPhotos = (node.previousPuppies || []).map(p => p.src).filter(Boolean);
+
+  const showCarousel = puppies.some(p => p.photos.length > 0);
+
+  const puppyCarousels = puppies
+    .filter(p => p.photos.length > 0)
+    .map(p => ({ name: p.name, photos: p.photos }));
+
   return {
     props: {
       litter: {
@@ -39,16 +55,11 @@ export async function getStaticProps({ params }) {
         sirePhoto: node.sirePhoto || '',
         cardPhoto: node.cardPhoto || '',
         photos: [],
-        prevPhotos: [],
-        showCarousel: false,
-        showPrevCarousel: false,
-        puppyCarousels: [],
-        puppies: (node.puppies || []).map(p => ({
-          name: p.name || '',
-          gender: p.gender || '',
-          price: p.price || '',
-          status: p.status || '',
-        })),
+        prevPhotos,
+        showCarousel,
+        showPrevCarousel: prevPhotos.length > 0,
+        puppyCarousels,
+        puppies,
       },
     },
   };
