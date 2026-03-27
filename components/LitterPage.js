@@ -178,7 +178,7 @@ export default function LitterPage({ litter }) {
 
       <section className="litter-hero">
         <Link href="/" className="back-link">← Back to All Puppies</Link>
-        <span className="breeder-tag">{litter.breeder} · {litter.generation}</span>
+        <span className="breeder-tag">{litter.breeder}{litter.generation ? ` · ${litter.generation}` : ''}</span>
         <h1>{litter.title}</h1>
         <div className="price">{litter.priceRange}</div>
       </section>
