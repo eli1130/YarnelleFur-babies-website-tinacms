@@ -16,6 +16,7 @@ export default function LitterPageRoute({ data, query, variables }) {
 
   const prevPhotos = (node.previousPuppies || []).map(p => p.src).filter(Boolean);
   const showCarousel = node.showCarousel || false;
+  const photos = puppies.flatMap(p => p.photos);
   const puppyCarousels = puppies
     .filter(p => p.photos.length > 0)
     .map(p => ({ name: p.name, photos: p.photos }));
@@ -39,7 +40,7 @@ export default function LitterPageRoute({ data, query, variables }) {
     damPhoto: node.damPhoto || '',
     sirePhoto: node.sirePhoto || '',
     cardPhoto: node.cardPhoto || '',
-    photos: [],
+    photos,
     prevPhotos,
     showCarousel,
     showPrevCarousel: prevPhotos.length > 0,
