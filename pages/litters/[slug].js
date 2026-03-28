@@ -43,7 +43,7 @@ export default function LitterPageRoute({ data, query, variables }) {
     photos,
     prevPhotos,
     showCarousel,
-    showPrevCarousel: prevPhotos.length > 0,
+    showPrevCarousel: node.showPrevCarousel || false,
     puppyCarousels,
     puppies,
   };
