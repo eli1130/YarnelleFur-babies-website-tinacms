@@ -15,8 +15,10 @@ export default function LitterPageRoute({ data, query, variables }) {
   }));
 
   const prevPhotos = (node.previousPuppies || []).map(p => p.src).filter(Boolean);
-  const showCarousel = puppies.some(p => p.photos.length > 0);
-  const puppyCarousels = puppies.map(p => ({ name: p.name, photos: p.photos }));
+  const showCarousel = node.showCarousel || false;
+  const puppyCarousels = puppies
+    .filter(p => p.photos.length > 0)
+    .map(p => ({ name: p.name, photos: p.photos }));
 
   const litter = {
     slug: node.slug,
