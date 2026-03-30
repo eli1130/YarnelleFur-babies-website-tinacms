@@ -1,5 +1,5 @@
 {
-  "active": true,
+  "active": false,
   "sortOrder": 1,
   "title": "Saint Berdoodles-Lucy",
   "slug": "saint-lucy",
@@ -22,52 +22,6 @@
   "cardDesc": "Standard F1B Saint Berdoodles — gentle giants with sweet temperaments. Lucy × Bonsai litter.",
   "cardPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/typorama_prizqd.png",
   "sirePhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/image_0044.jpg",
-  "puppies": [
-    {
-      "name": "Lilly",
-      "gender": "Girl",
-      "price": "$1,200",
-      "status": "Reserved",
-      "photos": [
-        {
-          "src": ""
-        }
-      ]
-    },
-    {
-      "name": "Liam",
-      "gender": "Boy",
-      "price": "$1,200",
-      "status": "Available",
-      "photos": [
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/typorama_abp27b.png"
-        }
-      ]
-    },
-    {
-      "name": "Lachlan",
-      "gender": "Boy",
-      "price": "$1,200",
-      "status": "Available",
-      "photos": [
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/typorama_prizqd.png"
-        }
-      ]
-    },
-    {
-      "name": "Laiken",
-      "gender": "Boy",
-      "price": "$2,000",
-      "status": "Sold",
-      "photos": [
-        {
-          "src": ""
-        }
-      ]
-    }
-  ],
   "previousPuppies": [
     {
       "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/image_0045.jpg"
