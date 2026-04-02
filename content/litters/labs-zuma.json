@@ -59,12 +59,7 @@
       "name": "Zinnia",
       "gender": "Girl",
       "price": "$1,200",
-      "status": "Available",
-      "photos": [
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/phonto%2010.JPG"
-        }
-      ]
+      "status": "Reserved"
     },
     {
       "name": "Zeb",
