@@ -1,0 +1,82 @@
+{
+  "active": true,
+  "sortOrder": 2,
+  "title": "Micro Mini Bernedoodles",
+  "slug": "micro-lilly",
+  "breeder": "John & Kathy Yarnelle",
+  "generation": "F1B",
+  "priceRange": "$2,500-$3,750",
+  "litterTitle": "Lilly x Hickory",
+  "dateOfBirth": "March 17, 2026",
+  "takeHomeDate": "May 12, 2026 - May 26, 2026",
+  "estimatedSize": "15–20 lbs",
+  "grooming": "Roughly every 3-4 months",
+  "temperament": "Very intelligent, energetic, playful, sweet, and love to cuddle",
+  "deposit": "$600",
+  "contact": "Eli · (260) 445-4378)",
+  "damName": "Lilly",
+  "damDesc": "Mini F1 Bernedoodle (23lbs)",
+  "damPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/1713815163.605901-96E14EA9-9AEA-4A3A-AEAB-29C71A177820.PNG",
+  "sireName": "Torque",
+  "sireDesc": "Toy poodle (9 lbs)",
+  "cardDesc": "Micro Mini Bernedoodles - Sweet and energetic cuddle buddies. Lilly x Torque",
+  "cardPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_5720.jpeg",
+  "sirePhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/typorama.PNG",
+  "puppies": [
+    {
+      "name": "Luna",
+      "gender": "Girl",
+      "price": "$3,750",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_5723.JPG"
+        }
+      ]
+    },
+    {
+      "name": "Laurel",
+      "gender": "Girl",
+      "price": "$3,000",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_5725.JPG"
+        }
+      ]
+    },
+    {
+      "name": "Lexi",
+      "gender": "Girl",
+      "price": "$2,500",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_5722.JPG"
+        }
+      ]
+    },
+    {
+      "name": "Lena",
+      "gender": "Girl",
+      "price": "$2,500",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_5724.JPG"
+        }
+      ]
+    },
+    {
+      "name": "Leonardo",
+      "gender": "Boy",
+      "price": "$2,500",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_5726.JPG"
+        }
+      ]
+    }
+  ]
+}
