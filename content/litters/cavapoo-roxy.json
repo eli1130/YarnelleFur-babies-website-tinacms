@@ -1,0 +1,60 @@
+{
+  "active": true,
+  "sortOrder": 10,
+  "title": "Micro Mini F1B cavapoos",
+  "slug": "cavapoo-roxy",
+  "breeder": "Hunter & Sarah Nicodemus",
+  "generation": "F1B",
+  "priceRange": "$1,500 - $2,000",
+  "litterTitle": "Roxy x Bob",
+  "dateOfBirth": "March 11, 2026",
+  "takeHomeDate": "May 6, 2026",
+  "estimatedSize": "12-15 lbs",
+  "grooming": "Every 6–8 weeks",
+  "temperament": "Very loving, Smart & trainable, Gentle & good with kids, Playful but not hyper, social\n",
+  "deposit": "$400",
+  "contact": "Sarah · (260) 494-0405",
+  "damName": "Roxy",
+  "damDesc": "F1 Cavapoo (16 lbs)",
+  "damPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/phonto 14.JPG",
+  "sireName": "Bobby",
+  "sireDesc": "AKC Toy Poodle (9 lbs)",
+  "cardDesc": "Micro Mini F1b Cavapoos - Very gentle and good with kids. Roxy x Bobby",
+  "cardPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/phonto 12.JPG",
+  "sirePhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_1428.JPEG",
+  "puppies": [
+    {
+      "name": "Rochelle",
+      "gender": "Girl",
+      "price": "$1,500",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/phonto%2011.JPG"
+        }
+      ]
+    },
+    {
+      "name": "Rip",
+      "gender": "Boy",
+      "price": "$2,000",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/phonto%2012.JPG"
+        }
+      ]
+    },
+    {
+      "name": "Rhett",
+      "gender": "Boy",
+      "price": "$2,000",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/phonto%2013.JPG"
+        }
+      ]
+    }
+  ]
+}
