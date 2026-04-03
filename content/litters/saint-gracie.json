@@ -26,7 +26,7 @@
     {
       "name": "Gunner",
       "gender": "Boy",
-      "price": "$2,000",
+      "price": "$1,400",
       "status": "Available",
       "photos": [
         {
@@ -40,8 +40,8 @@
     {
       "name": "Gemma",
       "gender": "Girl",
-      "price": "$2,000",
-      "status": "Available",
+      "price": "$1,400",
+      "status": "Reserved",
       "photos": [
         {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/gemma.JPEG"
@@ -54,7 +54,7 @@
     {
       "name": "Grady",
       "gender": "Boy",
-      "price": "$1,850",
+      "price": "$1,400",
       "status": "Available",
       "photos": [
         {
@@ -68,7 +68,7 @@
     {
       "name": "Granger",
       "gender": "Boy",
-      "price": "$1,850",
+      "price": "$1,400",
       "status": "Available",
       "photos": [
         {
@@ -82,7 +82,7 @@
     {
       "name": "Graham",
       "gender": "Boy",
-      "price": "$1,850",
+      "price": "$1,400",
       "status": "Available",
       "photos": [
         {
@@ -96,7 +96,7 @@
     {
       "name": "Georgia",
       "gender": "Girl",
-      "price": "$1,850",
+      "price": "$1,400",
       "status": "Available",
       "photos": [
         {
