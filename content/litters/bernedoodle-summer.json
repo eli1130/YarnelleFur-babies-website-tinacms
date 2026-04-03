@@ -1,0 +1,143 @@
+{
+  "active": true,
+  "sortOrder": 3,
+  "title": "Standard F1 bernedoodles",
+  "slug": "bernedoodle-summer",
+  "breeder": "John & Kathy Yarnelle",
+  "generation": "F1",
+  "priceRange": "$2,000-$2,500",
+  "litterTitle": "Summer x Bamboo",
+  "dateOfBirth": "March 17, 2026",
+  "takeHomeDate": "May 12, 2026",
+  "estimatedSize": "80-100+ lbs",
+  "grooming": "Roughly every 4-6 months",
+  "temperament": "playful, goofy, laid back, sweet, eager to please, smart, love to cuddle, incredibly friendly with other dogs, cats, and kiddos",
+  "deposit": "$500",
+  "contact": "Eli · (260) 445-4378",
+  "damName": "Summer",
+  "damDesc": "AKC Bernese Mountain Dog (90lbs)",
+  "damPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Summer pic.avif",
+  "sireName": "Bamboo",
+  "sireDesc": "AKC Sable Parti Standard Poodle (60lbs)",
+  "cardDesc": "Standard F1 Bernedoodles- They are incredibly friendly with other dogs, cats, and kiddo. Summer x Bamboo",
+  "cardPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_5771.jpeg",
+  "sirePhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/image_0074.jpg",
+  "puppies": [
+    {
+      "name": "Sienna",
+      "gender": "Girl",
+      "price": "$2,500",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_5807.JPG"
+        }
+      ]
+    },
+    {
+      "name": "Sloane",
+      "gender": "Girl",
+      "price": "$2,500",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_5808.JPG"
+        }
+      ]
+    },
+    {
+      "name": "Skylar",
+      "gender": "Girl",
+      "price": "$2,500",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_5809.JPG"
+        }
+      ]
+    },
+    {
+      "name": "Savannah",
+      "gender": "Girl",
+      "price": "$2,800",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_5810.JPG"
+        }
+      ]
+    },
+    {
+      "name": "Sage",
+      "gender": "Girl",
+      "price": "$2,500",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_5811.JPG"
+        }
+      ]
+    },
+    {
+      "name": "Scott",
+      "gender": "Boy",
+      "price": "$2,500",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_5812.JPG"
+        }
+      ]
+    },
+    {
+      "name": "Silas",
+      "gender": "Boy",
+      "price": "$2,000",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_5813.JPG"
+        }
+      ]
+    },
+    {
+      "name": "Sawyer",
+      "gender": "Boy",
+      "price": "$2,500",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_5814.JPG"
+        }
+      ]
+    },
+    {
+      "name": "Sebastian",
+      "gender": "Boy",
+      "price": "$2,500",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_5815.JPG"
+        }
+      ]
+    }
+  ],
+  "previousPuppies": [
+    {
+      "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Summer prev puppy pic 1.avif"
+    },
+    {
+      "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Summer pre pup pic 2.avif"
+    },
+    {
+      "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Summer prev pup pic 3.avif"
+    },
+    {
+      "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Summer prev pup pic 4.avif"
+    },
+    {
+      "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Summer prev pup pic 5.avif"
+    }
+  ]
+}
