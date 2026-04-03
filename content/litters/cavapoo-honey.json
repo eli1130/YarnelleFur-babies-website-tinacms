@@ -47,7 +47,7 @@
       "name": "Hank",
       "gender": "Boy",
       "price": "$2,000",
-      "status": "Available",
+      "status": "Reserved",
       "photos": [
         {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Hank.PNG"
