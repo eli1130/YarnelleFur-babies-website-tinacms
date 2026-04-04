@@ -38,7 +38,7 @@
       "name": "Laurel",
       "gender": "Girl",
       "price": "$3,000",
-      "status": "Available",
+      "status": "Reserved",
       "photos": [
         {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_5725.JPG"
