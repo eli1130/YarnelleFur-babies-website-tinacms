@@ -399,13 +399,16 @@ export default function Home({ litters }) {
                   <label>Which Breed or Litter? *</label>
                   <select name="breed" required onChange={handleChange}>
                     <option value="">Select a breed...</option>
-                    <option>Saint Berdoodles — John &amp; Kathy (Lucy)</option>
-                    <option>Mini F1B Bernedoodles — John &amp; Kathy</option>
-                    <option>Mini Multigen Bernedoodles — Luke &amp; Eli</option>
+                    <option>Saint Berdoodles (Lucy) — John &amp; Kathy (Lucy)</option>
+                    <option>Standard F1 Bernedoodles — John &amp; Kathy</option>
+                    <option>Micro Mini F1B Bernedoodles — John &amp; Kathy</option>
                     <option>Saint Berdoodles (Blake) — Luke &amp; Eli</option>
                     <option>Cavapoos — Dakoda &amp; Brooke</option>
                     <option>Saint Berdoodles (Gracie) — Dakoda &amp; Brooke</option>
+                    <option>Saint Berdoodles (Callie) — Dakoda &amp; Brooke</option>
                     <option>Micro Mini Goldendoodles — Hunter &amp; Sarah</option>
+                    <option>Micro Mini F1B Cavapoos — Hunter &amp; Sarah</option>
+                    <option>Standard Labradors — Hunter &amp; Sarah</option>
                     <option>Not sure yet</option>
                   </select>
                 </div>
