@@ -27,7 +27,7 @@
       "name": "Luna",
       "gender": "Girl",
       "price": "$3,750",
-      "status": "Available",
+      "status": "Reserved",
       "photos": [
         {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_5723.JPG"
@@ -49,7 +49,7 @@
       "name": "Lexi",
       "gender": "Girl",
       "price": "$2,500",
-      "status": "Available",
+      "status": "Reserved",
       "photos": [
         {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_5722.JPG"
