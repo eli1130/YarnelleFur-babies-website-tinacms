@@ -72,6 +72,9 @@
       "status": "Available",
       "photos": [
         {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Granger (gracie).PNG"
+        },
+        {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/granger.JPEG"
         },
         {
@@ -85,6 +88,9 @@
       "price": "$1,400",
       "status": "Available",
       "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Graham (gracie).PNG"
+        },
         {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Graham.JPEG"
         },
@@ -100,6 +106,9 @@
       "status": "Available",
       "photos": [
         {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Georgia (gracie).PNG"
+        },
+        {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Georgia.JPEG"
         },
         {
@@ -111,7 +120,7 @@
       "name": "Gianna",
       "gender": "Girl",
       "price": "$1,850",
-      "status": "Reserved"
+      "status": "Sold"
     }
   ],
   "showCarousel": true,
