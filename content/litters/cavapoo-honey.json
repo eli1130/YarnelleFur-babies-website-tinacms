@@ -30,6 +30,9 @@
       "status": "Available",
       "photos": [
         {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Hayes (honey).PNG"
+        },
+        {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Hayes.PNG"
         },
         {
@@ -40,26 +43,6 @@
         },
         {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/image_0092.jpg"
-        }
-      ]
-    },
-    {
-      "name": "Hank",
-      "gender": "Boy",
-      "price": "$2,000",
-      "status": "Reserved",
-      "photos": [
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Hank.PNG"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/typorama_j6iyat.png"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/typorama_jeitsp.png"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/image_0097.jpg"
         }
       ]
     }
