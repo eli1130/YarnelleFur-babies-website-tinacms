@@ -98,12 +98,7 @@
       "name": "Zach",
       "gender": "Boy",
       "price": "$1,200",
-      "status": "Available",
-      "photos": [
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/phonto%205.JPG"
-        }
-      ]
+      "status": "Reserved"
     },
     {
       "name": "Zayden",
