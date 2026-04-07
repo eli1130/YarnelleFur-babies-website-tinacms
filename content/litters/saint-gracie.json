@@ -30,6 +30,10 @@
       "status": "Available",
       "photos": [
         {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Gunner (gracie).JPG",
+          "alt": "F1B St berdoodles"
+        },
+        {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/typorama.jpeg"
         },
         {
@@ -41,15 +45,7 @@
       "name": "Gemma",
       "gender": "Girl",
       "price": "$1,400",
-      "status": "Reserved",
-      "photos": [
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/gemma.JPEG"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/typorama_hchte5.png"
-        }
-      ]
+      "status": "Sold"
     },
     {
       "name": "Grady",
@@ -57,6 +53,10 @@
       "price": "$1,400",
       "status": "Available",
       "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Grady (gracie).PNG",
+          "alt": "F1B St Berdoodles"
+        },
         {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Grady.JPEG"
         },
