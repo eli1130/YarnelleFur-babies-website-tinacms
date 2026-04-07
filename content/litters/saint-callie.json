@@ -19,7 +19,7 @@
   "sireName": "Pumpkin",
   "sireDesc": "AKC Standard Poodle 70 lbs",
   "cardDesc": "Standard F1B Saint Berdoodles — gentle giants, cuddly, calm, and great with families. Callie × Pumpkin litter.\n\n",
-  "cardPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/claire.JPEG",
+  "cardPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Claire%20(gracie).jpg",
   "sirePhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/image_0141.jpg",
   "puppies": [
     {
@@ -28,6 +28,9 @@
       "price": "$2,000",
       "status": "Available",
       "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Callie (cece).jpg"
+        },
         {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/cece.PNG"
         },
@@ -43,6 +46,9 @@
       "status": "Available",
       "photos": [
         {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Calliope (callie).jpg"
+        },
+        {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/calliope.PNG"
         },
         {
@@ -56,6 +62,9 @@
       "price": "$1,200",
       "status": "Available",
       "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Camille (callie).PNG"
+        },
         {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/camille.PNG"
         },
@@ -71,6 +80,9 @@
       "status": "Available",
       "photos": [
         {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Candy (callie).PNG"
+        },
+        {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/candy.PNG"
         },
         {
@@ -85,6 +97,9 @@
       "status": "Available",
       "photos": [
         {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Charlotte (callie).PNG"
+        },
+        {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/charlotte.JPEG"
         },
         {
@@ -96,15 +111,7 @@
       "name": "Chloe",
       "gender": "Girl",
       "price": "$1,200",
-      "status": "Reserved",
-      "photos": [
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/chloe.PNG"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/typorama_tjwcue.png"
-        }
-      ]
+      "status": "Reserved"
     },
     {
       "name": "Chuck",
@@ -112,6 +119,9 @@
       "price": "$1,200",
       "status": "Available",
       "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Chuck (callie).jpg"
+        },
         {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/chuck.PNG"
         },
@@ -127,6 +137,9 @@
       "status": "Available",
       "photos": [
         {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Claire (gracie).jpg"
+        },
+        {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/claire.JPEG"
         },
         {
@@ -141,6 +154,9 @@
       "status": "Available",
       "photos": [
         {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Cooper (callie).jpg"
+        },
+        {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/cooper.PNG"
         },
         {
@@ -152,23 +168,13 @@
       "name": "Charles",
       "gender": "Boy",
       "price": "$1,200",
-      "status": "Reserved",
-      "photos": [
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/typorama_pi5k9m.png"
-        }
-      ]
+      "status": "Reserved"
     },
     {
       "name": "Cora",
       "gender": "Girl",
       "price": "$2,000",
-      "status": "Reserved",
-      "photos": [
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/typorama_pqhf7d.png"
-        }
-      ]
+      "status": "Reserved"
     }
   ],
   "showCarousel": true
