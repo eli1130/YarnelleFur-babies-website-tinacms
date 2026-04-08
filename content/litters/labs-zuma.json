@@ -1,4 +1,5 @@
 {
+  "active": true,
   "sortOrder": 8,
   "title": "Labradors",
   "slug": "labs-zuma",
@@ -29,6 +30,9 @@
       "status": "Available",
       "photos": [
         {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/phonto 16.JPG"
+        },
+        {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/phonto%207.JPG"
         }
       ]
@@ -40,6 +44,9 @@
       "status": "Available",
       "photos": [
         {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/phonto 17.JPG"
+        },
+        {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/phonto%208.JPG"
         }
       ]
@@ -50,6 +57,9 @@
       "price": "$1,200",
       "status": "Available",
       "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/phonto 18.JPG"
+        },
         {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/phonto%209.JPG"
         }
@@ -68,6 +78,9 @@
       "status": "Available",
       "photos": [
         {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/phonto 20.JPG"
+        },
+        {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/phonto%202.JPG"
         }
       ]
@@ -79,6 +92,9 @@
       "status": "Available",
       "photos": [
         {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/phonto 19.JPG"
+        },
+        {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/phonto%203.JPG"
         }
       ]
@@ -89,6 +105,9 @@
       "price": "$1,200",
       "status": "Available",
       "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/phonto 21.JPG"
+        },
         {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/phonto%204.JPG"
         }
@@ -107,9 +126,13 @@
       "status": "Available",
       "photos": [
         {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/phonto 22.JPG"
+        },
+        {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/phonto%206.JPG"
         }
       ]
     }
-  ]
+  ],
+  "showCarousel": true
 }
