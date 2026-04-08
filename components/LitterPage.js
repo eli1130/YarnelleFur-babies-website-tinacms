@@ -91,6 +91,7 @@ const STYLES = `
   .puppy-carousel-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:1.5rem; margin-bottom:3rem; }
   .puppy-carousel-card { border:1px solid var(--light-gray); border-radius:4px; overflow:hidden; padding:1rem; }
   .puppy-carousel-name { font-family:'Cormorant Garamond',serif; font-size:1.1rem; font-weight:400; color:var(--black); margin-bottom:0.75rem; text-align:center; }
+  .puppy-carousel-price { font-family:'Cormorant Garamond',serif; font-size:1rem; color:var(--red); font-style:italic; text-align:center; margin-bottom:0.5rem; }
   .puppy-carousel-card .carousel { margin-bottom:0; }
   .puppy-carousel-card .carousel-track img { height:280px; }
 
@@ -192,6 +193,7 @@ export default function LitterPage({ litter }) {
               {litter.puppyCarousels.map((puppy, i) => (
                 <div key={i} className="puppy-carousel-card">
                   <div className="puppy-carousel-name">{puppy.name}</div>
+                  {puppy.price && <div className="puppy-carousel-price">{puppy.price}</div>}
                   <Carousel photos={puppy.photos} alt={puppy.name} />
                 </div>
               ))}
