@@ -19,7 +19,7 @@ export default function LitterPageRoute({ data, query, variables }) {
   const photos = puppies.flatMap(p => p.photos);
   const puppyCarousels = puppies
     .filter(p => p.photos.length > 0)
-    .map(p => ({ name: p.name, photos: p.photos }));
+    .map(p => ({ name: p.name, photos: p.photos, price: p.price }));
 
   const litter = {
     slug: node.slug,
