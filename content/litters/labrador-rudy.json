@@ -1,0 +1,63 @@
+{
+  "active": true,
+  "sortOrder": 11,
+  "title": "Labradors",
+  "slug": "labrador-rudy",
+  "breeder": "Hunter & Sarah Nicodemus",
+  "generation": "Standard",
+  "priceRange": "$1,200",
+  "litterTitle": "Rudy × Hoosier",
+  "dateOfBirth": "March 14, 2026",
+  "takeHomeDate": "May 9, 2026",
+  "estimatedSize": "60-75 lbs",
+  "grooming": "Labradors should be bathed every 6–8 weeks and groomed weekly to keep their coat healthy.",
+  "temperament": "Labrador Retrievers are friendly, outgoing, and loyal dogs known for their gentle, playful and eager-to-please nature.",
+  "deposit": "$200",
+  "contact": "Sarah · (260) 494-0405",
+  "damName": "Rudy",
+  "damDesc": "Standard Lab (65 lbs)",
+  "damPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Rudy.JPEG",
+  "sireName": "Hoosier",
+  "sireDesc": "Standard Lab (70 lbs)",
+  "cardDesc": "Labradors - Labrador Retrievers are friendly, outgoing, and loyal dogs. Rudy x Hoosier litter.\n",
+  "cardPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/phonto 24.JPG",
+  "sirePhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_0264.JPG",
+  "puppies": [
+    {
+      "name": "Rocco",
+      "gender": "Boy",
+      "price": "$1,200",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/phonto 23.JPG",
+          "alt": "Labrador retrievers"
+        }
+      ]
+    },
+    {
+      "name": "Rex",
+      "gender": "Boy",
+      "price": "$1,200",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/phonto.JPEG",
+          "alt": "Labrador retrievers"
+        }
+      ]
+    },
+    {
+      "name": "Riley",
+      "gender": "Girl",
+      "price": "$1,200",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Riley (rudy).JPG",
+          "alt": "Labrador retrievers"
+        }
+      ]
+    }
+  ]
+}
