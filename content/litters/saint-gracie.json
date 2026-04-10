@@ -5,7 +5,7 @@
   "slug": "saint-gracie",
   "breeder": "Dakoda & Brooke Labenz",
   "generation": "F1B",
-  "priceRange": "$1,400",
+  "priceRange": "$1,200",
   "litterTitle": "Gracie × Pumpkin",
   "dateOfBirth": "Febuary 1, 2026",
   "takeHomeDate": "Ready Now!",
@@ -26,7 +26,7 @@
     {
       "name": "Gunner",
       "gender": "Boy",
-      "price": "$1,400",
+      "price": "$1,200",
       "status": "Available",
       "photos": [
         {
@@ -50,7 +50,7 @@
     {
       "name": "Grady",
       "gender": "Boy",
-      "price": "$1,400",
+      "price": "$1,200",
       "status": "Available",
       "photos": [
         {
@@ -68,7 +68,7 @@
     {
       "name": "Granger",
       "gender": "Boy",
-      "price": "$1,400",
+      "price": "$1,200",
       "status": "Available",
       "photos": [
         {
@@ -85,7 +85,7 @@
     {
       "name": "Graham",
       "gender": "Boy",
-      "price": "$1,400",
+      "price": "$1,200",
       "status": "Available",
       "photos": [
         {
@@ -102,7 +102,7 @@
     {
       "name": "Georgia",
       "gender": "Girl",
-      "price": "$1,400",
+      "price": "$1,200",
       "status": "Available",
       "photos": [
         {
