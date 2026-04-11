@@ -27,19 +27,7 @@
       "name": "Gunner",
       "gender": "Boy",
       "price": "$1,200",
-      "status": "Available",
-      "photos": [
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Gunner (gracie).JPG",
-          "alt": "F1B St berdoodles"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/typorama.jpeg"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/typorama_qhgwnv.png"
-        }
-      ]
+      "status": "Sold"
     },
     {
       "name": "Gemma",
@@ -51,19 +39,7 @@
       "name": "Grady",
       "gender": "Boy",
       "price": "$1,200",
-      "status": "Available",
-      "photos": [
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Grady (gracie).PNG",
-          "alt": "F1B St Berdoodles"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Grady.JPEG"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/typorama_rhgex7.png"
-        }
-      ]
+      "status": "Sold"
     },
     {
       "name": "Granger",
@@ -85,7 +61,7 @@
     {
       "name": "Graham",
       "gender": "Boy",
-      "price": "$1,200",
+      "price": "$950",
       "status": "Available",
       "photos": [
         {
