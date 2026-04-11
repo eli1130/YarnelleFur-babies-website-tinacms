@@ -16,7 +16,7 @@
   "contact": "Luke · (260) 213-1685",
   "damName": "Summer",
   "damDesc": "AKC Bernese Mountain Dog (90lbs)",
-  "damPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Summer pic.avif",
+  "damPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/New Summer pic.JPG",
   "sireName": "Bamboo",
   "sireDesc": "AKC Sable Parti Standard Poodle (60lbs)",
   "cardDesc": "Standard F1 Bernedoodles- They are incredibly friendly with other dogs, cats, and kiddo. Summer x Bamboo",
@@ -38,12 +38,7 @@
       "name": "Sloane",
       "gender": "Girl",
       "price": "$2,500",
-      "status": "Available",
-      "photos": [
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_5808.JPG"
-        }
-      ]
+      "status": "Reserved"
     },
     {
       "name": "Skylar",
