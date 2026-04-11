@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "tinacms dev -c \"next dev\"",
     "build": "tinacms build && next build",
+    "postbuild": "next-sitemap",
     "start": "next start",
     "lint": "next lint"
   },
@@ -15,6 +16,7 @@
     "@tinacms/cli": "^2.1.9",
     "fs-extra": "^11.3.4",
     "next": "14.2.3",
+    "next-sitemap": "^4.2.3",
     "next-tinacms-cloudinary": "^23.0.1",
     "next-tinacms-s3": "^20.0.2",
     "react": "^18",
