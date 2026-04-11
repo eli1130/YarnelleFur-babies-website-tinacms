@@ -1,0 +1,51 @@
+{
+  "active": true,
+  "sortOrder": 13,
+  "title": "Bossi-poos",
+  "slug": "bossipoo-phyllis",
+  "breeder": "Hunter & Sarah Nicodemus",
+  "generation": "F1",
+  "priceRange": "$750",
+  "litterTitle": "Phyllis x Teddy",
+  "dateOfBirth": "March 20, 2026",
+  "takeHomeDate": "May 15, 2026",
+  "estimatedSize": "10-12 lbs",
+  "grooming": "Roughly every 3-4 months",
+  "temperament": "Highly intelligent, social, and devoted; they offer a perfect balance of playful energy and a calm, affectionate nature. They are sturdy, quick learners who love being part of the family and are excellent with children.",
+  "deposit": "$200",
+  "contact": "Sarah · (260) 494-0405",
+  "damName": "Phyllis",
+  "damDesc": "AKC registered Boston Terrier (15lbs)",
+  "damPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Phillis winter.JPG",
+  "sireName": "Teddy",
+  "sireDesc": "AKC Toy Poodle (9 lbs)",
+  "cardDesc": "Highly intelligent, social, and devoted; they offer a perfect balance of playful energy and a calm, affectionate nature. Phyllis x Teddy litter",
+  "cardPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Bossi-poo 2.JPG",
+  "sirePhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/image_0103.jpg",
+  "puppies": [
+    {
+      "name": "Phoebe",
+      "gender": "Girl",
+      "price": "$750",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Bossi-poo%202.JPG",
+          "alt": "Bossi-poos in indiana"
+        }
+      ]
+    },
+    {
+      "name": "Phoenix",
+      "gender": "Girl",
+      "price": "$750",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Bossi-poo 1.JPG",
+          "alt": "Bossi-poos in indiana"
+        }
+      ]
+    }
+  ]
+}
