@@ -5,3 +5,38 @@
 [build.environment]
   NODE_VERSION = "18"
   SECRETS_SCAN_OMIT_KEYS = "NEXT_PUBLIC_TINA_CLIENT_ID,TINA_TOKEN"
+
+[[redirects]]
+  from = "/standardf1bsaintberdoodles-rose"
+  to = "/litters"
+  status = 301
+
+[[redirects]]
+  from = "/miniature-f1bb-goldendoodles"
+  to = "/litters"
+  status = 301
+
+[[redirects]]
+  from = "/mini-f1b-bernedoodles"
+  to = "/litters"
+  status = 301
+
+[[redirects]]
+  from = "/petunia-spruce-tricolored-standard-bernedoodles"
+  to = "/litters"
+  status = 301
+
+[[redirects]]
+  from = "/standard-f1b-aussiedoodles"
+  to = "/litters"
+  status = 301
+
+[[redirects]]
+  from = "/toy-f1-aussiedoodles"
+  to = "/litters"
+  status = 301
+
+[[redirects]]
+  from = "/about-us"
+  to = "/about"
+  status = 301
