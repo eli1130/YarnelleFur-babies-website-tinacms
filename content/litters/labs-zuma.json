@@ -123,15 +123,7 @@
       "name": "Zayden",
       "gender": "Boy",
       "price": "$1,200",
-      "status": "Available",
-      "photos": [
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/phonto 22.JPG"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/phonto%206.JPG"
-        }
-      ]
+      "status": "Reserved"
     }
   ],
   "showCarousel": true
