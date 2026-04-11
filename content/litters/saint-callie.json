@@ -135,18 +135,7 @@
       "name": "Claire",
       "gender": "Girl",
       "price": "$2,000",
-      "status": "Available",
-      "photos": [
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Claire (gracie).jpg"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/claire.JPEG"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/typorama_synsmq.png"
-        }
-      ]
+      "status": "Sold"
     },
     {
       "name": "Cooper",
