@@ -29,7 +29,9 @@
       "price": "$1,500",
       "status": "Available",
       "photos": [
-        {},
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Cavapoo (Rochelle).JPG"
+        },
         {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/phonto%2011.JPG"
         }
@@ -42,6 +44,9 @@
       "status": "Available",
       "photos": [
         {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Cavapoo (Rip).JPG"
+        },
+        {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/phonto%2012.JPG"
         }
       ]
@@ -52,6 +57,9 @@
       "price": "$2,000",
       "status": "Available",
       "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Cavapoo (Rhett).JPG"
+        },
         {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/phonto%2013.JPG"
         }
