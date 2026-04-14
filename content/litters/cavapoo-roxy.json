@@ -29,6 +29,7 @@
       "price": "$1,500",
       "status": "Available",
       "photos": [
+        {},
         {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/phonto%2011.JPG"
         }
@@ -56,5 +57,6 @@
         }
       ]
     }
-  ]
+  ],
+  "showCarousel": true
 }
