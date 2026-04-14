@@ -34,6 +34,90 @@
           "alt": "Goldendoodles in Indiana"
         }
       ]
+    },
+    {
+      "name": "Whitney",
+      "gender": "Girl",
+      "price": "$3,000",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Goldendoodle%20(Whitney).JPG",
+          "alt": "Goldendoodles in Indiana"
+        }
+      ]
+    },
+    {
+      "name": "Winnie",
+      "gender": "Girl",
+      "price": "$3,000",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Goldendoodle (Winnie).JPG",
+          "alt": "Goldendoodles in Indiana"
+        }
+      ]
+    },
+    {
+      "name": "Wyatt",
+      "gender": "Boy",
+      "price": "$2,600",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Goldendoodle (wyatt).JPG",
+          "alt": "Goldendoodles in Indiana"
+        }
+      ]
+    },
+    {
+      "name": "Walker",
+      "gender": "Boy",
+      "price": "$2,800",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Goldendoodle (Walker).JPG",
+          "alt": "Goldendoodles in Indiana"
+        }
+      ]
+    },
+    {
+      "name": "Wesley",
+      "gender": "Boy",
+      "price": "$2,200",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Goldendoodle (wesley).JPG",
+          "alt": "Goldendoodles in Indiana"
+        }
+      ]
+    },
+    {
+      "name": "Winston",
+      "gender": "Boy",
+      "price": "$2,200",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Goldendoodle (winston).JPG",
+          "alt": "Goldendoodles in Indiana"
+        }
+      ]
+    },
+    {
+      "name": "Wade",
+      "gender": "Boy",
+      "price": "$2,200",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Goldendoodle (wade).JPG",
+          "alt": "Goldendoodles in Indiana"
+        }
+      ]
     }
   ]
 }
