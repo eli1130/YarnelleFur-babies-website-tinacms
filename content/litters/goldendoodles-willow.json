@@ -1,0 +1,39 @@
+{
+  "active": true,
+  "sortOrder": 4,
+  "title": "Standard F1B Goldendoodles",
+  "slug": "goldendoodles-willow",
+  "breeder": "John & Kathy Yarnelle",
+  "generation": "F1B",
+  "priceRange": "$2,200-$3,000",
+  "litterTitle": "Willow x Bonsai",
+  "dateOfBirth": "March 27, 2026",
+  "takeHomeDate": "May 22, 2026",
+  "estimatedSize": "50-60 lbs",
+  "grooming": "Roughly every 4-6 months",
+  "temperament": "Standard F1B Goldendoodles are high-energy, intelligent, and incredibly social companions. Combining the gentle nature of the Golden Retriever with the advanced trainability of the Poodle, they are the ultimate family dog.",
+  "deposit": "$600",
+  "contact": "Eli · (260) 445-4378",
+  "damName": "Willow",
+  "damDesc": "Standard F1 Goldedoodle (45lbs)",
+  "damPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Willow pic.jpeg",
+  "sireName": "Bonsai",
+  "sireDesc": "AKC Standard Poodle (60lbs)",
+  "cardDesc": "Standard F1B Goldendoodles — highly intelligent and social family companions. The ultimate \"velcro dog\" that is eager to please. Willow x Bonsai litter",
+  "cardPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Goldendoodle (Whitney).JPG",
+  "sirePhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/image_0044.jpg",
+  "puppies": [
+    {
+      "name": "Winter",
+      "gender": "Girl",
+      "price": "$3,000",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Goldendoodle (winter).JPG",
+          "alt": "Goldendoodles in Indiana"
+        }
+      ]
+    }
+  ]
+}
