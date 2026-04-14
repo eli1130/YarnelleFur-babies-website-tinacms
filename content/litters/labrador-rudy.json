@@ -30,17 +30,23 @@
       "status": "Available",
       "photos": [
         {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Labrador (Rocco) 1.JPG"
+        },
+        {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/phonto 23.JPG",
           "alt": "Labrador retrievers"
         }
       ]
     },
     {
-      "name": "Rex",
+      "name": "Rexx",
       "gender": "Boy",
       "price": "$1,200",
       "status": "Available",
       "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Labrador (Rexx) 1.JPG"
+        },
         {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/phonto.JPEG",
           "alt": "Labrador retrievers"
@@ -54,10 +60,14 @@
       "status": "Available",
       "photos": [
         {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Labrador (Riley) 1.JPG"
+        },
+        {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Riley (rudy).JPG",
           "alt": "Labrador retrievers"
         }
       ]
     }
-  ]
+  ],
+  "showCarousel": true
 }
