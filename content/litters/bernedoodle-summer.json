@@ -30,6 +30,9 @@
       "status": "Available",
       "photos": [
         {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Bernedoodle (Sienna) 1.JPG"
+        },
+        {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_5807.JPG"
         }
       ]
@@ -53,6 +56,9 @@
       "status": "Available",
       "photos": [
         {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Bernedoodle (savannah) 1.JPG"
+        },
+        {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_5810.JPG"
         }
       ]
@@ -63,6 +69,9 @@
       "price": "$2,500",
       "status": "Available",
       "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Bernedoodle (sage) 1.JPG"
+        },
         {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_5811.JPG"
         }
@@ -75,6 +84,9 @@
       "status": "Available",
       "photos": [
         {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Bernedoodle (scott) 1.JPG"
+        },
+        {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_5812.JPG"
         }
       ]
@@ -85,6 +97,9 @@
       "price": "$2,000",
       "status": "Available",
       "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Bernedoodle (silas) 1.JPG"
+        },
         {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_5813.JPG"
         }
@@ -97,6 +112,9 @@
       "status": "Available",
       "photos": [
         {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Bernedoodle (sawyer) 1.JPG"
+        },
+        {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_5814.JPG"
         }
       ]
@@ -108,11 +126,15 @@
       "status": "Available",
       "photos": [
         {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Bernedoodle (sebastian) 1.JPG"
+        },
+        {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_5815.JPG"
         }
       ]
     }
   ],
+  "showCarousel": true,
   "previousPuppies": [
     {
       "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Summer prev puppy pic 1.avif"
