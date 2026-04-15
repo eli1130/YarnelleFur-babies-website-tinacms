@@ -40,6 +40,7 @@ export default function LitterPageRoute({ data, query, variables }) {
     damPhoto: node.damPhoto || '',
     sirePhoto: node.sirePhoto || '',
     cardPhoto: node.cardPhoto || '',
+    description: node.cardDesc || '',
     photos,
     prevPhotos,
     showCarousel,
