@@ -398,19 +398,17 @@ export default function Home({ litters }) {
                 <div className="form-field">
                   <label>Which Breed or Litter? *</label>
                   <select name="breed" required onChange={handleChange}>
-                    <option value="">Select a breed...</option>
-                    <option>Saint Berdoodles (Lucy) — John &amp; Kathy (Lucy)</option>
-                    <option>Standard F1 Bernedoodles — John &amp; Kathy</option>
-                    <option>Micro Mini F1B Bernedoodles — John &amp; Kathy</option>
-                    <option>Saint Berdoodles (Blake) — Luke &amp; Eli</option>
-                    <option>Cavapoos — Dakoda &amp; Brooke</option>
-                    <option>Saint Berdoodles (Gracie) — Dakoda &amp; Brooke</option>
-                    <option>Saint Berdoodles (Callie) — Dakoda &amp; Brooke</option>
-                    <option>Micro Mini Goldendoodles — Hunter &amp; Sarah</option>
-                    <option>Micro Mini F1B Cavapoos — Hunter &amp; Sarah</option>
-                    <option>Standard Labradors — Hunter &amp; Sarah</option>
-                    <option>Not sure yet</option>
-                  </select>
+                   <option value="">Select a breed...</option>
+                   {litters
+                     .filter(l => l.active !== false)
+                     .sort((a, b) => (a.sortOrder || 99) - (b.sortOrder || 99))
+                     .map(l => (
+                      <option key={l.slug} value={`${l.title} — ${l.breeder}`}>
+                        {l.title} — {l.breeder}
+                      </option>
+                    ))}
+                  <option value="Not sure yet">Not sure yet</option>
+                </select>
                 </div>
                 <div className="form-field">
                   <label>Rent or Own?</label>
