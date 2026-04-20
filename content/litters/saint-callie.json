@@ -20,7 +20,7 @@
   "sireName": "Pumpkin",
   "sireDesc": "AKC Standard Poodle 70 lbs",
   "cardDesc": "Standard F1B Saint Berdoodles — gentle giants, cuddly, calm, and great with families. Callie × Pumpkin litter.\n\n",
-  "cardPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Claire%20(gracie).jpg",
+  "cardPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/St.berdoodle%20(calliope)%202.PNG",
   "sirePhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/image_0141.jpg",
   "puppies": [
     {
@@ -29,6 +29,10 @@
       "price": "$1,200",
       "status": "Available",
       "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/St.berdoodle (calliope) 2.PNG",
+          "alt": "St.berdoodles in Indiana"
+        },
         {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Calliope (callie).jpg"
         },
@@ -47,6 +51,10 @@
       "status": "Available",
       "photos": [
         {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/St.berdoodles (camille 2).JPEG",
+          "alt": "St.berdoodles in Indiana"
+        },
+        {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Camille (callie).PNG"
         },
         {
@@ -64,6 +72,10 @@
       "status": "Available",
       "photos": [
         {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/St.berdoodle (candy) 2.JPEG",
+          "alt": "St.berdoodles in Indiana"
+        },
+        {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Candy (callie).PNG"
         },
         {
@@ -80,6 +92,10 @@
       "price": "$1,200",
       "status": "Available",
       "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/St.berdoodle (charlotte) 2.JPEG",
+          "alt": "St.berdoodles in indiana"
+        },
         {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Charlotte (callie).PNG"
         },
