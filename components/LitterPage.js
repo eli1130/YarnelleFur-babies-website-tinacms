@@ -29,7 +29,8 @@ const STYLES = `
   .litter-main { min-width:0; }
   .section-title { font-family:'Cormorant Garamond',serif; font-size:1.5rem; font-weight:400; color:var(--black); margin-bottom:1.25rem; padding-bottom:0.75rem; border-bottom:1px solid var(--light-gray); }
   .puppy-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:0.75rem; margin-bottom:3rem; }
-  .puppy-grid img { width:100%; height:auto; border-radius:4px; display:block; }
+  .puppy-grid img { width:100%; height:auto; border-radius:4px; display:block; cursor:zoom-in; transition:opacity 0.2s; }
+  .puppy-grid img:hover { opacity:0.85; }
   .litter-details { display:grid; grid-template-columns:1fr 1fr; gap:0.75rem; margin-bottom:3rem; }
   .detail-box { background:var(--offwhite); border:1px solid var(--light-gray); border-radius:4px; padding:1rem 1.25rem; }
   .detail-box.full { grid-column:span 2; }
@@ -51,7 +52,8 @@ const STYLES = `
   .parent-name { font-family:'Cormorant Garamond',serif; font-size:1.2rem; font-weight:400; color:var(--black); margin-bottom:0.25rem; }
   .parent-desc { font-size:0.82rem; color:var(--text-light); }
   .prev-grid { display:grid; grid-template-columns:repeat(4,1fr); gap:0.75rem; margin-bottom:3rem; }
-  .prev-grid img { width:100%; height:220px; object-fit:cover; border-radius:4px; display:block; }
+  .prev-grid img { width:100%; height:220px; object-fit:cover; border-radius:4px; display:block; cursor:zoom-in; transition:opacity 0.2s; }
+  .prev-grid img:hover { opacity:0.85; }
   .litter-sidebar { position:sticky; top:84px; }
   .quick-facts { border:1px solid var(--light-gray); border-radius:4px; overflow:hidden; margin-bottom:1.5rem; }
   .quick-facts-title { background:var(--offwhite); padding:0.85rem 1.25rem; font-size:0.72rem; letter-spacing:0.15em; text-transform:uppercase; color:var(--text); border-bottom:1px solid var(--light-gray); }
@@ -80,7 +82,8 @@ const STYLES = `
   .carousel { position:relative; margin-bottom:3rem; }
   .carousel-track-wrap { overflow:hidden; border-radius:4px; }
   .carousel-track { display:flex; transition:transform 0.4s ease; }
-  .carousel-track img { width:100%; flex-shrink:0; height:420px; object-fit:contain; background:transparent; border-radius:4px; }
+  .carousel-track img { width:100%; flex-shrink:0; height:420px; object-fit:contain; background:transparent; border-radius:4px; cursor:zoom-in; transition:opacity 0.2s; }
+  .carousel-track img:hover { opacity:0.85; }
   .carousel-btn { position:absolute; top:50%; transform:translateY(-50%); background:rgba(0,0,0,0.55); border:none; color:#fff; font-size:1.4rem; width:42px; height:42px; border-radius:50%; cursor:pointer; display:flex; align-items:center; justify-content:center; z-index:10; transition:background 0.2s; }
   .carousel-btn:hover { background:rgba(0,0,0,0.85); }
   .carousel-btn.prev { left:10px; }
@@ -94,6 +97,17 @@ const STYLES = `
   .puppy-carousel-price { font-family:'Cormorant Garamond',serif; font-size:1rem; color:var(--red); font-style:italic; text-align:center; margin-bottom:0.5rem; }
   .puppy-carousel-card .carousel { margin-bottom:0; }
   .puppy-carousel-card .carousel-track img { height:280px; }
+
+  /* LIGHTBOX */
+  .lightbox-overlay { position:fixed; inset:0; background:rgba(0,0,0,0.92); z-index:1000; display:flex; align-items:center; justify-content:center; padding:1rem; }
+  .lightbox-img { max-width:90vw; max-height:90vh; object-fit:contain; border-radius:4px; box-shadow:0 8px 40px rgba(0,0,0,0.6); }
+  .lightbox-close { position:fixed; top:1.25rem; right:1.5rem; background:none; border:none; color:#fff; font-size:2rem; cursor:pointer; line-height:1; opacity:0.8; transition:opacity 0.2s; z-index:1001; }
+  .lightbox-close:hover { opacity:1; }
+  .lightbox-btn { position:fixed; top:50%; transform:translateY(-50%); background:rgba(255,255,255,0.12); border:none; color:#fff; font-size:2rem; width:52px; height:52px; border-radius:50%; cursor:pointer; display:flex; align-items:center; justify-content:center; transition:background 0.2s; z-index:1001; }
+  .lightbox-btn:hover { background:rgba(255,255,255,0.25); }
+  .lightbox-btn.prev { left:1rem; }
+  .lightbox-btn.next { right:1rem; }
+  .lightbox-counter { position:fixed; bottom:1.5rem; left:50%; transform:translateX(-50%); color:rgba(255,255,255,0.6); font-size:0.8rem; letter-spacing:0.1em; z-index:1001; }
 
   @media (max-width:960px) {
     nav { padding:0 1.5rem; }
@@ -114,10 +128,40 @@ const STYLES = `
     .footer-inner { grid-template-columns:1fr 1fr; gap:2rem; }
     .footer-brand { grid-column:span 2; }
     .footer-bottom { flex-direction:column; gap:0.5rem; text-align:center; }
+    .lightbox-btn.prev { left:0.25rem; }
+    .lightbox-btn.next { right:0.25rem; }
   }
 `;
 
-function Carousel({ photos, alt }) {
+function Lightbox({ images, startIndex, onClose }) {
+  const [index, setIndex] = useState(startIndex);
+  const total = images.length;
+  const prev = (e) => { e.stopPropagation(); setIndex((index - 1 + total) % total); };
+  const next = (e) => { e.stopPropagation(); setIndex((index + 1) % total); };
+
+  // Close on Escape key
+  if (typeof window !== 'undefined') {
+    const handler = (e) => { if (e.key === 'Escape') onClose(); };
+    window.onkeydown = handler;
+  }
+
+  return (
+    <div className="lightbox-overlay" onClick={onClose}>
+      <button className="lightbox-close" onClick={onClose}>✕</button>
+      {total > 1 && <button className="lightbox-btn prev" onClick={prev}>&#8249;</button>}
+      <img
+        className="lightbox-img"
+        src={images[index]}
+        alt={`Photo ${index + 1}`}
+        onClick={(e) => e.stopPropagation()}
+      />
+      {total > 1 && <button className="lightbox-btn next" onClick={next}>&#8250;</button>}
+      {total > 1 && <div className="lightbox-counter">{index + 1} / {total}</div>}
+    </div>
+  );
+}
+
+function Carousel({ photos, alt, onImageClick }) {
   const [index, setIndex] = useState(0);
   const total = photos.length;
   const prev = () => setIndex((index - 1 + total) % total);
@@ -128,7 +172,12 @@ function Carousel({ photos, alt }) {
       <div className="carousel-track-wrap">
         <div className="carousel-track" style={{ transform: `translateX(-${index * 100}%)` }}>
           {photos.map((src, i) => (
-            <img key={i} src={src} alt={`${alt} ${i + 1}`} />
+            <img
+              key={i}
+              src={src}
+              alt={`${alt} ${i + 1}`}
+              onClick={() => onImageClick && onImageClick(i)}
+            />
           ))}
         </div>
       </div>
@@ -149,6 +198,10 @@ function Carousel({ photos, alt }) {
 
 export default function LitterPage({ litter }) {
   const [navOpen, setNavOpen] = useState(false);
+  const [lightbox, setLightbox] = useState(null); // { images: [], index: 0 }
+
+  const openLightbox = (images, index) => setLightbox({ images, index });
+  const closeLightbox = () => setLightbox(null);
 
   return (
     <>
@@ -160,6 +213,10 @@ export default function LitterPage({ litter }) {
         <link rel="icon" href="https://res.cloudinary.com/dyzfpnrhg/image/upload/v1773365064/IMG_5493_gvo13y.jpg" />
       </Head>
       <style>{STYLES}</style>
+
+      {lightbox && (
+        <Lightbox images={lightbox.images} startIndex={lightbox.index} onClose={closeLightbox} />
+      )}
 
       <div className="announcement">✈ Out of State? We Offer Ground &amp; Air Transport via Puppy Nanny — <a href="tel:2604439035">Call Brooke: (260) 443-9035</a></div>
 
@@ -195,14 +252,23 @@ export default function LitterPage({ litter }) {
                 <div key={i} className="puppy-carousel-card">
                   <div className="puppy-carousel-name">{puppy.name}</div>
                   {puppy.price && <div className="puppy-carousel-price">{puppy.price}</div>}
-                  <Carousel photos={puppy.photos} alt={puppy.name} />
+                  <Carousel
+                    photos={puppy.photos}
+                    alt={puppy.name}
+                    onImageClick={(imgIdx) => openLightbox(puppy.photos, imgIdx)}
+                  />
                 </div>
               ))}
             </div>
           ) : (
             <div className="puppy-grid">
               {litter.photos.map((src, i) => (
-                <img key={i} src={src} alt={`${litter.title} puppy`} />
+                <img
+                  key={i}
+                  src={src}
+                  alt={`${litter.title} puppy`}
+                  onClick={() => openLightbox(litter.photos, i)}
+                />
               ))}
             </div>
           )}
@@ -281,11 +347,20 @@ export default function LitterPage({ litter }) {
             <>
               <h2 className="section-title">Previous {litter.title} Puppies</h2>
               {litter.showPrevCarousel ? (
-                <Carousel photos={litter.prevPhotos} alt={`Previous ${litter.title}`} />
+                <Carousel
+                  photos={litter.prevPhotos}
+                  alt={`Previous ${litter.title}`}
+                  onImageClick={(imgIdx) => openLightbox(litter.prevPhotos, imgIdx)}
+                />
               ) : (
                 <div className="prev-grid">
                   {litter.prevPhotos.map((src, i) => (
-                    <img key={i} src={src} alt="Previous puppy" />
+                    <img
+                      key={i}
+                      src={src}
+                      alt="Previous puppy"
+                      onClick={() => openLightbox(litter.prevPhotos, i)}
+                    />
                   ))}
                 </div>
               )}
