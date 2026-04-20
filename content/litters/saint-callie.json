@@ -24,23 +24,6 @@
   "sirePhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/image_0141.jpg",
   "puppies": [
     {
-      "name": "Cece",
-      "gender": "Girl",
-      "price": "$1,800",
-      "status": "Available",
-      "photos": [
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Callie (cece).jpg"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/cece.PNG"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/typorama_bo3rod.png"
-        }
-      ]
-    },
-    {
       "name": "Calliope",
       "gender": "Girl",
       "price": "$1,200",
@@ -109,27 +92,22 @@
       ]
     },
     {
+      "name": "Cece",
+      "gender": "Girl",
+      "price": "$1,800",
+      "status": "Sold"
+    },
+    {
       "name": "Chloe",
       "gender": "Girl",
       "price": "$1,200",
-      "status": "Reserved"
+      "status": "Sold"
     },
     {
       "name": "Chuck",
       "gender": "Boy",
       "price": "$1,200",
-      "status": "Available",
-      "photos": [
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Chuck (callie).jpg"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/chuck.PNG"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/typorama_fcnbsw.png"
-        }
-      ]
+      "status": "Sold"
     },
     {
       "name": "Claire",
@@ -141,30 +119,19 @@
       "name": "Cooper",
       "gender": "Boy",
       "price": "$1,200",
-      "status": "Available",
-      "photos": [
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Cooper (callie).jpg"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/cooper.PNG"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/typorama_t3zx7u.png"
-        }
-      ]
+      "status": "Sold"
     },
     {
       "name": "Charles",
       "gender": "Boy",
       "price": "$1,200",
-      "status": "Reserved"
+      "status": "Sold"
     },
     {
       "name": "Cora",
       "gender": "Girl",
       "price": "$2,000",
-      "status": "Reserved"
+      "status": "Sold"
     }
   ],
   "showCarousel": true
