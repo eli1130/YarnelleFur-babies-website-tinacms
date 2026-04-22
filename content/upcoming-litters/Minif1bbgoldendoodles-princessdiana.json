@@ -8,6 +8,17 @@
   "estimatedSize": "30-40 lbs",
   "cardDesc": "These darling Mini F1bb Goldendoodles have stunning, curl-patterned coats. Hypoallergenic, exceptionally smart, and ready to be a wonderful companion for your children.",
   "description": "Our Mini F1BB Goldendoodles are the perfect addition to any home, especially for those who need a truly hypoallergenic and non-shedding companion. These puppies are the result of careful breeding to ensure the most predictable coat types and the sweetest temperaments. Raised right here on our 10-acre property, they are socialized daily with children and other animals to ensure they are confident and ready for their forever families. Expect a loyal, wavy-to-curly coated best friend who is as smart as they are soft.",
+  "cardPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/0-4.jpg",
   "damName": "Princess Diana",
-  "sireName": "Billy"
+  "damDesc": "Princess Diana is the epitome of grace and intelligence. As an AKC Standard Poodle, she brings an elegant, athletic build and a highly intuitive nature to our breeding program. She is exceptionally gentle and has a calm, regal temperament that makes her a favorite on the farm. Her hypoallergenic, curly coat and sharp mind are just a few of the wonderful traits she passes down to her puppies.",
+  "damPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/0-4.jpg",
+  "sireName": "Billy",
+  "sireDesc": "Billy is a bundle of joy with a heart of gold. As a Mini F1b Goldendoodle, he offers the perfect combination of the Golden Retriever’s friendly, \"everyone-is-my-best-friend\" personality and the Poodle’s compact size and low-shedding qualities. He is playful, affectionate, and has a sturdy, athletic frame. Billy’s eager-to-please attitude and charming looks make him the perfect sire for these adorable mini companions.",
+  "sirePhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/typorama 24_PNG.jpeg",
+  "previousPuppies": [
+    {
+      "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_7744.jpeg",
+      "alt": "Mini f1bb goldendoodles"
+    }
+  ]
 }
