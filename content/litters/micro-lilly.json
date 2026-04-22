@@ -27,34 +27,19 @@
       "name": "Luna",
       "gender": "Girl",
       "price": "$3,750",
-      "status": "Reserved",
-      "photos": [
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_5723.JPG"
-        }
-      ]
+      "status": "Reserved"
     },
     {
       "name": "Laurel",
       "gender": "Girl",
       "price": "$3,000",
-      "status": "Reserved",
-      "photos": [
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_5725.JPG"
-        }
-      ]
+      "status": "Reserved"
     },
     {
       "name": "Lexi",
       "gender": "Girl",
       "price": "$2,500",
-      "status": "Reserved",
-      "photos": [
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_5722.JPG"
-        }
-      ]
+      "status": "Reserved"
     },
     {
       "name": "Lena",
@@ -62,6 +47,10 @@
       "price": "$2,500",
       "status": "Available",
       "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_6140.JPG",
+          "alt": "Micro mini bernedoodle in indiana"
+        },
         {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_5724.JPG"
         }
@@ -74,9 +63,14 @@
       "status": "Available",
       "photos": [
         {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_6141.JPG",
+          "alt": "Micro mini bernedoodle in indiana"
+        },
+        {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_5726.JPG"
         }
       ]
     }
-  ]
+  ],
+  "showCarousel": true
 }
