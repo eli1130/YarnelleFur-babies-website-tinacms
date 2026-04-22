@@ -192,6 +192,7 @@ export default function Home({ litters }) {
        <li><Link href="/about">About Us</Link></li>
        <li><Link href="/gotjesus">Got Jesus?</Link></li>
        <li><Link href="/#litters">Available Litters</Link></li>
+       <li><Link href="/upcoming-litters">Upcoming Litters &amp; Waitlist</Link></li>
        <li><Link href="/reviews">Reviews</Link></li>
        <li><Link href="/facility">Our Facility</Link></li>
        <li><Link href="/faq">FAQ &amp; Products</Link></li>
@@ -478,13 +479,14 @@ export default function Home({ litters }) {
             <Link href="/about">About Us</Link>
             <Link href="/gotjesus">Got Jesus?</Link>
             <Link href="/#litters">Available Litters</Link>
+            <Link href="/upcoming-litters">Upcoming Litters</Link>
             <Link href="/reviews">Reviews</Link>
             <Link href="/faq">FAQ &amp; Products</Link>
           </div>
           <div className="footer-col">
             <h5>Contact</h5>
-            <p>Brooke Labenz</p>
-            <a href="tel:2604439035">(260) 443-9035</a>
+            <p>Eli Yarnelle</p>
+            <a href="tel:2604454378">(260) 445-4378</a>
             <a href="mailto:yarnellefurbabies@gmail.com">yarnellefurbabies@gmail.com</a>
             <br />
             <p>John Yarnelle</p>
