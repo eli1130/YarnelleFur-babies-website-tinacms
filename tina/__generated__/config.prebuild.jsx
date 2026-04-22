@@ -10,8 +10,8 @@ var config_default = defineConfig({
   },
   media: {
     loadCustomStore: async () => {
-      const pack = await import("next-tinacms-cloudinary");
-      return pack.TinaCloudCloudinaryMediaStore;
+      const pack = await import("next-tinacms-s3");
+      return pack.TinaCloudS3MediaStore;
     }
   },
   schema: {
@@ -77,6 +77,46 @@ var config_default = defineConfig({
           },
           { type: "boolean", name: "showCarousel", label: "Show Current Photos as Carousel (instead of grid)" },
           { type: "boolean", name: "showPrevCarousel", label: "Show Previous Photos as Carousel (instead of grid)" },
+          {
+            type: "object",
+            name: "previousPuppies",
+            label: "Previous Puppy Photos",
+            list: true,
+            fields: [
+              { type: "image", name: "src", label: "Photo" },
+              { type: "string", name: "alt", label: "Alt text" }
+            ]
+          }
+        ]
+      },
+      {
+        name: "upcomingLitter",
+        label: "Upcoming Litters",
+        path: "content/upcoming-litters",
+        format: "json",
+        ui: {
+          filename: {
+            readonly: false,
+            slugify: (values) => `${values?.slug || values?.breed?.toLowerCase().replace(/ /g, "-") || "upcoming"}`
+          }
+        },
+        fields: [
+          { type: "boolean", name: "active", label: "Active (uncheck to hide)", ui: { defaultValue: true } },
+          { type: "number", name: "sortOrder", label: "Sort Order (1, 2, 3...)" },
+          { type: "string", name: "breed", label: "Breed (e.g. Mini Saint Berdoodle)", required: true },
+          { type: "string", name: "slug", label: "URL Slug (e.g. mini-saint-berdoodle)" },
+          { type: "string", name: "breeder", label: "Breeder (e.g. John & Kathy Yarnelle)" },
+          { type: "string", name: "expectedDate", label: "Expected Date (e.g. Summer 2025)" },
+          { type: "string", name: "estimatedSize", label: "Estimated Size (e.g. 25\u201345 lbs)" },
+          { type: "string", name: "cardDesc", label: "Card Description (short, for the listing card)", ui: { component: "textarea" } },
+          { type: "string", name: "description", label: "Full Description (for the detail page)", ui: { component: "textarea" } },
+          { type: "image", name: "cardPhoto", label: "Card Photo (main image on listing)" },
+          { type: "string", name: "damName", label: "Mom Name" },
+          { type: "string", name: "damDesc", label: "Mom Description" },
+          { type: "image", name: "damPhoto", label: "Mom Photo" },
+          { type: "string", name: "sireName", label: "Dad Name" },
+          { type: "string", name: "sireDesc", label: "Dad Description" },
+          { type: "image", name: "sirePhoto", label: "Dad Photo" },
           {
             type: "object",
             name: "previousPuppies",

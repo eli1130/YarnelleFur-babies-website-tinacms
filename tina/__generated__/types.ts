@@ -84,6 +84,8 @@ export type Query = {
   document: DocumentNode;
   litter: Litter;
   litterConnection: LitterConnection;
+  upcomingLitter: UpcomingLitter;
+  upcomingLitterConnection: UpcomingLitterConnection;
   page: Page;
   pageConnection: PageConnection;
   settings: Settings;
@@ -126,6 +128,21 @@ export type QueryLitterConnectionArgs = {
   last?: InputMaybe<Scalars['Float']['input']>;
   sort?: InputMaybe<Scalars['String']['input']>;
   filter?: InputMaybe<LitterFilter>;
+};
+
+
+export type QueryUpcomingLitterArgs = {
+  relativePath?: InputMaybe<Scalars['String']['input']>;
+};
+
+
+export type QueryUpcomingLitterConnectionArgs = {
+  before?: InputMaybe<Scalars['String']['input']>;
+  after?: InputMaybe<Scalars['String']['input']>;
+  first?: InputMaybe<Scalars['Float']['input']>;
+  last?: InputMaybe<Scalars['Float']['input']>;
+  sort?: InputMaybe<Scalars['String']['input']>;
+  filter?: InputMaybe<UpcomingLitterFilter>;
 };
 
 
@@ -175,6 +192,7 @@ export type QueryReviewsConnectionArgs = {
 
 export type DocumentFilter = {
   litter?: InputMaybe<LitterFilter>;
+  upcomingLitter?: InputMaybe<UpcomingLitterFilter>;
   page?: InputMaybe<PageFilter>;
   settings?: InputMaybe<SettingsFilter>;
   reviews?: InputMaybe<ReviewsFilter>;
@@ -217,7 +235,7 @@ export type CollectionDocumentsArgs = {
   folder?: InputMaybe<Scalars['String']['input']>;
 };
 
-export type DocumentNode = Litter | Page | Settings | Reviews | Folder;
+export type DocumentNode = Litter | UpcomingLitter | Page | Settings | Reviews | Folder;
 
 export type LitterPuppiesPhotos = {
   __typename?: 'LitterPuppiesPhotos';
@@ -364,6 +382,74 @@ export type LitterConnection = Connection & {
   edges?: Maybe<Array<Maybe<LitterConnectionEdges>>>;
 };
 
+export type UpcomingLitterPreviousPuppies = {
+  __typename?: 'UpcomingLitterPreviousPuppies';
+  src?: Maybe<Scalars['String']['output']>;
+  alt?: Maybe<Scalars['String']['output']>;
+};
+
+export type UpcomingLitter = Node & Document & {
+  __typename?: 'UpcomingLitter';
+  active?: Maybe<Scalars['Boolean']['output']>;
+  sortOrder?: Maybe<Scalars['Float']['output']>;
+  breed: Scalars['String']['output'];
+  slug?: Maybe<Scalars['String']['output']>;
+  breeder?: Maybe<Scalars['String']['output']>;
+  expectedDate?: Maybe<Scalars['String']['output']>;
+  estimatedSize?: Maybe<Scalars['String']['output']>;
+  cardDesc?: Maybe<Scalars['String']['output']>;
+  description?: Maybe<Scalars['String']['output']>;
+  cardPhoto?: Maybe<Scalars['String']['output']>;
+  damName?: Maybe<Scalars['String']['output']>;
+  damDesc?: Maybe<Scalars['String']['output']>;
+  damPhoto?: Maybe<Scalars['String']['output']>;
+  sireName?: Maybe<Scalars['String']['output']>;
+  sireDesc?: Maybe<Scalars['String']['output']>;
+  sirePhoto?: Maybe<Scalars['String']['output']>;
+  previousPuppies?: Maybe<Array<Maybe<UpcomingLitterPreviousPuppies>>>;
+  id: Scalars['ID']['output'];
+  _sys: SystemInfo;
+  _values: Scalars['JSON']['output'];
+};
+
+export type UpcomingLitterPreviousPuppiesFilter = {
+  src?: InputMaybe<ImageFilter>;
+  alt?: InputMaybe<StringFilter>;
+};
+
+export type UpcomingLitterFilter = {
+  active?: InputMaybe<BooleanFilter>;
+  sortOrder?: InputMaybe<NumberFilter>;
+  breed?: InputMaybe<StringFilter>;
+  slug?: InputMaybe<StringFilter>;
+  breeder?: InputMaybe<StringFilter>;
+  expectedDate?: InputMaybe<StringFilter>;
+  estimatedSize?: InputMaybe<StringFilter>;
+  cardDesc?: InputMaybe<StringFilter>;
+  description?: InputMaybe<StringFilter>;
+  cardPhoto?: InputMaybe<ImageFilter>;
+  damName?: InputMaybe<StringFilter>;
+  damDesc?: InputMaybe<StringFilter>;
+  damPhoto?: InputMaybe<ImageFilter>;
+  sireName?: InputMaybe<StringFilter>;
+  sireDesc?: InputMaybe<StringFilter>;
+  sirePhoto?: InputMaybe<ImageFilter>;
+  previousPuppies?: InputMaybe<UpcomingLitterPreviousPuppiesFilter>;
+};
+
+export type UpcomingLitterConnectionEdges = {
+  __typename?: 'UpcomingLitterConnectionEdges';
+  cursor: Scalars['String']['output'];
+  node?: Maybe<UpcomingLitter>;
+};
+
+export type UpcomingLitterConnection = Connection & {
+  __typename?: 'UpcomingLitterConnection';
+  pageInfo: PageInfo;
+  totalCount: Scalars['Float']['output'];
+  edges?: Maybe<Array<Maybe<UpcomingLitterConnectionEdges>>>;
+};
+
 export type Page = Node & Document & {
   __typename?: 'Page';
   title?: Maybe<Scalars['String']['output']>;
@@ -471,6 +557,8 @@ export type Mutation = {
   createFolder: DocumentNode;
   updateLitter: Litter;
   createLitter: Litter;
+  updateUpcomingLitter: UpcomingLitter;
+  createUpcomingLitter: UpcomingLitter;
   updatePage: Page;
   createPage: Page;
   updateSettings: Settings;
@@ -525,6 +613,18 @@ export type MutationCreateLitterArgs = {
 };
 
 
+export type MutationUpdateUpcomingLitterArgs = {
+  relativePath: Scalars['String']['input'];
+  params: UpcomingLitterMutation;
+};
+
+
+export type MutationCreateUpcomingLitterArgs = {
+  relativePath: Scalars['String']['input'];
+  params: UpcomingLitterMutation;
+};
+
+
 export type MutationUpdatePageArgs = {
   relativePath: Scalars['String']['input'];
   params: PageMutation;
@@ -562,6 +662,7 @@ export type MutationCreateReviewsArgs = {
 
 export type DocumentUpdateMutation = {
   litter?: InputMaybe<LitterMutation>;
+  upcomingLitter?: InputMaybe<UpcomingLitterMutation>;
   page?: InputMaybe<PageMutation>;
   settings?: InputMaybe<SettingsMutation>;
   reviews?: InputMaybe<ReviewsMutation>;
@@ -570,6 +671,7 @@ export type DocumentUpdateMutation = {
 
 export type DocumentMutation = {
   litter?: InputMaybe<LitterMutation>;
+  upcomingLitter?: InputMaybe<UpcomingLitterMutation>;
   page?: InputMaybe<PageMutation>;
   settings?: InputMaybe<SettingsMutation>;
   reviews?: InputMaybe<ReviewsMutation>;
@@ -623,6 +725,31 @@ export type LitterMutation = {
   previousPuppies?: InputMaybe<Array<InputMaybe<LitterPreviousPuppiesMutation>>>;
 };
 
+export type UpcomingLitterPreviousPuppiesMutation = {
+  src?: InputMaybe<Scalars['String']['input']>;
+  alt?: InputMaybe<Scalars['String']['input']>;
+};
+
+export type UpcomingLitterMutation = {
+  active?: InputMaybe<Scalars['Boolean']['input']>;
+  sortOrder?: InputMaybe<Scalars['Float']['input']>;
+  breed?: InputMaybe<Scalars['String']['input']>;
+  slug?: InputMaybe<Scalars['String']['input']>;
+  breeder?: InputMaybe<Scalars['String']['input']>;
+  expectedDate?: InputMaybe<Scalars['String']['input']>;
+  estimatedSize?: InputMaybe<Scalars['String']['input']>;
+  cardDesc?: InputMaybe<Scalars['String']['input']>;
+  description?: InputMaybe<Scalars['String']['input']>;
+  cardPhoto?: InputMaybe<Scalars['String']['input']>;
+  damName?: InputMaybe<Scalars['String']['input']>;
+  damDesc?: InputMaybe<Scalars['String']['input']>;
+  damPhoto?: InputMaybe<Scalars['String']['input']>;
+  sireName?: InputMaybe<Scalars['String']['input']>;
+  sireDesc?: InputMaybe<Scalars['String']['input']>;
+  sirePhoto?: InputMaybe<Scalars['String']['input']>;
+  previousPuppies?: InputMaybe<Array<InputMaybe<UpcomingLitterPreviousPuppiesMutation>>>;
+};
+
 export type PageMutation = {
   title?: InputMaybe<Scalars['String']['input']>;
   heroHeading?: InputMaybe<Scalars['String']['input']>;
@@ -648,6 +775,8 @@ export type ReviewsMutation = {
 
 export type LitterPartsFragment = { __typename: 'Litter', active?: boolean | null, sortOrder?: number | null, title: string, slug?: string | null, breeder?: string | null, generation?: string | null, priceRange?: string | null, litterTitle?: string | null, dateOfBirth?: string | null, takeHomeDate?: string | null, estimatedSize?: string | null, grooming?: string | null, temperament?: string | null, deposit?: string | null, contact?: string | null, damName?: string | null, damDesc?: string | null, damPhoto?: string | null, sireName?: string | null, sireDesc?: string | null, cardDesc?: string | null, cardPhoto?: string | null, sirePhoto?: string | null, showCarousel?: boolean | null, showPrevCarousel?: boolean | null, puppies?: Array<{ __typename: 'LitterPuppies', name?: string | null, gender?: string | null, price?: string | null, status?: string | null, photos?: Array<{ __typename: 'LitterPuppiesPhotos', src?: string | null, alt?: string | null } | null> | null } | null> | null, previousPuppies?: Array<{ __typename: 'LitterPreviousPuppies', src?: string | null, alt?: string | null } | null> | null };
 
+export type UpcomingLitterPartsFragment = { __typename: 'UpcomingLitter', active?: boolean | null, sortOrder?: number | null, breed: string, slug?: string | null, breeder?: string | null, expectedDate?: string | null, estimatedSize?: string | null, cardDesc?: string | null, description?: string | null, cardPhoto?: string | null, damName?: string | null, damDesc?: string | null, damPhoto?: string | null, sireName?: string | null, sireDesc?: string | null, sirePhoto?: string | null, previousPuppies?: Array<{ __typename: 'UpcomingLitterPreviousPuppies', src?: string | null, alt?: string | null } | null> | null };
+
 export type PagePartsFragment = { __typename: 'Page', title?: string | null, heroHeading?: string | null, heroSubtext?: string | null };
 
 export type SettingsPartsFragment = { __typename: 'Settings', announcementBar?: string | null, phone?: string | null, email?: string | null, instagramUrl?: string | null, cashappUrl?: string | null };
@@ -672,6 +801,25 @@ export type LitterConnectionQueryVariables = Exact<{
 
 
 export type LitterConnectionQuery = { __typename?: 'Query', litterConnection: { __typename?: 'LitterConnection', totalCount: number, pageInfo: { __typename?: 'PageInfo', hasPreviousPage: boolean, hasNextPage: boolean, startCursor: string, endCursor: string }, edges?: Array<{ __typename?: 'LitterConnectionEdges', cursor: string, node?: { __typename: 'Litter', id: string, active?: boolean | null, sortOrder?: number | null, title: string, slug?: string | null, breeder?: string | null, generation?: string | null, priceRange?: string | null, litterTitle?: string | null, dateOfBirth?: string | null, takeHomeDate?: string | null, estimatedSize?: string | null, grooming?: string | null, temperament?: string | null, deposit?: string | null, contact?: string | null, damName?: string | null, damDesc?: string | null, damPhoto?: string | null, sireName?: string | null, sireDesc?: string | null, cardDesc?: string | null, cardPhoto?: string | null, sirePhoto?: string | null, showCarousel?: boolean | null, showPrevCarousel?: boolean | null, _sys: { __typename?: 'SystemInfo', filename: string, basename: string, hasReferences?: boolean | null, breadcrumbs: Array<string>, path: string, relativePath: string, extension: string }, puppies?: Array<{ __typename: 'LitterPuppies', name?: string | null, gender?: string | null, price?: string | null, status?: string | null, photos?: Array<{ __typename: 'LitterPuppiesPhotos', src?: string | null, alt?: string | null } | null> | null } | null> | null, previousPuppies?: Array<{ __typename: 'LitterPreviousPuppies', src?: string | null, alt?: string | null } | null> | null } | null } | null> | null } };
+
+export type UpcomingLitterQueryVariables = Exact<{
+  relativePath: Scalars['String']['input'];
+}>;
+
+
+export type UpcomingLitterQuery = { __typename?: 'Query', upcomingLitter: { __typename: 'UpcomingLitter', id: string, active?: boolean | null, sortOrder?: number | null, breed: string, slug?: string | null, breeder?: string | null, expectedDate?: string | null, estimatedSize?: string | null, cardDesc?: string | null, description?: string | null, cardPhoto?: string | null, damName?: string | null, damDesc?: string | null, damPhoto?: string | null, sireName?: string | null, sireDesc?: string | null, sirePhoto?: string | null, _sys: { __typename?: 'SystemInfo', filename: string, basename: string, hasReferences?: boolean | null, breadcrumbs: Array<string>, path: string, relativePath: string, extension: string }, previousPuppies?: Array<{ __typename: 'UpcomingLitterPreviousPuppies', src?: string | null, alt?: string | null } | null> | null } };
+
+export type UpcomingLitterConnectionQueryVariables = Exact<{
+  before?: InputMaybe<Scalars['String']['input']>;
+  after?: InputMaybe<Scalars['String']['input']>;
+  first?: InputMaybe<Scalars['Float']['input']>;
+  last?: InputMaybe<Scalars['Float']['input']>;
+  sort?: InputMaybe<Scalars['String']['input']>;
+  filter?: InputMaybe<UpcomingLitterFilter>;
+}>;
+
+
+export type UpcomingLitterConnectionQuery = { __typename?: 'Query', upcomingLitterConnection: { __typename?: 'UpcomingLitterConnection', totalCount: number, pageInfo: { __typename?: 'PageInfo', hasPreviousPage: boolean, hasNextPage: boolean, startCursor: string, endCursor: string }, edges?: Array<{ __typename?: 'UpcomingLitterConnectionEdges', cursor: string, node?: { __typename: 'UpcomingLitter', id: string, active?: boolean | null, sortOrder?: number | null, breed: string, slug?: string | null, breeder?: string | null, expectedDate?: string | null, estimatedSize?: string | null, cardDesc?: string | null, description?: string | null, cardPhoto?: string | null, damName?: string | null, damDesc?: string | null, damPhoto?: string | null, sireName?: string | null, sireDesc?: string | null, sirePhoto?: string | null, _sys: { __typename?: 'SystemInfo', filename: string, basename: string, hasReferences?: boolean | null, breadcrumbs: Array<string>, path: string, relativePath: string, extension: string }, previousPuppies?: Array<{ __typename: 'UpcomingLitterPreviousPuppies', src?: string | null, alt?: string | null } | null> | null } | null } | null> | null } };
 
 export type PageQueryVariables = Exact<{
   relativePath: Scalars['String']['input'];
@@ -777,6 +925,32 @@ export const LitterPartsFragmentDoc = gql`
   }
 }
     `;
+export const UpcomingLitterPartsFragmentDoc = gql`
+    fragment UpcomingLitterParts on UpcomingLitter {
+  __typename
+  active
+  sortOrder
+  breed
+  slug
+  breeder
+  expectedDate
+  estimatedSize
+  cardDesc
+  description
+  cardPhoto
+  damName
+  damDesc
+  damPhoto
+  sireName
+  sireDesc
+  sirePhoto
+  previousPuppies {
+    __typename
+    src
+    alt
+  }
+}
+    `;
 export const PagePartsFragmentDoc = gql`
     fragment PageParts on Page {
   __typename
@@ -862,6 +1036,63 @@ export const LitterConnectionDocument = gql`
   }
 }
     ${LitterPartsFragmentDoc}`;
+export const UpcomingLitterDocument = gql`
+    query upcomingLitter($relativePath: String!) {
+  upcomingLitter(relativePath: $relativePath) {
+    ... on Document {
+      _sys {
+        filename
+        basename
+        hasReferences
+        breadcrumbs
+        path
+        relativePath
+        extension
+      }
+      id
+    }
+    ...UpcomingLitterParts
+  }
+}
+    ${UpcomingLitterPartsFragmentDoc}`;
+export const UpcomingLitterConnectionDocument = gql`
+    query upcomingLitterConnection($before: String, $after: String, $first: Float, $last: Float, $sort: String, $filter: UpcomingLitterFilter) {
+  upcomingLitterConnection(
+    before: $before
+    after: $after
+    first: $first
+    last: $last
+    sort: $sort
+    filter: $filter
+  ) {
+    pageInfo {
+      hasPreviousPage
+      hasNextPage
+      startCursor
+      endCursor
+    }
+    totalCount
+    edges {
+      cursor
+      node {
+        ... on Document {
+          _sys {
+            filename
+            basename
+            hasReferences
+            breadcrumbs
+            path
+            relativePath
+            extension
+          }
+          id
+        }
+        ...UpcomingLitterParts
+      }
+    }
+  }
+}
+    ${UpcomingLitterPartsFragmentDoc}`;
 export const PageDocument = gql`
     query page($relativePath: String!) {
   page(relativePath: $relativePath) {
@@ -1041,6 +1272,12 @@ export type Requester<C= {}> = <R, V>(doc: DocumentNode, vars?: V, options?: C) 
       },
     litterConnection(variables?: LitterConnectionQueryVariables, options?: C): Promise<{data: LitterConnectionQuery, errors?: { message: string, locations: { line: number, column: number }[], path: string[] }[], variables: LitterConnectionQueryVariables, query: string}> {
         return requester<{data: LitterConnectionQuery, errors?: { message: string, locations: { line: number, column: number }[], path: string[] }[], variables: LitterConnectionQueryVariables, query: string}, LitterConnectionQueryVariables>(LitterConnectionDocument, variables, options);
+      },
+    upcomingLitter(variables: UpcomingLitterQueryVariables, options?: C): Promise<{data: UpcomingLitterQuery, errors?: { message: string, locations: { line: number, column: number }[], path: string[] }[], variables: UpcomingLitterQueryVariables, query: string}> {
+        return requester<{data: UpcomingLitterQuery, errors?: { message: string, locations: { line: number, column: number }[], path: string[] }[], variables: UpcomingLitterQueryVariables, query: string}, UpcomingLitterQueryVariables>(UpcomingLitterDocument, variables, options);
+      },
+    upcomingLitterConnection(variables?: UpcomingLitterConnectionQueryVariables, options?: C): Promise<{data: UpcomingLitterConnectionQuery, errors?: { message: string, locations: { line: number, column: number }[], path: string[] }[], variables: UpcomingLitterConnectionQueryVariables, query: string}> {
+        return requester<{data: UpcomingLitterConnectionQuery, errors?: { message: string, locations: { line: number, column: number }[], path: string[] }[], variables: UpcomingLitterConnectionQueryVariables, query: string}, UpcomingLitterConnectionQueryVariables>(UpcomingLitterConnectionDocument, variables, options);
       },
     page(variables: PageQueryVariables, options?: C): Promise<{data: PageQuery, errors?: { message: string, locations: { line: number, column: number }[], path: string[] }[], variables: PageQueryVariables, query: string}> {
         return requester<{data: PageQuery, errors?: { message: string, locations: { line: number, column: number }[], path: string[] }[], variables: PageQueryVariables, query: string}, PageQueryVariables>(PageDocument, variables, options);

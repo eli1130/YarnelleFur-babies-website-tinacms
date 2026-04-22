@@ -44,6 +44,31 @@ fragment LitterParts on Litter {
   }
 }
 
+fragment UpcomingLitterParts on UpcomingLitter {
+  __typename
+  active
+  sortOrder
+  breed
+  slug
+  breeder
+  expectedDate
+  estimatedSize
+  cardDesc
+  description
+  cardPhoto
+  damName
+  damDesc
+  damPhoto
+  sireName
+  sireDesc
+  sirePhoto
+  previousPuppies {
+    __typename
+    src
+    alt
+  }
+}
+
 fragment PageParts on Page {
   __typename
   title

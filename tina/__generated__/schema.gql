@@ -56,6 +56,8 @@ type Query {
   document(collection: String, relativePath: String): DocumentNode!
   litter(relativePath: String): Litter!
   litterConnection(before: String, after: String, first: Float, last: Float, sort: String, filter: LitterFilter): LitterConnection!
+  upcomingLitter(relativePath: String): UpcomingLitter!
+  upcomingLitterConnection(before: String, after: String, first: Float, last: Float, sort: String, filter: UpcomingLitterFilter): UpcomingLitterConnection!
   page(relativePath: String): Page!
   pageConnection(before: String, after: String, first: Float, last: Float, sort: String, filter: PageFilter): PageConnection!
   settings(relativePath: String): Settings!
@@ -66,6 +68,7 @@ type Query {
 
 input DocumentFilter {
   litter: LitterFilter
+  upcomingLitter: UpcomingLitterFilter
   page: PageFilter
   settings: SettingsFilter
   reviews: ReviewsFilter
@@ -94,7 +97,7 @@ type Collection {
   documents(before: String, after: String, first: Float, last: Float, sort: String, filter: DocumentFilter, folder: String): DocumentConnection!
 }
 
-union DocumentNode = Litter | Page | Settings | Reviews | Folder
+union DocumentNode = Litter | UpcomingLitter | Page | Settings | Reviews | Folder
 
 type LitterPuppiesPhotos {
   src: String
@@ -235,6 +238,70 @@ type LitterConnection implements Connection {
   edges: [LitterConnectionEdges]
 }
 
+type UpcomingLitterPreviousPuppies {
+  src: String
+  alt: String
+}
+
+type UpcomingLitter implements Node & Document {
+  active: Boolean
+  sortOrder: Float
+  breed: String!
+  slug: String
+  breeder: String
+  expectedDate: String
+  estimatedSize: String
+  cardDesc: String
+  description: String
+  cardPhoto: String
+  damName: String
+  damDesc: String
+  damPhoto: String
+  sireName: String
+  sireDesc: String
+  sirePhoto: String
+  previousPuppies: [UpcomingLitterPreviousPuppies]
+  id: ID!
+  _sys: SystemInfo!
+  _values: JSON!
+}
+
+input UpcomingLitterPreviousPuppiesFilter {
+  src: ImageFilter
+  alt: StringFilter
+}
+
+input UpcomingLitterFilter {
+  active: BooleanFilter
+  sortOrder: NumberFilter
+  breed: StringFilter
+  slug: StringFilter
+  breeder: StringFilter
+  expectedDate: StringFilter
+  estimatedSize: StringFilter
+  cardDesc: StringFilter
+  description: StringFilter
+  cardPhoto: ImageFilter
+  damName: StringFilter
+  damDesc: StringFilter
+  damPhoto: ImageFilter
+  sireName: StringFilter
+  sireDesc: StringFilter
+  sirePhoto: ImageFilter
+  previousPuppies: UpcomingLitterPreviousPuppiesFilter
+}
+
+type UpcomingLitterConnectionEdges {
+  cursor: String!
+  node: UpcomingLitter
+}
+
+type UpcomingLitterConnection implements Connection {
+  pageInfo: PageInfo!
+  totalCount: Float!
+  edges: [UpcomingLitterConnectionEdges]
+}
+
 type Page implements Node & Document {
   title: String
   heroHeading: String
@@ -331,6 +398,8 @@ type Mutation {
   createFolder(collection: String, relativePath: String!): DocumentNode!
   updateLitter(relativePath: String!, params: LitterMutation!): Litter!
   createLitter(relativePath: String!, params: LitterMutation!): Litter!
+  updateUpcomingLitter(relativePath: String!, params: UpcomingLitterMutation!): UpcomingLitter!
+  createUpcomingLitter(relativePath: String!, params: UpcomingLitterMutation!): UpcomingLitter!
   updatePage(relativePath: String!, params: PageMutation!): Page!
   createPage(relativePath: String!, params: PageMutation!): Page!
   updateSettings(relativePath: String!, params: SettingsMutation!): Settings!
@@ -341,6 +410,7 @@ type Mutation {
 
 input DocumentUpdateMutation {
   litter: LitterMutation
+  upcomingLitter: UpcomingLitterMutation
   page: PageMutation
   settings: SettingsMutation
   reviews: ReviewsMutation
@@ -349,6 +419,7 @@ input DocumentUpdateMutation {
 
 input DocumentMutation {
   litter: LitterMutation
+  upcomingLitter: UpcomingLitterMutation
   page: PageMutation
   settings: SettingsMutation
   reviews: ReviewsMutation
@@ -400,6 +471,31 @@ input LitterMutation {
   showCarousel: Boolean
   showPrevCarousel: Boolean
   previousPuppies: [LitterPreviousPuppiesMutation]
+}
+
+input UpcomingLitterPreviousPuppiesMutation {
+  src: String
+  alt: String
+}
+
+input UpcomingLitterMutation {
+  active: Boolean
+  sortOrder: Float
+  breed: String
+  slug: String
+  breeder: String
+  expectedDate: String
+  estimatedSize: String
+  cardDesc: String
+  description: String
+  cardPhoto: String
+  damName: String
+  damDesc: String
+  damPhoto: String
+  sireName: String
+  sireDesc: String
+  sirePhoto: String
+  previousPuppies: [UpcomingLitterPreviousPuppiesMutation]
 }
 
 input PageMutation {
