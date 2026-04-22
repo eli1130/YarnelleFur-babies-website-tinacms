@@ -5,7 +5,7 @@
   "slug": "bernedoodle-summer",
   "breeder": "John & Kathy Yarnelle",
   "generation": "F1",
-  "priceRange": "$2,000-$2,800",
+  "priceRange": "$2,000-$2,600",
   "litterTitle": "Summer x Bamboo",
   "dateOfBirth": "March 17, 2026",
   "takeHomeDate": "May 12, 2026",
@@ -20,15 +20,19 @@
   "sireName": "Bamboo",
   "sireDesc": "AKC Sable Parti Standard Poodle (60lbs)",
   "cardDesc": "Standard F1 Bernedoodles- They are incredibly friendly with other dogs, cats, and kiddo. Summer x Bamboo",
-  "cardPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Bernedoodle%20(scott)%201.JPG",
+  "cardPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_6136.JPG",
   "sirePhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/image_0074.jpg",
   "puppies": [
     {
       "name": "Sienna",
       "gender": "Girl",
-      "price": "$2,500",
+      "price": "$2,400",
       "status": "Available",
       "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_6138.JPG",
+          "alt": "Bernedoodles for sale in indiana"
+        },
         {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Bernedoodle (Sienna) 1.JPG"
         },
@@ -38,23 +42,15 @@
       ]
     },
     {
-      "name": "Sloane",
-      "gender": "Girl",
-      "price": "$2,500",
-      "status": "Reserved"
-    },
-    {
-      "name": "Skylar",
-      "gender": "Girl",
-      "price": "$2,500",
-      "status": "Reserved"
-    },
-    {
       "name": "Savannah",
       "gender": "Girl",
-      "price": "$2,800",
+      "price": "$2,600",
       "status": "Available",
       "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_6136.JPG",
+          "alt": "Bernedoodles for sale in indiana"
+        },
         {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Bernedoodle (savannah) 1.JPG"
         },
@@ -66,9 +62,13 @@
     {
       "name": "Sage",
       "gender": "Girl",
-      "price": "$2,500",
+      "price": "$2,400",
       "status": "Available",
       "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_6135.JPG",
+          "alt": "Bernedoodles for sale in indiana"
+        },
         {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Bernedoodle (sage) 1.JPG"
         },
@@ -80,9 +80,13 @@
     {
       "name": "Scott",
       "gender": "Boy",
-      "price": "$2,500",
+      "price": "$2,400",
       "status": "Available",
       "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_6134.JPG",
+          "alt": "Bernedoodles for sale in indiana"
+        },
         {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Bernedoodle (scott) 1.JPG"
         },
@@ -98,6 +102,10 @@
       "status": "Available",
       "photos": [
         {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_6139.JPG",
+          "alt": "Bernedoodles for sale in indiana"
+        },
+        {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Bernedoodle (silas) 1.JPG"
         },
         {
@@ -108,9 +116,13 @@
     {
       "name": "Sawyer",
       "gender": "Boy",
-      "price": "$2,500",
+      "price": "$2,400",
       "status": "Available",
       "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_6137.JPG",
+          "alt": "Bernedoodles for sale in indiana"
+        },
         {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Bernedoodle (sawyer) 1.JPG"
         },
@@ -122,9 +134,13 @@
     {
       "name": "Sebastian",
       "gender": "Boy",
-      "price": "$2,500",
+      "price": "$2,400",
       "status": "Available",
       "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_6133.JPG",
+          "alt": "Bernedoodles for sale in indiana"
+        },
         {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Bernedoodle (sebastian) 1.JPG"
         },
@@ -132,6 +148,18 @@
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_5815.JPG"
         }
       ]
+    },
+    {
+      "name": "Skylar",
+      "gender": "Girl",
+      "price": "$2,500",
+      "status": "Reserved"
+    },
+    {
+      "name": "Sloane",
+      "gender": "Girl",
+      "price": "$2,500",
+      "status": "Reserved"
     }
   ],
   "showCarousel": true,
