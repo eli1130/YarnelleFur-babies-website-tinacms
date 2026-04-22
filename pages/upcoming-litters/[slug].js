@@ -15,7 +15,7 @@ export default function UpcomingLitterDetail({ litter }) {
   async function handleSubmit(e) {
     e.preventDefault();
     const data = new FormData(e.target);
-    await fetch('https://formspree.io/f/mgonzeel', {
+    await fetch('https://formspree.io/f/mpqkyjke', {
       method: 'POST',
       body: data,
       headers: { Accept: 'application/json' },
