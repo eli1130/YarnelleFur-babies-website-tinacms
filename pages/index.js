@@ -25,7 +25,7 @@ export default function Home({ litters }) {
     body: formData,
     headers: { 'Accept': 'application/json' },
   });
-  setSubmitted(true);
+  window.location.href = '/thank-you';
 }
 
   return (
