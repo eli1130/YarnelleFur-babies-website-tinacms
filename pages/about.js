@@ -237,7 +237,7 @@ export default function About() {
             <Link href="/about">About Us</Link>
             <Link href="/gotjesus">Got Jesus?</Link>
             <Link href="/#litters">Available Litters</Link>
-            <li><Link href="/upcoming-litters">Upcoming Litters &amp; Waitlist</Link></li>
+            <Link href="/upcoming-litters">Upcoming Litters &amp; Waitlist</Link>
             <Link href="/reviews">Reviews</Link>
             <Link href="/facility">Our Facility</Link>
             <Link href="/faq">FAQ &amp; Products</Link>
