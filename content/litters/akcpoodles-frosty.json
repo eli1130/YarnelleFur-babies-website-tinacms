@@ -1,0 +1,39 @@
+{
+  "active": true,
+  "sortOrder": 6,
+  "title": "AKC Standard Poodles",
+  "slug": "akcpoodles-frosty",
+  "breeder": "Dakoda & Brooke Labenz",
+  "generation": "Standard",
+  "priceRange": "$1,500 - $1,800",
+  "litterTitle": "Frosty x Pumpkin",
+  "dateOfBirth": "April 6, 2026",
+  "takeHomeDate": "June 1, 2026",
+  "estimatedSize": "50-60 lbs",
+  "grooming": "Every 6–8 weeks",
+  "temperament": "Intellectually sharp, incredibly loyal, and full of charm. They are social butterflies who adore kids, play well with others, and live for a long cuddle session at the end of the day.",
+  "deposit": "$400",
+  "contact": "Brooke · (260) 443-9035",
+  "damName": "Sallie (AKA Frosty)",
+  "damDesc": "AKC Silver Beige Standard Poodle (45lbs)",
+  "damPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/frosty.jpeg",
+  "sireName": "Pumpkin",
+  "sireDesc": "AKC Standard Poodle (70lbs)",
+  "cardDesc": "Meet our Frosty x Pumpkin pups! Sired by our 70lb AKC Standard Poodle, Pumpkin, and out of our beautiful 45lb Silver Beige dam, Frosty, these puppies are bred for temperament. They are the perfect addition for families seeking a loyal, kid-friendly companion who loves to cuddle.",
+  "cardPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Akc%20poodles.JPEG",
+  "sirePhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/image_0141.jpg",
+  "puppies": [
+    {
+      "name": "Boys & Girls",
+      "gender": "Boy",
+      "price": "$1,500-$1,800",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Akc poodles.JPEG",
+          "alt": "AKC standard poodles"
+        }
+      ]
+    }
+  ]
+}
