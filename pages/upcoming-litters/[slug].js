@@ -341,7 +341,7 @@ export default function UpcomingLitterDetail({ litter }) {
                   </div>
                 </div>
                 <Link href="/apply" className="apply-btn">Submit an Application →</Link>
-                <p className="deposit-note">Questions? Call or text Brooke at (260) 443-9035</p>
+                <p className="deposit-note">Questions? Call or text Eli at (260) 445-4378</p>
               </div>
 
             </div>
