@@ -307,8 +307,14 @@ export default function Home({ litters }) {
 
                       href="#apply"
                       className="btn-primary"
-                      style={{ marginTop: '0.75rem', display: 'block', textAlign: 'center', fontSize: '0.72rem', padding: '0.6rem 1rem' }}
-                      onClick={e => e.stopPropagation()}
+                      style={{
+                        marginTop: '0.75rem',
+                        display: 'block',
+                        textAlign: 'center',
+                        fontSize: '0.72rem',
+                        padding: '0.6rem 1rem'
+                      }}
+                      onClick={(e) => e.stopPropagation()}
                     >
                       Inquire Now
                     </a>
