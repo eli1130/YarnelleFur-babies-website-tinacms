@@ -114,6 +114,8 @@ export default function Home({ litters }) {
         .litter-avail { font-size: 0.7rem; letter-spacing: 0.08em; color: var(--red); text-transform: uppercase; }
         .view-litter { display: block; margin-top: 0.75rem; font-size: 0.7rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--text-light); transition: color 0.2s; }
         .litter-card:hover .view-litter { color: var(--red); }
+        .inquire-btn { margin-top: 0.75rem; display: block; width: 100%; text-align: center; font-size: 0.72rem; padding: 0.6rem 1rem; background: var(--red); color: #fff; border: none; border-radius: 2px; letter-spacing: 0.12em; text-transform: uppercase; font-family: 'Jost', sans-serif; cursor: pointer; transition: background 0.2s; }
+        .inquire-btn:hover { background: var(--red-dark); }
         .process-section { background: var(--black); padding: 6rem 4rem; }
         .process-inner { max-width: 1100px; margin: 0 auto; }
         .process-steps { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2rem; margin-top: 3rem; }
@@ -304,20 +306,16 @@ export default function Home({ litters }) {
                       <span className="litter-avail">{availableCount} Available</span>
                     </div>
                     <span className="view-litter">View Litter →</span>
-
-                      href="#apply"
-                      className="btn-primary"
-                      style={{
-                        marginTop: '0.75rem',
-                        display: 'block',
-                        textAlign: 'center',
-                        fontSize: '0.72rem',
-                        padding: '0.6rem 1rem'
+                    <button
+                      className="inquire-btn"
+                      onClick={(e) => {
+                        e.preventDefault();
+                        e.stopPropagation();
+                        window.location.href = '/#apply';
                       }}
-                      onClick={(e) => e.stopPropagation()}
                     >
                       Inquire Now
-                    </a>
+                    </button>
                   </div>
                 </Link>
               )
