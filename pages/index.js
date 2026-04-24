@@ -304,6 +304,14 @@ export default function Home({ litters }) {
                       <span className="litter-avail">{availableCount} Available</span>
                     </div>
                     <span className="view-litter">View Litter →</span>
+
+                      href="#apply"
+                      className="btn-primary"
+                      style={{ marginTop: '0.75rem', display: 'block', textAlign: 'center', fontSize: '0.72rem', padding: '0.6rem 1rem' }}
+                      onClick={e => e.stopPropagation()}
+                    >
+                      Inquire Now
+                    </a>
                   </div>
                 </Link>
               )
