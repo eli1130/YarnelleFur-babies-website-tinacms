@@ -39,21 +39,6 @@
       ]
     },
     {
-      "name": "Rexx",
-      "gender": "Boy",
-      "price": "$1,200",
-      "status": "Available",
-      "photos": [
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Labrador (Rexx) 1.JPG"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/phonto.JPEG",
-          "alt": "Labrador retrievers"
-        }
-      ]
-    },
-    {
       "name": "Riley",
       "gender": "Girl",
       "price": "$1,200",
@@ -67,6 +52,12 @@
           "alt": "Labrador retrievers"
         }
       ]
+    },
+    {
+      "name": "Rexx",
+      "gender": "Boy",
+      "price": "$1,200",
+      "status": "Reserved"
     }
   ],
   "showCarousel": true
