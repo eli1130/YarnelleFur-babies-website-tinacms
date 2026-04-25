@@ -8,7 +8,7 @@
   "priceRange": "$1,200",
   "litterTitle": "Zuma × Hoosier",
   "dateOfBirth": "March 5, 2026",
-  "takeHomeDate": "April 30, 2026",
+  "takeHomeDate": "Ready Now!",
   "estimatedSize": "60-75 lbs",
   "grooming": "Labradors should be bathed every 6–8 weeks and groomed weekly to keep their coat healthy.",
   "temperament": "Labrador Retrievers are friendly, outgoing, and loyal dogs known for their gentle, playful and eager-to-please nature.",
@@ -24,73 +24,15 @@
   "sirePhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_0264.JPG",
   "puppies": [
     {
-      "name": "Zadie",
-      "gender": "Girl",
-      "price": "$1,200",
-      "status": "Available",
-      "photos": [
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/phonto 16.JPG"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/phonto%207.JPG"
-        }
-      ]
-    },
-    {
-      "name": "Zelma",
-      "gender": "Girl",
-      "price": "$1,200",
-      "status": "Available",
-      "photos": [
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/phonto 17.JPG"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/phonto%208.JPG"
-        }
-      ]
-    },
-    {
-      "name": "Zella",
-      "gender": "Girl",
-      "price": "$1,200",
-      "status": "Available",
-      "photos": [
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/phonto 18.JPG"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/phonto%209.JPG"
-        }
-      ]
-    },
-    {
-      "name": "Zinnia",
-      "gender": "Girl",
-      "price": "$1,200",
-      "status": "Reserved"
-    },
-    {
-      "name": "Zeb",
-      "gender": "Boy",
-      "price": "$1,200",
-      "status": "Available",
-      "photos": [
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/phonto 20.JPG"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/phonto%202.JPG"
-        }
-      ]
-    },
-    {
       "name": "Zeke",
       "gender": "Boy",
       "price": "$1,200",
       "status": "Available",
       "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Labradors (zeke).JPG",
+          "alt": "Labrador retrievers in Indiana"
+        },
         {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/phonto 19.JPG"
         },
@@ -106,12 +48,46 @@
       "status": "Available",
       "photos": [
         {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Labradors (zion).JPG",
+          "alt": "Labrador retrievers in Indiana"
+        },
+        {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/phonto 21.JPG"
         },
         {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/phonto%204.JPG"
         }
       ]
+    },
+    {
+      "name": "Zadie",
+      "gender": "Girl",
+      "price": "$1,200",
+      "status": "Reserved"
+    },
+    {
+      "name": "Zelma",
+      "gender": "Girl",
+      "price": "$1,200",
+      "status": "Reserved"
+    },
+    {
+      "name": "Zella",
+      "gender": "Girl",
+      "price": "$1,200",
+      "status": "Reserved"
+    },
+    {
+      "name": "Zinnia",
+      "gender": "Girl",
+      "price": "$1,200",
+      "status": "Reserved"
+    },
+    {
+      "name": "Zeb",
+      "gender": "Boy",
+      "price": "$1,200",
+      "status": "Reserved"
     },
     {
       "name": "Zach",
