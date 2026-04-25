@@ -404,5 +404,5 @@ export async function getStaticPaths() {
       slug: e.node.slug || e.node.breed.toLowerCase().replace(/ /g, '-'),
     },
   }));
-  return { paths, fallback: false };
+  return { paths, fallback: 'blocking' };
 }
