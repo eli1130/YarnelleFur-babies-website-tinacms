@@ -66,27 +66,6 @@
       ]
     },
     {
-      "name": "Candy",
-      "gender": "Girl",
-      "price": "$1,800",
-      "status": "Available",
-      "photos": [
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/St.berdoodle (candy) 2.JPEG",
-          "alt": "St.berdoodles in Indiana"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Candy (callie).PNG"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/candy.PNG"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/typorama_ni9kkh.png"
-        }
-      ]
-    },
-    {
       "name": "Charlotte",
       "gender": "Girl",
       "price": "$1,200",
@@ -106,6 +85,12 @@
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/typorama_uwk0o9.png"
         }
       ]
+    },
+    {
+      "name": "Candy",
+      "gender": "Girl",
+      "price": "$1,800",
+      "status": "Sold"
     },
     {
       "name": "Cece",
