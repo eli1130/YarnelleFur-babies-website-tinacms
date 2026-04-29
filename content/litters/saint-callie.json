@@ -69,22 +69,7 @@
       "name": "Charlotte",
       "gender": "Girl",
       "price": "$1,200",
-      "status": "Available",
-      "photos": [
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/St.berdoodle (charlotte) 2.JPEG",
-          "alt": "St.berdoodles in indiana"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Charlotte (callie).PNG"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/charlotte.JPEG"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/typorama_uwk0o9.png"
-        }
-      ]
+      "status": "Sold"
     },
     {
       "name": "Candy",
