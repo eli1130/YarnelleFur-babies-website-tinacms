@@ -5,7 +5,7 @@
   "slug": "goldendoodles-willow",
   "breeder": "John & Kathy Yarnelle",
   "generation": "F1B",
-  "priceRange": "$2,200-$3,000",
+  "priceRange": "$2,100-$2,900",
   "litterTitle": "Willow x Bonsai",
   "dateOfBirth": "March 27, 2026",
   "takeHomeDate": "May 22, 2026",
@@ -20,15 +20,19 @@
   "sireName": "Bonsai",
   "sireDesc": "AKC Standard Poodle (60lbs)",
   "cardDesc": "Standard F1B Goldendoodles — highly intelligent and social family companions. The ultimate \"velcro dog\" that is eager to please. Willow x Bonsai litter",
-  "cardPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Goldendoodle (Whitney).JPG",
+  "cardPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_6381.JPG",
   "sirePhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/image_0044.jpg",
   "puppies": [
     {
       "name": "Winter",
       "gender": "Girl",
-      "price": "$3,000",
+      "price": "$2,900",
       "status": "Available",
       "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_6381.JPG",
+          "alt": "Goldendoodles in Indiana"
+        },
         {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Goldendoodle (winter).JPG",
           "alt": "Goldendoodles in Indiana"
@@ -38,9 +42,13 @@
     {
       "name": "Whitney",
       "gender": "Girl",
-      "price": "$3,000",
+      "price": "$2,900",
       "status": "Available",
       "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_6379.JPG",
+          "alt": "Goldendoodles in Indiana"
+        },
         {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Goldendoodle%20(Whitney).JPG",
           "alt": "Goldendoodles in Indiana"
@@ -50,9 +58,13 @@
     {
       "name": "Winnie",
       "gender": "Girl",
-      "price": "$3,000",
+      "price": "$2,900",
       "status": "Available",
       "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_6375.JPG",
+          "alt": "Goldendoodles in Indiana"
+        },
         {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Goldendoodle (Winnie).JPG",
           "alt": "Goldendoodles in Indiana"
@@ -62,9 +74,13 @@
     {
       "name": "Wyatt",
       "gender": "Boy",
-      "price": "$2,600",
+      "price": "$2,500",
       "status": "Available",
       "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_6378.JPG",
+          "alt": "Goldendoodles in Indiana"
+        },
         {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Goldendoodle (wyatt).JPG",
           "alt": "Goldendoodles in Indiana"
@@ -74,9 +90,13 @@
     {
       "name": "Walker",
       "gender": "Boy",
-      "price": "$2,800",
+      "price": "$2,700",
       "status": "Available",
       "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_6377.JPG",
+          "alt": "Goldendoodles in Indiana"
+        },
         {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Goldendoodle (Walker).JPG",
           "alt": "Goldendoodles in Indiana"
@@ -86,9 +106,13 @@
     {
       "name": "Wesley",
       "gender": "Boy",
-      "price": "$2,200",
+      "price": "$2,100",
       "status": "Available",
       "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_6382.JPG",
+          "alt": "Goldendoodles in Indiana"
+        },
         {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Goldendoodle (wesley).JPG",
           "alt": "Goldendoodles in Indiana"
@@ -98,9 +122,13 @@
     {
       "name": "Winston",
       "gender": "Boy",
-      "price": "$2,200",
+      "price": "$2,100",
       "status": "Available",
       "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_6376.JPG",
+          "alt": "Goldendoodles in Indiana"
+        },
         {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Goldendoodle (winston).JPG",
           "alt": "Goldendoodles in Indiana"
@@ -110,14 +138,19 @@
     {
       "name": "Wade",
       "gender": "Boy",
-      "price": "$2,200",
+      "price": "$2,100",
       "status": "Available",
       "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_6380.JPG",
+          "alt": "Goldendoodles in Indiana"
+        },
         {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Goldendoodle (wade).JPG",
           "alt": "Goldendoodles in Indiana"
         }
       ]
     }
-  ]
+  ],
+  "showCarousel": true
 }
