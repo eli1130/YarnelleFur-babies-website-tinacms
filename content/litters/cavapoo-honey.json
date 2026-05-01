@@ -20,33 +20,8 @@
   "sireName": "Teddy ",
   "sireDesc": "AKC Toy Poodle 9 lbs",
   "cardDesc": "F1B Red Cavapoos — small in size, enormous in personality. Honey × Teddy litter.",
-  "cardPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Hayes%20(honey).PNG",
+  "cardPhoto": "",
   "sirePhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/image_0103.jpg",
-  "puppies": [
-    {
-      "name": "Hayes",
-      "gender": "Boy",
-      "price": "$1,800",
-      "status": "Available",
-      "photos": [
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Hayes (honey).PNG"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Hayes.PNG"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/typorama_r0s8dr.png"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/typorama_xb8huf.png"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/image_0092.jpg"
-        }
-      ]
-    }
-  ],
   "showCarousel": true,
   "previousPuppies": [
     {
