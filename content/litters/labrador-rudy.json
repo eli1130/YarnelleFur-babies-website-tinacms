@@ -24,21 +24,6 @@
   "sirePhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_0264.JPG",
   "puppies": [
     {
-      "name": "Rocco",
-      "gender": "Boy",
-      "price": "$1,200",
-      "status": "Available",
-      "photos": [
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Labrador (Rocco) 1.JPG"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/phonto 23.JPG",
-          "alt": "Labrador retrievers"
-        }
-      ]
-    },
-    {
       "name": "Riley",
       "gender": "Girl",
       "price": "$1,200",
@@ -52,6 +37,12 @@
           "alt": "Labrador retrievers"
         }
       ]
+    },
+    {
+      "name": "Rocco",
+      "gender": "Boy",
+      "price": "$1,200",
+      "status": "Reserved"
     },
     {
       "name": "Rexx",
