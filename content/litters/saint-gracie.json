@@ -1,5 +1,5 @@
 {
-  "active": true,
+  "active": false,
   "sortOrder": 6,
   "title": "Saint Berdoodles — Gracie",
   "slug": "saint-gracie",
@@ -27,21 +27,7 @@
       "name": "Georgia",
       "gender": "Girl",
       "price": "$1,200",
-      "status": "Available",
-      "photos": [
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/st.berdoodle (georgia) 3.PNG"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Georgia (gracie).PNG"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Georgia.JPEG"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/typorama_uvdcmq.png"
-        }
-      ]
+      "status": "Sold"
     },
     {
       "name": "Gunner",
