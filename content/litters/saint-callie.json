@@ -48,21 +48,7 @@
       "name": "Camille",
       "gender": "Girl",
       "price": "$1,200",
-      "status": "Available",
-      "photos": [
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/St.berdoodles%20(camille%202).JPEG"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Camille%20(callie).PNG"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/camille.PNG"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/typorama_zvf3bi.png"
-        }
-      ]
+      "status": "Sold"
     },
     {
       "name": "Charlotte",
