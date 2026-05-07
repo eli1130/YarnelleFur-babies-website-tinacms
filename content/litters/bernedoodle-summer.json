@@ -20,7 +20,7 @@
   "sireName": "Bamboo",
   "sireDesc": "AKC Sable Parti Standard Poodle (60lbs)",
   "cardDesc": "Standard F1 Bernedoodles- They are incredibly friendly with other dogs, cats, and kiddo. Summer x Bamboo",
-  "cardPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_6390.JPG",
+  "cardPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_6435.jpeg",
   "sirePhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/image_0074.jpg",
   "puppies": [
     {
@@ -29,6 +29,9 @@
       "price": "$2,000",
       "status": "Available",
       "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_6434.jpeg"
+        },
         {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_6392.JPG",
           "alt": "Bernedoodles in Indiana"
@@ -52,6 +55,9 @@
       "status": "Available",
       "photos": [
         {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_6437.jpeg"
+        },
+        {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_6389.JPG",
           "alt": "Bernedoodles in Indiana"
         },
@@ -73,6 +79,9 @@
       "price": "$2,000",
       "status": "Available",
       "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_6438.jpeg"
+        },
         {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_6393.JPG",
           "alt": "Bernedoodles in Indiana"
@@ -96,6 +105,9 @@
       "status": "Available",
       "photos": [
         {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_6435.jpeg"
+        },
+        {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_6394.JPG",
           "alt": "Bernedoodles in Indiana"
         },
@@ -118,6 +130,9 @@
       "status": "Available",
       "photos": [
         {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_6433.jpeg"
+        },
+        {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_6390.JPG",
           "alt": "Bernedoodles in Indiana"
         },
@@ -139,6 +154,9 @@
       "price": "$2,000",
       "status": "Available",
       "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_6436.jpeg"
+        },
         {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_6391.JPG",
           "alt": "Bernedoodles in Indiana"
