@@ -1,5 +1,5 @@
 {
-  "active": true,
+  "active": false,
   "sortOrder": 6,
   "title": "F1B Saint berdoodles- Callie",
   "slug": "saint-callie",
@@ -27,22 +27,7 @@
       "name": "Calliope",
       "gender": "Girl",
       "price": "$1,000",
-      "status": "Available",
-      "photos": [
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/St.berdoodle (calliope) 2.PNG",
-          "alt": "St.berdoodles in Indiana"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Calliope (callie).jpg"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/calliope.PNG"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/typorama_fjqizk.png"
-        }
-      ]
+      "status": "Sold"
     },
     {
       "name": "Camille",
