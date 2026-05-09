@@ -5,7 +5,7 @@
   "slug": "micro-lilly",
   "breeder": "John & Kathy Yarnelle",
   "generation": "F1B",
-  "priceRange": "$2,500-$3,750",
+  "priceRange": "$2,000-$3,750",
   "litterTitle": "Lilly x Torque",
   "dateOfBirth": "March 17, 2026",
   "takeHomeDate": "May 12, 2026 - May 26, 2026",
@@ -44,7 +44,7 @@
     {
       "name": "Lena",
       "gender": "Girl",
-      "price": "$2,500",
+      "price": "$2,000",
       "status": "Available",
       "photos": [
         {
@@ -59,7 +59,7 @@
     {
       "name": "Leonardo",
       "gender": "Boy",
-      "price": "$2,500",
+      "price": "$2,000",
       "status": "Available",
       "photos": [
         {
