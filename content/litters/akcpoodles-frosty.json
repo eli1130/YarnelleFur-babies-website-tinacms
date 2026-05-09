@@ -20,7 +20,7 @@
   "sireName": "Pumpkin",
   "sireDesc": "AKC Standard Poodle (70lbs)",
   "cardDesc": "Meet our Frosty x Pumpkin pups! Sired by our 70lb AKC Standard Poodle, Pumpkin, and out of our beautiful 45lb Silver Beige dam, Frosty, these puppies are bred for temperament. They are the perfect addition for families seeking a loyal, kid-friendly companion who loves to cuddle.",
-  "cardPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/standard%20poodle%20(Fawn).PNG",
+  "cardPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Standard%20poodles%20(Freya%201).JPG",
   "sirePhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/image_0141.jpg",
   "puppies": [
     {
@@ -29,6 +29,10 @@
       "price": "$1,800",
       "status": "Available",
       "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Standard poodles (Fawn 1).JPG",
+          "alt": "AKC standard poodles"
+        },
         {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/standard poodle (Fawn).PNG",
           "alt": "AKC standard poodles"
@@ -42,6 +46,10 @@
       "status": "Available",
       "photos": [
         {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Standard poodles (Frida 1).JPG",
+          "alt": "Akc standard poodles"
+        },
+        {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/standard poodle (Frida).PNG",
           "alt": "Akc standard poodles"
         }
@@ -53,6 +61,10 @@
       "price": "$1,800",
       "status": "Available",
       "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Standard poodles (Freya 1).JPG",
+          "alt": "AKC standard poodles"
+        },
         {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/standard poodle (Freya).PNG",
           "alt": "AKC standard poodles"
@@ -66,6 +78,10 @@
       "status": "Available",
       "photos": [
         {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Standard poodles (Flora 1).JPG",
+          "alt": "AKC standard poodles"
+        },
+        {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/standard poodle (Flora).PNG",
           "alt": "AKC standard poodles"
         }
@@ -77,6 +93,10 @@
       "price": "$1,800",
       "status": "Available",
       "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Standard poodles (Fern 1).JPG",
+          "alt": "AKC standard poodles"
+        },
         {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/standard poodle (Fern).PNG",
           "alt": "AKC standard poodles"
@@ -90,6 +110,10 @@
       "status": "Available",
       "photos": [
         {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Standard poodles (Faith 1).JPG",
+          "alt": "AKC standard poodles"
+        },
+        {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/standard poodle (Faith).PNG",
           "alt": "AKC standard poodles"
         }
@@ -102,6 +126,10 @@
       "status": "Available",
       "photos": [
         {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Standard poodles (Florence 1).JPG",
+          "alt": "AKC standard poodles"
+        },
+        {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/standard poodle (Florence).PNG",
           "alt": "AKC standard poodles"
         }
@@ -113,6 +141,10 @@
       "price": "$1,500",
       "status": "Available",
       "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Standard Poodles (Frank 1).JPG",
+          "alt": "AKC standard poodles"
+        },
         {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/standard poodle (Frank).PNG",
           "alt": "AKC standard poodles"
