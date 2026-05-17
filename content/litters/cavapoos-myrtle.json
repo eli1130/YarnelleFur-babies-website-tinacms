@@ -20,6 +20,57 @@
   "sireName": "Ash",
   "sireDesc": "Cream Toy Poodle (9lbs)",
   "cardDesc": "Proud parents Myrtle and Ash have welcomed a beautiful new litter. Healthy, sweet-tempered, and raised right in our home—ready to steal your heart!",
+  "cardPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_6717.JPG",
   "sirePhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Ash.jpg",
+  "puppies": [
+    {
+      "name": "Moriah",
+      "gender": "Girl",
+      "price": "$1,400",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_6715.JPG",
+          "alt": "Cavapoos in Indiana"
+        }
+      ]
+    },
+    {
+      "name": "Martha ",
+      "gender": "Girl",
+      "price": "$1,600",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_6716.JPG",
+          "alt": "Cavapoos in Indiana"
+        }
+      ]
+    },
+    {
+      "name": "Mario",
+      "gender": "Boy",
+      "price": "$1,600",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_6717.JPG",
+          "alt": "Cavapoos in Indiana"
+        }
+      ]
+    },
+    {
+      "name": "Maverick ",
+      "gender": "Boy",
+      "price": "$1,600",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_6718.JPG",
+          "alt": "Cavapoos in Indiana"
+        }
+      ]
+    }
+  ],
   "showCarousel": true
 }
