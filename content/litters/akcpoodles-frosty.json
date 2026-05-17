@@ -5,7 +5,7 @@
   "slug": "akcpoodles-frosty",
   "breeder": "Dakoda & Brooke Labenz",
   "generation": "P",
-  "priceRange": "$1,500 - $1,800",
+  "priceRange": "$1,500 - $2,000",
   "litterTitle": "Frosty x Pumpkin",
   "dateOfBirth": "April 6, 2026",
   "takeHomeDate": "June 1, 2026",
@@ -20,15 +20,27 @@
   "sireName": "Pumpkin",
   "sireDesc": "AKC Standard Poodle (70lbs)",
   "cardDesc": "Meet our Frosty x Pumpkin pups! Sired by our 70lb AKC Standard Poodle, Pumpkin, and out of our beautiful 45lb Silver Beige dam, Frosty, these puppies are bred for temperament. They are the perfect addition for families seeking a loyal, kid-friendly companion who loves to cuddle.",
-  "cardPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Standard%20poodles%20(Freya%201).JPG",
+  "cardPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Freya%203.PNG",
   "sirePhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/image_0141.jpg",
   "puppies": [
     {
       "name": "Fawn",
       "gender": "Girl",
-      "price": "$1,800",
+      "price": "$1,500",
       "status": "Available",
       "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Fawn 3.PNG",
+          "alt": "AKC standard poodles"
+        },
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Fawn 2.PNG",
+          "alt": "AKC standard poodles"
+        },
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Fawn 1.PNG",
+          "alt": "AKC standard poodles"
+        },
         {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Standard poodles (Fawn 1).JPG",
           "alt": "AKC standard poodles"
@@ -42,9 +54,21 @@
     {
       "name": "Frida",
       "gender": "Girl",
-      "price": "$1,800",
+      "price": "$1,500",
       "status": "Available",
       "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Frida 3.PNG",
+          "alt": "AKC standard poodles"
+        },
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Frida 2.PNG",
+          "alt": "AKC standard poodles"
+        },
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Frida 1.PNG",
+          "alt": "AKC standard poodles"
+        },
         {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Standard poodles (Frida 1).JPG",
           "alt": "Akc standard poodles"
@@ -58,9 +82,21 @@
     {
       "name": "Freya",
       "gender": "Girl",
-      "price": "$1,800",
+      "price": "$2,000",
       "status": "Available",
       "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Freya 3.PNG",
+          "alt": "AKC standard poodles"
+        },
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Freya 2.PNG",
+          "alt": "AKC standard poodles"
+        },
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Freya 1.PNG",
+          "alt": "AKC standard poodles"
+        },
         {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Standard poodles (Freya 1).JPG",
           "alt": "AKC standard poodles"
@@ -74,9 +110,25 @@
     {
       "name": "Flora",
       "gender": "Girl",
-      "price": "$1,800",
+      "price": "$2,000",
       "status": "Available",
       "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Flora 1.PNG",
+          "alt": "AKC standard poodles"
+        },
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Flora 2.PNG",
+          "alt": "AKC standard poodles"
+        },
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Flora 3.PNG",
+          "alt": "AKC standard poodles"
+        },
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Flora 4.PNG",
+          "alt": "AKC standard poodles"
+        },
         {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Standard poodles (Flora 1).JPG",
           "alt": "AKC standard poodles"
@@ -90,9 +142,21 @@
     {
       "name": "Fern",
       "gender": "Girl",
-      "price": "$1,800",
+      "price": "$1,500",
       "status": "Available",
       "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Fern 3.PNG",
+          "alt": "AKC standard poodles"
+        },
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Fern 2.PNG",
+          "alt": "AKC standard poodles"
+        },
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Fern 1.PNG",
+          "alt": "AKC standard poodles"
+        },
         {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Standard poodles (Fern 1).JPG",
           "alt": "AKC standard poodles"
@@ -110,6 +174,18 @@
       "status": "Available",
       "photos": [
         {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Faith 3.PNG",
+          "alt": "AKC standard poodles"
+        },
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Faith 2.JPEG",
+          "alt": "AKC standard poodles"
+        },
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Faith 1.PNG",
+          "alt": "AKC standard poodles"
+        },
+        {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Standard poodles (Faith 1).JPG",
           "alt": "AKC standard poodles"
         },
@@ -122,9 +198,21 @@
     {
       "name": "Florence",
       "gender": "Girl",
-      "price": "$1,800",
+      "price": "$1,500",
       "status": "Available",
       "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Florence 3.PNG",
+          "alt": "AKC standard poodles"
+        },
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Florence 2.PNG",
+          "alt": "AKC standard poodles"
+        },
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Florence 1.PNG",
+          "alt": "AKC standard poodles"
+        },
         {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Standard poodles (Florence 1).JPG",
           "alt": "AKC standard poodles"
@@ -141,6 +229,18 @@
       "price": "$1,500",
       "status": "Available",
       "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Frank 3.PNG",
+          "alt": "AKC standard poodles"
+        },
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Frank 2.PNG",
+          "alt": "AKC standard poodles"
+        },
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Frank 1.PNG",
+          "alt": "AKC standard poodles"
+        },
         {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Standard Poodles (Frank 1).JPG",
           "alt": "AKC standard poodles"
