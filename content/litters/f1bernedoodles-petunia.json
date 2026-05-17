@@ -1,0 +1,30 @@
+{
+  "active": true,
+  "sortOrder": 4,
+  "title": "Standard F1 Bernedoodles (Petunia)",
+  "slug": "f1bernedoodles-petunia",
+  "breeder": "Luke & Eli Yarnelle",
+  "generation": "F1",
+  "priceRange": "$2500",
+  "litterTitle": "Petunia x Spruce",
+  "dateOfBirth": "M",
+  "estimatedSize": "80-100+ lbs",
+  "grooming": "Roughly every 4-6 months",
+  "temperament": "playful, goofy, laid back, sweet, eager to please, smart, love to cuddle, incredibly friendly with other dogs, cats, and kiddos",
+  "deposit": "$600",
+  "contact": "Eli · (260) 445-4378",
+  "damName": "Petunia",
+  "damDesc": "AKC Tri Parti Standard Poodle (58lbs)",
+  "damPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/typorama 18.PNG",
+  "sireName": "Spruce",
+  "sireDesc": "AKC Bernese Mountain Dog (100lbs)",
+  "cardDesc": "Petunia (AKC Tri-Parti Poodle) and Spruce (AKC Bernese Mountain Dog) have welcomed a stunning new litter. Beautifully marked, family-raised, and ready for their forever homes!",
+  "sirePhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/0.jpg",
+  "showCarousel": true,
+  "previousPuppies": [
+    {
+      "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/petunia pre puppy pic.jpeg",
+      "alt": "Standard F1 Bernedoodles in Indiana"
+    }
+  ]
+}
