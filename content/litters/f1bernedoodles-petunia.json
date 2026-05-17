@@ -20,7 +20,130 @@
   "sireName": "Spruce",
   "sireDesc": "AKC Bernese Mountain Dog (100lbs)",
   "cardDesc": "Petunia (AKC Tri-Parti Poodle) and Spruce (AKC Bernese Mountain Dog) have welcomed a stunning new litter. Beautifully marked, family-raised, and ready for their forever homes!",
+  "cardPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_6705.JPG",
   "sirePhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/0.jpg",
+  "puppies": [
+    {
+      "name": "Parker (Green Collar)",
+      "gender": "Boy",
+      "price": "$2,500",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_6703.JPG",
+          "alt": "Bernedoodles in Indiana"
+        }
+      ]
+    },
+    {
+      "name": "Prince (Black collar)",
+      "gender": "Boy",
+      "price": "$2,500",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_6704.JPG",
+          "alt": "Bernedoodles in Indiana"
+        }
+      ]
+    },
+    {
+      "name": "Philip (Dark Green collar)",
+      "gender": "Boy",
+      "price": "$2,500",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_6706.JPG",
+          "alt": "Bernedoodles in Indiana"
+        }
+      ]
+    },
+    {
+      "name": "Peter (Red collar)",
+      "gender": "Boy",
+      "price": "$2,500",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_6713.JPG",
+          "alt": "Bernedoodles in Indiana"
+        }
+      ]
+    },
+    {
+      "name": "Palmer (Yellow collar)",
+      "gender": "Girl",
+      "price": "$2,500",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_6705.JPG",
+          "alt": "Bernedoodles in Indiana"
+        }
+      ]
+    },
+    {
+      "name": "Paisley (Purple collar)",
+      "gender": "Girl",
+      "price": "$2,500",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_6707.JPG",
+          "alt": "Bernedoodles in Indiana"
+        }
+      ]
+    },
+    {
+      "name": "Phoebe (Pink collar)",
+      "gender": "Girl",
+      "price": "$2,500",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_6709.JPG",
+          "alt": "Bernedoodles in Indiana"
+        }
+      ]
+    },
+    {
+      "name": "Phoenix (Tan collar)",
+      "gender": "Girl",
+      "price": "$2,500",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_6710.JPG",
+          "alt": "Bernedoodles in Indiana"
+        }
+      ]
+    },
+    {
+      "name": "Presley (Light blue collar)",
+      "gender": "Girl",
+      "price": "$2,500",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_6711.JPG",
+          "alt": "Bernedoodles in Indiana"
+        }
+      ]
+    },
+    {
+      "name": "Penny (Purple paws collar)",
+      "gender": "Girl",
+      "price": "$2,500",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_6712.JPG",
+          "alt": "Bernedoodles in Indiana"
+        }
+      ]
+    }
+  ],
   "showCarousel": true,
   "previousPuppies": [
     {
