@@ -52,26 +52,7 @@
       "name": "Savannah",
       "gender": "Girl",
       "price": "$2,000",
-      "status": "Available",
-      "photos": [
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_6437.jpeg"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_6389.JPG",
-          "alt": "Bernedoodles in Indiana"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_6136.JPG",
-          "alt": "Bernedoodles for sale in indiana"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Bernedoodle (savannah) 1.JPG"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_5810.JPG"
-        }
-      ]
+      "status": "Sold"
     },
     {
       "name": "Sage",
