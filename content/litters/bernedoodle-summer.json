@@ -58,7 +58,7 @@
       "name": "Sage",
       "gender": "Girl",
       "price": "$2,000",
-      "status": "Reserved"
+      "status": "Sold"
     },
     {
       "name": "Scott",
@@ -139,19 +139,19 @@
       "name": "Silas",
       "gender": "Boy",
       "price": "$2,000",
-      "status": "Reserved"
+      "status": "Sold"
     },
     {
       "name": "Skylar",
       "gender": "Girl",
       "price": "$2,500",
-      "status": "Reserved"
+      "status": "Sold"
     },
     {
       "name": "Sloane",
       "gender": "Girl",
       "price": "$2,500",
-      "status": "Reserved"
+      "status": "Sold"
     }
   ],
   "showCarousel": true,
