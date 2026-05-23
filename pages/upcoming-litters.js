@@ -98,7 +98,7 @@ export default function UpcomingLitters({ litters }) {
 
       <div className="announcement">
         ✈ Out of State? We Offer Ground &amp; Air Transport via Puppy Nanny —{' '}
-        <a href="tel:2604439035">Call Brooke: (260) 443-9035</a>
+        <a href="tel:2602131685">Call Luke: (260) 213-1685</a>
       </div>
 
       <nav>
