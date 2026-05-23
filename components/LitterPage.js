@@ -43,7 +43,8 @@ const STYLES = `
   .puppy-gender { font-size:0.68rem; letter-spacing:0.12em; text-transform:uppercase; color:var(--mid-gray); }
   .puppy-price { font-family:'Cormorant Garamond',serif; font-size:1.1rem; color:var(--red); font-style:italic; }
   .puppy-status { font-size:0.68rem; letter-spacing:0.1em; text-transform:uppercase; color:#888; background:var(--offwhite); padding:0.2rem 0.5rem; border-radius:2px; }
-  .puppy-status.reserved { color:var(--red); background:#fff0f0; }
+  .puppy-status.reserved { color:var(--black); background:var(--offwhite); }
+  .puppy-status.sold { color:var(--red); background:#fff0f0; }
   .parents-grid { display:grid; grid-template-columns:1fr 1fr; gap:1rem; margin-bottom:3rem; }
   .parent-card { border:1px solid var(--light-gray); border-radius:4px; overflow:hidden; }
   .parent-card img { width:100%; height:auto; display:block; }
@@ -318,7 +319,7 @@ export default function LitterPage({ litter }) {
                 <span className="puppy-name">{p.name}</span>
                 <span className="puppy-gender">{p.gender}</span>
                 <span className="puppy-price">{p.price}</span>
-                {p.status && <span className={`puppy-status${p.status === 'Reserved' ? ' reserved' : ''}`}>{p.status}</span>}
+                {p.status && <span className={`puppy-status${p.status === 'Reserved' ? ' reserved' : p.status === 'Sold' ? ' sold' : ''}`}>{p.status}</span>}
               </div>
             ))}
           </div>
