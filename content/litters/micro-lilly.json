@@ -5,7 +5,7 @@
   "slug": "micro-lilly",
   "breeder": "John & Kathy Yarnelle",
   "generation": "F1B",
-  "priceRange": "$2,000-$3,750",
+  "priceRange": "$1,700",
   "litterTitle": "Lilly x Torque",
   "dateOfBirth": "March 17, 2026",
   "takeHomeDate": "May 12, 2026 - May 26, 2026",
@@ -20,33 +20,19 @@
   "sireName": "Torque",
   "sireDesc": "Toy poodle (9 lbs)",
   "cardDesc": "Micro Mini Bernedoodles - Sweet and energetic cuddle buddies. Lilly x Torque",
-  "cardPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_6140.JPG",
+  "cardPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_6854.JPG",
   "sirePhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/typorama.PNG",
   "puppies": [
     {
-      "name": "Luna",
-      "gender": "Girl",
-      "price": "$3,750",
-      "status": "Reserved"
-    },
-    {
-      "name": "Laurel",
-      "gender": "Girl",
-      "price": "$3,000",
-      "status": "Reserved"
-    },
-    {
-      "name": "Lexi",
-      "gender": "Girl",
-      "price": "$2,500",
-      "status": "Reserved"
-    },
-    {
       "name": "Lena",
       "gender": "Girl",
-      "price": "$2,000",
+      "price": "$1,700",
       "status": "Available",
       "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_6854.JPG",
+          "alt": "Bernedoodles in Indiana"
+        },
         {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_6140.JPG",
           "alt": "Micro mini bernedoodle in indiana"
@@ -59,9 +45,13 @@
     {
       "name": "Leonardo",
       "gender": "Boy",
-      "price": "$2,000",
+      "price": "$1,700",
       "status": "Available",
       "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_6853.JPG",
+          "alt": "Bernedoodles in Indiana"
+        },
         {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_6141.JPG",
           "alt": "Micro mini bernedoodle in indiana"
@@ -70,6 +60,24 @@
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_5726.JPG"
         }
       ]
+    },
+    {
+      "name": "Luna",
+      "gender": "Girl",
+      "price": "$3,750",
+      "status": "Sold"
+    },
+    {
+      "name": "Laurel",
+      "gender": "Girl",
+      "price": "$3,000",
+      "status": "Sold"
+    },
+    {
+      "name": "Lexi",
+      "gender": "Girl",
+      "price": "$2,500",
+      "status": "Sold"
     }
   ],
   "showCarousel": true
