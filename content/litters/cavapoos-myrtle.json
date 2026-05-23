@@ -27,25 +27,13 @@
       "name": "Moriah",
       "gender": "Girl",
       "price": "$1,400",
-      "status": "Reserved",
-      "photos": [
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_6715.JPG",
-          "alt": "Cavapoos in Indiana"
-        }
-      ]
+      "status": "Reserved"
     },
     {
       "name": "Martha ",
       "gender": "Girl",
       "price": "$1,600",
-      "status": "Available",
-      "photos": [
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_6716.JPG",
-          "alt": "Cavapoos in Indiana"
-        }
-      ]
+      "status": "Reserved"
     },
     {
       "name": "Mario",
