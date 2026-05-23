@@ -5,7 +5,7 @@
   "slug": "akcpoodles-frosty",
   "breeder": "Dakoda & Brooke Labenz",
   "generation": "P",
-  "priceRange": "$1,500 - $2,000",
+  "priceRange": "$1,200 - $1,500",
   "litterTitle": "Frosty x Pumpkin",
   "dateOfBirth": "April 6, 2026",
   "takeHomeDate": "June 1, 2026",
@@ -26,7 +26,7 @@
     {
       "name": "Fawn",
       "gender": "Girl",
-      "price": "$1,500",
+      "price": "$1,200",
       "status": "Available",
       "photos": [
         {
@@ -54,7 +54,7 @@
     {
       "name": "Frida",
       "gender": "Girl",
-      "price": "$1,500",
+      "price": "$1,200",
       "status": "Available",
       "photos": [
         {
@@ -82,7 +82,7 @@
     {
       "name": "Freya",
       "gender": "Girl",
-      "price": "$2,000",
+      "price": "$1,500",
       "status": "Available",
       "photos": [
         {
@@ -110,7 +110,7 @@
     {
       "name": "Flora",
       "gender": "Girl",
-      "price": "$2,000",
+      "price": "$1,500",
       "status": "Available",
       "photos": [
         {
@@ -142,7 +142,7 @@
     {
       "name": "Fern",
       "gender": "Girl",
-      "price": "$1,500",
+      "price": "$1,200",
       "status": "Available",
       "photos": [
         {
@@ -198,7 +198,7 @@
     {
       "name": "Florence",
       "gender": "Girl",
-      "price": "$1,500",
+      "price": "$1,200",
       "status": "Available",
       "photos": [
         {
