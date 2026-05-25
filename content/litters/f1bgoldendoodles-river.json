@@ -20,6 +20,7 @@
   "sireName": "Festus",
   "sireDesc": "AKC Red Standard Poodle (60lbs)",
   "cardDesc": "Our family-raised Standard F1b Goldendoodles, born to our sweet F1 Goldendoodle mom, River, and handsome AKC Standard Poodle dad, Festus, are the perfect addition to any vibrant home. Raised with focused care on our family farm, these intelligent, affectionate puppies are beautifully socialized, confident, and ready for a lifetime of love with your family.",
+  "cardPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Goldendoodle%20Riley.JPG",
   "sirePhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Festus pic.jpeg",
   "puppies": [
     {
@@ -50,7 +51,7 @@
       "name": "Reese",
       "gender": "Boy",
       "price": "$1,800",
-      "status": "Available",
+      "status": "Reserved",
       "photos": [
         {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Goldendoodle Reese.JPG",
