@@ -1,5 +1,5 @@
 {
-  "active": true,
+  "active": false,
   "sortOrder": 10,
   "title": "Micro Mini F1B cavapoos",
   "slug": "cavapoo-roxy",
@@ -22,33 +22,5 @@
   "cardDesc": "Micro Mini F1b Cavapoos - Very gentle and good with kids. Roxy x Bobby",
   "cardPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Cavapoo%20(Rip).JPG",
   "sirePhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_1428.JPEG",
-  "puppies": [
-    {
-      "name": "Rip",
-      "gender": "Boy",
-      "price": "$2,000",
-      "status": "Available",
-      "photos": [
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Cavapoo (Rip).JPG"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/phonto%2012.JPG"
-        }
-      ]
-    },
-    {
-      "name": "Rochelle",
-      "gender": "Girl",
-      "price": "$1,500",
-      "status": "Sold"
-    },
-    {
-      "name": "Rhett",
-      "gender": "Boy",
-      "price": "$2,000",
-      "status": "Sold"
-    }
-  ],
   "showCarousel": true
 }
