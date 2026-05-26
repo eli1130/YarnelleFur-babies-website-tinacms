@@ -24,18 +24,6 @@
   "sirePhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Ash.jpg",
   "puppies": [
     {
-      "name": "Moriah",
-      "gender": "Girl",
-      "price": "$1,400",
-      "status": "Reserved"
-    },
-    {
-      "name": "Martha ",
-      "gender": "Girl",
-      "price": "$1,600",
-      "status": "Reserved"
-    },
-    {
       "name": "Mario",
       "gender": "Boy",
       "price": "$1,600",
@@ -46,6 +34,18 @@
           "alt": "Cavapoos in Indiana"
         }
       ]
+    },
+    {
+      "name": "Moriah",
+      "gender": "Girl",
+      "price": "$1,400",
+      "status": "Reserved"
+    },
+    {
+      "name": "Martha ",
+      "gender": "Girl",
+      "price": "$1,600",
+      "status": "Reserved"
     },
     {
       "name": "Maverick ",
