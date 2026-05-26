@@ -20,7 +20,7 @@
   "sireName": "Spruce",
   "sireDesc": "AKC Bernese Mountain Dog (100lbs)",
   "cardDesc": "Petunia (AKC Tri-Parti Poodle) and Spruce (AKC Bernese Mountain Dog) have welcomed a stunning new litter. Beautifully marked, family-raised, and ready for their forever homes!",
-  "cardPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_6705.JPG",
+  "cardPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_6712.JPG",
   "sirePhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/0.jpg",
   "puppies": [
     {
@@ -67,18 +67,6 @@
       "photos": [
         {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_6713.JPG",
-          "alt": "Bernedoodles in Indiana"
-        }
-      ]
-    },
-    {
-      "name": "Palmer (Yellow collar)",
-      "gender": "Girl",
-      "price": "$2,500",
-      "status": "Available",
-      "photos": [
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_6705.JPG",
           "alt": "Bernedoodles in Indiana"
         }
       ]
@@ -142,6 +130,12 @@
           "alt": "Bernedoodles in Indiana"
         }
       ]
+    },
+    {
+      "name": "Palmer (Yellow collar)",
+      "gender": "Girl",
+      "price": "$2,500",
+      "status": "Reserved"
     }
   ],
   "showCarousel": true,
