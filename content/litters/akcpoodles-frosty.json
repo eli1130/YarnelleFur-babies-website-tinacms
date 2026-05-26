@@ -1,6 +1,6 @@
 {
   "active": true,
-  "sortOrder": 7,
+  "sortOrder": 8,
   "title": "AKC Standard Poodles",
   "slug": "akcpoodles-frosty",
   "breeder": "Dakoda & Brooke Labenz",
@@ -199,29 +199,7 @@
       "name": "Florence",
       "gender": "Girl",
       "price": "$1,200",
-      "status": "Available",
-      "photos": [
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Florence 3.PNG",
-          "alt": "AKC standard poodles"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Florence 2.PNG",
-          "alt": "AKC standard poodles"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Florence 1.PNG",
-          "alt": "AKC standard poodles"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Standard poodles (Florence 1).JPG",
-          "alt": "AKC standard poodles"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/standard poodle (Florence).PNG",
-          "alt": "AKC standard poodles"
-        }
-      ]
+      "status": "Sold"
     },
     {
       "name": "Frank",
