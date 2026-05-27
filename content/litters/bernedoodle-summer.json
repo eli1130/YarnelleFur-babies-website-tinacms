@@ -53,35 +53,6 @@
       ]
     },
     {
-      "name": "Scott",
-      "gender": "Boy",
-      "price": "$1,800",
-      "status": "Available",
-      "photos": [
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_6842.JPG",
-          "alt": "Bernedoodles in Indiana"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_6435.jpeg"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_6394.JPG",
-          "alt": "Bernedoodles in Indiana"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_6134.JPG",
-          "alt": "Bernedoodles for sale in indiana"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Bernedoodle (scott) 1.JPG"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_5812.JPG"
-        }
-      ]
-    },
-    {
       "name": "Sebastian",
       "gender": "Boy",
       "price": "$1,800",
@@ -107,6 +78,35 @@
         },
         {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_5815.JPG"
+        }
+      ]
+    },
+    {
+      "name": "Scott",
+      "gender": "Boy",
+      "price": "$1,800",
+      "status": "Sold",
+      "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_6842.JPG",
+          "alt": "Bernedoodles in Indiana"
+        },
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_6435.jpeg"
+        },
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_6394.JPG",
+          "alt": "Bernedoodles in Indiana"
+        },
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_6134.JPG",
+          "alt": "Bernedoodles for sale in indiana"
+        },
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Bernedoodle (scott) 1.JPG"
+        },
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_5812.JPG"
         }
       ]
     },
