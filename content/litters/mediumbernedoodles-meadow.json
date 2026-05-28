@@ -1,0 +1,160 @@
+{
+  "active": true,
+  "sortOrder": 6,
+  "title": "Medium F1B Bernedoodles",
+  "slug": "mediumbernedoodles-meadow",
+  "breeder": "Luke & Eli Yarnelle",
+  "generation": "F1B",
+  "priceRange": "$2,200-$3,500",
+  "litterTitle": "Meadow May x Bonsai",
+  "dateOfBirth": "May 5, 2026",
+  "takeHomeDate": "June 30, 2026",
+  "estimatedSize": "45-50 lbs",
+  "grooming": "Roughly every 3-4 months",
+  "temperament": "Our Medium F1b Bernedoodles are the perfect family companions, combining the fierce loyalty and gentle nature of the Bernese Mountain Dog with the bright intelligence and playful charm of the Poodle.",
+  "deposit": "$600",
+  "contact": "Eli · (260) 445-4378",
+  "damName": "Meadow May ",
+  "damDesc": "Mini F1 Bernedoodle (37lbs)",
+  "damPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/image_0066.jpg",
+  "sireName": "Bonsai",
+  "sireDesc": "AKC Standard Poodle (60lbs)",
+  "cardDesc": "Our Medium F1b Bernedoodles, born to Meadow May, our sweet Mini F1 Bernedoodle, and Bonsai, our handsome AKC Standard Poodle, are the ultimate family companions. Raised with care right here on the farm, these puppies perfectly blend the fierce loyalty of the Bernese Mountain Dog with the bright intelligence and low-shedding qualities of the Poodle. They are incredibly friendly, well-socialized, and ready to bring a lifetime of smart, affectionate joy to your home.",
+  "cardPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_6936.JPG",
+  "sirePhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/image_0044.jpg",
+  "puppies": [
+    {
+      "name": "Molly (tan collar)",
+      "gender": "Girl",
+      "price": "$3,500",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_6935.JPG",
+          "alt": "Medium Bernedoodles in Indiana"
+        }
+      ]
+    },
+    {
+      "name": "Mark (green collar)",
+      "gender": "Boy",
+      "price": "$3,500",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_6974.JPG",
+          "alt": "Medium Bernedoodles in Indiana"
+        }
+      ]
+    },
+    {
+      "name": "Maddy (grey collar)",
+      "gender": "Girl",
+      "price": "$3,500",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_6975.JPG",
+          "alt": "Medium Bernedoodles in Indiana"
+        }
+      ]
+    },
+    {
+      "name": "Macy (pink collar)",
+      "gender": "Girl",
+      "price": "$3,200",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_6936.JPG",
+          "alt": "Medium Bernedoodles in Indiana"
+        }
+      ]
+    },
+    {
+      "name": "Malachi (red collar)",
+      "gender": "Boy",
+      "price": "$3,000",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_6972.JPG",
+          "alt": "Medium Bernedoodles in Indiana"
+        }
+      ]
+    },
+    {
+      "name": "Maggie (light blue collar)",
+      "gender": "Girl",
+      "price": "$3,000",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_6969.JPG",
+          "alt": "Medium Bernedoodles in Indiana"
+        }
+      ]
+    },
+    {
+      "name": "Morgan (purple collar)",
+      "gender": "Girl",
+      "price": "$3,000",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_6934.JPG",
+          "alt": "Medium bernedoodles in Indiana"
+        }
+      ]
+    },
+    {
+      "name": "Mason (orange collar)",
+      "gender": "Boy",
+      "price": "$2,800",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_6939.JPG",
+          "alt": "Medium Bernedoodles in Indiana"
+        }
+      ]
+    },
+    {
+      "name": "Megan (yellow collar)",
+      "gender": "Girl",
+      "price": "$2,800",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_6940.JPG",
+          "alt": "Medium Bernedoodles in Indiana"
+        }
+      ]
+    },
+    {
+      "name": "Micah (dark blue collar)",
+      "gender": "Boy",
+      "price": "$2,200",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_6973.JPG",
+          "alt": "Medium Bernedoodles in Indiana"
+        }
+      ]
+    },
+    {
+      "name": "Mila (no collar)",
+      "gender": "Girl",
+      "price": "$2,200",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_6976.JPG",
+          "alt": "Medium Bernedoodles in Indiana"
+        }
+      ]
+    }
+  ],
+  "showCarousel": true
+}
