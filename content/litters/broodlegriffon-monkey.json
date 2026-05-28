@@ -1,0 +1,76 @@
+{
+  "active": true,
+  "sortOrder": 5,
+  "title": "Broodle Griffons",
+  "slug": "broodlegriffon-monkey",
+  "breeder": "John & Kathy Yarnelle",
+  "generation": "F1",
+  "priceRange": "$1,800 - $2,000",
+  "litterTitle": "Monkey x Ash",
+  "dateOfBirth": "May 4, 2026",
+  "takeHomeDate": "June 29, 2026",
+  "estimatedSize": "8–10 lbs",
+  "grooming": "Roughly every 3-4 months",
+  "temperament": "playful, sweet, affectionate, intelligent, and LOVE people.",
+  "deposit": "$400",
+  "contact": "Eli · (260) 445-4378)",
+  "damName": "Monkey",
+  "damDesc": "AKC Brussels Griffon (10lbs)",
+  "damPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Monkey pic.jpeg",
+  "sireName": "Ash",
+  "sireDesc": "Cream Toy Poodle (9lbs)",
+  "cardDesc": "Meet our adorable F1 Broodle Griffons, proudly raised right here on the farm! This special litter matches Monkey, our affectionate Brussels Griffon, with Ash, our intelligent Toy Poodle. These unique puppies combine the sweet, expressive personality of the Griffon with the smart, low-shedding coat of the Poodle. Well-socialized and raised with care, they are the perfect loyal, compact companions for any loving home.",
+  "cardPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Broodle%20Griffon%20Millie.JPG",
+  "sirePhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Ash.jpg",
+  "puppies": [
+    {
+      "name": "Mallory",
+      "gender": "Girl",
+      "price": "$1,800",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Broodle Griffon Mallory.JPG",
+          "alt": "Broodle Griffons in Indiana"
+        }
+      ]
+    },
+    {
+      "name": "Millie",
+      "gender": "Girl",
+      "price": "$2,000",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Broodle Griffon Millie.JPG",
+          "alt": "Broodle Griffons in Indiana"
+        }
+      ]
+    },
+    {
+      "name": "Mitch",
+      "gender": "Boy",
+      "price": "$2,000",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Broodle Griffon Mitch.JPG",
+          "alt": "Broodle Griffons in Indiana"
+        }
+      ]
+    },
+    {
+      "name": "Mike",
+      "gender": "Boy",
+      "price": "$1,800",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Broodle Griffon Mike.JPG",
+          "alt": "Broodle Griffons in Indiana"
+        }
+      ]
+    }
+  ],
+  "showCarousel": true
+}
