@@ -20,7 +20,7 @@
   "sireName": "Bamboo",
   "sireDesc": "AKC Sable Parti Standard Poodle (60lbs)",
   "cardDesc": "Standard F1 Bernedoodles- They are incredibly friendly with other dogs, cats, and kiddo. Summer x Bamboo",
-  "cardPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_6842.JPG",
+  "cardPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_7126.JPG",
   "sirePhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/image_0074.jpg",
   "puppies": [
     {
@@ -29,6 +29,10 @@
       "price": "$1,800",
       "status": "Available",
       "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_7125.JPG",
+          "alt": "Bernedoodles in Indiana"
+        },
         {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_6841.JPG",
           "alt": "Bernedoodles in Indiana"
@@ -58,6 +62,10 @@
       "price": "$1,800",
       "status": "Available",
       "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_7126.JPG",
+          "alt": "Bernedoodles in Indiana"
+        },
         {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_6840.JPG",
           "alt": "Bernedoodles in Indiana"
