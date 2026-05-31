@@ -51,13 +51,7 @@
       "name": "Reese",
       "gender": "Boy",
       "price": "$1,800",
-      "status": "Reserved",
-      "photos": [
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Goldendoodle Reese.JPG",
-          "alt": "Goldendoodles in Indiana"
-        }
-      ]
+      "status": "Reserved"
     },
     {
       "name": "Russel",
