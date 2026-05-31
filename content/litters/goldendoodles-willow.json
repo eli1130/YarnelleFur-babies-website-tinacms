@@ -84,26 +84,6 @@
       ]
     },
     {
-      "name": "Walker",
-      "gender": "Boy",
-      "price": "$1,800",
-      "status": "Available",
-      "photos": [
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Goldendoodle(Walker 1).JPG",
-          "alt": "Goldendoodles in Indiana"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_6377.JPG",
-          "alt": "Goldendoodles in Indiana"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Goldendoodle (Walker).JPG",
-          "alt": "Goldendoodles in Indiana"
-        }
-      ]
-    },
-    {
       "name": "Wesley",
       "gender": "Boy",
       "price": "$1,400",
@@ -144,16 +124,22 @@
       ]
     },
     {
+      "name": "Walker",
+      "gender": "Boy",
+      "price": "$1,800",
+      "status": "Reserved"
+    },
+    {
       "name": "Winston",
       "gender": "Boy",
       "price": "$1,400",
-      "status": "Reserved"
+      "status": "Sold"
     },
     {
       "name": "Winnie",
       "gender": "Girl",
       "price": "$2,000",
-      "status": "Reserved"
+      "status": "Sold"
     }
   ],
   "showCarousel": true
