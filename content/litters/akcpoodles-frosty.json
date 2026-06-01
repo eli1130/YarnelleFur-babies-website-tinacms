@@ -80,34 +80,6 @@
       ]
     },
     {
-      "name": "Freya",
-      "gender": "Girl",
-      "price": "$1,500",
-      "status": "Available",
-      "photos": [
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Freya 3.PNG",
-          "alt": "AKC standard poodles"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Freya 2.PNG",
-          "alt": "AKC standard poodles"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Freya 1.PNG",
-          "alt": "AKC standard poodles"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Standard poodles (Freya 1).JPG",
-          "alt": "AKC standard poodles"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/standard poodle (Freya).PNG",
-          "alt": "AKC standard poodles"
-        }
-      ]
-    },
-    {
       "name": "Flora",
       "gender": "Girl",
       "price": "$1,500",
@@ -168,34 +140,6 @@
       ]
     },
     {
-      "name": "Faith",
-      "gender": "Girl",
-      "price": "$1,500",
-      "status": "Available",
-      "photos": [
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Faith 3.PNG",
-          "alt": "AKC standard poodles"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Faith 2.JPEG",
-          "alt": "AKC standard poodles"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Faith 1.PNG",
-          "alt": "AKC standard poodles"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Standard poodles (Faith 1).JPG",
-          "alt": "AKC standard poodles"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/standard poodle (Faith).PNG",
-          "alt": "AKC standard poodles"
-        }
-      ]
-    },
-    {
       "name": "Florence",
       "gender": "Girl",
       "price": "$1,200",
@@ -228,6 +172,18 @@
           "alt": "AKC standard poodles"
         }
       ]
+    },
+    {
+      "name": "Freya",
+      "gender": "Girl",
+      "price": "$1,500",
+      "status": "Sold"
+    },
+    {
+      "name": "Faith",
+      "gender": "Girl",
+      "price": "$1,500",
+      "status": "Sold"
     }
   ],
   "showCarousel": true
