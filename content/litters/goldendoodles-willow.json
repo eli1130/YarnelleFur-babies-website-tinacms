@@ -44,26 +44,6 @@
       ]
     },
     {
-      "name": "Whitney",
-      "gender": "Girl",
-      "price": "$2,000",
-      "status": "Available",
-      "photos": [
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Goldendoodle(Whitney 1).JPG",
-          "alt": "Goldendoodles in Indiana"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_6379.JPG",
-          "alt": "Goldendoodles in Indiana"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Goldendoodle%20(Whitney).JPG",
-          "alt": "Goldendoodles in Indiana"
-        }
-      ]
-    },
-    {
       "name": "Wyatt",
       "gender": "Boy",
       "price": "$1,600",
@@ -122,6 +102,12 @@
           "alt": "Goldendoodles in Indiana"
         }
       ]
+    },
+    {
+      "name": "Whitney",
+      "gender": "Girl",
+      "price": "$2,000",
+      "status": "Reserved"
     },
     {
       "name": "Walker",
