@@ -1,0 +1,40 @@
+{
+  "active": true,
+  "sortOrder": 8,
+  "title": "Mini F1bb  Saint Berdoodles",
+  "slug": "ministberdoodle-everly",
+  "breeder": "Luke & Eli Yarnelle",
+  "generation": "F1BB",
+  "priceRange": "$2,000",
+  "litterTitle": "Everly x Teddy",
+  "dateOfBirth": "May 4, 2026",
+  "takeHomeDate": "June 29, 2026",
+  "estimatedSize": "20-35 lbs",
+  "grooming": "Roughly every 3-4 months",
+  "temperament": "friendly, affectionate, intelligent, eager to please, loving, and very social. Very easy to train due to their intelligence and desire to please.",
+  "deposit": "$400",
+  "contact": "Luke · (260) 213-1685",
+  "damName": "Everly",
+  "damDesc": "Miniature F1b Saint Berdoodle (36lbs)",
+  "damPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Everly pic.jpeg",
+  "sireName": "Teddy",
+  "sireDesc": "Toy Cream Poodle (9lbs)",
+  "cardDesc": "Our gorgeous mama, Everly (a Mini F1B St. Berdoodle), and handsome dad, Teddy (a Toy Poodle), have welcomed a beautiful new litter of Mini F1BB St. Berdoodles! This special generation gives these sweet puppies an exceptionally low-to-non-shedding coat, making them the perfect allergy-friendly companions. Raised with endless love and daily socialization, these smart, compact, and affectionate sweethearts are ready to bring a lifetime of joy to your family.",
+  "cardPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_1053.jpeg",
+  "sirePhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/image_0103.jpg",
+  "puppies": [
+    {
+      "name": "Ella",
+      "gender": "Girl",
+      "price": "$2,000",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_1053.jpeg",
+          "alt": "mini st.berdoodle in indiana"
+        }
+      ]
+    }
+  ],
+  "showCarousel": true
+}
