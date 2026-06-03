@@ -20,7 +20,7 @@
   "sireName": "Teddy",
   "sireDesc": "AKC Toy Poodle (9 lbs)",
   "cardDesc": "Highly intelligent, social, and devoted; they offer a perfect balance of playful energy and a calm, affectionate nature. Phyllis x Teddy litter",
-  "cardPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Bossi%20poo%20Phoenix.JPG",
+  "cardPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Phoenix%20bossi%20poo%202.JPG",
   "sirePhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/image_0103.jpg",
   "puppies": [
     {
@@ -29,6 +29,9 @@
       "price": "$750",
       "status": "Available",
       "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/phonto 25.JPG"
+        },
         {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Bossi poo Phoebe.JPG",
           "alt": "Bossi-poos in indiana"
@@ -45,6 +48,10 @@
       "price": "$750",
       "status": "Available",
       "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Phoenix bossi poo 2.JPG",
+          "alt": "Bossi-poos in indiana"
+        },
         {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Bossi poo Phoenix.JPG",
           "alt": "Bossi-poos in indiana"
