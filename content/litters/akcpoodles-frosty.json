@@ -24,34 +24,6 @@
   "sirePhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/image_0141.jpg",
   "puppies": [
     {
-      "name": "Fawn",
-      "gender": "Girl",
-      "price": "$1,200",
-      "status": "Available",
-      "photos": [
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Fawn 3.PNG",
-          "alt": "AKC standard poodles"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Fawn 2.PNG",
-          "alt": "AKC standard poodles"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Fawn 1.PNG",
-          "alt": "AKC standard poodles"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Standard poodles (Fawn 1).JPG",
-          "alt": "AKC standard poodles"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/standard poodle (Fawn).PNG",
-          "alt": "AKC standard poodles"
-        }
-      ]
-    },
-    {
       "name": "Frida",
       "gender": "Girl",
       "price": "$1,200",
@@ -140,12 +112,6 @@
       ]
     },
     {
-      "name": "Florence",
-      "gender": "Girl",
-      "price": "$1,200",
-      "status": "Sold"
-    },
-    {
       "name": "Frank",
       "gender": "Boy",
       "price": "$1,500",
@@ -172,6 +138,18 @@
           "alt": "AKC standard poodles"
         }
       ]
+    },
+    {
+      "name": "Fawn",
+      "gender": "Girl",
+      "price": "$1,200",
+      "status": "Sold"
+    },
+    {
+      "name": "Florence",
+      "gender": "Girl",
+      "price": "$1,200",
+      "status": "Sold"
     },
     {
       "name": "Freya",
