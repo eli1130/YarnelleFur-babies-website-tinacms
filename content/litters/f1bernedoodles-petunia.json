@@ -20,7 +20,7 @@
   "sireName": "Spruce",
   "sireDesc": "AKC Bernese Mountain Dog (100lbs)",
   "cardDesc": "Petunia (AKC Tri-Parti Poodle) and Spruce (AKC Bernese Mountain Dog) have welcomed a stunning new litter. Beautifully marked, family-raised, and ready for their forever homes!",
-  "cardPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_6712.JPG",
+  "cardPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_7181.JPG",
   "sirePhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/0.jpg",
   "puppies": [
     {
@@ -29,6 +29,10 @@
       "price": "$2,500",
       "status": "Available",
       "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_7180.JPG",
+          "alt": "Bernedoodles in Indiana"
+        },
         {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_6993.JPG",
           "alt": "Bernedoodles in Indiana"
@@ -46,6 +50,10 @@
       "status": "Available",
       "photos": [
         {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_7177.JPG",
+          "alt": "Bernedoodles in Indiana"
+        },
+        {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_6996.JPG",
           "alt": "Bernedoodles in Indiana"
         },
@@ -61,6 +69,10 @@
       "price": "$2,500",
       "status": "Available",
       "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_7179.JPG",
+          "alt": "Bernedoodles in Indiana"
+        },
         {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_6990.JPG",
           "alt": "Bernedoodles in Indiana"
@@ -78,6 +90,10 @@
       "status": "Available",
       "photos": [
         {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_7178.JPG",
+          "alt": "Bernedoodles in Indiana"
+        },
+        {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_6995.JPG",
           "alt": "Bernedoodles in Indiana"
         },
@@ -93,6 +109,10 @@
       "price": "$2,500",
       "status": "Available",
       "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_7175.JPG",
+          "alt": "Bernedoodles in Indiana"
+        },
         {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_6997.JPG",
           "alt": "Bernedoodles in Indiana"
@@ -110,6 +130,10 @@
       "status": "Available",
       "photos": [
         {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_7174.JPG",
+          "alt": "Bernedoodles in Indiana"
+        },
+        {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_6992.JPG",
           "alt": "Bernedoodles in Indiana"
         },
@@ -125,6 +149,10 @@
       "price": "$2,500",
       "status": "Available",
       "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_7181.JPG",
+          "alt": "Bernedoodles in Indiana"
+        },
         {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_6991.JPG",
           "alt": "Bernedoodles in Indiana"
@@ -142,6 +170,10 @@
       "status": "Available",
       "photos": [
         {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_7176.JPG",
+          "alt": "Bernedoodles in Indiana"
+        },
+        {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_6994.JPG",
           "alt": "Bernedoodles in Indiana"
         },
@@ -157,6 +189,10 @@
       "price": "$2,500",
       "status": "Available",
       "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_7182.JPG",
+          "alt": "Bernedoodles in Indiana"
+        },
         {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_6989.JPG",
           "alt": "Bernedoodles in Indiana"
