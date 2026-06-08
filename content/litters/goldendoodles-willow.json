@@ -20,29 +20,9 @@
   "sireName": "Bonsai",
   "sireDesc": "AKC Standard Poodle (60lbs)",
   "cardDesc": "Standard F1B Goldendoodles — highly intelligent and social family companions. The ultimate \"velcro dog\" that is eager to please. Willow x Bonsai litter",
-  "cardPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Goldendoodle(Winter%201).JPG",
+  "cardPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Goldendoodle(Wesley%201).JPG",
   "sirePhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/image_0044.jpg",
   "puppies": [
-    {
-      "name": "Winter",
-      "gender": "Girl",
-      "price": "$2,000",
-      "status": "Available",
-      "photos": [
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Goldendoodle(Winter 1).JPG",
-          "alt": "Goldendoodles in Indiana"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_6381.JPG",
-          "alt": "Goldendoodles in Indiana"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Goldendoodle (winter).JPG",
-          "alt": "Goldendoodles in Indiana"
-        }
-      ]
-    },
     {
       "name": "Wyatt",
       "gender": "Boy",
@@ -114,6 +94,12 @@
       "gender": "Boy",
       "price": "$1,800",
       "status": "Reserved"
+    },
+    {
+      "name": "Winter",
+      "gender": "Girl",
+      "price": "$2,000",
+      "status": "Sold"
     },
     {
       "name": "Winston",
