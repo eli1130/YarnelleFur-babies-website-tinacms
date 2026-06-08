@@ -46,20 +46,7 @@
       "name": "Leonardo",
       "gender": "Boy",
       "price": "$1,700",
-      "status": "Available",
-      "photos": [
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_6853.JPG",
-          "alt": "Bernedoodles in Indiana"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_6141.JPG",
-          "alt": "Micro mini bernedoodle in indiana"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_5726.JPG"
-        }
-      ]
+      "status": "Reserved"
     },
     {
       "name": "Luna",
