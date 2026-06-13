@@ -144,12 +144,6 @@
       ]
     },
     {
-      "name": "Prince (Black collar)",
-      "gender": "Boy",
-      "price": "$2,250",
-      "status": "Sold"
-    },
-    {
       "name": "Philip (Dark Green collar)",
       "gender": "Boy",
       "price": "$2,250",
@@ -160,6 +154,12 @@
       "gender": "Boy",
       "price": "$2,250",
       "status": "Reserved"
+    },
+    {
+      "name": "Prince (Black collar)",
+      "gender": "Boy",
+      "price": "$2,250",
+      "status": "Sold"
     },
     {
       "name": "Palmer (Yellow collar)",
