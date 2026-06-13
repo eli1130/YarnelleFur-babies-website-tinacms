@@ -20,7 +20,7 @@
   "sireName": "Pumpkin",
   "sireDesc": "AKC Standard Poodle (70lbs)",
   "cardDesc": "Meet our Frosty x Pumpkin pups! Sired by our 70lb AKC Standard Poodle, Pumpkin, and out of our beautiful 45lb Silver Beige dam, Frosty, these puppies are bred for temperament. They are the perfect addition for families seeking a loyal, kid-friendly companion who loves to cuddle.",
-  "cardPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Poodle%20Frida%203.PNG",
+  "cardPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Frida%205.PNG",
   "sirePhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/image_0141.jpg",
   "puppies": [
     {
@@ -29,6 +29,10 @@
       "price": "$1,200",
       "status": "Available",
       "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Frida 5.PNG",
+          "alt": "AKC standard poodles"
+        },
         {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Poodle Frida 3.PNG",
           "alt": "Bernedoodles in Indiana"
@@ -58,9 +62,16 @@
     {
       "name": "Flora",
       "gender": "Girl",
-      "price": "$1,500",
+      "price": "$1,400",
       "status": "Available",
       "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Flora 5.PNG"
+        },
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Flora 6.PNG",
+          "alt": "AKC standard poodles"
+        },
         {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Poodle Flora 3.PNG",
           "alt": "Bernedoodles in Indiana"
