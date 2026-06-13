@@ -26,7 +26,7 @@
     {
       "name": "Sienna",
       "gender": "Girl",
-      "price": "$1,800",
+      "price": "$1,600",
       "status": "Available",
       "photos": [
         {
@@ -59,8 +59,24 @@
     {
       "name": "Sebastian",
       "gender": "Boy",
-      "price": "$1,800",
-      "status": "Sold"
+      "price": "$1,600",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_7287.JPG"
+        },
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_6436.jpeg",
+          "alt": "Bernedoodles in Indiana"
+        },
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_6840.JPG"
+        },
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_6133.JPG",
+          "alt": ""
+        }
+      ]
     },
     {
       "name": "Scott",
