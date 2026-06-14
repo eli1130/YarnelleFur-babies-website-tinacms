@@ -1,0 +1,76 @@
+{
+  "active": true,
+  "sortOrder": 4,
+  "title": "Chinese Crestepoos ",
+  "slug": "chinesecrestipoos-melania",
+  "breeder": "John & Kathy Yarnelle",
+  "generation": "F1",
+  "priceRange": "$1,200 - $1,400",
+  "litterTitle": "Melania x Bobby",
+  "dateOfBirth": "May 22, 2026",
+  "takeHomeDate": "July 17, 2026",
+  "estimatedSize": "8–10 lbs",
+  "grooming": "Roughly every 3-4 months",
+  "temperament": "reat companion/family pet, affectionate, curious, playful, and intelligent",
+  "deposit": "$400",
+  "contact": "Brooke · (260) 443-9035",
+  "damName": "Melania",
+  "damDesc": "Chinese Crested (7lbs)",
+  "damPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Melania pic.jpeg",
+  "sireName": "Bobby",
+  "sireDesc": "Toy poodle (9 lbs)",
+  "cardDesc": "Meet our unique and charming Chinese Crestipoos! These affectionate, low-shedding little sweethearts combine a playful spirit with an incredibly loving nature, making them the ultimate companion for family snuggle time.",
+  "cardPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Chinese%20crestipoos%20Malachi.JPG",
+  "sirePhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_1428.JPEG",
+  "puppies": [
+    {
+      "name": "Max ",
+      "gender": "Boy",
+      "price": "$1,200",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Chinese crestipoos Max.JPG",
+          "alt": "Chinese crestipoos in Indiana "
+        }
+      ]
+    },
+    {
+      "name": "Millie",
+      "gender": "Girl",
+      "price": "$1,200",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Chinese crestipoos Millie.JPG",
+          "alt": "Chinese Crestipoos in Indiana "
+        }
+      ]
+    },
+    {
+      "name": "Marie ",
+      "gender": "Girl",
+      "price": "$1,200",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Chinese crestipoos Marie.JPG",
+          "alt": "Chinese Crestipoos in Indiana "
+        }
+      ]
+    },
+    {
+      "name": "Malachi",
+      "gender": "Boy",
+      "price": "$1,400",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Chinese crestipoos Malachi.JPG",
+          "alt": "Chinese Crestipoos in Indiana "
+        }
+      ]
+    }
+  ],
+  "showCarousel": true
+}
