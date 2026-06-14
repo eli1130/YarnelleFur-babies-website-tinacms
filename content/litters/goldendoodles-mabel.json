@@ -1,0 +1,124 @@
+{
+  "active": true,
+  "sortOrder": 11,
+  "title": "Standard F1b Goldendoodles ",
+  "slug": "goldendoodles-mabel",
+  "breeder": "Dakoda & Brooke Labenz",
+  "generation": "F1B",
+  "priceRange": "$1,600 - $2,300",
+  "litterTitle": "Mabel x Pumpkin",
+  "dateOfBirth": "May 26, 2026",
+  "takeHomeDate": "July 21, 2026",
+  "estimatedSize": "50-60 lbs",
+  "grooming": "Roughly every 3-4 months",
+  "temperament": "Highly intelligent, social, and deeply loyal family companions. These Standard F1b Goldendoodles are the ultimate \"velcro dogs\" that are eager to please, incredibly sweet-natured, and boast excellent, low-shedding coats.",
+  "deposit": "$600",
+  "contact": "Brooke · (260) 443-9035",
+  "damName": "Mabel",
+  "damDesc": "Standard F1 Goldendoodle (50lbs)",
+  "damPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Mabel pic.PNG",
+  "sireName": "Pumpkin",
+  "sireDesc": "AKC Cream Standard Poodle 70lbs",
+  "cardDesc": "Our family-raised Standard F1b Goldendoodles are the perfect addition to any vibrant home. Raised with focused care on our family farm, these intelligent, affectionate puppies are beautifully socialized, confident, and ready for a lifetime of love with your family.",
+  "cardPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/F1b%20goldendoodles%20Maya.PNG",
+  "sirePhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/image_0141.jpg",
+  "puppies": [
+    {
+      "name": "Maisie",
+      "gender": "Girl",
+      "price": "$1,600",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/F1b goldendoodles Maisie.PNG",
+          "alt": "Goldendoodles in Indiana"
+        }
+      ]
+    },
+    {
+      "name": "Malcom",
+      "gender": "Boy",
+      "price": "$1,600",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/F1b goldendoodles Malcom.PNG",
+          "alt": "Goldendoodles in Indiana"
+        }
+      ]
+    },
+    {
+      "name": "Marigold",
+      "gender": "Girl",
+      "price": "$1,800",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/F1b goldendoodles Marigold.PNG",
+          "alt": "Goldendoodles in Indiana"
+        }
+      ]
+    },
+    {
+      "name": "Marvin",
+      "gender": "Boy",
+      "price": "$1,800",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/F1b goldendoodles Marvin.PNG",
+          "alt": "Goldendoodles in Indiana"
+        }
+      ]
+    },
+    {
+      "name": "Maverick",
+      "gender": "Boy",
+      "price": "$1,600",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/F1b goldendoodles Maverick.PNG",
+          "alt": "Goldendoodles in Indiana"
+        }
+      ]
+    },
+    {
+      "name": "Maya",
+      "gender": "Girl",
+      "price": "$2,300",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/F1b goldendoodles Maya.PNG",
+          "alt": "Goldendoodles in Indiana"
+        }
+      ]
+    },
+    {
+      "name": "Mickey",
+      "gender": "Boy",
+      "price": "$1,800",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/F1b goldendoodles Mickey.PNG",
+          "alt": "Goldendoodles in Indiana"
+        }
+      ]
+    },
+    {
+      "name": "Murphy ",
+      "gender": "Boy",
+      "price": "$1,600",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/F1b goldendoodles Murphy.PNG",
+          "alt": "Goldendoodles in Indiana"
+        }
+      ]
+    }
+  ],
+  "showCarousel": true
+}
