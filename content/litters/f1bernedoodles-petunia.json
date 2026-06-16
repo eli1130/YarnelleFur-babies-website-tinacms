@@ -20,7 +20,7 @@
   "sireName": "Spruce",
   "sireDesc": "AKC Bernese Mountain Dog (100lbs)",
   "cardDesc": "Petunia (AKC Tri-Parti Poodle) and Spruce (AKC Bernese Mountain Dog) have welcomed a stunning new litter. Beautifully marked, family-raised, and ready for their forever homes!",
-  "cardPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_7181.JPG",
+  "cardPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_7182.JPG",
   "sirePhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/0.jpg",
   "puppies": [
     {
@@ -84,26 +84,6 @@
       ]
     },
     {
-      "name": "Phoenix (Tan collar)",
-      "gender": "Girl",
-      "price": "$2,250",
-      "status": "Available",
-      "photos": [
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_7181.JPG",
-          "alt": "Bernedoodles in Indiana"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_6991.JPG",
-          "alt": "Bernedoodles in Indiana"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_6710.JPG",
-          "alt": "Bernedoodles in Indiana"
-        }
-      ]
-    },
-    {
       "name": "Presley (Light blue collar)",
       "gender": "Girl",
       "price": "$2,250",
@@ -154,6 +134,12 @@
       "gender": "Boy",
       "price": "$2,250",
       "status": "Reserved"
+    },
+    {
+      "name": "Phoenix (Tan collar)",
+      "gender": "Girl",
+      "price": "$2,250",
+      "status": "Sold"
     },
     {
       "name": "Prince (Black collar)",
