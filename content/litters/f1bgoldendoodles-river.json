@@ -20,7 +20,7 @@
   "sireName": "Festus",
   "sireDesc": "AKC Red Standard Poodle (60lbs)",
   "cardDesc": "Our family-raised Standard F1b Goldendoodles, born to our sweet F1 Goldendoodle mom, River, and handsome AKC Standard Poodle dad, Festus, are the perfect addition to any vibrant home. Raised with focused care on our family farm, these intelligent, affectionate puppies are beautifully socialized, confident, and ready for a lifetime of love with your family.",
-  "cardPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Goldendoodle%20Riley.JPG",
+  "cardPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Standard%20goldendoodles%20(Raegan)%203.JPG",
   "sirePhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Festus pic.jpeg",
   "puppies": [
     {
@@ -29,6 +29,10 @@
       "price": "$1,800",
       "status": "Available",
       "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Standard goldendoodles (Ricky) 3.JPG",
+          "alt": "Goldendoodles in Indiana"
+        },
         {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Goldedoodle Ricky.JPG",
           "alt": "Goldendoodles in Indiana"
@@ -42,8 +46,92 @@
       "status": "Available",
       "photos": [
         {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Standard goldendoodles (Robert) 3.JPG",
+          "alt": "Goldendoodles in Indiana"
+        },
+        {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Goldendoodle Robert.JPG",
           "alt": "Goldendoodles in Indiana"
+        }
+      ]
+    },
+    {
+      "name": "Rip",
+      "gender": "Boy",
+      "price": "$1,800",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Standard goldendoodles (Rip) 3.JPG",
+          "alt": "Goldendoodles in Indiana"
+        },
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Goldendoodle Rip.JPG",
+          "alt": "Goldendoodles in Indiana"
+        }
+      ]
+    },
+    {
+      "name": "Ruby",
+      "gender": "Girl",
+      "price": "$2,000",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Standard goldendoodles (Ruby) 3.JPG",
+          "alt": "Goldendoodles in Indiana"
+        },
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Goldendoodle Ruby.JPG",
+          "alt": "Goldendoodles in Indiana"
+        }
+      ]
+    },
+    {
+      "name": "Remi",
+      "gender": "Girl",
+      "price": "$2,000",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Standard goldendoodles (Remi) 3.JPG",
+          "alt": "Goldendoodles in Indiana"
+        },
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Goldendoodle remi.JPG",
+          "alt": "Goldendoodles in Indiana"
+        }
+      ]
+    },
+    {
+      "name": "Riley",
+      "gender": "Girl",
+      "price": "$2,000",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Standard goldendoodles (Riley) 3.JPG",
+          "alt": "Goldendoodles in Indiana"
+        },
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Goldendoodle Riley.JPG",
+          "alt": "Goldendoodles in Indiana"
+        }
+      ]
+    },
+    {
+      "name": "Raegan",
+      "gender": "Girl",
+      "price": "$2,000",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Standard goldendoodles (Raegan) 3.JPG",
+          "alt": "Goldendoodles in Indiana"
+        },
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Goldendoodle raegen.JPG",
+          "alt": "Goldendoodles in indiana"
         }
       ]
     },
@@ -58,54 +146,6 @@
       "gender": "Boy",
       "price": "$1,800",
       "status": "Reserved"
-    },
-    {
-      "name": "Rip",
-      "gender": "Boy",
-      "price": "$1,800",
-      "status": "Available",
-      "photos": [
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Goldendoodle Rip.JPG",
-          "alt": "Goldendoodles in Indiana"
-        }
-      ]
-    },
-    {
-      "name": "Ruby",
-      "gender": "Girl",
-      "price": "$2,000",
-      "status": "Available",
-      "photos": [
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Goldendoodle Ruby.JPG",
-          "alt": "Goldendoodles in Indiana"
-        }
-      ]
-    },
-    {
-      "name": "Remi",
-      "gender": "Girl",
-      "price": "$2,000",
-      "status": "Available",
-      "photos": [
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Goldendoodle remi.JPG",
-          "alt": "Goldendoodles in Indiana"
-        }
-      ]
-    },
-    {
-      "name": "Riley",
-      "gender": "Girl",
-      "price": "$2,000",
-      "status": "Available",
-      "photos": [
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Goldendoodle Riley.JPG",
-          "alt": "Goldendoodles in Indiana"
-        }
-      ]
     }
   ],
   "showCarousel": true,
