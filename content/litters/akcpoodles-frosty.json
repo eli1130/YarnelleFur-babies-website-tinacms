@@ -63,44 +63,7 @@
       "name": "Flora",
       "gender": "Girl",
       "price": "$1,400",
-      "status": "Available",
-      "photos": [
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Flora 5.PNG"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Flora 6.PNG",
-          "alt": "AKC standard poodles"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Poodle Flora 3.PNG",
-          "alt": "Bernedoodles in Indiana"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Flora 1.PNG",
-          "alt": "AKC standard poodles"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Flora 2.PNG",
-          "alt": "AKC standard poodles"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Flora 3.PNG",
-          "alt": "AKC standard poodles"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Flora 4.PNG",
-          "alt": "AKC standard poodles"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Standard poodles (Flora 1).JPG",
-          "alt": "AKC standard poodles"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/standard poodle (Flora).PNG",
-          "alt": "AKC standard poodles"
-        }
-      ]
+      "status": "Sold"
     },
     {
       "name": "Fern",
