@@ -27,7 +27,7 @@
       "name": "Frida",
       "gender": "Girl",
       "price": "$1,200",
-      "status": "Available",
+      "status": "Sold",
       "photos": [
         {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Frida 5.PNG",
