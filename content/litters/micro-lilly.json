@@ -1,5 +1,5 @@
 {
-  "active": true,
+  "active": false,
   "sortOrder": 5,
   "title": "Micro Mini Bernedoodles",
   "slug": "micro-lilly",
@@ -20,14 +20,14 @@
   "sireName": "Torque",
   "sireDesc": "Toy poodle (9 lbs)",
   "cardDesc": "Micro Mini Bernedoodles - Sweet and energetic cuddle buddies. Lilly x Torque",
-  "cardPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_6854.JPG",
+  "cardPhoto": "",
   "sirePhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/typorama.PNG",
   "puppies": [
     {
       "name": "Lena",
       "gender": "Girl",
       "price": "$1,700",
-      "status": "Available",
+      "status": "Sold",
       "photos": [
         {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_6854.JPG",
@@ -46,7 +46,7 @@
       "name": "Leonardo",
       "gender": "Boy",
       "price": "$1,700",
-      "status": "Reserved"
+      "status": "Sold"
     },
     {
       "name": "Luna",
