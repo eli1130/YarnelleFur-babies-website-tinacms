@@ -24,25 +24,13 @@
   "sirePhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/image_0141.jpg",
   "puppies": [
     {
-      "name": "Maisie",
+      "name": "Maya",
       "gender": "Girl",
-      "price": "$1,600",
+      "price": "$2,000",
       "status": "Available",
       "photos": [
         {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/F1b goldendoodles Maisie.PNG",
-          "alt": "Goldendoodles in Indiana"
-        }
-      ]
-    },
-    {
-      "name": "Malcom",
-      "gender": "Boy",
-      "price": "$1,600",
-      "status": "Available",
-      "photos": [
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/F1b goldendoodles Malcom.PNG",
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/F1b goldendoodles Maya.PNG",
           "alt": "Goldendoodles in Indiana"
         }
       ]
@@ -50,7 +38,7 @@
     {
       "name": "Marigold",
       "gender": "Girl",
-      "price": "$1,800",
+      "price": "$1,500",
       "status": "Available",
       "photos": [
         {
@@ -62,7 +50,7 @@
     {
       "name": "Marvin",
       "gender": "Boy",
-      "price": "$1,800",
+      "price": "$1,500",
       "status": "Available",
       "photos": [
         {
@@ -72,33 +60,9 @@
       ]
     },
     {
-      "name": "Maverick",
-      "gender": "Boy",
-      "price": "$1,600",
-      "status": "Available",
-      "photos": [
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/F1b goldendoodles Maverick.PNG",
-          "alt": "Goldendoodles in Indiana"
-        }
-      ]
-    },
-    {
-      "name": "Maya",
-      "gender": "Girl",
-      "price": "$2,300",
-      "status": "Available",
-      "photos": [
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/F1b goldendoodles Maya.PNG",
-          "alt": "Goldendoodles in Indiana"
-        }
-      ]
-    },
-    {
       "name": "Mickey",
       "gender": "Boy",
-      "price": "$1,800",
+      "price": "$1,500",
       "status": "Available",
       "photos": [
         {
@@ -108,9 +72,45 @@
       ]
     },
     {
+      "name": "Maisie",
+      "gender": "Girl",
+      "price": "$1,000",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/F1b goldendoodles Maisie.PNG",
+          "alt": "Goldendoodles in Indiana"
+        }
+      ]
+    },
+    {
+      "name": "Malcom",
+      "gender": "Boy",
+      "price": "$1,000",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/F1b goldendoodles Malcom.PNG",
+          "alt": "Goldendoodles in Indiana"
+        }
+      ]
+    },
+    {
+      "name": "Maverick",
+      "gender": "Boy",
+      "price": "$1,000",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/F1b goldendoodles Maverick.PNG",
+          "alt": "Goldendoodles in Indiana"
+        }
+      ]
+    },
+    {
       "name": "Murphy ",
       "gender": "Boy",
-      "price": "$1,600",
+      "price": "$1,000",
       "status": "Available",
       "photos": [
         {
