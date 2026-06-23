@@ -3,6 +3,46 @@ import Link from 'next/link';
 import { useState } from 'react';
 import { client } from '../tina/__generated__/client';
 
+// Edit this array to control the order family sections appear in.
+// Any breeder name not listed here will appear after these, in the order
+// they first show up in the data.
+const BREEDER_ORDER = [
+  'John & Kathy Yarnelle',
+  'Luke & Eli Yarnelle',
+  'Dakoda & Brooke Labenz',
+  'Hunter & Sarah Nicodemus',
+  'Travis & Hannah Mullendore',
+];
+
+function groupLittersByBreeder(litters) {
+  const groups = new Map(); // normalized key -> { displayName, litters: [] }
+
+  litters.forEach((l) => {
+    const raw = (l.breeder || 'Other').trim();
+    const key = raw.toLowerCase();
+    if (!groups.has(key)) {
+      groups.set(key, { displayName: raw, litters: [] });
+    }
+    groups.get(key).litters.push(l);
+  });
+
+  const groupArray = Array.from(groups.values());
+
+  groupArray.sort((a, b) => {
+    const aIndex = BREEDER_ORDER.findIndex(
+      (name) => name.toLowerCase() === a.displayName.toLowerCase()
+    );
+    const bIndex = BREEDER_ORDER.findIndex(
+      (name) => name.toLowerCase() === b.displayName.toLowerCase()
+    );
+    const aRank = aIndex === -1 ? BREEDER_ORDER.length : aIndex;
+    const bRank = bIndex === -1 ? BREEDER_ORDER.length : bIndex;
+    return aRank - bRank;
+  });
+
+  return groupArray;
+}
+
 export default function Home({ litters }) {
   const [navOpen, setNavOpen] = useState(false);
   const [formData, setFormData] = useState({
@@ -99,6 +139,11 @@ export default function Home({ litters }) {
         .stat-label { font-size: 0.7rem; letter-spacing: 0.15em; text-transform: uppercase; color: #aaa; margin-top: 0.4rem; }
         .litters-section { padding: 6rem 4rem; max-width: 1300px; margin: 0 auto; }
         .litters-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 1.5rem; }
+        .family-section { margin-bottom: 4rem; }
+        .family-section:last-child { margin-bottom: 0; }
+        .family-header { margin-bottom: 1.75rem; padding-bottom: 0.75rem; border-bottom: 2px solid var(--red); display: flex; align-items: baseline; justify-content: space-between; flex-wrap: wrap; gap: 0.5rem; }
+        .family-header h3 { font-family: 'Cormorant Garamond', serif; font-size: 1.7rem; font-weight: 400; color: var(--black); }
+        .family-header .family-count { font-size: 0.7rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--text-light); }
         .litter-card { background: var(--white); border: 1px solid var(--light-gray); border-radius: 4px; overflow: hidden; transition: transform 0.25s, box-shadow 0.25s; cursor: pointer; text-decoration: none; color: inherit; display: block; }
         .litter-card:hover { transform: translateY(-4px); box-shadow: 0 12px 40px rgba(0,0,0,0.1); }
         .litter-card-image { position: relative; aspect-ratio: 4/3; overflow: hidden; background: var(--offwhite); }
@@ -168,6 +213,7 @@ export default function Home({ litters }) {
           .about-intro { padding: 4rem 1.5rem; }
           .contact-numbers { gap: 1rem 2rem; }
           .litters-section { padding: 4rem 1.5rem; }
+          .family-section { margin-bottom: 3rem; }
           .process-section { padding: 4rem 1.5rem; }
           .process-steps { grid-template-columns: 1fr; }
           .apply-section { padding: 4rem 1.5rem; }
@@ -282,45 +328,56 @@ export default function Home({ litters }) {
           <h2>Available <em>Breeds &amp; Litters</em></h2>
           <p>Click any breed to view full litter details, meet the parents, and see available puppies.</p>
         </div>
-        <div className="litters-grid">
-          {litters
-           .filter(l => l.active !== false)
-           .sort((a, b) => (a.sortOrder || 99) - (b.sortOrder || 99))
-           .map(l => {
-              const availableCount = (l.puppies || []).filter(p => p.status === 'Available').length
-              const cardPhoto = l.cardPhoto
-                ? l.cardPhoto.replace(/^\/uploads/, '').replace(/^https:\/\/assets\.tina\.io\/[a-f0-9-]+/, '')
-                : 'https://res.cloudinary.com/dyzfpnrhg/image/upload/image_0001.jpg'
-              return (
-                <Link key={l.slug} href={`/litters/${l.slug}`} className="litter-card">
-                  <div className="litter-card-image">
-                    <img src={cardPhoto} alt={l.title} />
-                    <span className="availability-badge">{availableCount} Available</span>
-                  </div>
-                  <div className="litter-card-body">
-                    <div className="litter-family">{l.breeder}</div>
-                    <h3>{l.title}</h3>
-                    <p className="litter-desc">{l.cardDesc}</p>
-                    <div className="litter-meta">
-                      <span className="litter-price">{l.priceRange}</span>
-                      <span className="litter-avail">{availableCount} Available</span>
+        {groupLittersByBreeder(
+          litters
+            .filter(l => l.active !== false)
+            .sort((a, b) => (a.sortOrder || 99) - (b.sortOrder || 99))
+        ).map(group => (
+          <div className="family-section" key={group.displayName}>
+            <div className="family-header">
+              <h3>{group.displayName}</h3>
+              <span className="family-count">
+                {group.litters.length} {group.litters.length === 1 ? 'Litter' : 'Litters'}
+              </span>
+            </div>
+            <div className="litters-grid">
+              {group.litters.map(l => {
+                const availableCount = (l.puppies || []).filter(p => p.status === 'Available').length
+                const cardPhoto = l.cardPhoto
+                  ? l.cardPhoto.replace(/^\/uploads/, '').replace(/^https:\/\/assets\.tina\.io\/[a-f0-9-]+/, '')
+                  : 'https://res.cloudinary.com/dyzfpnrhg/image/upload/image_0001.jpg'
+                return (
+                  <Link key={l.slug} href={`/litters/${l.slug}`} className="litter-card">
+                    <div className="litter-card-image">
+                      <img src={cardPhoto} alt={l.title} />
+                      <span className="availability-badge">{availableCount} Available</span>
                     </div>
-                    <span className="view-litter">View Litter →</span>
-                    <button
-                      className="inquire-btn"
-                      onClick={(e) => {
-                        e.preventDefault();
-                        e.stopPropagation();
-                        window.location.href = '/#apply';
-                      }}
-                    >
-                      Inquire Now
-                    </button>
-                  </div>
-                </Link>
-              )
-            })}
-        </div>
+                    <div className="litter-card-body">
+                      <div className="litter-family">{l.breeder}</div>
+                      <h3>{l.title}</h3>
+                      <p className="litter-desc">{l.cardDesc}</p>
+                      <div className="litter-meta">
+                        <span className="litter-price">{l.priceRange}</span>
+                        <span className="litter-avail">{availableCount} Available</span>
+                      </div>
+                      <span className="view-litter">View Litter →</span>
+                      <button
+                        className="inquire-btn"
+                        onClick={(e) => {
+                          e.preventDefault();
+                          e.stopPropagation();
+                          window.location.href = '/#apply';
+                        }}
+                      >
+                        Inquire Now
+                      </button>
+                    </div>
+                  </Link>
+                )
+              })}
+            </div>
+          </div>
+        ))}
       </section>
 
       {/* ADOPTION PROCESS */}
