@@ -1,4 +1,5 @@
 {
+  "active": true,
   "sortOrder": 8,
   "title": "F1 Aussiedoodles ",
   "slug": "f1aussiedoodles-dori",
@@ -15,7 +16,79 @@
   "contact": "Hannah · (260) 410-4149",
   "damName": "Dori",
   "damDesc": "ASDR Blue Merle Australian Shepherd (40lbs)",
+  "damPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Dori pic.JPEG",
   "sireName": "Thomas ",
   "sireDesc": "AKC Chocolate Phantom Standard Poodle (60lbs)",
-  "cardDesc": "Meet Our F1 Aussiedoodles! 🐾\nThe ultimate blend of Aussie brains and Poodle beauty. These intelligent, loyal, and low-shedding pups are perfectly socialized and ready to join your family for a lifetime of adventure."
+  "cardDesc": "Meet Our F1 Aussiedoodles! 🐾\nThe ultimate blend of Aussie brains and Poodle beauty. These intelligent, loyal, and low-shedding pups are perfectly socialized and ready to join your family for a lifetime of adventure.",
+  "cardPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Aussiedoodles%20Dove.JPG",
+  "sirePhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Thomas pic.JPG",
+  "puppies": [
+    {
+      "name": "Delilah",
+      "gender": "Girl",
+      "price": "$1,200",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Aussiedoodles Delilah.JPG",
+          "alt": "Aussiedoodles in Indiana"
+        }
+      ]
+    },
+    {
+      "name": "Daisy",
+      "gender": "Girl",
+      "price": "$1,200",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Aussiedoodles Daisy.JPG",
+          "alt": "Aussiedoodles in Indiana"
+        }
+      ]
+    },
+    {
+      "name": "Dove",
+      "gender": "Girl",
+      "price": "$1,500",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Aussiedoodles Dove.JPG",
+          "alt": "Aussiedoodles in Indiana"
+        }
+      ]
+    },
+    {
+      "name": "Dylan",
+      "gender": "Boy",
+      "price": "$1,200",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Aussiedoodles Dylan.JPG",
+          "alt": "Aussiedoodles in Indiana"
+        }
+      ]
+    }
+  ],
+  "showCarousel": true,
+  "previousPuppies": [
+    {
+      "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Dori prev pup pics.jpeg",
+      "alt": "Aussiedoodles in Indiana"
+    },
+    {
+      "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Dori prev pup pic 2.jpeg",
+      "alt": "Aussiedoodles in Indiana"
+    },
+    {
+      "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Dori prev pup pic 3.jpeg",
+      "alt": "Aussiedoodles in Indiana"
+    },
+    {
+      "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Dori prev pup pic 4.jpeg",
+      "alt": "Aussiedoodles in Indiana"
+    }
+  ]
 }
