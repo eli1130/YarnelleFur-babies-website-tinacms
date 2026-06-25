@@ -20,7 +20,7 @@
   "sireName": "Billy",
   "sireDesc": "Mini Blue Merle F1b Goldendoodle (23lbs)",
   "cardDesc": "Meet our gorgeous Mini F1bb Goldendoodles from Princess Diana and Billy! These highly desirable, low-shedding companion pups are raised with intentional care on our 10-acre farm, ensuring they are healthy, confident, and ready for their forever homes. Browse the litter now to see available puppies and submit your application.",
-  "cardPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/goldendoodle%20Paige.JPG",
+  "cardPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/F1bb%20Goldendoodles%20Paige.JPG",
   "sirePhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/image_0064.jpg",
   "puppies": [
     {
@@ -29,6 +29,10 @@
       "price": "$3,000",
       "status": "Available",
       "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/F1bb Goldendoodles Paige.JPG",
+          "alt": "Goldendoodles in Indiana"
+        },
         {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/goldendoodle Paige.JPG",
           "alt": "Goldendoodles in Indiana"
@@ -42,6 +46,10 @@
       "status": "Available",
       "photos": [
         {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/F1bb Goldendoodles Pearl.JPG",
+          "alt": "Goldendoodles in Indiana"
+        },
+        {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Goldendoodle Pearl.JPG",
           "alt": "Goldendoodles in Indiana"
         }
@@ -53,6 +61,10 @@
       "price": "$2,500",
       "status": "Available",
       "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/F1bb Goldendoodles Peyton.JPG",
+          "alt": "Goldendoodles in Indiana"
+        },
         {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Goldendoodle Peyton.JPG",
           "alt": "Goldendoodles in Indiana"
@@ -66,6 +78,10 @@
       "status": "Available",
       "photos": [
         {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/F1bb Goldendoodles Poppy.JPG",
+          "alt": "Goldendoodles in Indiana"
+        },
+        {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Goldendoodle Poppy.JPG",
           "alt": "Goldendoodles in Indiana"
         }
@@ -77,6 +93,10 @@
       "price": "$2,000",
       "status": "Available",
       "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/F1bb Goldendoodles Patrick.JPG",
+          "alt": "Goldendoodles in Indiana"
+        },
         {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Goldendoodle Patrick.JPG",
           "alt": "Goldendoodles in Indiana"
