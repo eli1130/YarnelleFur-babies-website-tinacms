@@ -24,22 +24,6 @@
   "sirePhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/image_0044.jpg",
   "puppies": [
     {
-      "name": "Mark (green collar)",
-      "gender": "Boy",
-      "price": "$3,500",
-      "status": "Available",
-      "photos": [
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Medium Bernedoodles (Mark).JPG",
-          "alt": "Bernedoodles in Indiana"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_6974.JPG",
-          "alt": "Medium Bernedoodles in Indiana"
-        }
-      ]
-    },
-    {
       "name": "Maddy (grey collar)",
       "gender": "Girl",
       "price": "$3,500",
@@ -182,6 +166,12 @@
           "alt": "Medium Bernedoodles in Indiana"
         }
       ]
+    },
+    {
+      "name": "Mark (green collar)",
+      "gender": "Boy",
+      "price": "$3,500",
+      "status": "Reserved"
     },
     {
       "name": "Molly (tan collar)",
