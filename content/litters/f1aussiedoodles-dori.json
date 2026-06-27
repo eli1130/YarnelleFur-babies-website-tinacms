@@ -51,13 +51,7 @@
       "name": "Dove",
       "gender": "Girl",
       "price": "$1,500",
-      "status": "Available",
-      "photos": [
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Aussiedoodles Dove.JPG",
-          "alt": "Aussiedoodles in Indiana"
-        }
-      ]
+      "status": "Reserved"
     },
     {
       "name": "Dylan",
@@ -70,6 +64,59 @@
           "alt": "Aussiedoodles in Indiana"
         }
       ]
+    },
+    {
+      "name": "Diego ",
+      "gender": "Boy",
+      "price": "$1,200",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Aussiedoodles Diego.JPG",
+          "alt": "Goldendoodles in Indiana"
+        }
+      ]
+    },
+    {
+      "name": "Dale ",
+      "gender": "Boy",
+      "price": "$1,200",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Aussiedoodles Dale.JPG",
+          "alt": "Goldendoodles in Indiana"
+        }
+      ]
+    },
+    {
+      "name": "Derek ",
+      "gender": "Boy",
+      "price": "$1,500",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Aussiedoodles Derek.JPG",
+          "alt": "Goldendoodles in Indiana"
+        }
+      ]
+    },
+    {
+      "name": "Danny",
+      "gender": "Boy",
+      "price": "$1,500",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Aussiedoodles Danny.JPG",
+          "alt": "Goldendoodles in Indiana"
+        }
+      ]
+    },
+    {
+      "name": "David ",
+      "gender": "Boy",
+      "price": "$1,500"
     }
   ],
   "showCarousel": true,
