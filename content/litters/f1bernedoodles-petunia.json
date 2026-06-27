@@ -87,21 +87,7 @@
       "name": "Penny (Purple paws collar)",
       "gender": "Girl",
       "price": "$2,250",
-      "status": "Available",
-      "photos": [
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_7182.JPG",
-          "alt": "Bernedoodles in Indiana"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_6989.JPG",
-          "alt": "Bernedoodles in Indiana"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_6712.JPG",
-          "alt": "Bernedoodles in Indiana"
-        }
-      ]
+      "status": "Sold"
     },
     {
       "name": "Philip (Dark Green collar)",
