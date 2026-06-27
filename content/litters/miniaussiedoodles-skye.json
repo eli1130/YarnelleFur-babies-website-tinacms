@@ -5,7 +5,7 @@
   "slug": "miniaussiedoodles-skye",
   "breeder": "Dakoda & Brooke Labenz",
   "generation": "F1B",
-  "priceRange": "$2,00-$3,200",
+  "priceRange": "$1,400-$2,200",
   "litterTitle": "Skye x Ash",
   "dateOfBirth": "June 8th, 2026 ",
   "takeHomeDate": "August 3rd, 2026",
@@ -26,7 +26,7 @@
     {
       "name": "Starling ",
       "gender": "Girl",
-      "price": "$3,200",
+      "price": "$2,200",
       "status": "Available",
       "photos": [
         {
@@ -38,7 +38,7 @@
     {
       "name": "Stryker",
       "gender": "Boy",
-      "price": "$3,200",
+      "price": "$2,200",
       "status": "Available",
       "photos": [
         {
@@ -49,8 +49,8 @@
     },
     {
       "name": "Saffron",
-      "gender": "Boy",
-      "price": "$3,000",
+      "gender": "Girl",
+      "price": "$2,000",
       "status": "Available",
       "photos": [
         {
@@ -62,7 +62,7 @@
     {
       "name": "Sugar",
       "gender": "Girl",
-      "price": "$2,000",
+      "price": "$1,400",
       "status": "Available",
       "photos": [
         {
@@ -74,7 +74,7 @@
     {
       "name": "Saber",
       "gender": "Boy",
-      "price": "$2,000",
+      "price": "$1,400",
       "status": "Available",
       "photos": [
         {
@@ -86,7 +86,7 @@
     {
       "name": "Stone",
       "gender": "Boy",
-      "price": "$2,000",
+      "price": "$1,400",
       "status": "Available",
       "photos": [
         {
@@ -98,7 +98,7 @@
     {
       "name": "Scout",
       "gender": "Girl",
-      "price": "$2,000",
+      "price": "$1,400",
       "status": "Available",
       "photos": [
         {
