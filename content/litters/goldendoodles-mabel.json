@@ -20,7 +20,7 @@
   "sireName": "Pumpkin",
   "sireDesc": "AKC Cream Standard Poodle 70lbs",
   "cardDesc": "Our family-raised Standard F1b Goldendoodles are the perfect addition to any vibrant home. Raised with focused care on our family farm, these intelligent, affectionate puppies are beautifully socialized, confident, and ready for a lifetime of love with your family.",
-  "cardPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/F1b%20goldendoodles%20Maya.PNG",
+  "cardPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Goldendoodles%20(Maya%202).JPEG",
   "sirePhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/image_0141.jpg",
   "puppies": [
     {
@@ -29,6 +29,10 @@
       "price": "$2,000",
       "status": "Available",
       "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Goldendoodles (Maya 2).JPEG",
+          "alt": "Goldendoodles in Indiana"
+        },
         {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/F1b goldendoodles Maya.PNG",
           "alt": "Goldendoodles in Indiana"
@@ -42,6 +46,10 @@
       "status": "Available",
       "photos": [
         {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Goldendoodles (Marigold 2).JPEG",
+          "alt": "Goldendoodles in Indiana"
+        },
+        {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/F1b goldendoodles Marigold.PNG",
           "alt": "Goldendoodles in Indiana"
         }
@@ -53,6 +61,10 @@
       "price": "$1,500",
       "status": "Available",
       "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Goldendoodles (Marvin 2).JPEG",
+          "alt": "Goldendoodles in Indiana"
+        },
         {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/F1b goldendoodles Marvin.PNG",
           "alt": "Goldendoodles in Indiana"
@@ -66,6 +78,10 @@
       "status": "Available",
       "photos": [
         {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Goldendoodles (Mickey 2).JPEG",
+          "alt": "Goldendoodles in Indiana"
+        },
+        {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/F1b goldendoodles Mickey.PNG",
           "alt": "Goldendoodles in Indiana"
         }
@@ -77,6 +93,10 @@
       "price": "$1,000",
       "status": "Available",
       "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Goldendoodles (Maisie 2).JPEG",
+          "alt": "Goldendoodles in Indiana"
+        },
         {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/F1b goldendoodles Maisie.PNG",
           "alt": "Goldendoodles in Indiana"
@@ -90,6 +110,10 @@
       "status": "Available",
       "photos": [
         {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Goldendoodles (Malcom 2).PNG",
+          "alt": "Goldendoodles in Indiana"
+        },
+        {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/F1b goldendoodles Malcom.PNG",
           "alt": "Goldendoodles in Indiana"
         }
@@ -102,6 +126,10 @@
       "status": "Available",
       "photos": [
         {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Goldendoodles (Maverick 2).JPEG",
+          "alt": "Goldendoodles in Indiana"
+        },
+        {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/F1b goldendoodles Maverick.PNG",
           "alt": "Goldendoodles in Indiana"
         }
@@ -113,6 +141,10 @@
       "price": "$1,000",
       "status": "Available",
       "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Goldendoodles (Murphy 2).PNG",
+          "alt": "Goldendoodles in Indiana"
+        },
         {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/F1b goldendoodles Murphy.PNG",
           "alt": "Goldendoodles in Indiana"
