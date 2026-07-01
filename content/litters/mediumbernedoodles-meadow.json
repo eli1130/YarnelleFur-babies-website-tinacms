@@ -20,7 +20,7 @@
   "sireName": "Bonsai",
   "sireDesc": "AKC Standard Poodle (60lbs)",
   "cardDesc": "Our Medium F1b Bernedoodles, born to Meadow May, our sweet Mini F1 Bernedoodle, and Bonsai, our handsome AKC Standard Poodle, are the ultimate family companions. Raised with care right here on the farm, these puppies perfectly blend the fierce loyalty of the Bernese Mountain Dog with the bright intelligence and low-shedding qualities of the Poodle. They are incredibly friendly, well-socialized, and ready to bring a lifetime of smart, affectionate joy to your home.",
-  "cardPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Medium%20Bernedoodles%20(Macy).JPG",
+  "cardPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Medium%20Bernedoodles%20(Morgan).JPG",
   "sirePhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/image_0044.jpg",
   "puppies": [
     {
@@ -35,22 +35,6 @@
         },
         {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_6975.JPG",
-          "alt": "Medium Bernedoodles in Indiana"
-        }
-      ]
-    },
-    {
-      "name": "Macy (pink collar)",
-      "gender": "Girl",
-      "price": "$3,200",
-      "status": "Available",
-      "photos": [
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Medium Bernedoodles (Macy).JPG",
-          "alt": "Bernedoodles in Indiana"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_6936.JPG",
           "alt": "Medium Bernedoodles in Indiana"
         }
       ]
@@ -178,6 +162,12 @@
       "gender": "Girl",
       "price": "$3,500",
       "status": "Reserved"
+    },
+    {
+      "name": "Macy (pink collar)",
+      "gender": "Girl",
+      "price": "$3,200",
+      "status": "Sold"
     }
   ],
   "showCarousel": true
