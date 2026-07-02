@@ -20,7 +20,7 @@
   "sireName": "Thomas ",
   "sireDesc": "AKC Chocolate Phantom Standard Poodle (60lbs)",
   "cardDesc": "Meet Our F1 Aussiedoodles! 🐾\nThe ultimate blend of Aussie brains and Poodle beauty. These intelligent, loyal, and low-shedding pups are perfectly socialized and ready to join your family for a lifetime of adventure.",
-  "cardPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Aussiedoodles%20Dove.JPG",
+  "cardPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Aussiedoodles%20Dori%20David.PNG",
   "sirePhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Thomas pic.JPG",
   "puppies": [
     {
@@ -29,6 +29,10 @@
       "price": "$1,200",
       "status": "Available",
       "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Aussiedoodles Dori Delilah.PNG",
+          "alt": "Aussiedoodles in Indiana"
+        },
         {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Aussiedoodles Delilah.JPG",
           "alt": "Aussiedoodles in Indiana"
@@ -42,16 +46,14 @@
       "status": "Available",
       "photos": [
         {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Aussiedoodles Dori Daisy.PNG",
+          "alt": "Aussiedoodles in Indiana"
+        },
+        {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Aussiedoodles Daisy.JPG",
           "alt": "Aussiedoodles in Indiana"
         }
       ]
-    },
-    {
-      "name": "Dove",
-      "gender": "Girl",
-      "price": "$1,500",
-      "status": "Reserved"
     },
     {
       "name": "Dylan",
@@ -59,6 +61,10 @@
       "price": "$1,200",
       "status": "Available",
       "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Aussiedoodles Dori Dylan.PNG",
+          "alt": "Aussiedoodles in Indiana"
+        },
         {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Aussiedoodles Dylan.JPG",
           "alt": "Aussiedoodles in Indiana"
@@ -72,6 +78,10 @@
       "status": "Available",
       "photos": [
         {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Aussiedoodles Dori Diego.PNG",
+          "alt": "Aussiedoodles in Indiana"
+        },
+        {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Aussiedoodles Diego.JPG",
           "alt": "Goldendoodles in Indiana"
         }
@@ -83,6 +93,10 @@
       "price": "$1,200",
       "status": "Available",
       "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Aussiedoodles Dori Dale.PNG",
+          "alt": "Aussiedoodles in Indiana"
+        },
         {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Aussiedoodles Dale.JPG",
           "alt": "Goldendoodles in Indiana"
@@ -96,6 +110,10 @@
       "status": "Available",
       "photos": [
         {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Aussiedoodles Dori Derek.PNG",
+          "alt": "Aussiedoodles in Indiana"
+        },
+        {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Aussiedoodles Derek.JPG",
           "alt": "Goldendoodles in Indiana"
         }
@@ -108,6 +126,10 @@
       "status": "Available",
       "photos": [
         {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Aussiedoodles Dori Danny.PNG",
+          "alt": "Aussiedoodles in Indiana"
+        },
+        {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Aussiedoodles Danny.JPG",
           "alt": "Goldendoodles in Indiana"
         }
@@ -116,7 +138,24 @@
     {
       "name": "David ",
       "gender": "Boy",
-      "price": "$1,500"
+      "price": "$1,500",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Aussiedoodles Dori David.PNG",
+          "alt": "Aussiedoodles in Indiana"
+        },
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Aussiedoodles David.JPG",
+          "alt": "Aussiedoodles in Indiana"
+        }
+      ]
+    },
+    {
+      "name": "Dove",
+      "gender": "Girl",
+      "price": "$1,500",
+      "status": "Reserved"
     }
   ],
   "showCarousel": true,
