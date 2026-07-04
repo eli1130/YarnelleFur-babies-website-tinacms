@@ -24,38 +24,6 @@
   "sirePhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Festus pic.jpeg",
   "puppies": [
     {
-      "name": "Ricky",
-      "gender": "Boy",
-      "price": "$1,800",
-      "status": "Available",
-      "photos": [
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Standard goldendoodles (Ricky) 3.JPG",
-          "alt": "Goldendoodles in Indiana"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Goldedoodle Ricky.JPG",
-          "alt": "Goldendoodles in Indiana"
-        }
-      ]
-    },
-    {
-      "name": "Robert",
-      "gender": "Boy",
-      "price": "$1,800",
-      "status": "Available",
-      "photos": [
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Standard goldendoodles (Robert) 3.JPG",
-          "alt": "Goldendoodles in Indiana"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Goldendoodle Robert.JPG",
-          "alt": "Goldendoodles in Indiana"
-        }
-      ]
-    },
-    {
       "name": "Rip",
       "gender": "Boy",
       "price": "$1,800",
@@ -120,10 +88,22 @@
       ]
     },
     {
+      "name": "Ricky",
+      "gender": "Boy",
+      "price": "$1,800",
+      "status": "Sold"
+    },
+    {
+      "name": "Robert",
+      "gender": "Boy",
+      "price": "$1,800",
+      "status": "Sold"
+    },
+    {
       "name": "Reese",
       "gender": "Boy",
       "price": "$1,800",
-      "status": "Reserved"
+      "status": "Sold"
     },
     {
       "name": "Russel",
