@@ -26,7 +26,7 @@
     {
       "name": "Rip",
       "gender": "Boy",
-      "price": "$1,800",
+      "price": "$1,600",
       "status": "Available",
       "photos": [
         {
@@ -42,7 +42,7 @@
     {
       "name": "Ruby",
       "gender": "Girl",
-      "price": "$2,000",
+      "price": "$1,800",
       "status": "Available",
       "photos": [
         {
@@ -58,7 +58,7 @@
     {
       "name": "Remi",
       "gender": "Girl",
-      "price": "$2,000",
+      "price": "$1,800",
       "status": "Available",
       "photos": [
         {
@@ -74,7 +74,7 @@
     {
       "name": "Riley",
       "gender": "Girl",
-      "price": "$2,000",
+      "price": "$1,800",
       "status": "Available",
       "photos": [
         {
