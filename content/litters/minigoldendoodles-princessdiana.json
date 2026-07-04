@@ -104,16 +104,16 @@
       ]
     },
     {
-      "name": "Paris",
-      "gender": "Girl",
-      "price": "$2,000",
-      "status": "Sold"
-    },
-    {
       "name": "Piper",
       "gender": "Girl",
       "price": "$3,000",
       "status": "Reserved"
+    },
+    {
+      "name": "Paris",
+      "gender": "Girl",
+      "price": "$2,000",
+      "status": "Sold"
     }
   ],
   "showCarousel": true,
