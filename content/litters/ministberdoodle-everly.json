@@ -5,7 +5,7 @@
   "slug": "ministberdoodle-everly",
   "breeder": "Luke & Eli Yarnelle",
   "generation": "F1BB",
-  "priceRange": "$2,000",
+  "priceRange": "$1,800",
   "litterTitle": "Everly x Teddy",
   "dateOfBirth": "May 4, 2026",
   "takeHomeDate": "June 29, 2026",
@@ -26,9 +26,13 @@
     {
       "name": "Ella",
       "gender": "Girl",
-      "price": "$2,000",
+      "price": "$1,800",
       "status": "Available",
       "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_7688.JPG",
+          "alt": "St.berdoodles in Indiana"
+        },
         {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_1053.jpeg",
           "alt": "mini st.berdoodle in indiana"
