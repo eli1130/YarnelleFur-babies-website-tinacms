@@ -5,7 +5,7 @@
   "slug": "goldendoodles-willow",
   "breeder": "John & Kathy Yarnelle",
   "generation": "F1B",
-  "priceRange": "$1,200",
+  "priceRange": "$1,000",
   "litterTitle": "Willow x Bonsai",
   "dateOfBirth": "March 27, 2026",
   "takeHomeDate": "May 22, 2026",
@@ -26,7 +26,7 @@
     {
       "name": "Wyatt",
       "gender": "Boy",
-      "price": "$1,200",
+      "price": "$1,000",
       "status": "Available",
       "photos": [
         {
@@ -46,7 +46,7 @@
     {
       "name": "Wesley",
       "gender": "Boy",
-      "price": "$1,200",
+      "price": "$1,000",
       "status": "Available",
       "photos": [
         {
@@ -66,7 +66,7 @@
     {
       "name": "Wade",
       "gender": "Boy",
-      "price": "$1,200",
+      "price": "$1,000",
       "status": "Available",
       "photos": [
         {
