@@ -107,17 +107,7 @@
       "name": "Malcom",
       "gender": "Boy",
       "price": "$1,000",
-      "status": "Available",
-      "photos": [
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Goldendoodles (Malcom 2).PNG",
-          "alt": "Goldendoodles in Indiana"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/F1b goldendoodles Malcom.PNG",
-          "alt": "Goldendoodles in Indiana"
-        }
-      ]
+      "status": "Reserved"
     },
     {
       "name": "Maverick",
