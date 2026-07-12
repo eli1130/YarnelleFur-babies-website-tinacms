@@ -24,22 +24,6 @@
   "sirePhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Festus pic.jpeg",
   "puppies": [
     {
-      "name": "Rip",
-      "gender": "Boy",
-      "price": "$1,600",
-      "status": "Available",
-      "photos": [
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Standard goldendoodles (Rip) 3.JPG",
-          "alt": "Goldendoodles in Indiana"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Goldendoodle Rip.JPG",
-          "alt": "Goldendoodles in Indiana"
-        }
-      ]
-    },
-    {
       "name": "Remi",
       "gender": "Girl",
       "price": "$1,800",
@@ -70,6 +54,12 @@
           "alt": "Goldendoodles in Indiana"
         }
       ]
+    },
+    {
+      "name": "Rip",
+      "gender": "Boy",
+      "price": "$1,600",
+      "status": "Sold"
     },
     {
       "name": "Ruby",
