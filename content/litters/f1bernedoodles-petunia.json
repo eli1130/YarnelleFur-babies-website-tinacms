@@ -47,21 +47,7 @@
       "name": "Phoebe (Pink collar)",
       "gender": "Girl",
       "price": "$2,000",
-      "status": "Available",
-      "photos": [
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_7174.JPG",
-          "alt": "Bernedoodles in Indiana"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_6992.JPG",
-          "alt": "Bernedoodles in Indiana"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_6709.JPG",
-          "alt": "Bernedoodles in Indiana"
-        }
-      ]
+      "status": "Reserved"
     },
     {
       "name": "Presley (Light blue collar)",
