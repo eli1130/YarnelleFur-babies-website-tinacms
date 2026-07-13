@@ -20,7 +20,7 @@
   "sireName": "Bonsai",
   "sireDesc": "AKC Standard Poodle (60lbs)",
   "cardDesc": "Standard F1B Goldendoodles — highly intelligent and social family companions. The ultimate \"velcro dog\" that is eager to please. Willow x Bonsai litter",
-  "cardPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Goldendoodle(Wesley%201).JPG",
+  "cardPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_8088.JPG",
   "sirePhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/image_0044.jpg",
   "puppies": [
     {
@@ -29,6 +29,10 @@
       "price": "$1,000",
       "status": "Available",
       "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_8084.JPG",
+          "alt": "Goldendoodles in Indiana"
+        },
         {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Goldendoodle(Wyatt 1).JPG",
           "alt": "Goldendoodles in Indiana"
@@ -50,6 +54,10 @@
       "status": "Available",
       "photos": [
         {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_8088.JPG",
+          "alt": "Goldendoodles in Indiana"
+        },
+        {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Goldendoodle(Wesley 1).JPG",
           "alt": "Goldendoodles in Indiana"
         },
@@ -69,6 +77,10 @@
       "price": "$1,000",
       "status": "Available",
       "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_8087.JPG",
+          "alt": "Goldendoodles in Indiana"
+        },
         {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Goldendoodle(Wade 1).JPG",
           "alt": "Goldendoodles in Indiana"
