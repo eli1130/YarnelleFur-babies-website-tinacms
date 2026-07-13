@@ -104,12 +104,6 @@
       ]
     },
     {
-      "name": "Malcom",
-      "gender": "Boy",
-      "price": "$1,000",
-      "status": "Reserved"
-    },
-    {
       "name": "Maverick",
       "gender": "Boy",
       "price": "$1,000",
@@ -140,6 +134,12 @@
           "alt": "Goldendoodles in Indiana"
         }
       ]
+    },
+    {
+      "name": "Malcom",
+      "gender": "Boy",
+      "price": "$1,000",
+      "status": "Reserved"
     }
   ],
   "showCarousel": true
