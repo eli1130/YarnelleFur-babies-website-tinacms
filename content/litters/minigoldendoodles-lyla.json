@@ -5,7 +5,7 @@
   "slug": "minigoldendoodles-lyla",
   "breeder": "Luke & Eli Yarnelle",
   "generation": "F1B",
-  "priceRange": "$2,000-$3,500",
+  "priceRange": "$2,000-$3,250",
   "litterTitle": "Lyla x Torque",
   "dateOfBirth": "May 11, 2026",
   "takeHomeDate": "July 6, 2026",
@@ -26,7 +26,7 @@
     {
       "name": "Lilah ",
       "gender": "Girl",
-      "price": "$3,500",
+      "price": "$3,250",
       "status": "Available",
       "photos": [
         {
@@ -38,7 +38,7 @@
     {
       "name": "Laura (yellow collar)",
       "gender": "Girl",
-      "price": "$3,500",
+      "price": "$3,250",
       "status": "Available",
       "photos": [
         {
@@ -50,7 +50,7 @@
     {
       "name": "Lilly (pink collar)",
       "gender": "Girl",
-      "price": "$3,200",
+      "price": "$3,000",
       "status": "Available",
       "photos": [
         {
@@ -62,23 +62,11 @@
     {
       "name": "Lucas (blue collar) ",
       "gender": "Boy",
-      "price": "$2,800",
+      "price": "$2,600",
       "status": "Available",
       "photos": [
         {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Lucas.JPG",
-          "alt": "Goldendoodles in Indiana"
-        }
-      ]
-    },
-    {
-      "name": "Liv ( Light Purple collar)",
-      "gender": "Girl",
-      "price": "$2,000",
-      "status": "Available",
-      "photos": [
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Liv.JPG",
           "alt": "Goldendoodles in Indiana"
         }
       ]
@@ -96,22 +84,22 @@
       ]
     },
     {
-      "name": "Lydia (Dark purple collar)",
-      "gender": "Girl",
-      "price": "$2,000",
-      "status": "Available",
-      "photos": [
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Lydia.JPG",
-          "alt": "Goldendoodles in Indiana"
-        }
-      ]
-    },
-    {
       "name": "Lee ",
       "gender": "Boy",
       "price": "$2,000",
-      "status": "Reserved"
+      "status": "Sold"
+    },
+    {
+      "name": "Liv ( Light Purple collar)",
+      "gender": "Girl",
+      "price": "$2,000",
+      "status": "Sold"
+    },
+    {
+      "name": "Lydia (Dark purple collar)",
+      "gender": "Girl",
+      "price": "$2,000",
+      "status": "Sold"
     }
   ],
   "showCarousel": true
