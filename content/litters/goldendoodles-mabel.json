@@ -20,7 +20,7 @@
   "sireName": "Pumpkin",
   "sireDesc": "AKC Cream Standard Poodle 70lbs",
   "cardDesc": "Our family-raised Standard F1b Goldendoodles are the perfect addition to any vibrant home. Raised with focused care on our family farm, these intelligent, affectionate puppies are beautifully socialized, confident, and ready for a lifetime of love with your family.",
-  "cardPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Goldendoodles%20(Maya%202).JPEG",
+  "cardPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Goldendoodle%20(Maya%203).PNG",
   "sirePhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/image_0141.jpg",
   "puppies": [
     {
@@ -29,6 +29,10 @@
       "price": "$2,000",
       "status": "Available",
       "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Goldendoodle (Maya 3).PNG",
+          "alt": "Goldendoodles in Indiana"
+        },
         {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Goldendoodles (Maya 2).JPEG",
           "alt": "Goldendoodles in Indiana"
@@ -46,6 +50,10 @@
       "status": "Available",
       "photos": [
         {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Goldendoodle (Marigold 3).PNG",
+          "alt": "Goldendoodles in Indiana"
+        },
+        {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Goldendoodles (Marigold 2).JPEG",
           "alt": "Goldendoodles in Indiana"
         },
@@ -62,6 +70,9 @@
       "status": "Available",
       "photos": [
         {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Goldendoodle (Marvin 3).PNG"
+        },
+        {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Goldendoodles (Marvin 2).JPEG",
           "alt": "Goldendoodles in Indiana"
         },
@@ -72,27 +83,15 @@
       ]
     },
     {
-      "name": "Mickey",
-      "gender": "Boy",
-      "price": "$1,500",
-      "status": "Available",
-      "photos": [
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Goldendoodles (Mickey 2).JPEG",
-          "alt": "Goldendoodles in Indiana"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/F1b goldendoodles Mickey.PNG",
-          "alt": "Goldendoodles in Indiana"
-        }
-      ]
-    },
-    {
       "name": "Maisie",
       "gender": "Girl",
       "price": "$1,000",
       "status": "Available",
       "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Goldendoodle (Maisie 3).PNG",
+          "alt": "Goldendoodles in Indiana"
+        },
         {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Goldendoodles (Maisie 2).JPEG",
           "alt": "Goldendoodles in Indiana"
@@ -110,6 +109,10 @@
       "status": "Available",
       "photos": [
         {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Goldendoodle (Maverick 3).PNG",
+          "alt": "Goldendoodles in Indiana"
+        },
+        {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Goldendoodles (Maverick 2).JPEG",
           "alt": "Goldendoodles in Indiana"
         },
@@ -126,6 +129,10 @@
       "status": "Available",
       "photos": [
         {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Goldendoodle (Murphy 3).PNG",
+          "alt": "Goldendoodles in Indiana"
+        },
+        {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Goldendoodles (Murphy 2).PNG",
           "alt": "Goldendoodles in Indiana"
         },
@@ -134,6 +141,12 @@
           "alt": "Goldendoodles in Indiana"
         }
       ]
+    },
+    {
+      "name": "Mickey",
+      "gender": "Boy",
+      "price": "$1,500",
+      "status": "Reserved"
     },
     {
       "name": "Malcom",
