@@ -136,32 +136,22 @@
       ]
     },
     {
+      "name": "Molly (tan collar)",
+      "gender": "Girl",
+      "price": "$3,500",
+      "status": "Reserved"
+    },
+    {
       "name": "Mila (no collar)",
       "gender": "Girl",
       "price": "$2,200",
-      "status": "Available",
-      "photos": [
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Medium Bernedoodles (Mila).JPG",
-          "alt": "Bernedoodles in Indiana"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_6976.JPG",
-          "alt": "Medium Bernedoodles in Indiana"
-        }
-      ]
+      "status": "Sold"
     },
     {
       "name": "Mark (green collar)",
       "gender": "Boy",
       "price": "$3,500",
-      "status": "Reserved"
-    },
-    {
-      "name": "Molly (tan collar)",
-      "gender": "Girl",
-      "price": "$3,500",
-      "status": "Reserved"
+      "status": "Sold"
     },
     {
       "name": "Macy (pink collar)",
