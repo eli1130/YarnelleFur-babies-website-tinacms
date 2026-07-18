@@ -20,29 +20,9 @@
   "sireName": "Pumpkin",
   "sireDesc": "AKC Cream Standard Poodle 70lbs",
   "cardDesc": "Our family-raised Standard F1b Goldendoodles are the perfect addition to any vibrant home. Raised with focused care on our family farm, these intelligent, affectionate puppies are beautifully socialized, confident, and ready for a lifetime of love with your family.",
-  "cardPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Goldendoodle%20(Maya%203).PNG",
+  "cardPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Goldendoodle%20(Maverick%203).PNG",
   "sirePhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/image_0141.jpg",
   "puppies": [
-    {
-      "name": "Maya",
-      "gender": "Girl",
-      "price": "$2,000",
-      "status": "Available",
-      "photos": [
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Goldendoodle (Maya 3).PNG",
-          "alt": "Goldendoodles in Indiana"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Goldendoodles (Maya 2).JPEG",
-          "alt": "Goldendoodles in Indiana"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/F1b goldendoodles Maya.PNG",
-          "alt": "Goldendoodles in Indiana"
-        }
-      ]
-    },
     {
       "name": "Marigold",
       "gender": "Girl",
@@ -153,6 +133,12 @@
       "gender": "Boy",
       "price": "$1,000",
       "status": "Reserved"
+    },
+    {
+      "name": "Maya",
+      "gender": "Girl",
+      "price": "$2,000",
+      "status": "Sold"
     }
   ],
   "showCarousel": true
