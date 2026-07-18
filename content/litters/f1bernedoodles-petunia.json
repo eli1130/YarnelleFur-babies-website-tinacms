@@ -1,5 +1,5 @@
 {
-  "active": true,
+  "active": false,
   "sortOrder": 1,
   "title": "Standard F1 Bernedoodles (Petunia)",
   "slug": "f1bernedoodles-petunia",
@@ -20,28 +20,14 @@
   "sireName": "Spruce",
   "sireDesc": "AKC Bernese Mountain Dog (100lbs)",
   "cardDesc": "Petunia (AKC Tri-Parti Poodle) and Spruce (AKC Bernese Mountain Dog) have welcomed a stunning new litter. Beautifully marked, family-raised, and ready for their forever homes!",
-  "cardPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_7175.JPG",
+  "cardPhoto": "",
   "sirePhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/0.jpg",
   "puppies": [
     {
       "name": "Paisley (Purple collar)",
       "gender": "Girl",
       "price": "$2,000",
-      "status": "Available",
-      "photos": [
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_7175.JPG",
-          "alt": "Bernedoodles in Indiana"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_6997.JPG",
-          "alt": "Bernedoodles in Indiana"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_6707.JPG",
-          "alt": "Bernedoodles in Indiana"
-        }
-      ]
+      "status": "Sold"
     },
     {
       "name": "Phoebe (Pink collar)",
