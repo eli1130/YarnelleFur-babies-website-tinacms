@@ -62,25 +62,6 @@
       ]
     },
     {
-      "name": "Sugar",
-      "gender": "Girl",
-      "price": "$1,400",
-      "status": "Available",
-      "photos": [
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Aussiedoodle (sugar).JPEG"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Aussiedoodles (Sugar) 2.PNG",
-          "alt": "Aussiedoodles in Indiana"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Micro Aussiedoodles Sugar.JPG",
-          "alt": "Micro Mini Aussiedoodles"
-        }
-      ]
-    },
-    {
       "name": "Saber",
       "gender": "Boy",
       "price": "$1,400",
@@ -136,6 +117,12 @@
           "alt": "Micro mini Aussiedoodles in indiana"
         }
       ]
+    },
+    {
+      "name": "Sugar",
+      "gender": "Girl",
+      "price": "$1,400",
+      "status": "Reserved"
     },
     {
       "name": "Saffron",
