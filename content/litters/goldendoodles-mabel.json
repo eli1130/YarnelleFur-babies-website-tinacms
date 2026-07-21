@@ -106,26 +106,6 @@
       "name": "Murphy ",
       "gender": "Boy",
       "price": "$1,000",
-      "status": "Available",
-      "photos": [
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Goldendoodle (Murphy 3).PNG",
-          "alt": "Goldendoodles in Indiana"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Goldendoodles (Murphy 2).PNG",
-          "alt": "Goldendoodles in Indiana"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/F1b goldendoodles Murphy.PNG",
-          "alt": "Goldendoodles in Indiana"
-        }
-      ]
-    },
-    {
-      "name": "Mickey",
-      "gender": "Boy",
-      "price": "$1,500",
       "status": "Reserved"
     },
     {
@@ -133,6 +113,12 @@
       "gender": "Boy",
       "price": "$1,000",
       "status": "Reserved"
+    },
+    {
+      "name": "Mickey",
+      "gender": "Boy",
+      "price": "$1,500",
+      "status": "Sold"
     },
     {
       "name": "Maya",
