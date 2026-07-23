@@ -1,0 +1,100 @@
+{
+  "active": true,
+  "sortOrder": 14,
+  "title": "Mini F2 Bernedoodles (Sky)",
+  "slug": "f2bernedoodles-sky",
+  "breeder": "Hunter & Sarah Nicodemus",
+  "generation": "F2",
+  "priceRange": "$3,200-$3,500",
+  "litterTitle": "Sky x Sycamore",
+  "dateOfBirth": "July 1, 2026",
+  "takeHomeDate": "August 26, 2026",
+  "estimatedSize": "30-40 lbs",
+  "grooming": "Roughly every 3-4 months",
+  "temperament": "loyal, affectionate, \"velcro dogs\", intelligent, playful, & gentle \n",
+  "deposit": "$600",
+  "contact": "Sarah · (260) 494-0405",
+  "damName": "Sky",
+  "damDesc": "Mini F1 Bernedoodle (33lbs)",
+  "damPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Sky pic .jpeg",
+  "sireName": "Sycamore",
+  "sireDesc": "Mini F1 Tricolored Bernedoodle (40lbs)",
+  "cardDesc": "Meet our sweet litter of Mini F2 Bernedoodles out of Sky and Sycamore, expected to mature into a perfect 30–40 lb size! These well-loved, playful pups are ready to bring endless joy and affection to your home.",
+  "cardPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/F2%20Bernedoodles%20(Silas).JPG",
+  "sirePhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/image_0061.jpg",
+  "puppies": [
+    {
+      "name": "Silas ",
+      "gender": "Boy",
+      "price": "$3,500",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/F2 Bernedoodles (Silas).JPG",
+          "alt": "Bernedoodles in Indiana"
+        }
+      ]
+    },
+    {
+      "name": "Sterling ",
+      "gender": "Boy",
+      "price": "$3,500",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/F2 Bernedoodles (Sterling).JPG",
+          "alt": "Bernedoodles in Indiana"
+        }
+      ]
+    },
+    {
+      "name": "Sully ",
+      "gender": "Boy",
+      "price": "$3,200",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/F2 Bernedoodles (Sully).JPG",
+          "alt": "Bernedoodles in Indiana"
+        }
+      ]
+    },
+    {
+      "name": "Sophia ",
+      "gender": "Girl",
+      "price": "$3,200",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/F2 Bernedoodles (Sophia).JPG",
+          "alt": "Bernedoodles in Indiana"
+        }
+      ]
+    },
+    {
+      "name": "Slate ",
+      "gender": "Boy",
+      "price": "$3,200",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/F2 Bernedoodles (Slate).JPG",
+          "alt": "Bernedoodles in Indiana"
+        }
+      ]
+    },
+    {
+      "name": "Sutton",
+      "gender": "Boy",
+      "price": "$3,200",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/F2 Bernedoodles (Sutton).JPG",
+          "alt": "Bernedoodles in Indiana"
+        }
+      ]
+    }
+  ],
+  "showCarousel": true
+}
