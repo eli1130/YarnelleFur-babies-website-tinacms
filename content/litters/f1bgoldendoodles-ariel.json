@@ -20,35 +20,19 @@
   "sireName": "Thomas ",
   "sireDesc": "AKC Chocolate Phantom Standard Poodle (60lbs)",
   "cardDesc": "These beautiful F1B Goldendoodles combine the loving, intelligent nature of the Golden Retriever with a highly hypoallergenic, low-shedding coat thanks to their strong Poodle heritage. Raised with love in our family environment, they are the perfect, socialized companion for anyone looking to add a loyal and affectionate best friend to their home.",
-  "cardPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Goldendoodles%20(Axel%203).PNG",
+  "cardPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Goldendoodles%20(Axel%204).PNG",
   "sirePhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Thomas%20pic.JPG",
   "puppies": [
-    {
-      "name": "Amelia ",
-      "gender": "Girl",
-      "price": "$1,000",
-      "status": "Available",
-      "photos": [
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Goldendoodles (Amelia 3).PNG",
-          "alt": "Goldendoodles in Indiana"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Goldendoodles (Amelia) 2.PNG",
-          "alt": "Goldendoodles in Indiana"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/F1b Goldendoodles Amelia.PNG",
-          "alt": "Goldendoodles in Indiana"
-        }
-      ]
-    },
     {
       "name": "Anna",
       "gender": "Girl",
       "price": "$1,000",
       "status": "Available",
       "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Goldendoodles (Anna 4).PNG",
+          "alt": "Goldendoodles in Indiana"
+        },
         {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Goldendoodles (Anna 3).PNG",
           "alt": "Goldendoodles in Indiana"
@@ -70,6 +54,10 @@
       "status": "Available",
       "photos": [
         {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Goldendoodles (Ava 4).PNG",
+          "alt": "Goldendoodles in Indiana"
+        },
+        {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Goldendoodles (Ava 3).PNG",
           "alt": "Goldendoodles in Indiana"
         },
@@ -90,6 +78,10 @@
       "status": "Available",
       "photos": [
         {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Goldendoodles (Axel 4).PNG",
+          "alt": "Goldendoodles in Indiana"
+        },
+        {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Goldendoodles (Axel 3).PNG",
           "alt": "Goldendoodles in Indiana"
         },
@@ -104,20 +96,16 @@
       ]
     },
     {
+      "name": "Amelia ",
+      "gender": "Girl",
+      "price": "$1,000",
+      "status": "Reserved"
+    },
+    {
       "name": "Arlo",
       "gender": "Boy",
       "price": "$1,500",
-      "status": "Available",
-      "photos": [
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Goldendoodles (Arlo) 2.PNG",
-          "alt": "Goldendoodles in Indiana"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/F1b Goldendoodles Arlo.PNG",
-          "alt": "Goldendoodles in Indiana"
-        }
-      ]
+      "status": "Reserved"
     }
   ],
   "showCarousel": true
