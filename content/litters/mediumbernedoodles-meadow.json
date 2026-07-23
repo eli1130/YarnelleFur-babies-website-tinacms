@@ -20,7 +20,7 @@
   "sireName": "Bonsai",
   "sireDesc": "AKC Standard Poodle (60lbs)",
   "cardDesc": "Our Medium F1b Bernedoodles, born to Meadow May, our sweet Mini F1 Bernedoodle, and Bonsai, our handsome AKC Standard Poodle, are the ultimate family companions. Raised with care right here on the farm, these puppies perfectly blend the fierce loyalty of the Bernese Mountain Dog with the bright intelligence and low-shedding qualities of the Poodle. They are incredibly friendly, well-socialized, and ready to bring a lifetime of smart, affectionate joy to your home.",
-  "cardPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Medium%20Bernedoodles%20(Morgan).JPG",
+  "cardPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Bernedoodle%20(Malachi).JPG",
   "sirePhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/image_0044.jpg",
   "puppies": [
     {
@@ -29,6 +29,10 @@
       "price": "$3,500",
       "status": "Available",
       "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Bernedoodle (Maddy).JPG",
+          "alt": "Bernedoodles in Indiana"
+        },
         {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Medium Bernedoodles (Maddy).JPG",
           "alt": "Bernedoodles in Indiana"
@@ -46,6 +50,10 @@
       "status": "Available",
       "photos": [
         {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Bernedoodle (Malachi).JPG",
+          "alt": "Bernedoodles in Indiana"
+        },
+        {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Medium Bernedoodles (Malachi).JPG",
           "alt": "Bernedoodles in Indiana"
         },
@@ -61,6 +69,10 @@
       "price": "$3,000",
       "status": "Available",
       "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Bernedoodle (Maggie).JPG",
+          "alt": "Bernedoodles in Indiana"
+        },
         {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Medium Bernedoodles (Maggie).JPG",
           "alt": "Bernedoodles in Indiana"
@@ -78,6 +90,10 @@
       "status": "Available",
       "photos": [
         {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Bernedoodle (Morgan).JPG",
+          "alt": "Bernedoodles in Indiana"
+        },
+        {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Medium Bernedoodles (Morgan).JPG",
           "alt": "Bernedoodles in Indiana"
         },
@@ -93,6 +109,10 @@
       "price": "$2,800",
       "status": "Available",
       "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Bernedoodle (Mason).JPG",
+          "alt": "Bernedoodles in Indiana"
+        },
         {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Medium Bernedoodles (Mason).JPG",
           "alt": "Bernedoodles in Indiana"
@@ -110,6 +130,10 @@
       "status": "Available",
       "photos": [
         {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Bernedoodle (Megan).JPG",
+          "alt": "Bernedoodles in Indiana"
+        },
+        {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Medium Bernedoodles (Megan).JPG",
           "alt": "Bernedoodles in Indiana"
         },
@@ -126,6 +150,10 @@
       "status": "Available",
       "photos": [
         {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Bernedoodle (Micah).JPG",
+          "alt": "Bernedoodles in Indiana"
+        },
+        {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Medium Bernedoodles (Micah).JPG",
           "alt": "Bernedoodles in Indiana"
         },
@@ -139,7 +167,7 @@
       "name": "Molly (tan collar)",
       "gender": "Girl",
       "price": "$3,500",
-      "status": "Reserved"
+      "status": "Sold"
     },
     {
       "name": "Mila (no collar)",
