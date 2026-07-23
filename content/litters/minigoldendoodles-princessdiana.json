@@ -56,22 +56,6 @@
       ]
     },
     {
-      "name": "Poppy ",
-      "gender": "Girl",
-      "price": "$2,000",
-      "status": "Available",
-      "photos": [
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/F1bb Goldendoodles Poppy.JPG",
-          "alt": "Goldendoodles in Indiana"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Goldendoodle Poppy.JPG",
-          "alt": "Goldendoodles in Indiana"
-        }
-      ]
-    },
-    {
       "name": "Patrick",
       "gender": "Boy",
       "price": "$2,000",
@@ -88,10 +72,16 @@
       ]
     },
     {
+      "name": "Poppy ",
+      "gender": "Girl",
+      "price": "$2,000",
+      "status": "Sold"
+    },
+    {
       "name": "Piper",
       "gender": "Girl",
       "price": "$3,000",
-      "status": "Reserved"
+      "status": "Sold"
     },
     {
       "name": "Paige",
