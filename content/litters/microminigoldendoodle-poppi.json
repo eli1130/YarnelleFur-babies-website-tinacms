@@ -1,0 +1,76 @@
+{
+  "active": true,
+  "sortOrder": 5,
+  "title": "Micro Mini F1bb Goldendoodles (Poppi)",
+  "slug": "microminigoldendoodle-poppi",
+  "breeder": "John & Kathy Yarnelle",
+  "generation": "F1BB",
+  "priceRange": "$2,000-$3,200",
+  "litterTitle": "Poppi x Hickory ",
+  "dateOfBirth": "June 25,2026",
+  "takeHomeDate": "August 20, 2026",
+  "estimatedSize": "10–15 lbs",
+  "grooming": "Roughly every 3 months",
+  "temperament": "Very intelligent, energetic, playful, sweet, and love to cuddle",
+  "deposit": "$600",
+  "contact": "Luke · (260) 213-1685",
+  "damName": "Poppi ",
+  "damDesc": "Mini F1b Goldendoodle (17lbs)",
+  "damPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Poppi pic.jpeg",
+  "sireName": "Hickory",
+  "sireDesc": "Tri Toy Poodle (7lbs)",
+  "cardDesc": "Meet Poppi and Hickory’s stunning litter of micro mini F1bb Goldendoodles! Featuring rare Blue Merles and a classic solid black pup, these sweet, non-shedding cuties are ready for reservations.",
+  "cardPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Mini%20Goldendoodle%20(Penelope).JPG",
+  "sirePhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Hickoy pic.jpeg",
+  "puppies": [
+    {
+      "name": "Pascal ",
+      "gender": "Girl",
+      "price": "$3,200",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Mini Goldendoodle (Pascal).JPG",
+          "alt": "Goldendoodles in Indiana"
+        }
+      ]
+    },
+    {
+      "name": "Penelope",
+      "gender": "Girl",
+      "price": "$3,200",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Mini Goldendoodle (Penelope).JPG",
+          "alt": "Goldendoodles in Indiana"
+        }
+      ]
+    },
+    {
+      "name": "Prisca",
+      "gender": "Girl",
+      "price": "$3,200",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Mini Goldendoodle (Prisca).JPG",
+          "alt": "Goldendoodles in Indiana"
+        }
+      ]
+    },
+    {
+      "name": "Polly",
+      "gender": "Girl",
+      "price": "$3,200",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Mini Goldendoodle (Polly).JPG",
+          "alt": "Goldendoodles in Indiana"
+        }
+      ]
+    }
+  ],
+  "showCarousel": true
+}
