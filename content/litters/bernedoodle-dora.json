@@ -1,0 +1,106 @@
+{
+  "active": true,
+  "sortOrder": 6,
+  "title": "Standard F1b Bernedoodles (Dora)",
+  "slug": "bernedoodle-dora",
+  "breeder": "Luke & Eli Yarnelle",
+  "generation": "F1B",
+  "priceRange": "$2,000 - $2,400",
+  "litterTitle": "Dora x Bamboo",
+  "dateOfBirth": "June 25,2026",
+  "takeHomeDate": "August 20, 2026",
+  "estimatedSize": "80-100+ lbs",
+  "grooming": "Roughly every 3-4 months",
+  "temperament": "loyal, smart, playful, energetic, sweet, love to cuddle, incredibly friendly with other dogs, cats, and kiddos.  ",
+  "deposit": "$600",
+  "contact": "Luke · (260) 213-1685",
+  "damName": "Dora ",
+  "damDesc": "Standard F1 Bernedoodle (90lbs)",
+  "damPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Dora pic .jpeg",
+  "sireName": "Bamboo",
+  "sireDesc": "AKC Standard Poodle (70lbs)",
+  "cardDesc": "Meet our Standard F1B Bernedoodles out of Dora and Bamboo, bred for gorgeous low-to-non-shedding coats and gentle, family-ready temperaments. These pups bring together the best of both worlds, Dora’s sweet nature and Bamboo’s sharp intelligence making them ideal lifelong companions.",
+  "cardPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Standard%20bernedoodles%20(Dixie).JPG",
+  "sirePhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/image_0074.jpg",
+  "puppies": [
+    {
+      "name": "Dixie ",
+      "gender": "Girl",
+      "price": "$2,400",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Standard bernedoodles (Dixie).JPG",
+          "alt": "Bernedoodles in Indiana"
+        }
+      ]
+    },
+    {
+      "name": "Devin",
+      "gender": "Boy",
+      "price": "$2,400",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Standard bernedoodles (Devin).JPG",
+          "alt": "Bernedoodles in Indiana"
+        }
+      ]
+    },
+    {
+      "name": "Demarcus ",
+      "gender": "Boy",
+      "price": "$2,200",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Standard bernedoodles (Demarcus).JPG",
+          "alt": "Bernedoodles in Indiana"
+        }
+      ]
+    },
+    {
+      "name": "Daniel ",
+      "gender": "Boy",
+      "price": "$2,200",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Standard bernedoodles (Daniel).JPG",
+          "alt": "Bernedoodles in Indiana"
+        }
+      ]
+    },
+    {
+      "name": "Dakota ",
+      "gender": "Boy",
+      "price": "$2,400",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Standard bernedoodles (Dakota).JPG",
+          "alt": "Bernedoodles in Indiana"
+        }
+      ]
+    },
+    {
+      "name": "Daisy ",
+      "gender": "Girl",
+      "price": "$2,200",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Standard bernedoodles (Daisy).JPG",
+          "alt": "Bernedoodles in Indiana"
+        }
+      ]
+    },
+    {
+      "name": "Dallas",
+      "gender": "Boy",
+      "price": "$2,600",
+      "status": "Reserved"
+    }
+  ],
+  "showCarousel": true
+}
