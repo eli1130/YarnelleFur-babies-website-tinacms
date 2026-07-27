@@ -1,0 +1,123 @@
+{
+  "active": true,
+  "sortOrder": 5,
+  "title": "AKC Standard Poodles (Ivy)",
+  "slug": "akcpoodles-ivy",
+  "breeder": "John & Kathy Yarnelle",
+  "generation": "P",
+  "priceRange": "$2,800-$3,200",
+  "litterTitle": "Ivy x Bamboo",
+  "dateOfBirth": "May 8, 2026",
+  "takeHomeDate": "Ready Now!",
+  "estimatedSize": "50-60 lbs",
+  "grooming": "Roughly every 3-4 months",
+  "temperament": "obedient, loyal, playful, intelligent, love to cuddle, incredibly friendly with other dogs, cats, and kiddos",
+  "deposit": "$600",
+  "contact": "Eli · (260) 445-4378",
+  "damName": "Ivy",
+  "damDesc": "Sable Merle Standard Poodle (56lbs)",
+  "sireName": "Bamboo",
+  "sireDesc": "AKC Standard Poodle (60lbs)",
+  "cardDesc": "Meet our exceptional AKC Standard Poodle litter by Ivy and Bamboo, featuring unique sable and phantom coats with full rights included. Health-tested parents and dedicated early socialization make these puppies incredible additions to any home or program.",
+  "cardPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Akc%20poodles%20(Iris).JPG",
+  "sirePhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/image_0074.jpg",
+  "puppies": [
+    {
+      "name": "Ivory ",
+      "gender": "Girl",
+      "price": "$3,200",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Akc poodles (Ivory).JPG",
+          "alt": "AKC standard poodles in Indiana"
+        }
+      ]
+    },
+    {
+      "name": "Isabella",
+      "gender": "Girl",
+      "price": "$3,200",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Akc poodles (Isabella).JPG",
+          "alt": "AKC standard poodles in Indiana"
+        }
+      ]
+    },
+    {
+      "name": "Iris",
+      "gender": "Girl",
+      "price": "$3,200",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Akc poodles (Iris).JPG",
+          "alt": "AKC standard poodles in Indiana"
+        }
+      ]
+    },
+    {
+      "name": "Irene",
+      "gender": "Girl",
+      "price": "$3,200",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Akc poodles (Irene).JPG",
+          "alt": "AKC standard poodles in Indiana"
+        }
+      ]
+    },
+    {
+      "name": "Indie",
+      "gender": "Girl",
+      "price": "$3,200",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Akc poodles (Indie).JPG",
+          "alt": "AKC standard poodles in Indiana"
+        }
+      ]
+    },
+    {
+      "name": "Isaac",
+      "gender": "Boy",
+      "price": "$2,800",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Akc poodles (Isaac).JPG",
+          "alt": "AKC standard poodles in Indiana"
+        }
+      ]
+    },
+    {
+      "name": "Isaiah",
+      "gender": "Boy",
+      "price": "$2,800",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Akc poodles (Isaiah).JPG",
+          "alt": "Akc standard poodles in Indiana "
+        }
+      ]
+    },
+    {
+      "name": "Ian",
+      "gender": "Boy",
+      "price": "$2,800",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Akc poodles (Ian).JPG",
+          "alt": "AKC standard poodles in Indiana"
+        }
+      ]
+    }
+  ],
+  "showCarousel": true
+}
