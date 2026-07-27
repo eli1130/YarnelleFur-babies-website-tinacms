@@ -70,6 +70,18 @@
           "alt": "Goldendoodles in Indiana"
         }
       ]
+    },
+    {
+      "name": "Peggy",
+      "gender": "Girl",
+      "price": "$2,000",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Mini Goldendoodle (Peggy).JPG",
+          "alt": "Goldendoodles in Indiana"
+        }
+      ]
     }
   ],
   "showCarousel": true
