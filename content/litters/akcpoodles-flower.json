@@ -91,17 +91,7 @@
       "name": "Felicity (Pink collar)",
       "gender": "Girl",
       "price": "$2,100",
-      "status": "Available",
-      "photos": [
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/AKC poodles (Felicity 2).JPG",
-          "alt": "AKC standard poodles"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/AKC poodles (Felicity).JPG",
-          "alt": "AKC standard poodles in Indiana"
-        }
-      ]
+      "status": "Reserved"
     },
     {
       "name": "Fraser (Green collar)",
