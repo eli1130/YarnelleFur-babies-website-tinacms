@@ -72,12 +72,6 @@
       ]
     },
     {
-      "name": "Felicity (Pink collar)",
-      "gender": "Girl",
-      "price": "$2,100",
-      "status": "Reserved"
-    },
-    {
       "name": "Fraser (Green collar)",
       "gender": "Boy",
       "price": "$1,800",
@@ -108,6 +102,12 @@
           "alt": "AKC standard poodles in Indiana"
         }
       ]
+    },
+    {
+      "name": "Felicity (Pink collar)",
+      "gender": "Girl",
+      "price": "$2,100",
+      "status": "Reserved"
     },
     {
       "name": "Farrah (Purple Collar)",
