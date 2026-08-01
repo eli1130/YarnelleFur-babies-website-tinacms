@@ -20,25 +20,9 @@
   "sireName": "Bonsai ",
   "sireDesc": "AKC Standard Poodle (60 lbs)",
   "cardDesc": "Fall in love with our gorgeous new litter of Standard Poodle puppies, raised right in the heart of Indiana. These intelligent, family-raised pups come with Full AKC rights and are ready to bring a lifetime of love to your home.",
-  "cardPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/AKC%20poodles%20(Fred%202).JPG",
+  "cardPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/AKC%20poodles%20(Fletcher%202).JPG",
   "sirePhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/image_0044.jpg",
   "puppies": [
-    {
-      "name": "Fred (Grey collar)",
-      "gender": "Boy",
-      "price": "$2,500",
-      "status": "Available",
-      "photos": [
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/AKC poodles (Fred 2).JPG",
-          "alt": "AKC standard poodles"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/AKC poodles (Fred).JPG",
-          "alt": "AKC standard poodles in Indiana"
-        }
-      ]
-    },
     {
       "name": "Flint (Black Collar)",
       "gender": "Boy",
@@ -129,17 +113,13 @@
       "name": "Farrah (Purple Collar)",
       "gender": "Girl",
       "price": "$1,800",
-      "status": "Available",
-      "photos": [
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/AKC poodles (Farrah 2).JPG",
-          "alt": "AKC standard poodles"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/AKC poodles (Farrah).JPG",
-          "alt": "AKC standard poodles in Indiana"
-        }
-      ]
+      "status": "Reserved"
+    },
+    {
+      "name": "Fred (Grey collar)",
+      "gender": "Boy",
+      "price": "$2,500",
+      "status": "Sold"
     }
   ],
   "showCarousel": true
