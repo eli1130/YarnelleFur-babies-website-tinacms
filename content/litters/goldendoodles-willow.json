@@ -8,7 +8,7 @@
   "priceRange": "$1,000",
   "litterTitle": "Willow x Bonsai",
   "dateOfBirth": "March 27, 2026",
-  "takeHomeDate": "May 22, 2026",
+  "takeHomeDate": "Ready Now!",
   "estimatedSize": "50-60 lbs",
   "grooming": "Roughly every 4-6 months",
   "temperament": "Standard F1B Goldendoodles are high-energy, intelligent, and incredibly social companions. Combining the gentle nature of the Golden Retriever with the advanced trainability of the Poodle, they are the ultimate family dog.",
@@ -20,33 +20,9 @@
   "sireName": "Bonsai",
   "sireDesc": "AKC Standard Poodle (60lbs)",
   "cardDesc": "Standard F1B Goldendoodles — highly intelligent and social family companions. The ultimate \"velcro dog\" that is eager to please. Willow x Bonsai litter",
-  "cardPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_8088.JPG",
+  "cardPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Goldendoodles (wade)5 .JPG",
   "sirePhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/image_0044.jpg",
   "puppies": [
-    {
-      "name": "Wesley",
-      "gender": "Boy",
-      "price": "$1,000",
-      "status": "Available",
-      "photos": [
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_8088.JPG",
-          "alt": "Goldendoodles in Indiana"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Goldendoodle(Wesley 1).JPG",
-          "alt": "Goldendoodles in Indiana"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_6382.JPG",
-          "alt": "Goldendoodles in Indiana"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Goldendoodle (wesley).JPG",
-          "alt": "Goldendoodles in Indiana"
-        }
-      ]
-    },
     {
       "name": "Wade",
       "gender": "Boy",
@@ -72,6 +48,12 @@
       ]
     },
     {
+      "name": "Wesley",
+      "gender": "Boy",
+      "price": "$1,000",
+      "status": "Sold"
+    },
+    {
       "name": "Wyatt",
       "gender": "Boy",
       "price": "$1,000",
@@ -81,13 +63,13 @@
       "name": "Whitney",
       "gender": "Girl",
       "price": "$2,000",
-      "status": "Reserved"
+      "status": "Sold"
     },
     {
       "name": "Walker",
       "gender": "Boy",
       "price": "$1,800",
-      "status": "Reserved"
+      "status": "Sold"
     },
     {
       "name": "Winter",
