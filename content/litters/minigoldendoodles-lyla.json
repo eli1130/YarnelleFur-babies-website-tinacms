@@ -5,7 +5,7 @@
   "slug": "minigoldendoodles-lyla",
   "breeder": "Luke & Eli Yarnelle",
   "generation": "F1B",
-  "priceRange": "$2,000-$3,250",
+  "priceRange": "$2,000-$3,000",
   "litterTitle": "Lyla x Torque",
   "dateOfBirth": "May 11, 2026",
   "takeHomeDate": "July 6, 2026",
@@ -20,15 +20,19 @@
   "sireName": "Torque",
   "sireDesc": "Toy poodle (9 lbs)",
   "cardDesc": "Exceptionally smart and social, our Mini F1b Goldendoodles are the ultimate family companions. These sweet, low-shedding pups love to cuddle and are raised with care to be your perfect lifelong friend.",
-  "cardPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Laura.JPG",
+  "cardPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/mini%20goldendoodles%20(Lilly)%202.JPG",
   "sirePhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/typorama.PNG",
   "puppies": [
     {
       "name": "Lilah ",
       "gender": "Girl",
-      "price": "$3,250",
+      "price": "$3,000",
       "status": "Available",
       "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/mini goldendoodles (Lilah) 2.JPG",
+          "alt": "Goldendoodles in Indiana"
+        },
         {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Lilah.JPG",
           "alt": "Goldendoodles in Indiana"
@@ -38,9 +42,13 @@
     {
       "name": "Laura (yellow collar)",
       "gender": "Girl",
-      "price": "$3,250",
+      "price": "$3,000",
       "status": "Available",
       "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/mini goldendoodles (Laura) 2.JPG",
+          "alt": "Goldendoodles in Indiana"
+        },
         {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Laura.JPG",
           "alt": "Goldendoodles in Indiana"
@@ -54,6 +62,10 @@
       "status": "Available",
       "photos": [
         {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/mini goldendoodles (Lilly) 2.JPG",
+          "alt": "Goldendoodles in Indiana"
+        },
+        {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Lilly.JPG",
           "alt": "Goldendoodles in Indiana"
         }
@@ -62,9 +74,13 @@
     {
       "name": "Lucas (blue collar) ",
       "gender": "Boy",
-      "price": "$2,600",
+      "price": "$2,250",
       "status": "Available",
       "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/mini goldendoodles (Lucas) 2.JPG",
+          "alt": "Goldendoodles in Indiana"
+        },
         {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Lucas.JPG",
           "alt": "Goldendoodles in Indiana"
@@ -77,6 +93,10 @@
       "price": "$2,000",
       "status": "Available",
       "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/mini goldendoodles (Lucy) 2.JPG",
+          "alt": "Goldendoodles in Indiana"
+        },
         {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Lucy.JPG",
           "alt": "Goldendoodles in Indiana"
