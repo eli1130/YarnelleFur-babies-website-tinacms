@@ -20,33 +20,9 @@
   "sireName": "Pumpkin",
   "sireDesc": "AKC Cream Standard Poodle 70lbs",
   "cardDesc": "Our family-raised Standard F1b Goldendoodles are the perfect addition to any vibrant home. Raised with focused care on our family farm, these intelligent, affectionate puppies are beautifully socialized, confident, and ready for a lifetime of love with your family.",
-  "cardPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Goldendoodles%20(Marigold)%204.PNG",
+  "cardPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Goldendoodles%20(Maisie)%204.PNG",
   "sirePhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/image_0141.jpg",
   "puppies": [
-    {
-      "name": "Marigold",
-      "gender": "Girl",
-      "price": "$1,500",
-      "status": "Available",
-      "photos": [
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Goldendoodles (Marigold) 4.PNG",
-          "alt": "Goldendoodles in Indiana"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Goldendoodle (Marigold 3).PNG",
-          "alt": "Goldendoodles in Indiana"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Goldendoodles (Marigold 2).JPEG",
-          "alt": "Goldendoodles in Indiana"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/F1b goldendoodles Marigold.PNG",
-          "alt": "Goldendoodles in Indiana"
-        }
-      ]
-    },
     {
       "name": "Maisie",
       "gender": "Girl",
@@ -72,28 +48,34 @@
       ]
     },
     {
+      "name": "Marigold",
+      "gender": "Girl",
+      "price": "$1,500",
+      "status": "Sold"
+    },
+    {
       "name": "Maverick",
       "gender": "Boy",
       "price": "$1,000",
-      "status": "Reserved"
+      "status": "Sold"
     },
     {
       "name": "Marvin",
       "gender": "Boy",
       "price": "$1,500",
-      "status": "Reserved"
+      "status": "Sold"
     },
     {
       "name": "Murphy ",
       "gender": "Boy",
       "price": "$1,000",
-      "status": "Reserved"
+      "status": "Sold"
     },
     {
       "name": "Malcom",
       "gender": "Boy",
       "price": "$1,000",
-      "status": "Reserved"
+      "status": "Sold"
     },
     {
       "name": "Mickey",
