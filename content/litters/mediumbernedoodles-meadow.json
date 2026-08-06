@@ -67,21 +67,7 @@
       "name": "Mason (orange collar)",
       "gender": "Boy",
       "price": "$2,400",
-      "status": "Available",
-      "photos": [
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Bernedoodle (Mason).JPG",
-          "alt": "Bernedoodles in Indiana"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Medium Bernedoodles (Mason).JPG",
-          "alt": "Bernedoodles in Indiana"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_6939.JPG",
-          "alt": "Medium Bernedoodles in Indiana"
-        }
-      ]
+      "status": "Reserved"
     },
     {
       "name": "Megan (yellow collar)",
