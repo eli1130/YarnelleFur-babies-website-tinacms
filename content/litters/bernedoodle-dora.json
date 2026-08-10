@@ -20,7 +20,7 @@
   "sireName": "Bamboo",
   "sireDesc": "AKC Standard Poodle (70lbs)",
   "cardDesc": "Meet our Standard F1B Bernedoodles out of Dora and Bamboo, bred for gorgeous low-to-non-shedding coats and gentle, family-ready temperaments. These pups bring together the best of both worlds, Dora’s sweet nature and Bamboo’s sharp intelligence making them ideal lifelong companions.",
-  "cardPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Standard%20bernedoodles%20(Dixie).JPG",
+  "cardPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Bernedoodles%20(Daniel%202).JPG",
   "sirePhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/image_0074.jpg",
   "puppies": [
     {
@@ -29,6 +29,10 @@
       "price": "$2,400",
       "status": "Available",
       "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Bernedoodles (Dixie 2).JPG",
+          "alt": "Bernedoodles in Indiana"
+        },
         {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Standard bernedoodles (Dixie).JPG",
           "alt": "Bernedoodles in Indiana"
@@ -42,6 +46,10 @@
       "status": "Available",
       "photos": [
         {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Bernedoodles (Devin 2).JPG",
+          "alt": "Bernedoodles in Indiana"
+        },
+        {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Standard bernedoodles (Devin).JPG",
           "alt": "Bernedoodles in Indiana"
         }
@@ -53,6 +61,10 @@
       "price": "$2,200",
       "status": "Available",
       "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Bernedoodles (Demarcus 2).JPG",
+          "alt": "Bernedoodles in Indiana"
+        },
         {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Standard bernedoodles (Demarcus).JPG",
           "alt": "Bernedoodles in Indiana"
@@ -66,6 +78,10 @@
       "status": "Available",
       "photos": [
         {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Bernedoodles (Daniel 2).JPG",
+          "alt": "Bernedoodles in Indiana"
+        },
+        {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Standard bernedoodles (Daniel).JPG",
           "alt": "Bernedoodles in Indiana"
         }
@@ -78,6 +94,10 @@
       "status": "Available",
       "photos": [
         {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Bernedoodles (Dakota 2).JPG",
+          "alt": "Bernedoodles in Indiana"
+        },
+        {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Standard bernedoodles (Dakota).JPG",
           "alt": "Bernedoodles in Indiana"
         }
@@ -89,6 +109,10 @@
       "price": "$2,200",
       "status": "Available",
       "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Bernedoodles (Daisy 2).JPG",
+          "alt": "Bernedoodles in Indiana"
+        },
         {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Standard bernedoodles (Daisy).JPG",
           "alt": "Bernedoodles in Indiana"
