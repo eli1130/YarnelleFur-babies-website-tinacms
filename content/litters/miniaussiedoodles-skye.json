@@ -137,13 +137,13 @@
       "name": "Sugar",
       "gender": "Girl",
       "price": "$1,400",
-      "status": "Reserved"
+      "status": "Sold"
     },
     {
       "name": "Saffron",
       "gender": "Girl",
       "price": "$2,000",
-      "status": "Reserved"
+      "status": "Sold"
     }
   ],
   "showCarousel": true
