@@ -5,7 +5,7 @@
   "slug": "minigoldendoodles-princessdiana",
   "breeder": "Luke & Eli Yarnelle",
   "generation": "F1BB",
-  "priceRange": "$2,000 - $2,500",
+  "priceRange": "$1,800 - $2,000",
   "litterTitle": "Princess Diana x Billy",
   "dateOfBirth": "May 6, 2026",
   "takeHomeDate": "July 1, 2026",
@@ -20,15 +20,19 @@
   "sireName": "Billy",
   "sireDesc": "Mini Blue Merle F1b Goldendoodle (23lbs)",
   "cardDesc": "Meet our gorgeous Mini F1bb Goldendoodles from Princess Diana and Billy! These highly desirable, low-shedding companion pups are raised with intentional care on our 10-acre farm, ensuring they are healthy, confident, and ready for their forever homes. Browse the litter now to see available puppies and submit your application.",
-  "cardPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/F1bb%20Goldendoodles%20Peyton.JPG",
+  "cardPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/minigoldendoodles%20(Peyton%203).JPG",
   "sirePhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/image_0064.jpg",
   "puppies": [
     {
       "name": "Pearl",
       "gender": "Girl",
-      "price": "$2,000",
+      "price": "$1,800",
       "status": "Available",
       "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/minigoldendoodles (Pearl 3).JPG",
+          "alt": "Goldendoodles in Indiana"
+        },
         {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/F1bb Goldendoodles Pearl.JPG",
           "alt": "Goldendoodles in Indiana"
@@ -42,9 +46,13 @@
     {
       "name": "Peyton",
       "gender": "Girl",
-      "price": "$2,500",
+      "price": "$2,000",
       "status": "Available",
       "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/minigoldendoodles (Peyton 3).JPG",
+          "alt": "Goldendoodles in Indiana"
+        },
         {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/F1bb Goldendoodles Peyton.JPG",
           "alt": "Goldendoodles in Indiana"
@@ -58,9 +66,13 @@
     {
       "name": "Patrick",
       "gender": "Boy",
-      "price": "$2,000",
+      "price": "$1,800",
       "status": "Available",
       "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/minigoldendoodles (Patrick 3).JPG",
+          "alt": "Goldendoodles in Indiana"
+        },
         {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/F1bb Goldendoodles Patrick.JPG",
           "alt": "Goldendoodles in Indiana"
