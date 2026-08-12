@@ -1,14 +1,14 @@
 {
-  "active": false,
+  "active": true,
   "sortOrder": 7,
-  "title": "Micro Mini Goldendoodles",
+  "title": "Mini Goldendoodles",
   "slug": "goldendoodle-helga",
   "breeder": "Hunter & Sarah Nicodemus",
   "generation": "F1B",
-  "priceRange": "$1,000",
+  "priceRange": "$1,500",
   "litterTitle": "Helga × Cedar",
-  "dateOfBirth": "November 17, 2025",
-  "takeHomeDate": "Ready Now!",
+  "dateOfBirth": "July 8, 2026",
+  "takeHomeDate": "September 2, 2026",
   "estimatedSize": "15–20 lbs",
   "grooming": "Roughly every 3–4 months",
   "temperament": "Smart, playful, sweet, love to cuddle, incredibly friendly with other dogs, cats, and kiddos",
@@ -20,23 +20,78 @@
   "sireName": "Cedar",
   "sireDesc": "AKC Toy Poodle",
   "cardDesc": "Micro Mini F1B Goldendoodles — tiny bundles of golden joy, low-shedding. Helga × Cedar litter.",
-  "cardPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/phonto%2015.JPG",
+  "cardPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Minigoldendoodles%20(Hudson).JPG",
   "sirePhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/image_0111.jpg",
   "puppies": [
     {
-      "name": "Hadassah",
+      "name": "Hope",
       "gender": "Girl",
       "price": "$1,500",
       "status": "Available",
       "photos": [
         {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/phonto 15.JPG"
-        },
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Minigoldendoodles (Hope).JPG",
+          "alt": "Goldendoodles in Indiana"
+        }
+      ]
+    },
+    {
+      "name": "Hazel (Orange Collar) ",
+      "gender": "Girl",
+      "price": "$1,500",
+      "status": "Available",
+      "photos": [
         {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/phonto_hiuleb.jpg"
-        },
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Minigoldendoodles (Hazel).JPG",
+          "alt": "Goldendoodles in Indiana"
+        }
+      ]
+    },
+    {
+      "name": "Hadley (Yellow Collar)",
+      "gender": "Girl",
+      "price": "$1,500",
+      "status": "Available",
+      "photos": [
         {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/image_0109.jpg"
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Minigoldendoodles (Hadley).JPG",
+          "alt": "Goldendoodles in Indiana"
+        }
+      ]
+    },
+    {
+      "name": "Hudson",
+      "gender": "Boy",
+      "price": "$1,500",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Minigoldendoodles (Hudson).JPG",
+          "alt": "Goldendoodles in Indiana"
+        }
+      ]
+    },
+    {
+      "name": "Henry (Black Collar)",
+      "gender": "Boy",
+      "price": "$1,500",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Minigoldendoodles (Henry).JPG",
+          "alt": "Goldendoodles in Indiana"
+        }
+      ]
+    },
+    {
+      "name": "Hayes (Blue Collar)",
+      "gender": "Boy",
+      "price": "$1,500",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Minigoldendoodles (Hayes).JPG",
+          "alt": "Goldendoodles in Indiana"
         }
       ]
     }
