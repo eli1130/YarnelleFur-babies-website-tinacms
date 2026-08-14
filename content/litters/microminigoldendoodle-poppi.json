@@ -5,7 +5,7 @@
   "slug": "microminigoldendoodle-poppi",
   "breeder": "John & Kathy Yarnelle",
   "generation": "F1BB",
-  "priceRange": "$2,000-$3,200",
+  "priceRange": "$3,200",
   "litterTitle": "Poppi x Hickory ",
   "dateOfBirth": "June 25,2026",
   "takeHomeDate": "August 20, 2026",
@@ -75,13 +75,7 @@
       "name": "Peggy",
       "gender": "Girl",
       "price": "$2,000",
-      "status": "Available",
-      "photos": [
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Mini Goldendoodle (Peggy).JPG",
-          "alt": "Goldendoodles in Indiana"
-        }
-      ]
+      "status": "Sold"
     }
   ],
   "showCarousel": true
