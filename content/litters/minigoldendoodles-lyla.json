@@ -5,7 +5,7 @@
   "slug": "minigoldendoodles-lyla",
   "breeder": "Luke & Eli Yarnelle",
   "generation": "F1B",
-  "priceRange": "$1,800-$2,800",
+  "priceRange": "$2,000-$2,800",
   "litterTitle": "Lyla x Torque",
   "dateOfBirth": "May 11, 2026",
   "takeHomeDate": "July 6, 2026",
@@ -91,17 +91,7 @@
       "name": "Lucy (yellow collar)",
       "gender": "Girl",
       "price": "$1,800",
-      "status": "Available",
-      "photos": [
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/mini goldendoodles (Lucy) 2.JPG",
-          "alt": "Goldendoodles in Indiana"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Lucy.JPG",
-          "alt": "Goldendoodles in Indiana"
-        }
-      ]
+      "status": "Reserved"
     },
     {
       "name": "Lee ",
