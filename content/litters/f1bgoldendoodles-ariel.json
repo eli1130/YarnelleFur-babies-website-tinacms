@@ -5,7 +5,7 @@
   "slug": "f1bgoldendoodles-ariel",
   "breeder": "Travis & Hannah Mullendore",
   "generation": "F1B",
-  "priceRange": "$1,000 - $1,500",
+  "priceRange": "$1,000",
   "litterTitle": "Ariel x Thomas",
   "dateOfBirth": "May 25, 2026",
   "takeHomeDate": "July 20, 2026",
@@ -20,39 +20,19 @@
   "sireName": "Thomas ",
   "sireDesc": "AKC Chocolate Phantom Standard Poodle (60lbs)",
   "cardDesc": "These beautiful F1B Goldendoodles combine the loving, intelligent nature of the Golden Retriever with a highly hypoallergenic, low-shedding coat thanks to their strong Poodle heritage. Raised with love in our family environment, they are the perfect, socialized companion for anyone looking to add a loyal and affectionate best friend to their home.",
-  "cardPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Goldendoodles%20(Axel%204).PNG",
+  "cardPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Goldendoodles%20(Ava%205).PNG",
   "sirePhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Thomas%20pic.JPG",
   "puppies": [
-    {
-      "name": "Anna",
-      "gender": "Girl",
-      "price": "$1,000",
-      "status": "Available",
-      "photos": [
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Goldendoodles (Anna 4).PNG",
-          "alt": "Goldendoodles in Indiana"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Goldendoodles (Anna 3).PNG",
-          "alt": "Goldendoodles in Indiana"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Goldendoodles (Anna) 2.PNG",
-          "alt": "Goldendoodles in Indiana"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/F1b Goldendoodles Anna.PNG",
-          "alt": "Goldendoodles in Indiana"
-        }
-      ]
-    },
     {
       "name": "Ava",
       "gender": "Girl",
       "price": "$1,000",
       "status": "Available",
       "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Goldendoodles (Ava 5).PNG",
+          "alt": "Goldendoodles in Indiana"
+        },
         {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Goldendoodles (Ava 4).PNG",
           "alt": "Goldendoodles in Indiana"
@@ -75,37 +55,25 @@
       "name": "Axel",
       "gender": "Boy",
       "price": "$1,500",
-      "status": "Available",
-      "photos": [
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Goldendoodles (Axel 4).PNG",
-          "alt": "Goldendoodles in Indiana"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Goldendoodles (Axel 3).PNG",
-          "alt": "Goldendoodles in Indiana"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Goldendoodles (Axel) 2.PNG",
-          "alt": "Goldendoodles in Indiana"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/F1b Goldendoodles Axel.PNG",
-          "alt": "Goldendoodles in Indiana"
-        }
-      ]
+      "status": "Sold"
+    },
+    {
+      "name": "Anna",
+      "gender": "Girl",
+      "price": "$1,000",
+      "status": "Sold"
     },
     {
       "name": "Amelia ",
       "gender": "Girl",
       "price": "$1,000",
-      "status": "Reserved"
+      "status": "Sold"
     },
     {
       "name": "Arlo",
       "gender": "Boy",
       "price": "$1,500",
-      "status": "Reserved"
+      "status": "Sold"
     }
   ],
   "showCarousel": true
