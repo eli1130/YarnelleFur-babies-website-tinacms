@@ -5,7 +5,7 @@
   "slug": "goldendoodles-mabel",
   "breeder": "Dakoda & Brooke Labenz",
   "generation": "F1B",
-  "priceRange": "$1,000 - $2,000",
+  "priceRange": "",
   "litterTitle": "Mabel x Pumpkin",
   "dateOfBirth": "May 26, 2026",
   "takeHomeDate": "July 21, 2026",
@@ -20,32 +20,14 @@
   "sireName": "Pumpkin",
   "sireDesc": "AKC Cream Standard Poodle 70lbs",
   "cardDesc": "Our family-raised Standard F1b Goldendoodles are the perfect addition to any vibrant home. Raised with focused care on our family farm, these intelligent, affectionate puppies are beautifully socialized, confident, and ready for a lifetime of love with your family.",
-  "cardPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Goldendoodles%20(Maisie)%204.PNG",
+  "cardPhoto": "",
   "sirePhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/image_0141.jpg",
   "puppies": [
     {
       "name": "Maisie",
       "gender": "Girl",
       "price": "$1,000",
-      "status": "Available",
-      "photos": [
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Goldendoodles (Maisie) 4.PNG",
-          "alt": "Goldendoodles in Indiana"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Goldendoodle (Maisie 3).PNG",
-          "alt": "Goldendoodles in Indiana"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Goldendoodles (Maisie 2).JPEG",
-          "alt": "Goldendoodles in Indiana"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/F1b goldendoodles Maisie.PNG",
-          "alt": "Goldendoodles in Indiana"
-        }
-      ]
+      "status": "Sold"
     },
     {
       "name": "Marigold",
