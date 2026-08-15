@@ -72,6 +72,30 @@
       ]
     },
     {
+      "name": "Dale ",
+      "gender": "Boy",
+      "price": "$1,200",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Aussiedoodles (Dale 4).PNG",
+          "alt": "Aussiedoodles in Indiana"
+        },
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Aussiedoodles (Dale 3).PNG",
+          "alt": "Aussiedoodles in Indiana"
+        },
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Aussiedoodles Dori Dale.PNG",
+          "alt": "Aussiedoodles in Indiana"
+        },
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Aussiedoodles Dale.JPG",
+          "alt": "Goldendoodles in Indiana"
+        }
+      ]
+    },
+    {
       "name": "Dylan",
       "gender": "Boy",
       "price": "$1,200",
@@ -99,73 +123,31 @@
       "name": "Diego ",
       "gender": "Boy",
       "price": "$1,200",
-      "status": "Available",
-      "photos": [
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Aussiedoodles (Diego 4).PNG",
-          "alt": "Aussiedoodles in Indiana"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Aussiedoodles (Diego 3).PNG",
-          "alt": "Aussiedoodles in Indiana"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Aussiedoodles Dori Diego.PNG",
-          "alt": "Aussiedoodles in Indiana"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Aussiedoodles Diego.JPG",
-          "alt": "Goldendoodles in Indiana"
-        }
-      ]
-    },
-    {
-      "name": "Dale ",
-      "gender": "Boy",
-      "price": "$1,200",
-      "status": "Available",
-      "photos": [
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Aussiedoodles (Dale 4).PNG",
-          "alt": "Aussiedoodles in Indiana"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Aussiedoodles (Dale 3).PNG",
-          "alt": "Aussiedoodles in Indiana"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Aussiedoodles Dori Dale.PNG",
-          "alt": "Aussiedoodles in Indiana"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Aussiedoodles Dale.JPG",
-          "alt": "Goldendoodles in Indiana"
-        }
-      ]
+      "status": "Sold"
     },
     {
       "name": "Derek ",
       "gender": "Boy",
       "price": "$1,500",
-      "status": "Reserved"
+      "status": "Sold"
     },
     {
       "name": "Danny",
       "gender": "Boy",
       "price": "$1,500",
-      "status": "Reserved"
+      "status": "Sold"
     },
     {
       "name": "David ",
       "gender": "Boy",
       "price": "$1,500",
-      "status": "Reserved"
+      "status": "Sold"
     },
     {
       "name": "Dove",
       "gender": "Girl",
       "price": "$1,500",
-      "status": "Reserved"
+      "status": "Sold"
     }
   ],
   "showCarousel": true,
