@@ -20,7 +20,7 @@
   "sireName": "Ash",
   "sireDesc": " Ash - Cream Toy Poodle (9lbs)",
   "cardDesc": "Discover the perfect blend of intelligence and affection with our Micro Mini F1b Aussiedoodles, expertly raised to be the ultimate low-shedding family companions. These playful, devoted little pups are ready to bring endless joy, loyalty, and cuddles into your heart and home.",
-  "cardPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Aussiedoodles%20(Starling%203).PNG",
+  "cardPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Mini%20Aussiedoodles%20(Sterling%205).JPEG",
   "sirePhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Ash.jpg",
   "puppies": [
     {
@@ -29,6 +29,10 @@
       "price": "$2,200",
       "status": "Available",
       "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Mini Aussiedoodles (Sterling 5).JPEG",
+          "alt": "Aussiedoodles in Indiana"
+        },
         {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Aussiedoodles (Starling 3).PNG"
         },
@@ -52,6 +56,10 @@
       "status": "Available",
       "photos": [
         {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Mini Aussiedoodles (Stryker 5).PNG",
+          "alt": "Aussiedoodles in Indiana"
+        },
+        {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Aussiedoodles (Stryker 3).PNG"
         },
         {
@@ -73,6 +81,10 @@
       "price": "$1,400",
       "status": "Available",
       "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Mini Aussiedoodles (Saber 5).PNG",
+          "alt": "Aussiedoodles in Indiana"
+        },
         {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Aussiedoodles (Saber 3).PNG"
         },
@@ -96,6 +108,10 @@
       "status": "Available",
       "photos": [
         {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Mini Aussiedoodles (Stone 5).PNG",
+          "alt": "Aussiedoodles in Indiana"
+        },
+        {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Aussiedoodles (Stone 3).PNG"
         },
         {
@@ -117,6 +133,10 @@
       "price": "$1,200",
       "status": "Available",
       "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Mini Aussiedoodles (Scout 5).PNG",
+          "alt": "Aussiedoodles in Indiana"
+        },
         {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Aussiedoodles (Scout 3).PNG"
         },
