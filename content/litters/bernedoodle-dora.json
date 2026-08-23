@@ -104,26 +104,6 @@
       ]
     },
     {
-      "name": "Dakota ",
-      "gender": "Boy",
-      "price": "$2,400",
-      "status": "Available",
-      "photos": [
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Dora Bernedoodles (Dakota 3).JPG",
-          "alt": "Bernedoodles in Indiana"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Bernedoodles (Dakota 2).JPG",
-          "alt": "Bernedoodles in Indiana"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Standard bernedoodles (Dakota).JPG",
-          "alt": "Bernedoodles in Indiana"
-        }
-      ]
-    },
-    {
       "name": "Daisy ",
       "gender": "Girl",
       "price": "$2,200",
@@ -144,10 +124,16 @@
       ]
     },
     {
+      "name": "Dakota ",
+      "gender": "Boy",
+      "price": "$2,400",
+      "status": "Sold"
+    },
+    {
       "name": "Dallas",
       "gender": "Boy",
       "price": "$2,600",
-      "status": "Reserved"
+      "status": "Sold"
     }
   ],
   "showCarousel": true
