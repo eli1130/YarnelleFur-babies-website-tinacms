@@ -39,13 +39,7 @@
       "name": "Brie (Pink)",
       "gender": "Girl",
       "price": "$1,800",
-      "status": "Available",
-      "photos": [
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/St.Berdoodles (Brie).JPG",
-          "alt": "St.berdoodles in Indiana"
-        }
-      ]
+      "status": "Reserved"
     },
     {
       "name": "Blair (Yellow)",
