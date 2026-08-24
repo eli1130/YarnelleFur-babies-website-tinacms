@@ -20,7 +20,7 @@
   "sireName": "Billy",
   "sireDesc": "Mini Blue Merle F1b Goldendoodle (23lbs)",
   "cardDesc": "Meet our gorgeous Mini F1bb Goldendoodles from Princess Diana and Billy! These highly desirable, low-shedding companion pups are raised with intentional care on our 10-acre farm, ensuring they are healthy, confident, and ready for their forever homes. Browse the litter now to see available puppies and submit your application.",
-  "cardPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/minigoldendoodles%20(Patrick%203).JPG",
+  "cardPhoto": "",
   "sirePhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/image_0064.jpg",
   "puppies": [
     {
@@ -47,21 +47,7 @@
       "name": "Patrick",
       "gender": "Boy",
       "price": "$1,800",
-      "status": "Available",
-      "photos": [
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/minigoldendoodles (Patrick 3).JPG",
-          "alt": "Goldendoodles in Indiana"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/F1bb Goldendoodles Patrick.JPG",
-          "alt": "Goldendoodles in Indiana"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Goldendoodle Patrick.JPG",
-          "alt": "Goldendoodles in Indiana"
-        }
-      ]
+      "status": "Sold"
     },
     {
       "name": "Peyton",
