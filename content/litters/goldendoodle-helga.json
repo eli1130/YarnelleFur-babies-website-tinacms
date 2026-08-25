@@ -20,7 +20,7 @@
   "sireName": "Cedar",
   "sireDesc": "AKC Toy Poodle",
   "cardDesc": "Micro Mini F1B Goldendoodles — tiny bundles of golden joy, low-shedding. Helga × Cedar litter.",
-  "cardPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Minigoldendoodles%20(Hudson).JPG",
+  "cardPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Mini%20Goldendoodles%20(Hazel%202).JPG",
   "sirePhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/image_0111.jpg",
   "puppies": [
     {
@@ -29,6 +29,10 @@
       "price": "$1,500",
       "status": "Available",
       "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Mini Goldendoodles (Hope 2).JPG",
+          "alt": "Goldendoodles in Indiana"
+        },
         {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Minigoldendoodles (Hope).JPG",
           "alt": "Goldendoodles in Indiana"
@@ -42,6 +46,10 @@
       "status": "Available",
       "photos": [
         {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Mini Goldendoodles (Hazel 2).JPG",
+          "alt": "Goldendoodles in Indiana"
+        },
+        {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Minigoldendoodles (Hazel).JPG",
           "alt": "Goldendoodles in Indiana"
         }
@@ -53,6 +61,10 @@
       "price": "$1,500",
       "status": "Available",
       "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Mini Goldendoodles (Hadley 2).JPG",
+          "alt": "Goldendoodles in Indiana"
+        },
         {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Minigoldendoodles (Hadley).JPG",
           "alt": "Goldendoodles in Indiana"
@@ -66,6 +78,10 @@
       "status": "Available",
       "photos": [
         {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Mini Goldendoodles (Hudson 2).JPG",
+          "alt": "Goldendoodles in Indiana"
+        },
+        {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Minigoldendoodles (Hudson).JPG",
           "alt": "Goldendoodles in Indiana"
         }
@@ -78,6 +94,10 @@
       "status": "Available",
       "photos": [
         {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Mini Goldendoodles (Henry 2).JPG",
+          "alt": "Goldendoodles in Indiana"
+        },
+        {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Minigoldendoodles (Henry).JPG",
           "alt": "Goldendoodles in Indiana"
         }
@@ -89,6 +109,10 @@
       "price": "$1,500",
       "status": "Available",
       "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Mini Goldendoodles (Hayes 2).JPG",
+          "alt": "Goldendoodles in Indiana"
+        },
         {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Minigoldendoodles (Hayes).JPG",
           "alt": "Goldendoodles in Indiana"
