@@ -20,41 +20,18 @@
   "sireName": "Ash",
   "sireDesc": " Ash - Cream Toy Poodle (9lbs)",
   "cardDesc": "Discover the perfect blend of intelligence and affection with our Micro Mini F1b Aussiedoodles, expertly raised to be the ultimate low-shedding family companions. These playful, devoted little pups are ready to bring endless joy, loyalty, and cuddles into your heart and home.",
-  "cardPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Mini%20aussiedoodle%20(Starling%205).PNG",
+  "cardPhoto": "",
   "sirePhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Ash.jpg",
   "puppies": [
-    {
-      "name": "Starling ",
-      "gender": "Girl",
-      "price": "$2,200",
-      "status": "Available",
-      "photos": [
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Mini aussiedoodle (Starling 5).PNG",
-          "alt": "Aussiedoodles in Indiana"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Aussiedoodles (Starling 3).PNG"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Aussiedoodle (starling).PNG"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Aussiedoodles (Starling) 2.PNG",
-          "alt": "Aussiedoodles in Indiana"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Micro Aussiedoodles Starling.JPEG",
-          "alt": "Micro mini Aussiedoodles in indiana"
-        }
-      ]
-    },
     {
       "name": "Stryker",
       "gender": "Boy",
       "price": "$2,000",
       "status": "Available",
       "photos": [
+        {
+          "alt": "Aussiedoodles in Indiana"
+        },
         {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Mini Aussiedoodles (Stryker 5).PNG",
           "alt": "Aussiedoodles in Indiana"
@@ -152,6 +129,12 @@
           "alt": "Micro mini Aussiedoodles in indiana"
         }
       ]
+    },
+    {
+      "name": "Starling ",
+      "gender": "Girl",
+      "price": "$2,200",
+      "status": "Sold"
     },
     {
       "name": "Sugar",
