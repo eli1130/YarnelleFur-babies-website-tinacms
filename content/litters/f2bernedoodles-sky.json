@@ -59,17 +59,7 @@
       "name": "Sully ",
       "gender": "Boy",
       "price": "$3,200",
-      "status": "Available",
-      "photos": [
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/F2 Bernedoodles (Sully 2).JPG",
-          "alt": "Bernedoodles in Indiana"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/F2 Bernedoodles (Sully).JPG",
-          "alt": "Bernedoodles in Indiana"
-        }
-      ]
+      "status": "Sold"
     },
     {
       "name": "Sophia ",
