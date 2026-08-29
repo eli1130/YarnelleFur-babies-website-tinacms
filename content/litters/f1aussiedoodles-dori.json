@@ -5,7 +5,7 @@
   "slug": "f1aussiedoodles-dori",
   "breeder": "Travis & Hannah Mullendore",
   "generation": "F1",
-  "priceRange": "$1,200 - $1,500",
+  "priceRange": "$1,200",
   "litterTitle": "Dori x Thomas ",
   "dateOfBirth": "May 28, 2026",
   "takeHomeDate": "July 23, 2026",
@@ -83,29 +83,7 @@
       "name": "Dale ",
       "gender": "Boy",
       "price": "$1,200",
-      "status": "Available",
-      "photos": [
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Aussiedoodles (Dale 5).JPEG",
-          "alt": "Aussiedoodles in Indiana"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Aussiedoodles (Dale 4).PNG",
-          "alt": "Aussiedoodles in Indiana"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Aussiedoodles (Dale 3).PNG",
-          "alt": "Aussiedoodles in Indiana"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Aussiedoodles Dori Dale.PNG",
-          "alt": "Aussiedoodles in Indiana"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Aussiedoodles Dale.JPG",
-          "alt": "Goldendoodles in Indiana"
-        }
-      ]
+      "status": "Sold"
     },
     {
       "name": "Dylan",
