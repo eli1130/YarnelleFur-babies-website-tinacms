@@ -48,6 +48,25 @@
       ]
     },
     {
+      "name": "Mason (orange collar)",
+      "gender": "Boy",
+      "price": "$2,000",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Bernedoodle%20(Mason).JPG",
+          "alt": "Bernedoodles in Indiana"
+        },
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Medium%20Bernedoodles%20(Mason).JPG"
+        },
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_6939.JPG",
+          "alt": "Bernedoodles in Indiana"
+        }
+      ]
+    },
+    {
       "name": "Morgan (purple collar)",
       "gender": "Girl",
       "price": "$2,600",
@@ -57,12 +76,6 @@
       "name": "Maddy (grey collar)",
       "gender": "Girl",
       "price": "$2,800",
-      "status": "Reserved"
-    },
-    {
-      "name": "Mason (orange collar)",
-      "gender": "Boy",
-      "price": "$2,400",
       "status": "Reserved"
     },
     {
