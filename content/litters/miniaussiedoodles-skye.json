@@ -5,7 +5,7 @@
   "slug": "miniaussiedoodles-skye",
   "breeder": "Dakoda & Brooke Labenz",
   "generation": "F1B",
-  "priceRange": "$1,200-$2,200",
+  "priceRange": "$1,200-$2,000",
   "litterTitle": "Skye x Ash",
   "dateOfBirth": "June 8th, 2026 ",
   "takeHomeDate": "Ready Now!",
@@ -20,7 +20,7 @@
   "sireName": "Ash",
   "sireDesc": " Ash - Cream Toy Poodle (9lbs)",
   "cardDesc": "Discover the perfect blend of intelligence and affection with our Micro Mini F1b Aussiedoodles, expertly raised to be the ultimate low-shedding family companions. These playful, devoted little pups are ready to bring endless joy, loyalty, and cuddles into your heart and home.",
-  "cardPhoto": "",
+  "cardPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Mini%20Aussiedoodles%20(Stryker%206).PNG",
   "sirePhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Ash.jpg",
   "puppies": [
     {
@@ -59,6 +59,10 @@
       "status": "Available",
       "photos": [
         {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Mini Aussiedoodles (Saber 6).PNG",
+          "alt": "Aussiedoodles in Indiana"
+        },
+        {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Mini Aussiedoodles (Saber 5).PNG",
           "alt": "Aussiedoodles in Indiana"
         },
@@ -85,6 +89,10 @@
       "status": "Available",
       "photos": [
         {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Mini Aussiedoodles (Stone 6).PNG",
+          "alt": "Aussiedoodles in Indiana"
+        },
+        {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Mini Aussiedoodles (Stone 5).PNG",
           "alt": "Aussiedoodles in Indiana"
         },
@@ -110,6 +118,10 @@
       "price": "$1,200",
       "status": "Available",
       "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Mini Aussiedoodles (Scout 6).JPEG",
+          "alt": "Aussiedoodles in Indiana"
+        },
         {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Mini Aussiedoodles (Scout 5).PNG",
           "alt": "Aussiedoodles in Indiana"
