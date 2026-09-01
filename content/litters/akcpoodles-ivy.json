@@ -5,7 +5,7 @@
   "slug": "akcpoodles-ivy",
   "breeder": "John & Kathy Yarnelle",
   "generation": "P",
-  "priceRange": "$2,200-$2,400",
+  "priceRange": "$2,000",
   "litterTitle": "Ivy x Bamboo",
   "dateOfBirth": "May 8, 2026",
   "takeHomeDate": "Ready Now!",
@@ -26,7 +26,7 @@
     {
       "name": "Ivory ",
       "gender": "Girl",
-      "price": "$2,400",
+      "price": "$2,000",
       "status": "Available",
       "photos": [
         {
@@ -42,7 +42,7 @@
     {
       "name": "Iris",
       "gender": "Girl",
-      "price": "$2,400",
+      "price": "$2,000",
       "status": "Available",
       "photos": [
         {
@@ -58,7 +58,7 @@
     {
       "name": "Irene",
       "gender": "Girl",
-      "price": "$2,400",
+      "price": "$2,000",
       "status": "Available",
       "photos": [
         {
@@ -74,7 +74,7 @@
     {
       "name": "Indie",
       "gender": "Girl",
-      "price": "$2,400",
+      "price": "$2,000",
       "status": "Available",
       "photos": [
         {
@@ -90,7 +90,7 @@
     {
       "name": "Isaac",
       "gender": "Boy",
-      "price": "$2,200",
+      "price": "$2,000",
       "status": "Available",
       "photos": [
         {
@@ -106,7 +106,7 @@
     {
       "name": "Isaiah",
       "gender": "Boy",
-      "price": "$2,200",
+      "price": "$2,000",
       "status": "Available",
       "photos": [
         {
@@ -122,7 +122,7 @@
     {
       "name": "Ian",
       "gender": "Boy",
-      "price": "$2,200",
+      "price": "$2,000",
       "status": "Available",
       "photos": [
         {
