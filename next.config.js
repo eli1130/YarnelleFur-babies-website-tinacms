@@ -8,7 +8,5 @@ const nextConfig = {
     ],
   },
   transpilePackages: ['next-tinacms-s3'],
-  experimental: { serverActions: true },
 }
-
 module.exports = nextConfig

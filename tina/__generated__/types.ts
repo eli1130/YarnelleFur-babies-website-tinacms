@@ -7,13 +7,12 @@
     })
     return str
   }
-  export type Maybe<T> = T | null;
-export type InputMaybe<T> = Maybe<T>;
-export type Exact<T extends { [key: string]: unknown }> = { [K in keyof T]: T[K] };
-export type MakeOptional<T, K extends keyof T> = Omit<T, K> & { [SubKey in K]?: Maybe<T[SubKey]> };
-export type MakeMaybe<T, K extends keyof T> = Omit<T, K> & { [SubKey in K]: Maybe<T[SubKey]> };
-export type MakeEmpty<T extends { [key: string]: unknown }, K extends keyof T> = { [_ in K]?: never };
+  /** Internal type. DO NOT USE DIRECTLY. */
+type Exact<T extends { [key: string]: unknown }> = { [K in keyof T]: T[K] };
+/** Internal type. DO NOT USE DIRECTLY. */
 export type Incremental<T> = T | { [P in keyof T]?: P extends ' $fragmentName' | '__typename' ? T[P] : never };
+export type Maybe<T> = T | null;
+export type InputMaybe<T> = Maybe<T>;
 /** All built-in and custom scalars, mapped to their actual values */
 export type Scalars = {
   ID: { input: string; output: string; }
@@ -773,110 +772,235 @@ export type ReviewsMutation = {
   reviewImages?: InputMaybe<Array<InputMaybe<ReviewsReviewImagesMutation>>>;
 };
 
-export type LitterPartsFragment = { __typename: 'Litter', active?: boolean | null, sortOrder?: number | null, title: string, slug?: string | null, breeder?: string | null, generation?: string | null, priceRange?: string | null, litterTitle?: string | null, dateOfBirth?: string | null, takeHomeDate?: string | null, estimatedSize?: string | null, grooming?: string | null, temperament?: string | null, deposit?: string | null, contact?: string | null, damName?: string | null, damDesc?: string | null, damPhoto?: string | null, sireName?: string | null, sireDesc?: string | null, cardDesc?: string | null, cardPhoto?: string | null, sirePhoto?: string | null, showCarousel?: boolean | null, showPrevCarousel?: boolean | null, puppies?: Array<{ __typename: 'LitterPuppies', name?: string | null, gender?: string | null, price?: string | null, status?: string | null, photos?: Array<{ __typename: 'LitterPuppiesPhotos', src?: string | null, alt?: string | null } | null> | null } | null> | null, previousPuppies?: Array<{ __typename: 'LitterPreviousPuppies', src?: string | null, alt?: string | null } | null> | null };
+export type BooleanFilter = {
+  eq?: boolean | null | undefined;
+  exists?: boolean | null | undefined;
+};
 
-export type UpcomingLitterPartsFragment = { __typename: 'UpcomingLitter', active?: boolean | null, sortOrder?: number | null, breed: string, slug?: string | null, breeder?: string | null, expectedDate?: string | null, estimatedSize?: string | null, cardDesc?: string | null, description?: string | null, cardPhoto?: string | null, damName?: string | null, damDesc?: string | null, damPhoto?: string | null, sireName?: string | null, sireDesc?: string | null, sirePhoto?: string | null, previousPuppies?: Array<{ __typename: 'UpcomingLitterPreviousPuppies', src?: string | null, alt?: string | null } | null> | null };
+export type NumberFilter = {
+  lt?: number | null | undefined;
+  lte?: number | null | undefined;
+  gte?: number | null | undefined;
+  gt?: number | null | undefined;
+  eq?: number | null | undefined;
+  exists?: boolean | null | undefined;
+  in?: Array<number | null | undefined> | null | undefined;
+};
 
-export type PagePartsFragment = { __typename: 'Page', title?: string | null, heroHeading?: string | null, heroSubtext?: string | null };
+export type StringFilter = {
+  startsWith?: string | null | undefined;
+  eq?: string | null | undefined;
+  exists?: boolean | null | undefined;
+  in?: Array<string | null | undefined> | null | undefined;
+};
 
-export type SettingsPartsFragment = { __typename: 'Settings', announcementBar?: string | null, phone?: string | null, email?: string | null, instagramUrl?: string | null, cashappUrl?: string | null };
+export type ImageFilter = {
+  startsWith?: string | null | undefined;
+  eq?: string | null | undefined;
+  exists?: boolean | null | undefined;
+  in?: Array<string | null | undefined> | null | undefined;
+};
 
-export type ReviewsPartsFragment = { __typename: 'Reviews', reviewImages?: Array<{ __typename: 'ReviewsReviewImages', src?: string | null, alt?: string | null } | null> | null };
+export type LitterPuppiesPhotosFilter = {
+  src?: ImageFilter | null | undefined;
+  alt?: StringFilter | null | undefined;
+};
+
+export type LitterPuppiesFilter = {
+  name?: StringFilter | null | undefined;
+  gender?: StringFilter | null | undefined;
+  price?: StringFilter | null | undefined;
+  status?: StringFilter | null | undefined;
+  photos?: LitterPuppiesPhotosFilter | null | undefined;
+};
+
+export type LitterPreviousPuppiesFilter = {
+  src?: ImageFilter | null | undefined;
+  alt?: StringFilter | null | undefined;
+};
+
+export type LitterFilter = {
+  active?: BooleanFilter | null | undefined;
+  sortOrder?: NumberFilter | null | undefined;
+  title?: StringFilter | null | undefined;
+  slug?: StringFilter | null | undefined;
+  breeder?: StringFilter | null | undefined;
+  generation?: StringFilter | null | undefined;
+  priceRange?: StringFilter | null | undefined;
+  litterTitle?: StringFilter | null | undefined;
+  dateOfBirth?: StringFilter | null | undefined;
+  takeHomeDate?: StringFilter | null | undefined;
+  estimatedSize?: StringFilter | null | undefined;
+  grooming?: StringFilter | null | undefined;
+  temperament?: StringFilter | null | undefined;
+  deposit?: StringFilter | null | undefined;
+  contact?: StringFilter | null | undefined;
+  damName?: StringFilter | null | undefined;
+  damDesc?: StringFilter | null | undefined;
+  damPhoto?: ImageFilter | null | undefined;
+  sireName?: StringFilter | null | undefined;
+  sireDesc?: StringFilter | null | undefined;
+  cardDesc?: StringFilter | null | undefined;
+  cardPhoto?: ImageFilter | null | undefined;
+  sirePhoto?: ImageFilter | null | undefined;
+  puppies?: LitterPuppiesFilter | null | undefined;
+  showCarousel?: BooleanFilter | null | undefined;
+  showPrevCarousel?: BooleanFilter | null | undefined;
+  previousPuppies?: LitterPreviousPuppiesFilter | null | undefined;
+};
+
+export type UpcomingLitterPreviousPuppiesFilter = {
+  src?: ImageFilter | null | undefined;
+  alt?: StringFilter | null | undefined;
+};
+
+export type UpcomingLitterFilter = {
+  active?: BooleanFilter | null | undefined;
+  sortOrder?: NumberFilter | null | undefined;
+  breed?: StringFilter | null | undefined;
+  slug?: StringFilter | null | undefined;
+  breeder?: StringFilter | null | undefined;
+  expectedDate?: StringFilter | null | undefined;
+  estimatedSize?: StringFilter | null | undefined;
+  cardDesc?: StringFilter | null | undefined;
+  description?: StringFilter | null | undefined;
+  cardPhoto?: ImageFilter | null | undefined;
+  damName?: StringFilter | null | undefined;
+  damDesc?: StringFilter | null | undefined;
+  damPhoto?: ImageFilter | null | undefined;
+  sireName?: StringFilter | null | undefined;
+  sireDesc?: StringFilter | null | undefined;
+  sirePhoto?: ImageFilter | null | undefined;
+  previousPuppies?: UpcomingLitterPreviousPuppiesFilter | null | undefined;
+};
+
+export type PageFilter = {
+  title?: StringFilter | null | undefined;
+  heroHeading?: StringFilter | null | undefined;
+  heroSubtext?: StringFilter | null | undefined;
+};
+
+export type SettingsFilter = {
+  announcementBar?: StringFilter | null | undefined;
+  phone?: StringFilter | null | undefined;
+  email?: StringFilter | null | undefined;
+  instagramUrl?: StringFilter | null | undefined;
+  cashappUrl?: StringFilter | null | undefined;
+};
+
+export type ReviewsReviewImagesFilter = {
+  src?: ImageFilter | null | undefined;
+  alt?: StringFilter | null | undefined;
+};
+
+export type ReviewsFilter = {
+  reviewImages?: ReviewsReviewImagesFilter | null | undefined;
+};
+
+export type LitterPartsFragment = { __typename: 'Litter', active: boolean | null, sortOrder: number | null, title: string, slug: string | null, breeder: string | null, generation: string | null, priceRange: string | null, litterTitle: string | null, dateOfBirth: string | null, takeHomeDate: string | null, estimatedSize: string | null, grooming: string | null, temperament: string | null, deposit: string | null, contact: string | null, damName: string | null, damDesc: string | null, damPhoto: string | null, sireName: string | null, sireDesc: string | null, cardDesc: string | null, cardPhoto: string | null, sirePhoto: string | null, showCarousel: boolean | null, showPrevCarousel: boolean | null, puppies: Array<{ __typename: 'LitterPuppies', name: string | null, gender: string | null, price: string | null, status: string | null, photos: Array<{ __typename: 'LitterPuppiesPhotos', src: string | null, alt: string | null } | null> | null } | null> | null, previousPuppies: Array<{ __typename: 'LitterPreviousPuppies', src: string | null, alt: string | null } | null> | null };
+
+export type UpcomingLitterPartsFragment = { __typename: 'UpcomingLitter', active: boolean | null, sortOrder: number | null, breed: string, slug: string | null, breeder: string | null, expectedDate: string | null, estimatedSize: string | null, cardDesc: string | null, description: string | null, cardPhoto: string | null, damName: string | null, damDesc: string | null, damPhoto: string | null, sireName: string | null, sireDesc: string | null, sirePhoto: string | null, previousPuppies: Array<{ __typename: 'UpcomingLitterPreviousPuppies', src: string | null, alt: string | null } | null> | null };
+
+export type PagePartsFragment = { __typename: 'Page', title: string | null, heroHeading: string | null, heroSubtext: string | null };
+
+export type SettingsPartsFragment = { __typename: 'Settings', announcementBar: string | null, phone: string | null, email: string | null, instagramUrl: string | null, cashappUrl: string | null };
+
+export type ReviewsPartsFragment = { __typename: 'Reviews', reviewImages: Array<{ __typename: 'ReviewsReviewImages', src: string | null, alt: string | null } | null> | null };
 
 export type LitterQueryVariables = Exact<{
-  relativePath: Scalars['String']['input'];
+  relativePath: string;
 }>;
 
 
-export type LitterQuery = { __typename?: 'Query', litter: { __typename: 'Litter', id: string, active?: boolean | null, sortOrder?: number | null, title: string, slug?: string | null, breeder?: string | null, generation?: string | null, priceRange?: string | null, litterTitle?: string | null, dateOfBirth?: string | null, takeHomeDate?: string | null, estimatedSize?: string | null, grooming?: string | null, temperament?: string | null, deposit?: string | null, contact?: string | null, damName?: string | null, damDesc?: string | null, damPhoto?: string | null, sireName?: string | null, sireDesc?: string | null, cardDesc?: string | null, cardPhoto?: string | null, sirePhoto?: string | null, showCarousel?: boolean | null, showPrevCarousel?: boolean | null, _sys: { __typename?: 'SystemInfo', filename: string, basename: string, hasReferences?: boolean | null, breadcrumbs: Array<string>, path: string, relativePath: string, extension: string }, puppies?: Array<{ __typename: 'LitterPuppies', name?: string | null, gender?: string | null, price?: string | null, status?: string | null, photos?: Array<{ __typename: 'LitterPuppiesPhotos', src?: string | null, alt?: string | null } | null> | null } | null> | null, previousPuppies?: Array<{ __typename: 'LitterPreviousPuppies', src?: string | null, alt?: string | null } | null> | null } };
+export type LitterQuery = { litter: { __typename: 'Litter', id: string, active: boolean | null, sortOrder: number | null, title: string, slug: string | null, breeder: string | null, generation: string | null, priceRange: string | null, litterTitle: string | null, dateOfBirth: string | null, takeHomeDate: string | null, estimatedSize: string | null, grooming: string | null, temperament: string | null, deposit: string | null, contact: string | null, damName: string | null, damDesc: string | null, damPhoto: string | null, sireName: string | null, sireDesc: string | null, cardDesc: string | null, cardPhoto: string | null, sirePhoto: string | null, showCarousel: boolean | null, showPrevCarousel: boolean | null, _sys: { filename: string, basename: string, hasReferences: boolean | null, breadcrumbs: Array<string>, path: string, relativePath: string, extension: string }, puppies: Array<{ __typename: 'LitterPuppies', name: string | null, gender: string | null, price: string | null, status: string | null, photos: Array<{ __typename: 'LitterPuppiesPhotos', src: string | null, alt: string | null } | null> | null } | null> | null, previousPuppies: Array<{ __typename: 'LitterPreviousPuppies', src: string | null, alt: string | null } | null> | null } };
 
 export type LitterConnectionQueryVariables = Exact<{
-  before?: InputMaybe<Scalars['String']['input']>;
-  after?: InputMaybe<Scalars['String']['input']>;
-  first?: InputMaybe<Scalars['Float']['input']>;
-  last?: InputMaybe<Scalars['Float']['input']>;
-  sort?: InputMaybe<Scalars['String']['input']>;
-  filter?: InputMaybe<LitterFilter>;
+  before?: string | null | undefined;
+  after?: string | null | undefined;
+  first?: number | null | undefined;
+  last?: number | null | undefined;
+  sort?: string | null | undefined;
+  filter?: LitterFilter | null | undefined;
 }>;
 
 
-export type LitterConnectionQuery = { __typename?: 'Query', litterConnection: { __typename?: 'LitterConnection', totalCount: number, pageInfo: { __typename?: 'PageInfo', hasPreviousPage: boolean, hasNextPage: boolean, startCursor: string, endCursor: string }, edges?: Array<{ __typename?: 'LitterConnectionEdges', cursor: string, node?: { __typename: 'Litter', id: string, active?: boolean | null, sortOrder?: number | null, title: string, slug?: string | null, breeder?: string | null, generation?: string | null, priceRange?: string | null, litterTitle?: string | null, dateOfBirth?: string | null, takeHomeDate?: string | null, estimatedSize?: string | null, grooming?: string | null, temperament?: string | null, deposit?: string | null, contact?: string | null, damName?: string | null, damDesc?: string | null, damPhoto?: string | null, sireName?: string | null, sireDesc?: string | null, cardDesc?: string | null, cardPhoto?: string | null, sirePhoto?: string | null, showCarousel?: boolean | null, showPrevCarousel?: boolean | null, _sys: { __typename?: 'SystemInfo', filename: string, basename: string, hasReferences?: boolean | null, breadcrumbs: Array<string>, path: string, relativePath: string, extension: string }, puppies?: Array<{ __typename: 'LitterPuppies', name?: string | null, gender?: string | null, price?: string | null, status?: string | null, photos?: Array<{ __typename: 'LitterPuppiesPhotos', src?: string | null, alt?: string | null } | null> | null } | null> | null, previousPuppies?: Array<{ __typename: 'LitterPreviousPuppies', src?: string | null, alt?: string | null } | null> | null } | null } | null> | null } };
+export type LitterConnectionQuery = { litterConnection: { totalCount: number, pageInfo: { hasPreviousPage: boolean, hasNextPage: boolean, startCursor: string, endCursor: string }, edges: Array<{ cursor: string, node: { __typename: 'Litter', id: string, active: boolean | null, sortOrder: number | null, title: string, slug: string | null, breeder: string | null, generation: string | null, priceRange: string | null, litterTitle: string | null, dateOfBirth: string | null, takeHomeDate: string | null, estimatedSize: string | null, grooming: string | null, temperament: string | null, deposit: string | null, contact: string | null, damName: string | null, damDesc: string | null, damPhoto: string | null, sireName: string | null, sireDesc: string | null, cardDesc: string | null, cardPhoto: string | null, sirePhoto: string | null, showCarousel: boolean | null, showPrevCarousel: boolean | null, _sys: { filename: string, basename: string, hasReferences: boolean | null, breadcrumbs: Array<string>, path: string, relativePath: string, extension: string }, puppies: Array<{ __typename: 'LitterPuppies', name: string | null, gender: string | null, price: string | null, status: string | null, photos: Array<{ __typename: 'LitterPuppiesPhotos', src: string | null, alt: string | null } | null> | null } | null> | null, previousPuppies: Array<{ __typename: 'LitterPreviousPuppies', src: string | null, alt: string | null } | null> | null } | null } | null> | null } };
 
 export type UpcomingLitterQueryVariables = Exact<{
-  relativePath: Scalars['String']['input'];
+  relativePath: string;
 }>;
 
 
-export type UpcomingLitterQuery = { __typename?: 'Query', upcomingLitter: { __typename: 'UpcomingLitter', id: string, active?: boolean | null, sortOrder?: number | null, breed: string, slug?: string | null, breeder?: string | null, expectedDate?: string | null, estimatedSize?: string | null, cardDesc?: string | null, description?: string | null, cardPhoto?: string | null, damName?: string | null, damDesc?: string | null, damPhoto?: string | null, sireName?: string | null, sireDesc?: string | null, sirePhoto?: string | null, _sys: { __typename?: 'SystemInfo', filename: string, basename: string, hasReferences?: boolean | null, breadcrumbs: Array<string>, path: string, relativePath: string, extension: string }, previousPuppies?: Array<{ __typename: 'UpcomingLitterPreviousPuppies', src?: string | null, alt?: string | null } | null> | null } };
+export type UpcomingLitterQuery = { upcomingLitter: { __typename: 'UpcomingLitter', id: string, active: boolean | null, sortOrder: number | null, breed: string, slug: string | null, breeder: string | null, expectedDate: string | null, estimatedSize: string | null, cardDesc: string | null, description: string | null, cardPhoto: string | null, damName: string | null, damDesc: string | null, damPhoto: string | null, sireName: string | null, sireDesc: string | null, sirePhoto: string | null, _sys: { filename: string, basename: string, hasReferences: boolean | null, breadcrumbs: Array<string>, path: string, relativePath: string, extension: string }, previousPuppies: Array<{ __typename: 'UpcomingLitterPreviousPuppies', src: string | null, alt: string | null } | null> | null } };
 
 export type UpcomingLitterConnectionQueryVariables = Exact<{
-  before?: InputMaybe<Scalars['String']['input']>;
-  after?: InputMaybe<Scalars['String']['input']>;
-  first?: InputMaybe<Scalars['Float']['input']>;
-  last?: InputMaybe<Scalars['Float']['input']>;
-  sort?: InputMaybe<Scalars['String']['input']>;
-  filter?: InputMaybe<UpcomingLitterFilter>;
+  before?: string | null | undefined;
+  after?: string | null | undefined;
+  first?: number | null | undefined;
+  last?: number | null | undefined;
+  sort?: string | null | undefined;
+  filter?: UpcomingLitterFilter | null | undefined;
 }>;
 
 
-export type UpcomingLitterConnectionQuery = { __typename?: 'Query', upcomingLitterConnection: { __typename?: 'UpcomingLitterConnection', totalCount: number, pageInfo: { __typename?: 'PageInfo', hasPreviousPage: boolean, hasNextPage: boolean, startCursor: string, endCursor: string }, edges?: Array<{ __typename?: 'UpcomingLitterConnectionEdges', cursor: string, node?: { __typename: 'UpcomingLitter', id: string, active?: boolean | null, sortOrder?: number | null, breed: string, slug?: string | null, breeder?: string | null, expectedDate?: string | null, estimatedSize?: string | null, cardDesc?: string | null, description?: string | null, cardPhoto?: string | null, damName?: string | null, damDesc?: string | null, damPhoto?: string | null, sireName?: string | null, sireDesc?: string | null, sirePhoto?: string | null, _sys: { __typename?: 'SystemInfo', filename: string, basename: string, hasReferences?: boolean | null, breadcrumbs: Array<string>, path: string, relativePath: string, extension: string }, previousPuppies?: Array<{ __typename: 'UpcomingLitterPreviousPuppies', src?: string | null, alt?: string | null } | null> | null } | null } | null> | null } };
+export type UpcomingLitterConnectionQuery = { upcomingLitterConnection: { totalCount: number, pageInfo: { hasPreviousPage: boolean, hasNextPage: boolean, startCursor: string, endCursor: string }, edges: Array<{ cursor: string, node: { __typename: 'UpcomingLitter', id: string, active: boolean | null, sortOrder: number | null, breed: string, slug: string | null, breeder: string | null, expectedDate: string | null, estimatedSize: string | null, cardDesc: string | null, description: string | null, cardPhoto: string | null, damName: string | null, damDesc: string | null, damPhoto: string | null, sireName: string | null, sireDesc: string | null, sirePhoto: string | null, _sys: { filename: string, basename: string, hasReferences: boolean | null, breadcrumbs: Array<string>, path: string, relativePath: string, extension: string }, previousPuppies: Array<{ __typename: 'UpcomingLitterPreviousPuppies', src: string | null, alt: string | null } | null> | null } | null } | null> | null } };
 
 export type PageQueryVariables = Exact<{
-  relativePath: Scalars['String']['input'];
+  relativePath: string;
 }>;
 
 
-export type PageQuery = { __typename?: 'Query', page: { __typename: 'Page', id: string, title?: string | null, heroHeading?: string | null, heroSubtext?: string | null, _sys: { __typename?: 'SystemInfo', filename: string, basename: string, hasReferences?: boolean | null, breadcrumbs: Array<string>, path: string, relativePath: string, extension: string } } };
+export type PageQuery = { page: { __typename: 'Page', id: string, title: string | null, heroHeading: string | null, heroSubtext: string | null, _sys: { filename: string, basename: string, hasReferences: boolean | null, breadcrumbs: Array<string>, path: string, relativePath: string, extension: string } } };
 
 export type PageConnectionQueryVariables = Exact<{
-  before?: InputMaybe<Scalars['String']['input']>;
-  after?: InputMaybe<Scalars['String']['input']>;
-  first?: InputMaybe<Scalars['Float']['input']>;
-  last?: InputMaybe<Scalars['Float']['input']>;
-  sort?: InputMaybe<Scalars['String']['input']>;
-  filter?: InputMaybe<PageFilter>;
+  before?: string | null | undefined;
+  after?: string | null | undefined;
+  first?: number | null | undefined;
+  last?: number | null | undefined;
+  sort?: string | null | undefined;
+  filter?: PageFilter | null | undefined;
 }>;
 
 
-export type PageConnectionQuery = { __typename?: 'Query', pageConnection: { __typename?: 'PageConnection', totalCount: number, pageInfo: { __typename?: 'PageInfo', hasPreviousPage: boolean, hasNextPage: boolean, startCursor: string, endCursor: string }, edges?: Array<{ __typename?: 'PageConnectionEdges', cursor: string, node?: { __typename: 'Page', id: string, title?: string | null, heroHeading?: string | null, heroSubtext?: string | null, _sys: { __typename?: 'SystemInfo', filename: string, basename: string, hasReferences?: boolean | null, breadcrumbs: Array<string>, path: string, relativePath: string, extension: string } } | null } | null> | null } };
+export type PageConnectionQuery = { pageConnection: { totalCount: number, pageInfo: { hasPreviousPage: boolean, hasNextPage: boolean, startCursor: string, endCursor: string }, edges: Array<{ cursor: string, node: { __typename: 'Page', id: string, title: string | null, heroHeading: string | null, heroSubtext: string | null, _sys: { filename: string, basename: string, hasReferences: boolean | null, breadcrumbs: Array<string>, path: string, relativePath: string, extension: string } } | null } | null> | null } };
 
 export type SettingsQueryVariables = Exact<{
-  relativePath: Scalars['String']['input'];
+  relativePath: string;
 }>;
 
 
-export type SettingsQuery = { __typename?: 'Query', settings: { __typename: 'Settings', id: string, announcementBar?: string | null, phone?: string | null, email?: string | null, instagramUrl?: string | null, cashappUrl?: string | null, _sys: { __typename?: 'SystemInfo', filename: string, basename: string, hasReferences?: boolean | null, breadcrumbs: Array<string>, path: string, relativePath: string, extension: string } } };
+export type SettingsQuery = { settings: { __typename: 'Settings', id: string, announcementBar: string | null, phone: string | null, email: string | null, instagramUrl: string | null, cashappUrl: string | null, _sys: { filename: string, basename: string, hasReferences: boolean | null, breadcrumbs: Array<string>, path: string, relativePath: string, extension: string } } };
 
 export type SettingsConnectionQueryVariables = Exact<{
-  before?: InputMaybe<Scalars['String']['input']>;
-  after?: InputMaybe<Scalars['String']['input']>;
-  first?: InputMaybe<Scalars['Float']['input']>;
-  last?: InputMaybe<Scalars['Float']['input']>;
-  sort?: InputMaybe<Scalars['String']['input']>;
-  filter?: InputMaybe<SettingsFilter>;
+  before?: string | null | undefined;
+  after?: string | null | undefined;
+  first?: number | null | undefined;
+  last?: number | null | undefined;
+  sort?: string | null | undefined;
+  filter?: SettingsFilter | null | undefined;
 }>;
 
 
-export type SettingsConnectionQuery = { __typename?: 'Query', settingsConnection: { __typename?: 'SettingsConnection', totalCount: number, pageInfo: { __typename?: 'PageInfo', hasPreviousPage: boolean, hasNextPage: boolean, startCursor: string, endCursor: string }, edges?: Array<{ __typename?: 'SettingsConnectionEdges', cursor: string, node?: { __typename: 'Settings', id: string, announcementBar?: string | null, phone?: string | null, email?: string | null, instagramUrl?: string | null, cashappUrl?: string | null, _sys: { __typename?: 'SystemInfo', filename: string, basename: string, hasReferences?: boolean | null, breadcrumbs: Array<string>, path: string, relativePath: string, extension: string } } | null } | null> | null } };
+export type SettingsConnectionQuery = { settingsConnection: { totalCount: number, pageInfo: { hasPreviousPage: boolean, hasNextPage: boolean, startCursor: string, endCursor: string }, edges: Array<{ cursor: string, node: { __typename: 'Settings', id: string, announcementBar: string | null, phone: string | null, email: string | null, instagramUrl: string | null, cashappUrl: string | null, _sys: { filename: string, basename: string, hasReferences: boolean | null, breadcrumbs: Array<string>, path: string, relativePath: string, extension: string } } | null } | null> | null } };
 
 export type ReviewsQueryVariables = Exact<{
-  relativePath: Scalars['String']['input'];
+  relativePath: string;
 }>;
 
 
-export type ReviewsQuery = { __typename?: 'Query', reviews: { __typename: 'Reviews', id: string, _sys: { __typename?: 'SystemInfo', filename: string, basename: string, hasReferences?: boolean | null, breadcrumbs: Array<string>, path: string, relativePath: string, extension: string }, reviewImages?: Array<{ __typename: 'ReviewsReviewImages', src?: string | null, alt?: string | null } | null> | null } };
+export type ReviewsQuery = { reviews: { __typename: 'Reviews', id: string, _sys: { filename: string, basename: string, hasReferences: boolean | null, breadcrumbs: Array<string>, path: string, relativePath: string, extension: string }, reviewImages: Array<{ __typename: 'ReviewsReviewImages', src: string | null, alt: string | null } | null> | null } };
 
 export type ReviewsConnectionQueryVariables = Exact<{
-  before?: InputMaybe<Scalars['String']['input']>;
-  after?: InputMaybe<Scalars['String']['input']>;
-  first?: InputMaybe<Scalars['Float']['input']>;
-  last?: InputMaybe<Scalars['Float']['input']>;
-  sort?: InputMaybe<Scalars['String']['input']>;
-  filter?: InputMaybe<ReviewsFilter>;
+  before?: string | null | undefined;
+  after?: string | null | undefined;
+  first?: number | null | undefined;
+  last?: number | null | undefined;
+  sort?: string | null | undefined;
+  filter?: ReviewsFilter | null | undefined;
 }>;
 
 
-export type ReviewsConnectionQuery = { __typename?: 'Query', reviewsConnection: { __typename?: 'ReviewsConnection', totalCount: number, pageInfo: { __typename?: 'PageInfo', hasPreviousPage: boolean, hasNextPage: boolean, startCursor: string, endCursor: string }, edges?: Array<{ __typename?: 'ReviewsConnectionEdges', cursor: string, node?: { __typename: 'Reviews', id: string, _sys: { __typename?: 'SystemInfo', filename: string, basename: string, hasReferences?: boolean | null, breadcrumbs: Array<string>, path: string, relativePath: string, extension: string }, reviewImages?: Array<{ __typename: 'ReviewsReviewImages', src?: string | null, alt?: string | null } | null> | null } | null } | null> | null } };
+export type ReviewsConnectionQuery = { reviewsConnection: { totalCount: number, pageInfo: { hasPreviousPage: boolean, hasNextPage: boolean, startCursor: string, endCursor: string }, edges: Array<{ cursor: string, node: { __typename: 'Reviews', id: string, _sys: { filename: string, basename: string, hasReferences: boolean | null, breadcrumbs: Array<string>, path: string, relativePath: string, extension: string }, reviewImages: Array<{ __typename: 'ReviewsReviewImages', src: string | null, alt: string | null } | null> | null } | null } | null> | null } };
 
 export const LitterPartsFragmentDoc = gql`
     fragment LitterParts on Litter {
@@ -1356,5 +1480,7 @@ export const queries = (
   const requester = generateRequester(client)
   return getSdk(requester)
 }
+
+export type { Exact };
 
   
