@@ -326,59 +326,48 @@ export default function Home({ litters }) {
       <section className="litters-section" id="litters">
         <div className="section-header">
           <span className="overline">Our Puppies</span>
-          <h2>Available <em>Breeds &amp; Litters</em></h2>
-          <p>Click any breed to view full litter details, meet the parents, and see available puppies.</p>
+          <h2>Featured <em>Litters</em></h2>
+          <p>Click any litter to view full details, meet the parents, and see available puppies.</p>
         </div>
-        {groupLittersByBreeder(
-          litters
+        <div className="litters-grid">
+          {litters
             .filter(l => l.active !== false && l.featured === true)
             .sort((a, b) => (a.sortOrder || 99) - (b.sortOrder || 99))
-        ).map(group => (
-          <div className="family-section" key={group.displayName}>
-            <div className="family-header">
-              <h3>{group.displayName}</h3>
-              <span className="family-count">
-                {group.litters.length} {group.litters.length === 1 ? 'Litter' : 'Litters'}
-              </span>
-            </div>
-            <div className="litters-grid">
-              {group.litters.map(l => {
-                const availableCount = (l.puppies || []).filter(p => p.status === 'Available').length
-                const cardPhoto = l.cardPhoto
-                  ? l.cardPhoto.replace(/^\/uploads/, '').replace(/^https:\/\/assets\.tina\.io\/[a-f0-9-]+/, '')
-                  : 'https://res.cloudinary.com/dyzfpnrhg/image/upload/image_0001.jpg'
-                return (
-                  <Link key={l.slug} href={`/litters/${l.slug}`} className="litter-card">
-                    <div className="litter-card-image">
-                      <img src={cardPhoto} alt={l.title} />
-                      <span className="availability-badge">{availableCount} Available</span>
+            .map(l => {
+              const availableCount = (l.puppies || []).filter(p => p.status === 'Available').length
+              const cardPhoto = l.cardPhoto
+                ? l.cardPhoto.replace(/^\/uploads/, '').replace(/^https:\/\/assets\.tina\.io\/[a-f0-9-]+/, '')
+                : 'https://res.cloudinary.com/dyzfpnrhg/image/upload/image_0001.jpg'
+              return (
+                <Link key={l.slug} href={`/litters/${l.slug}`} className="litter-card">
+                  <div className="litter-card-image">
+                    <img src={cardPhoto} alt={l.title} />
+                    <span className="availability-badge">{availableCount} Available</span>
+                  </div>
+                  <div className="litter-card-body">
+                    <div className="litter-family">{l.breeder}</div>
+                    <h3>{l.title}</h3>
+                    <p className="litter-desc">{l.cardDesc}</p>
+                    <div className="litter-meta">
+                      <span className="litter-price">{l.priceRange}</span>
+                      <span className="litter-avail">{availableCount} Available</span>
                     </div>
-                    <div className="litter-card-body">
-                      <div className="litter-family">{l.breeder}</div>
-                      <h3>{l.title}</h3>
-                      <p className="litter-desc">{l.cardDesc}</p>
-                      <div className="litter-meta">
-                        <span className="litter-price">{l.priceRange}</span>
-                        <span className="litter-avail">{availableCount} Available</span>
-                      </div>
-                      <span className="view-litter">View Litter →</span>
-                      <button
-                        className="inquire-btn"
-                        onClick={(e) => {
-                          e.preventDefault();
-                          e.stopPropagation();
-                          window.location.href = '/#apply';
-                        }}
-                      >
-                        Inquire Now
-                      </button>
-                    </div>
-                  </Link>
-                )
-              })}
-            </div>
-          </div>
-        ))}
+                    <span className="view-litter">View Litter →</span>
+                    <button
+                      className="inquire-btn"
+                      onClick={(e) => {
+                        e.preventDefault();
+                        e.stopPropagation();
+                        window.location.href = '/#apply';
+                      }}
+                    >
+                      Inquire Now
+                    </button>
+                  </div>
+                </Link>
+              )
+            })}
+        </div>
         <div style={{ textAlign: 'center', marginTop: '3rem' }}>
           <Link href="/litters" className="btn-secondary">View All Litters →</Link>
         </div>
