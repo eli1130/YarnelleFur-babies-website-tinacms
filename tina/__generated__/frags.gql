@@ -1,6 +1,7 @@
 fragment LitterParts on Litter {
   __typename
   active
+  featured
   sortOrder
   title
   slug

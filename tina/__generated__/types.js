@@ -9,6 +9,7 @@ export const LitterPartsFragmentDoc = gql`
     fragment LitterParts on Litter {
   __typename
   active
+  featured
   sortOrder
   title
   slug
@@ -445,7 +446,7 @@ const generateRequester = (client) => {
 export const ExperimentalGetTinaClient = () => getSdk(
   generateRequester(
     createClient({
-      url: "http://localhost:4001/graphql",
+      url: "https://content.tinajs.io/2.4/content/dffd7077-227c-4847-92af-8032f3e0f98b/github/main",
       queries
     })
   )

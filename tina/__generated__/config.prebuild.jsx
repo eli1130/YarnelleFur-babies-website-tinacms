@@ -30,6 +30,7 @@ var config_default = defineConfig({
         },
         fields: [
           { type: "boolean", name: "active", label: "Active (uncheck to hide this litter)", ui: { defaultValue: true } },
+          { type: "boolean", name: "featured", label: "Show on Homepage", ui: { defaultValue: false } },
           { type: "number", name: "sortOrder", label: "Sort Order (1, 2, 3...)" },
           { type: "string", name: "title", label: "Breed Title", required: true },
           { type: "string", name: "slug", label: "URL Slug (e.g. saint-lucy)" },
