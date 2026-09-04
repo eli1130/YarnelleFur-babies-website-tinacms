@@ -240,6 +240,7 @@ export default function Home({ litters }) {
        <li><Link href="/about">About Us</Link></li>
        <li><Link href="/gotjesus">Got Jesus?</Link></li>
        <li><Link href="/#litters">Available Litters</Link></li>
+       <li><Link href="/litters">All Litters</Link></li>
        <li><Link href="/upcoming-litters">Upcoming Litters &amp; Waitlist</Link></li>
        <li><Link href="/reviews">Reviews</Link></li>
        <li><Link href="/facility">Our Facility</Link></li>
@@ -321,7 +322,7 @@ export default function Home({ litters }) {
         </div>
       </div>
 
-      {/* AVAILABLE LITTERS */}
+      {/* AVAILABLE LITTERS (FEATURED) */}
       <section className="litters-section" id="litters">
         <div className="section-header">
           <span className="overline">Our Puppies</span>
@@ -330,7 +331,7 @@ export default function Home({ litters }) {
         </div>
         {groupLittersByBreeder(
           litters
-            .filter(l => l.active !== false)
+            .filter(l => l.active !== false && l.featured === true)
             .sort((a, b) => (a.sortOrder || 99) - (b.sortOrder || 99))
         ).map(group => (
           <div className="family-section" key={group.displayName}>
@@ -378,6 +379,9 @@ export default function Home({ litters }) {
             </div>
           </div>
         ))}
+        <div style={{ textAlign: 'center', marginTop: '3rem' }}>
+          <Link href="/litters" className="btn-secondary">View All Litters →</Link>
+        </div>
       </section>
 
       {/* ADOPTION PROCESS */}
@@ -548,6 +552,7 @@ export default function Home({ litters }) {
             <Link href="/about">About Us</Link>
             <Link href="/gotjesus">Got Jesus?</Link>
             <Link href="/#litters">Available Litters</Link>
+            <Link href="/litters">All Litters</Link>
             <Link href="/upcoming-litters">Upcoming Litters</Link>
             <Link href="/reviews">Reviews</Link>
             <Link href="/faq">FAQ &amp; Products</Link>
