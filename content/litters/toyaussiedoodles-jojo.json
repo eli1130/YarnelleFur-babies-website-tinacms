@@ -6,5 +6,61 @@
   "breeder": "Luke & Eli Yarnelle",
   "generation": "F1",
   "priceRange": "$2,800",
-  "litterTitle": "Jojo × Ash"
+  "litterTitle": "Jojo × Ash",
+  "dateOfBirth": "July 9, 2026",
+  "takeHomeDate": "September 10, 2026",
+  "estimatedSize": "10–15 lbs",
+  "grooming": "Roughly every 4-6 months",
+  "temperament": "intelligent, friendly, affectionate, playful",
+  "deposit": "$600",
+  "contact": "Eli · (260) 445-4378",
+  "damName": "Jojo",
+  "damDesc": "Blue Merle Toy Australian Shepherd (12lbs)",
+  "damPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/image_0054.jpg",
+  "sireName": "Ash",
+  "sireDesc": "Cream Toy Poodle (9lbs)",
+  "cardDesc": "Meet our adorable Toy Aussiedoodle puppies— compact, low-shedding companions packed with intelligence, playfulness, and endless affection. Raised right in our loving home, these vibrant little sweethearts are fully socialized and ready to bring joy to your family.",
+  "cardPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Toy%20Aussiedoodles%20(jane).JPG",
+  "sirePhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/image_0055.jpg",
+  "puppies": [
+    {
+      "name": "Jane",
+      "gender": "Girl",
+      "price": "$2,800",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Toy Aussiedoodles (jane).JPG",
+          "alt": "Aussiedoodles in Indiana"
+        }
+      ]
+    },
+    {
+      "name": "Jake",
+      "gender": "Boy",
+      "price": "$2,800",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Toy Aussiedoodles (jake).JPG",
+          "alt": "Aussiedoodles in Indiana"
+        }
+      ]
+    }
+  ],
+  "showCarousel": true,
+  "previousPuppies": [
+    {
+      "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Jojo Prev pup pic.jpeg",
+      "alt": "Aussiedoodles in Indiana"
+    },
+    {
+      "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Jojo prev pup pic 2.jpeg",
+      "alt": "Aussiedoodles in Indiana"
+    },
+    {
+      "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Jojo prev pup pic 3.jpeg",
+      "alt": "Aussiedoodles in Indiana"
+    }
+  ]
 }
