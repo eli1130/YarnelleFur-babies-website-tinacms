@@ -239,8 +239,7 @@ export default function Home({ litters }) {
        <li><Link href="/">Home</Link></li>
        <li><Link href="/about">About Us</Link></li>
        <li><Link href="/gotjesus">Got Jesus?</Link></li>
-       <li><Link href="/#litters">Available Litters</Link></li>
-       <li><Link href="/litters">All Litters</Link></li>
+       <li><Link href="/litters">Available Litters</Link></li>
        <li><Link href="/upcoming-litters">Upcoming Litters &amp; Waitlist</Link></li>
        <li><Link href="/reviews">Reviews</Link></li>
        <li><Link href="/facility">Our Facility</Link></li>
@@ -540,8 +539,7 @@ export default function Home({ litters }) {
             <Link href="/">Home</Link>
             <Link href="/about">About Us</Link>
             <Link href="/gotjesus">Got Jesus?</Link>
-            <Link href="/#litters">Available Litters</Link>
-            <Link href="/litters">All Litters</Link>
+            <Link href="/litters">Available Litters</Link>
             <Link href="/upcoming-litters">Upcoming Litters</Link>
             <Link href="/reviews">Reviews</Link>
             <Link href="/faq">FAQ &amp; Products</Link>
