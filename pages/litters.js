@@ -21,7 +21,7 @@ const BREED_FILTERS = [
   'Goldendoodle',
   'Aussiedoodle',
   'Colliedoodle',
-  'St.Berdoodle',
+  'Saint Berdoodle',
   'Broodle Griffon',
   'Standard Poodle',
 ];
