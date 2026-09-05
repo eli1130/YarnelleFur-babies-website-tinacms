@@ -71,13 +71,8 @@
       "name": "Millie",
       "gender": "Girl",
       "price": "$2,000",
-      "status": "Available",
-      "photos": [
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Broodle Griffon Millie.JPG",
-          "alt": "Broodle Griffons in Indiana"
-        }
-      ]
+      "status": "Sold",
+      "photos": []
     }
   ],
   "showCarousel": true
