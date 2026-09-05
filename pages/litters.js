@@ -12,19 +12,23 @@ const BREEDER_ORDER = [
   'Travis & Hannah Mullendore',
 ];
 
-// Buttons shown in the filter bar. Match against a litter's Breed Title with
-// a simple "contains" check, so "Mini Bernedoodle", "Standard Bernedoodle",
-// etc. all match the "Bernedoodle" button without needing an exact value.
+// Buttons shown in the filter bar. Each button has a display "label" and one
+// or more "match" strings checked against a litter's title with a simple
+// "contains" check (so "Mini Bernedoodle", "Standard Bernedoodle", etc. all
+// match the "Bernedoodle" button without needing an exact value). Label and
+// match are separate so a button can be styled/abbreviated on-site (e.g.
+// "St.Berdoodle") while still catching litter titles worded "Saint Berdoodle".
 const BREED_FILTERS = [
-  'All',
-  'Bernedoodle',
-  'Goldendoodle',
-  'Aussiedoodle',
-  'Colliedoodle',
-  'Saint Berdoodle',
-  'Broodle Griffon',
-  'Standard Poodle',
+  { label: 'All', match: null },
+  { label: 'Bernedoodle', match: ['bernedoodle'] },
+  { label: 'Goldendoodle', match: ['goldendoodle'] },
+  { label: 'Aussiedoodle', match: ['aussiedoodle'] },
+  { label: 'Colliedoodle', match: ['colliedoodle'] },
+  { label: 'St.Berdoodle', match: ['saint berdoodle', 'st. berdoodle', 'st.berdoodle', 'st berdoodle'] },
+  { label: 'Broodle Griffon', match: ['broodle griffon'] },
+  { label: 'Standard Poodle', match: ['standard poodle'] },
 ];
+
 function groupLittersByBreeder(litters) {
   const groups = new Map();
 
@@ -62,12 +66,15 @@ export default function AllLitters({ litters }) {
     .filter((l) => l.active !== false)
     .sort((a, b) => (a.sortOrder || 99) - (b.sortOrder || 99));
 
+  const activeFilterDef = BREED_FILTERS.find((f) => f.label === breedFilter);
+
   const filteredLitters =
-    breedFilter === 'All'
+    !activeFilterDef || !activeFilterDef.match
       ? activeLitters
-      : activeLitters.filter((l) =>
-          (l.title || '').toLowerCase().includes(breedFilter.toLowerCase())
-        );
+      : activeLitters.filter((l) => {
+          const title = (l.title || '').toLowerCase();
+          return activeFilterDef.match.some((m) => title.includes(m));
+        });
 
   const groups = groupLittersByBreeder(filteredLitters);
 
@@ -181,8 +188,7 @@ export default function AllLitters({ litters }) {
           <li><Link href="/">Home</Link></li>
           <li><Link href="/about">About Us</Link></li>
           <li><Link href="/gotjesus">Got Jesus?</Link></li>
-          <li><Link href="/#litters">Available Litters</Link></li>
-          <li><Link href="/litters">All Litters</Link></li>
+          <li><Link href="/litters">Available Litters</Link></li>
           <li><Link href="/upcoming-litters">Upcoming Litters &amp; Waitlist</Link></li>
           <li><Link href="/reviews">Reviews</Link></li>
           <li><Link href="/facility">Our Facility</Link></li>
@@ -207,13 +213,13 @@ export default function AllLitters({ litters }) {
         </div>
 
         <div className="breed-filters">
-          {BREED_FILTERS.map((b) => (
+          {BREED_FILTERS.map((f) => (
             <button
-              key={b}
-              className={`breed-filter-btn${breedFilter === b ? ' active' : ''}`}
-              onClick={() => setBreedFilter(b)}
+              key={f.label}
+              className={`breed-filter-btn${breedFilter === f.label ? ' active' : ''}`}
+              onClick={() => setBreedFilter(f.label)}
             >
-              {b}
+              {f.label}
             </button>
           ))}
         </div>
@@ -273,8 +279,7 @@ export default function AllLitters({ litters }) {
             <h5>Navigate</h5>
             <Link href="/">Home</Link>
             <Link href="/about">About Us</Link>
-            <Link href="/#litters">Available Litters</Link>
-            <Link href="/litters">All Litters</Link>
+            <Link href="/litters">Available Litters</Link>
             <Link href="/upcoming-litters">Upcoming Litters</Link>
             <Link href="/reviews">Reviews</Link>
             <Link href="/faq">FAQ &amp; Products</Link>
