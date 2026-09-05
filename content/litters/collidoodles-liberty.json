@@ -1,0 +1,124 @@
+{
+  "active": true,
+  "sortOrder": 14,
+  "title": "Standard F1 Colliedoodles",
+  "slug": "collidoodles-liberty",
+  "breeder": "Luke & Eli Yarnelle",
+  "generation": "F1",
+  "priceRange": "$1,200 - $1,400",
+  "litterTitle": "Liberty x Aspen",
+  "dateOfBirth": "July 16, 2026",
+  "takeHomeDate": "September 10, 2026",
+  "estimatedSize": "50-60 lbs",
+  "grooming": "Roughly every 4-6 months",
+  "temperament": "extremely affectionate, smart, playful, love to cuddle, incredibly friendly with other dogs, cats, and kiddos",
+  "deposit": "$400",
+  "contact": "Eli · (260) 445-4378",
+  "damName": "Liberty",
+  "damDesc": "Tri Rough Coat Collie (50bs)",
+  "damPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/image_0084.jpg",
+  "sireName": "Aspen",
+  "sireDesc": "AKC Standard Chocolate Parti Poodle (60lbs)",
+  "cardDesc": "Meet our playful Standard F1 Colliedoodle puppies— low-shedding, sweet-natured companions combining the intelligence of the Standard Poodle with the loyal, gentle heart of the Collie. Socialized right on our farm, these clever and devoted pups are eager to fit seamlessly into active families.",
+  "cardPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Coliiedoodles(Luka).JPG",
+  "sirePhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/aspen pic.jpeg",
+  "puppies": [
+    {
+      "name": "Laura",
+      "gender": "Girl",
+      "price": "$1,200",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Coliiedoodles(Laura).JPG",
+          "alt": "Colliedoodles in Indiana"
+        },
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Colliedoodles(Laura 2).JPG",
+          "alt": "Colliedoodles in Indiana"
+        }
+      ]
+    },
+    {
+      "name": "Layla ",
+      "gender": "Girl",
+      "price": "$1,200",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Coliiedoodles(Layla).JPG",
+          "alt": "Colliedoodles in Indiana"
+        },
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Colliedoodles(Layla 2).JPG",
+          "alt": "Colliedoodles in Indiana"
+        }
+      ]
+    },
+    {
+      "name": "Leslie",
+      "gender": "Girl",
+      "price": "$1,400",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Coliiedoodles(Leslie).JPG",
+          "alt": "Colliedoodles in Indiana"
+        },
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Colliedoodles(Leslie 2).JPG",
+          "alt": "Colliedoodles in Indiana"
+        }
+      ]
+    },
+    {
+      "name": "Lincoln ",
+      "gender": "Boy",
+      "price": "$1,200",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Coliiedoodles(Lincoln).JPG",
+          "alt": "Colliedoodles in Indiana"
+        },
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Colliedoodles(Lincoln 2).JPG",
+          "alt": "Colliedoodles in Indiana"
+        }
+      ]
+    },
+    {
+      "name": "Lola ",
+      "gender": "Girl",
+      "price": "$1,200",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Coliiedoodles(Lola).JPG",
+          "alt": "Colliedoodles in Indiana"
+        },
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Colliedoodles(Lola 2).JPG",
+          "alt": "Colliedoodles in Indiana"
+        }
+      ]
+    },
+    {
+      "name": "Luka",
+      "gender": "Boy",
+      "price": "$1,400",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Coliiedoodles(Luka).JPG",
+          "alt": "Colliedoodles in Indiana"
+        },
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Colliedoodles(Luka 2).JPG",
+          "alt": "Colliedoodles in Indiana"
+        }
+      ]
+    }
+  ],
+  "showCarousel": true
+}
