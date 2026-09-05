@@ -29,7 +29,10 @@
       "price": "$1,800",
       "status": "Available",
       "photos": [
-        {},
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Broodle Griffon (Mallory 2).JPG",
+          "alt": "Broodle Griffons in Indiana"
+        },
         {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Broodle Griffon Mallory.JPG",
           "alt": "Broodle Griffons in Indiana"
