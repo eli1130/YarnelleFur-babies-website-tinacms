@@ -89,13 +89,6 @@
       ]
     },
     {
-      "name": "Barry (Orange)",
-      "gender": "Boy",
-      "price": "$1,800",
-      "status": "Reserved",
-      "photos": []
-    },
-    {
       "name": "Brian (Red)",
       "gender": "Boy",
       "price": "$2,000",
@@ -174,6 +167,13 @@
           "alt": "St.berdoodles in Indiana"
         }
       ]
+    },
+    {
+      "name": "Barry (Orange)",
+      "gender": "Boy",
+      "price": "$1,800",
+      "status": "Reserved",
+      "photos": []
     },
     {
       "name": "Brie (Pink)",
