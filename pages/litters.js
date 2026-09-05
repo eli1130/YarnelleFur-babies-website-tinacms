@@ -21,10 +21,10 @@ const BREED_FILTERS = [
   'Goldendoodle',
   'Aussiedoodle',
   'Colliedoodle',
+  'St.Berdoodle',
   'Broodle Griffon',
   'Standard Poodle',
 ];
-
 function groupLittersByBreeder(litters) {
   const groups = new Map();
 
