@@ -108,21 +108,8 @@
       "name": "Daisy ",
       "gender": "Girl",
       "price": "$2,200",
-      "status": "Available",
-      "photos": [
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Dora Bernedoodles (Daisy 3).JPG",
-          "alt": "Bernedoodles in Indiana"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Bernedoodles (Daisy 2).JPG",
-          "alt": "Bernedoodles in Indiana"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Standard bernedoodles (Daisy).JPG",
-          "alt": "Bernedoodles in Indiana"
-        }
-      ]
+      "status": "Reserved",
+      "photos": []
     },
     {
       "name": "Dakota ",
