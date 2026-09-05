@@ -70,7 +70,10 @@
       "status": "Available",
       "photos": [
         {},
-        {},
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Broodle Griffon (Mike 2).JPG",
+          "alt": "Broodle Griffons in Indiana"
+        },
         {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Broodle Griffon Mike.JPG",
           "alt": "Broodle Griffons in Indiana"
