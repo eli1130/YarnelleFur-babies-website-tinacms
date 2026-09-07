@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import Link from 'next/link';
-import { useState } from 'react';
+import { useRouter } from 'next/router';
+import { useEffect, useState } from 'react';
 import { client } from '../tina/__generated__/client';
 
 // Keep this in sync with pages/index.js
@@ -12,22 +13,37 @@ const BREEDER_ORDER = [
   'Travis & Hannah Mullendore',
 ];
 
-// Buttons shown in the filter bar. Each button has a display "label" and one
+// Buttons shown in the filter bar. Each button has a display "label", a URL
+// "slug" (used for the shareable/ad-linkable ?breed= query param), and one
 // or more "match" strings checked against a litter's title with a simple
 // "contains" check (so "Mini Bernedoodle", "Standard Bernedoodle", etc. all
 // match the "Bernedoodle" button without needing an exact value). Label and
 // match are separate so a button can be styled/abbreviated on-site (e.g.
 // "St.Berdoodle") while still catching litter titles worded "Saint Berdoodle".
 const BREED_FILTERS = [
-  { label: 'All', match: null },
-  { label: 'Bernedoodle', match: ['bernedoodle'] },
-  { label: 'Goldendoodle', match: ['goldendoodle'] },
-  { label: 'Aussiedoodle', match: ['aussiedoodle'] },
-  { label: 'Colliedoodle', match: ['colliedoodle'] },
-  { label: 'St.Berdoodle', match: ['saint berdoodle', 'st. berdoodle', 'st.berdoodle', 'st berdoodle'] },
-  { label: 'Broodle Griffon', match: ['broodle griffon'] },
-  { label: 'Standard Poodle', match: ['standard poodle'] },
+  { label: 'All', slug: 'all', match: null },
+  { label: 'Bernedoodle', slug: 'bernedoodle', match: ['bernedoodle'] },
+  { label: 'Goldendoodle', slug: 'goldendoodle', match: ['goldendoodle'] },
+  { label: 'Aussiedoodle', slug: 'aussiedoodle', match: ['aussiedoodle'] },
+  { label: 'Colliedoodle', slug: 'colliedoodle', match: ['colliedoodle'] },
+  { label: 'St.Berdoodle', slug: 'saint-berdoodle', match: ['saint berdoodle', 'st. berdoodle', 'st.berdoodle', 'st berdoodle'] },
+  { label: 'Broodle Griffon', slug: 'broodle-griffon', match: ['broodle griffon'] },
+  { label: 'Standard Poodle', slug: 'standard-poodle', match: ['standard poodle'] },
 ];
+
+// Accepts messy real-world query values (breed, Breed, bernedoodles, saint_berdoodle,
+// "saint berdoodle" url-encoded, etc.) and maps them to one of our filter slugs.
+function resolveBreedFromQuery(rawValue) {
+  if (!rawValue) return null;
+  const normalized = String(rawValue).toLowerCase().trim().replace(/[_\s]+/g, '-');
+  const found = BREED_FILTERS.find((f) => {
+    if (f.slug === normalized) return true;
+    // also allow matching against the same "contains" keywords used for litter titles
+    if (f.match && f.match.some((m) => normalized.includes(m.replace(/\s+/g, '-')))) return true;
+    return false;
+  });
+  return found ? found.label : null;
+}
 
 function groupLittersByBreeder(litters) {
   const groups = new Map();
@@ -59,8 +75,28 @@ function groupLittersByBreeder(litters) {
 }
 
 export default function AllLitters({ litters }) {
+  const router = useRouter();
   const [navOpen, setNavOpen] = useState(false);
   const [breedFilter, setBreedFilter] = useState('All');
+
+  // On load (and whenever the URL's ?breed= changes, e.g. from an ad click),
+  // sync the active filter from the query string. router.isReady guards
+  // against running before Next has parsed the query on first render.
+  useEffect(() => {
+    if (!router.isReady) return;
+    const resolved = resolveBreedFromQuery(router.query.breed);
+    setBreedFilter(resolved || 'All');
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [router.isReady, router.query.breed]);
+
+  // Clicking a filter button updates both the on-page state and the address
+  // bar (shallow route change, no re-fetch/rerender of getStaticProps data),
+  // so the resulting URL is shareable and linkable from ads.
+  function handleFilterClick(filterDef) {
+    setBreedFilter(filterDef.label);
+    const nextQuery = filterDef.slug === 'all' ? {} : { breed: filterDef.slug };
+    router.push({ pathname: '/litters', query: nextQuery }, undefined, { shallow: true });
+  }
 
   const activeLitters = litters
     .filter((l) => l.active !== false)
@@ -217,7 +253,7 @@ export default function AllLitters({ litters }) {
             <button
               key={f.label}
               className={`breed-filter-btn${breedFilter === f.label ? ' active' : ''}`}
-              onClick={() => setBreedFilter(f.label)}
+              onClick={() => handleFilterClick(f)}
             >
               {f.label}
             </button>
