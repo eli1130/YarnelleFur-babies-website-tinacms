@@ -25,7 +25,8 @@
     "react-dom": "^18",
     "slate": "^0.123.0",
     "slate-dom": "^0.123.0",
-    "tinacms": "3.12.0"
+    "tinacms": "3.12.0",
+    "@tinacms/app": "2.5.11"
   },
   "devDependencies": {
     "@types/node": "^20",
