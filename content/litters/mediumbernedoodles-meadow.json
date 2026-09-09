@@ -70,13 +70,13 @@
       "name": "Morgan (purple collar)",
       "gender": "Girl",
       "price": "$2,600",
-      "status": "Reserved"
+      "status": "Sold"
     },
     {
       "name": "Maddy (grey collar)",
       "gender": "Girl",
       "price": "$2,800",
-      "status": "Reserved"
+      "status": "Sold"
     },
     {
       "name": "Megan (yellow collar)",
