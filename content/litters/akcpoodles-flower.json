@@ -5,7 +5,7 @@
   "slug": "akcpoodles-flower",
   "breeder": "Luke & Eli Yarnelle",
   "generation": "P",
-  "priceRange": "$1,800 - $2,500",
+  "priceRange": "$1,500 - $2,000",
   "litterTitle": "Flower x Bonsai",
   "dateOfBirth": "May 21, 2026",
   "takeHomeDate": "July 23, 2026",
@@ -20,15 +20,19 @@
   "sireName": "Bonsai ",
   "sireDesc": "AKC Standard Poodle (60 lbs)",
   "cardDesc": "Fall in love with our gorgeous new litter of Standard Poodle puppies, raised right in the heart of Indiana. These intelligent, family-raised pups come with Full AKC rights and are ready to bring a lifetime of love to your home.",
-  "cardPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/AKC%20poodles%20(Fletcher%202).JPG",
+  "cardPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/AKC%20poodles%20(Fraser%203).JPG",
   "sirePhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/image_0044.jpg",
   "puppies": [
     {
       "name": "Flint (Black Collar)",
       "gender": "Boy",
-      "price": "$2,500",
+      "price": "$2,000",
       "status": "Available",
       "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/AKC poodles (Flint 3).JPG",
+          "alt": "AKC standard poodles in Indiana"
+        },
         {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/AKC poodles (Flint 2).JPG",
           "alt": "Akc standard poodles"
@@ -42,9 +46,13 @@
     {
       "name": "Fletcher (orange collar)",
       "gender": "Boy",
-      "price": "$2,500",
+      "price": "$2,000",
       "status": "Available",
       "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/AKC poodles (Fletcher 3).JPG",
+          "alt": "Akc standard poodles in Indiana "
+        },
         {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/AKC poodles (Fletcher 2).JPG",
           "alt": "AKC standard poodles"
@@ -58,9 +66,13 @@
     {
       "name": "Forrest (Red collar)",
       "gender": "Boy",
-      "price": "$2,100",
+      "price": "$1,800",
       "status": "Available",
       "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/AKC poodles (Forrest 3).JPG",
+          "alt": "AKC standard poodles in Indiana"
+        },
         {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/AKC poodles (Forrest 2).JPG",
           "alt": "AKC standard poodles"
@@ -74,9 +86,13 @@
     {
       "name": "Fraser (Green collar)",
       "gender": "Boy",
-      "price": "$1,800",
+      "price": "$1,500",
       "status": "Available",
       "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/AKC poodles (Fraser 3).JPG",
+          "alt": "AKC standard poodles in Indiana"
+        },
         {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/AKC poodles (Fraser 2).JPG",
           "alt": "AKC standard poodles"
@@ -90,9 +106,13 @@
     {
       "name": "Finn (Blue collar)",
       "gender": "Boy",
-      "price": "$1,800",
+      "price": "$1,500",
       "status": "Available",
       "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/AKC poodles (Finn 3).JPG",
+          "alt": "AKC standard poodles in Indiana"
+        },
         {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/AKC poodles (Finn 2).JPG",
           "alt": "AKC standard poodles"
@@ -107,13 +127,13 @@
       "name": "Felicity (Pink collar)",
       "gender": "Girl",
       "price": "$2,100",
-      "status": "Reserved"
+      "status": "Sold"
     },
     {
       "name": "Farrah (Purple Collar)",
       "gender": "Girl",
       "price": "$1,800",
-      "status": "Reserved"
+      "status": "Sold"
     },
     {
       "name": "Fred (Grey collar)",
