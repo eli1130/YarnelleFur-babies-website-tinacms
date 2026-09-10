@@ -5,7 +5,7 @@
   "slug": "mediumbernedoodles-meadow",
   "breeder": "John & Kathy Yarnelle",
   "generation": "F1B",
-  "priceRange": "$2,000",
+  "priceRange": "$1,800",
   "litterTitle": "Meadow May x Bonsai",
   "dateOfBirth": "May 5, 2026",
   "takeHomeDate": "Ready Now!",
@@ -20,15 +20,19 @@
   "sireName": "Bonsai",
   "sireDesc": "AKC Standard Poodle (60lbs)",
   "cardDesc": "Our Medium F1b Bernedoodles, born to Meadow May, our sweet Mini F1 Bernedoodle, and Bonsai, our handsome AKC Standard Poodle, are the ultimate family companions. Raised with care right here on the farm, these puppies perfectly blend the fierce loyalty of the Bernese Mountain Dog with the bright intelligence and low-shedding qualities of the Poodle. They are incredibly friendly, well-socialized, and ready to bring a lifetime of smart, affectionate joy to your home.",
-  "cardPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Bernedoodles%20(Micah%204).JPG",
+  "cardPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Medium%20Bernedoodles(micah%205).JPG",
   "sirePhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/image_0044.jpg",
   "puppies": [
     {
       "name": "Micah (dark blue collar)",
       "gender": "Boy",
-      "price": "$2,000",
+      "price": "$1,800",
       "status": "Available",
       "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Medium Bernedoodles(micah 5).JPG",
+          "alt": "Bernedoodles in Indiana"
+        },
         {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Bernedoodles (Micah 4).JPG",
           "alt": "Bernedoodles in Indiana"
@@ -50,9 +54,13 @@
     {
       "name": "Mason (orange collar)",
       "gender": "Boy",
-      "price": "$2,000",
+      "price": "$1,800",
       "status": "Available",
       "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Medium Bernedoodles (Mason 5).JPG",
+          "alt": "Bernedoodles in Indiana"
+        },
         {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Bernedoodle%20(Mason).JPG",
           "alt": "Bernedoodles in Indiana"
