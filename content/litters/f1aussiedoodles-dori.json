@@ -20,7 +20,7 @@
   "sireName": "Thomas ",
   "sireDesc": "AKC Chocolate Phantom Standard Poodle (60lbs)",
   "cardDesc": "Meet Our F1 Aussiedoodles! 🐾\nThe ultimate blend of Aussie brains and Poodle beauty. These intelligent, loyal, and low-shedding pups are perfectly socialized and ready to join your family for a lifetime of adventure.",
-  "cardPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Aussiedoodles%20(Dylan%205).JPEG",
+  "cardPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Aussiedoodles%20(Daisy%207).PNG",
   "sirePhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Thomas pic.JPG",
   "puppies": [
     {
@@ -29,6 +29,14 @@
       "price": "$1,200",
       "status": "Available",
       "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Aussiedoodles (Delilah 7).PNG",
+          "alt": "Aussiedoodles in Indiana"
+        },
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Aussiedoodles (Delilah 6).PNG",
+          "alt": "Aussiedoodles in Indiana"
+        },
         {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Aussiedoodles (Delilah 5).JPEG",
           "alt": "Aussiedoodles in Indiana"
@@ -58,6 +66,14 @@
       "status": "Available",
       "photos": [
         {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Aussiedoodles (Daisy 7).PNG",
+          "alt": "Aussiedoodles in Indiana"
+        },
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Aussiedoodles (Daisy 6).PNG",
+          "alt": "Aussiedoodles in Indiana"
+        },
+        {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Aussiedoodles (Daisy 5).JPEG",
           "alt": "Aussiedoodles in Indiana"
         },
@@ -80,38 +96,16 @@
       ]
     },
     {
-      "name": "Dale ",
+      "name": "Dylan",
       "gender": "Boy",
       "price": "$1,200",
       "status": "Sold"
     },
     {
-      "name": "Dylan",
+      "name": "Dale ",
       "gender": "Boy",
       "price": "$1,200",
-      "status": "Available",
-      "photos": [
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Aussiedoodles (Dylan 5).JPEG",
-          "alt": "Aussiedoodles in Indiana"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Aussiedoodles (Dylan 4).PNG",
-          "alt": "Aussiedoodles in Indiana"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Aussiedoodles (Dylan 3).PNG",
-          "alt": "Aussiedoodles in Indiana"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Aussiedoodles Dori Dylan.PNG",
-          "alt": "Aussiedoodles in Indiana"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Aussiedoodles Dylan.JPG",
-          "alt": "Aussiedoodles in Indiana"
-        }
-      ]
+      "status": "Sold"
     },
     {
       "name": "Diego ",
