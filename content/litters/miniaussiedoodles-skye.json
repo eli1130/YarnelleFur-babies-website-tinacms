@@ -1,11 +1,11 @@
 {
-  "active": true,
+  "active": false,
   "sortOrder": 7,
   "title": "Micro Mini F1b Aussiedoodles",
   "slug": "miniaussiedoodles-skye",
   "breeder": "Dakoda & Brooke Labenz",
   "generation": "F1B",
-  "priceRange": "$800-$1,400",
+  "priceRange": "",
   "litterTitle": "Skye x Ash",
   "dateOfBirth": "June 8th, 2026 ",
   "takeHomeDate": "Ready Now!",
@@ -20,147 +20,7 @@
   "sireName": "Ash",
   "sireDesc": " Ash - Cream Toy Poodle (9lbs)",
   "cardDesc": "Discover the perfect blend of intelligence and affection with our Micro Mini F1b Aussiedoodles, expertly raised to be the ultimate low-shedding family companions. These playful, devoted little pups are ready to bring endless joy, loyalty, and cuddles into your heart and home.",
-  "cardPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Mini%20Aussiedoodles%20(Stryker%206).PNG",
+  "cardPhoto": "",
   "sirePhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Ash.jpg",
-  "puppies": [
-    {
-      "name": "Stryker",
-      "gender": "Boy",
-      "price": "$1,400",
-      "status": "Available",
-      "photos": [
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Mini%20Aussiedoodles%20(Stryker%206).PNG",
-          "alt": "Aussiedoodles in Indiana"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Mini Aussiedoodles (Stryker 5).PNG",
-          "alt": "Aussiedoodles in Indiana"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Aussiedoodles (Stryker 3).PNG"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Aussiedoodle (Stryker).PNG"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Aussiedoodles (Stryker) 2.PNG",
-          "alt": "Aussiedoodles in Indiana"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Micro Aussiedoodles Stryker.JPEG",
-          "alt": "Micro mini Aussiedoodles in indiana"
-        }
-      ]
-    },
-    {
-      "name": "Saber",
-      "gender": "Boy",
-      "price": "$800",
-      "status": "Available",
-      "photos": [
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Mini Aussiedoodles (Saber 6).PNG",
-          "alt": "Aussiedoodles in Indiana"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Mini Aussiedoodles (Saber 5).PNG",
-          "alt": "Aussiedoodles in Indiana"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Aussiedoodles (Saber 3).PNG"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Aussiedoodle (Saber).PNG"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Aussiedoodles (Saber) 2.PNG",
-          "alt": "Micro mini Aussiedoodles in indiana"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Micro Aussiedoodles Saber.JPEG",
-          "alt": "Micro mini Aussiedoodles in indiana"
-        }
-      ]
-    },
-    {
-      "name": "Stone",
-      "gender": "Boy",
-      "price": "$800",
-      "status": "Available",
-      "photos": [
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Mini Aussiedoodles (Stone 6).PNG",
-          "alt": "Aussiedoodles in Indiana"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Mini Aussiedoodles (Stone 5).PNG",
-          "alt": "Aussiedoodles in Indiana"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Aussiedoodles (Stone 3).PNG"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Aussiedoodle (stone).PNG"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Aussiedoodles (Stone) 2.PNG",
-          "alt": "Micro mini Aussiedoodles in indiana"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Micro Aussiedoodles Stone.JPEG",
-          "alt": "Micro mini Aussiedoodles in indiana"
-        }
-      ]
-    },
-    {
-      "name": "Scout",
-      "gender": "Boy",
-      "price": "$800",
-      "status": "Available",
-      "photos": [
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Mini Aussiedoodles (Scout 6).JPEG",
-          "alt": "Aussiedoodles in Indiana"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Mini Aussiedoodles (Scout 5).PNG",
-          "alt": "Aussiedoodles in Indiana"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Aussiedoodles (Scout 3).PNG"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Aussiedoodle (scout) .PNG"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Aussiedoodles (Scout) 2.PNG",
-          "alt": "Micro mini Aussiedoodles in indiana"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Micro Aussiedoodles Scout.JPG",
-          "alt": "Micro mini Aussiedoodles in indiana"
-        }
-      ]
-    },
-    {
-      "name": "Starling ",
-      "gender": "Girl",
-      "price": "$2,200",
-      "status": "Sold"
-    },
-    {
-      "name": "Sugar",
-      "gender": "Girl",
-      "price": "$1,400",
-      "status": "Sold"
-    },
-    {
-      "name": "Saffron",
-      "gender": "Girl",
-      "price": "$2,000",
-      "status": "Sold"
-    }
-  ],
   "showCarousel": true
 }
