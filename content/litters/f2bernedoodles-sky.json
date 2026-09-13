@@ -5,7 +5,7 @@
   "slug": "f2bernedoodles-sky",
   "breeder": "Hunter & Sarah Nicodemus",
   "generation": "F2",
-  "priceRange": "$3,200-$3,500",
+  "priceRange": "$2,800-$3,200",
   "litterTitle": "Sky x Sycamore",
   "dateOfBirth": "July 1, 2026",
   "takeHomeDate": "August 26, 2026",
@@ -26,7 +26,7 @@
     {
       "name": "Silas ",
       "gender": "Boy",
-      "price": "$3,500",
+      "price": "$3,200",
       "status": "Available",
       "photos": [
         {
@@ -42,7 +42,7 @@
     {
       "name": "Sterling ",
       "gender": "Boy",
-      "price": "$3,500",
+      "price": "$3,200",
       "status": "Available",
       "photos": [
         {
@@ -56,15 +56,9 @@
       ]
     },
     {
-      "name": "Sully ",
-      "gender": "Boy",
-      "price": "$3,200",
-      "status": "Sold"
-    },
-    {
       "name": "Sophia ",
       "gender": "Girl",
-      "price": "$3,200",
+      "price": "$2,800",
       "status": "Available",
       "photos": [
         {
@@ -80,7 +74,7 @@
     {
       "name": "Slate ",
       "gender": "Boy",
-      "price": "$3,200",
+      "price": "$2,800",
       "status": "Available",
       "photos": [
         {
@@ -96,7 +90,7 @@
     {
       "name": "Sutton",
       "gender": "Boy",
-      "price": "$3,200",
+      "price": "$2,800",
       "status": "Available",
       "photos": [
         {
@@ -108,6 +102,12 @@
           "alt": "Bernedoodles in Indiana"
         }
       ]
+    },
+    {
+      "name": "Sully ",
+      "gender": "Boy",
+      "price": "$3,200",
+      "status": "Sold"
     }
   ],
   "showCarousel": true
