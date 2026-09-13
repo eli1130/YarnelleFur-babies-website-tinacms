@@ -21,7 +21,7 @@
   "sireName": "Hickory",
   "sireDesc": "Tri Toy Poodle (7lbs)",
   "cardDesc": "Meet Poppi and Hickory’s stunning litter of micro mini F1bb Goldendoodles! Featuring rare Blue Merles and a classic solid black pup, these sweet, non-shedding cuties are ready for reservations.",
-  "cardPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Mini%20Goldendoodles%20(Prisca%202).JPG",
+  "cardPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Mini%20Goldendoodles%20(Polly%203).JPG",
   "sirePhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Hickoy pic.jpeg",
   "puppies": [
     {
@@ -30,6 +30,10 @@
       "price": "$2,600",
       "status": "Available",
       "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Mini Goldendoodles (Pascal 3).JPG",
+          "alt": "Goldendoodles in Indiana"
+        },
         {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Mini Goldendoodles (Pascal 2).JPG",
           "alt": "Goldendoodles in Indiana"
@@ -47,6 +51,10 @@
       "status": "Available",
       "photos": [
         {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Mini Goldendoodles (Penelope 3).JPG",
+          "alt": "Goldendoodles in Indiana"
+        },
+        {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Mini Goldendoodles (Penelope 2).JPG",
           "alt": "Goldendoodles in Indiana"
         },
@@ -63,6 +71,10 @@
       "status": "Available",
       "photos": [
         {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Mini Goldendoodles (Prisca 3).JPG",
+          "alt": "Goldendoodles in Indiana"
+        },
+        {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Mini Goldendoodles (Prisca 2).JPG",
           "alt": "Goldendoodles in Indiana"
         },
@@ -78,6 +90,10 @@
       "price": "$2,600",
       "status": "Available",
       "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Mini Goldendoodles (Polly 3).JPG",
+          "alt": "Goldendoodles in Indiana"
+        },
         {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Mini Goldendoodles (Polly 2).JPG",
           "alt": "Goldendoodles in Indiana"
