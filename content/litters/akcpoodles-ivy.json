@@ -5,7 +5,7 @@
   "slug": "akcpoodles-ivy",
   "breeder": "John & Kathy Yarnelle",
   "generation": "P",
-  "priceRange": "$2,000",
+  "priceRange": "$1,700",
   "litterTitle": "Ivy x Bamboo",
   "dateOfBirth": "May 8, 2026",
   "takeHomeDate": "Ready Now!",
@@ -20,15 +20,19 @@
   "sireName": "Bamboo",
   "sireDesc": "AKC Standard Poodle (60lbs)",
   "cardDesc": "Meet our exceptional AKC Standard Poodle litter by Ivy and Bamboo, featuring unique sable and phantom coats with full rights included. Health-tested parents and dedicated early socialization make these puppies incredible additions to any home or program.",
-  "cardPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/AKC%20poodles%20(Irene%202).JPG",
+  "cardPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/AKC%20poodles%20(Ian%203).JPG",
   "sirePhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/image_0074.jpg",
   "puppies": [
     {
       "name": "Ivory ",
       "gender": "Girl",
-      "price": "$2,000",
+      "price": "$1,700",
       "status": "Available",
       "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/AKC poodles (Ivory 3).JPG",
+          "alt": "AKC standard poodles in Indiana"
+        },
         {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/AKC poodles (Ivory 2).JPG",
           "alt": "AKC standard poodles in Indiana"
@@ -42,9 +46,13 @@
     {
       "name": "Iris",
       "gender": "Girl",
-      "price": "$2,000",
+      "price": "$1,700",
       "status": "Available",
       "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/AKC poodles (Iris 3).JPG",
+          "alt": "Akc standard poodles in Indiana "
+        },
         {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/AKC poodles (Iris 2).JPG",
           "alt": "Akc standard poodles in Indiana "
@@ -58,9 +66,13 @@
     {
       "name": "Irene",
       "gender": "Girl",
-      "price": "$2,000",
+      "price": "$1,700",
       "status": "Available",
       "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/AKC poodles (Irene 3).JPG",
+          "alt": "AKC standard poodles in Indiana"
+        },
         {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/AKC poodles (Irene 2).JPG",
           "alt": "AKC standard poodles in Indiana"
@@ -74,9 +86,13 @@
     {
       "name": "Indie",
       "gender": "Girl",
-      "price": "$2,000",
+      "price": "$1,700",
       "status": "Available",
       "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/AKC poodles (Indie 3).JPG",
+          "alt": "AKC standard poodles in Indiana"
+        },
         {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/AKC poodles (Indie 2).JPG",
           "alt": "AKC standard poodles in Indiana"
@@ -90,9 +106,13 @@
     {
       "name": "Isaac",
       "gender": "Boy",
-      "price": "$2,000",
+      "price": "$1,700",
       "status": "Available",
       "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/AKC poodles (Isaac 3).JPG",
+          "alt": "AKC standard poodles in Indiana"
+        },
         {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/AKC poodles (Isaac 2).JPG",
           "alt": "AKC standard poodles in Indiana"
@@ -106,9 +126,13 @@
     {
       "name": "Isaiah",
       "gender": "Boy",
-      "price": "$2,000",
+      "price": "$1,700",
       "status": "Available",
       "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/AKC poodles (Isaiah 3).JPG",
+          "alt": "AKC standard poodles in Indiana"
+        },
         {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/AKC poodles (Isaiah 2).JPG",
           "alt": "AKC standard poodles in Indiana"
@@ -122,9 +146,13 @@
     {
       "name": "Ian",
       "gender": "Boy",
-      "price": "$2,000",
+      "price": "$1,700",
       "status": "Available",
       "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/AKC poodles (Ian 3).JPG",
+          "alt": "AKC standard poodles in Indiana"
+        },
         {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/AKC poodles (Ian 2).JPG",
           "alt": "AKC standard poodles in Indiana"
