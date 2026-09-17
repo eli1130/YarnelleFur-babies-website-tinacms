@@ -20,7 +20,7 @@
   "sireName": "Aspen",
   "sireDesc": "AKC Standard Chocolate Parti Poodle (60lbs)",
   "cardDesc": "Meet our playful Standard F1 Colliedoodle puppies— low-shedding, sweet-natured companions combining the intelligence of the Standard Poodle with the loyal, gentle heart of the Collie. Socialized right on our farm, these clever and devoted pups are eager to fit seamlessly into active families.",
-  "cardPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Coliiedoodles(Luka).JPG",
+  "cardPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Coliiedoodles(Leslie).JPG",
   "sirePhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/aspen pic.jpeg",
   "puppies": [
     {
@@ -107,17 +107,7 @@
       "name": "Luka",
       "gender": "Boy",
       "price": "$1,400",
-      "status": "Available",
-      "photos": [
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Coliiedoodles(Luka).JPG",
-          "alt": "Colliedoodles in Indiana"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Colliedoodles(Luka 2).JPG",
-          "alt": "Colliedoodles in Indiana"
-        }
-      ]
+      "status": "Reserved"
     }
   ],
   "showCarousel": true
