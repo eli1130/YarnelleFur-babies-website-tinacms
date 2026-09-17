@@ -39,13 +39,7 @@
       "name": "Jake",
       "gender": "Boy",
       "price": "$2,800",
-      "status": "Available",
-      "photos": [
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Toy Aussiedoodles (jake).JPG",
-          "alt": "Aussiedoodles in Indiana"
-        }
-      ]
+      "status": "Sold"
     }
   ],
   "showCarousel": true,
