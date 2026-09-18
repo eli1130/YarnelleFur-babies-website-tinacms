@@ -105,22 +105,6 @@
       ]
     },
     {
-      "name": "Bryce (Black)",
-      "gender": "Boy",
-      "price": "$2,000",
-      "status": "Available",
-      "photos": [
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/St.berdoodles (Bryce 2).JPG",
-          "alt": "St.berdoodles in Indiana"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/St.Berdoodles (Bryce).JPG",
-          "alt": "St.berdoodles in Indiana"
-        }
-      ]
-    },
-    {
       "name": "Brett (Grey) ",
       "gender": "Boy",
       "price": "$1,800",
@@ -132,22 +116,6 @@
         },
         {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/St.Berdoodles (Brett).JPG",
-          "alt": "St.berdoodles in Indiana"
-        }
-      ]
-    },
-    {
-      "name": "Brendan (No collar)",
-      "gender": "Boy",
-      "price": "$2,000",
-      "status": "Available",
-      "photos": [
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/St.berdoodles (Brendan 2).JPG",
-          "alt": "St.berdoodles in Indiana"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/St.Berdoodles (Brendan).JPG",
           "alt": "St.berdoodles in Indiana"
         }
       ]
@@ -176,10 +144,22 @@
       "photos": []
     },
     {
+      "name": "Bryce (Black)",
+      "gender": "Boy",
+      "price": "$2,000",
+      "status": "Sold"
+    },
+    {
+      "name": "Brendan (No collar)",
+      "gender": "Boy",
+      "price": "$2,000",
+      "status": "Sold"
+    },
+    {
       "name": "Brie (Pink)",
       "gender": "Girl",
       "price": "$1,800",
-      "status": "Reserved"
+      "status": "Sold"
     }
   ],
   "showCarousel": true,
