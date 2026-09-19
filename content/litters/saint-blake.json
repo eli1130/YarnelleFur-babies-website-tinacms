@@ -41,38 +41,6 @@
       ]
     },
     {
-      "name": "Blair (Yellow)",
-      "gender": "Girl",
-      "price": "$2,000",
-      "status": "Available",
-      "photos": [
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/St.berdoodles (Blair 2).JPG",
-          "alt": "St.berdoodles in Indiana"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/St.Berdoodles (Blair).JPG",
-          "alt": "St.berdoodles in Indiana"
-        }
-      ]
-    },
-    {
-      "name": "Ben (Blue)",
-      "gender": "Boy",
-      "price": "$1,800",
-      "status": "Available",
-      "photos": [
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/St.berdoodles (Ben 2).JPG",
-          "alt": "St.berdoodles in Indiana"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/St.Berdoodles (Ben).JPG",
-          "alt": "St.berdoodles in indiana"
-        }
-      ]
-    },
-    {
       "name": "Benson (Lime Green)",
       "gender": "Boy",
       "price": "$2,000",
@@ -142,6 +110,18 @@
       "price": "$1,800",
       "status": "Reserved",
       "photos": []
+    },
+    {
+      "name": "Blair (Yellow)",
+      "gender": "Girl",
+      "price": "$2,000",
+      "status": "Sold"
+    },
+    {
+      "name": "Ben (Blue)",
+      "gender": "Boy",
+      "price": "$1,800",
+      "status": "Sold"
     },
     {
       "name": "Bryce (Black)",
