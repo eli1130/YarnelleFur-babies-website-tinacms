@@ -107,7 +107,7 @@
       "name": "Luka",
       "gender": "Boy",
       "price": "$1,400",
-      "status": "Reserved"
+      "status": "Sold"
     }
   ],
   "showCarousel": true
