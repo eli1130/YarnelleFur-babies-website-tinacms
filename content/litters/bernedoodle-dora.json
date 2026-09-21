@@ -65,26 +65,6 @@
       ]
     },
     {
-      "name": "Demarcus ",
-      "gender": "Boy",
-      "price": "$2,200",
-      "status": "Available",
-      "photos": [
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Dora Bernedoodles (Demarcus 3).JPG",
-          "alt": "Bernedoodles in Indiana"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Bernedoodles (Demarcus 2).JPG",
-          "alt": "Bernedoodles in Indiana"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Standard bernedoodles (Demarcus).JPG",
-          "alt": "Bernedoodles in Indiana"
-        }
-      ]
-    },
-    {
       "name": "Daniel ",
       "gender": "Boy",
       "price": "$2,200",
@@ -103,6 +83,12 @@
           "alt": "Bernedoodles in Indiana"
         }
       ]
+    },
+    {
+      "name": "Demarcus ",
+      "gender": "Boy",
+      "price": "$2,200",
+      "status": "Reserved"
     },
     {
       "name": "Daisy ",
