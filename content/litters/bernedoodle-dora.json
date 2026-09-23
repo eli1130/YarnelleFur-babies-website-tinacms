@@ -21,7 +21,7 @@
   "sireName": "Bamboo",
   "sireDesc": "AKC Standard Poodle (70lbs)",
   "cardDesc": "Meet our Standard F1B Bernedoodles out of Dora and Bamboo, bred for gorgeous low-to-non-shedding coats and gentle, family-ready temperaments. These pups bring together the best of both worlds, Dora’s sweet nature and Bamboo’s sharp intelligence making them ideal lifelong companions.",
-  "cardPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Dora%20Bernedoodles%20(Devin%203).JPG",
+  "cardPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_9168.JPG",
   "sirePhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/image_0074.jpg",
   "puppies": [
     {
@@ -30,6 +30,10 @@
       "price": "$2,200",
       "status": "Available",
       "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_9169.JPG",
+          "alt": "Bernedoodles in Indiana"
+        },
         {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Dora Bernedoodles (Dixie 3).JPG",
           "alt": "Bernedoodles in Indiana"
@@ -51,6 +55,10 @@
       "status": "Available",
       "photos": [
         {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_9170.JPG",
+          "alt": "Bernedoodles in Indiana"
+        },
+        {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Dora Bernedoodles (Devin 3).JPG",
           "alt": "Bernedoodles in Indiana"
         },
@@ -70,6 +78,10 @@
       "price": "$2,200",
       "status": "Available",
       "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_9168.JPG",
+          "alt": "Bernedoodles in Indiana"
+        },
         {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Dora Bernedoodles (Daniel 3).JPG",
           "alt": "Bernedoodles in Indiana"
