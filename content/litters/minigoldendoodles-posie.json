@@ -20,21 +20,9 @@
   "sireName": "Torque",
   "sireDesc": "Toy poodle (9 lbs)",
   "cardDesc": "Meet Posie and Torque's beautiful litter of Mini F1b Goldendoodles, where sweet personalities and cozy, low-shedding coats come together! These playful, well-loved little pups are eager to bring endless joy, wagging tails, and warm cuddles to your home.",
-  "cardPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/MiniGoldendoodles%20(Prince).PNG",
+  "cardPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/MiniGoldendoodles%20(Preston).PNG",
   "sirePhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/typorama.PNG",
   "puppies": [
-    {
-      "name": "Prince",
-      "gender": "Boy",
-      "price": "1,400",
-      "status": "Available",
-      "photos": [
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/MiniGoldendoodles (Prince).PNG",
-          "alt": "Goldendoodles in Indiana"
-        }
-      ]
-    },
     {
       "name": "Patrick",
       "gender": "Boy",
@@ -70,6 +58,12 @@
           "alt": "Goldendoodles in Indiana"
         }
       ]
+    },
+    {
+      "name": "Prince",
+      "gender": "Boy",
+      "price": "1,400",
+      "status": "Sold"
     }
   ],
   "showCarousel": true
