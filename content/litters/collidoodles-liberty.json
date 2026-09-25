@@ -40,22 +40,6 @@
       ]
     },
     {
-      "name": "Layla ",
-      "gender": "Girl",
-      "price": "$1,200",
-      "status": "Available",
-      "photos": [
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Coliiedoodles(Layla).JPG",
-          "alt": "Colliedoodles in Indiana"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Colliedoodles(Layla 2).JPG",
-          "alt": "Colliedoodles in Indiana"
-        }
-      ]
-    },
-    {
       "name": "Leslie",
       "gender": "Girl",
       "price": "$1,400",
@@ -102,6 +86,12 @@
           "alt": "Colliedoodles in Indiana"
         }
       ]
+    },
+    {
+      "name": "Layla ",
+      "gender": "Girl",
+      "price": "$1,200",
+      "status": "Reserved"
     },
     {
       "name": "Luka",
