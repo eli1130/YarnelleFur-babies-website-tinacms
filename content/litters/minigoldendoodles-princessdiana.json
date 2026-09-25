@@ -5,14 +5,14 @@
   "slug": "minigoldendoodles-princessdiana",
   "breeder": "Luke & Eli Yarnelle",
   "generation": "F1BB",
-  "priceRange": "$1,400",
+  "priceRange": "$1,000",
   "litterTitle": "Princess Diana x Billy",
   "dateOfBirth": "May 6, 2026",
   "takeHomeDate": "July 1, 2026",
   "estimatedSize": "30-40lbs",
   "grooming": "roughly every 3-4 mo",
   "temperament": "smart, playful, sweet, love to cuddle, incredibly friendly with other dogs, cats, and kiddos\n",
-  "deposit": "$600",
+  "deposit": "$400",
   "contact": "Eli · (260) 445-4378",
   "damName": "Princess Diana",
   "damDesc": "AKC Sable Parti Standard Poodle (44lbs)",
@@ -20,15 +20,19 @@
   "sireName": "Billy",
   "sireDesc": "Mini Blue Merle F1b Goldendoodle (23lbs)",
   "cardDesc": "Meet our gorgeous Mini F1bb Goldendoodles from Princess Diana and Billy! These highly desirable, low-shedding companion pups are raised with intentional care on our 10-acre farm, ensuring they are healthy, confident, and ready for their forever homes. Browse the litter now to see available puppies and submit your application.",
-  "cardPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/minigoldendoodles%20(Pearl%203).JPG",
+  "cardPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_9503.JPG",
   "sirePhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/image_0064.jpg",
   "puppies": [
     {
       "name": "Pearl",
       "gender": "Girl",
-      "price": "$1,400",
+      "price": "$1,000",
       "status": "Available",
       "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_9503.JPG",
+          "alt": "Goldendoodles in Indiana"
+        },
         {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/minigoldendoodles (Pearl 3).JPG",
           "alt": "Goldendoodles in Indiana"
