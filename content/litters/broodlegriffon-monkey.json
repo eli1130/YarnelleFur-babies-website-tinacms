@@ -26,7 +26,7 @@
     {
       "name": "Mallory",
       "gender": "Girl",
-      "price": "$1,000",
+      "price": "$800",
       "status": "Available",
       "photos": [
         {
@@ -50,7 +50,7 @@
     {
       "name": "Mitch",
       "gender": "Boy",
-      "price": "$1,200",
+      "price": "$1,000",
       "status": "Available",
       "photos": [
         {
@@ -74,7 +74,7 @@
     {
       "name": "Mike",
       "gender": "Boy",
-      "price": "$1,000",
+      "price": "$800",
       "status": "Available",
       "photos": [
         {
