@@ -20,7 +20,7 @@
   "sireName": "Bonsai",
   "sireDesc": "AKC Standard Poodle (60lbs)",
   "cardDesc": "Our Medium F1b Bernedoodles, born to Meadow May, our sweet Mini F1 Bernedoodle, and Bonsai, our handsome AKC Standard Poodle, are the ultimate family companions. Raised with care right here on the farm, these puppies perfectly blend the fierce loyalty of the Bernese Mountain Dog with the bright intelligence and low-shedding qualities of the Poodle. They are incredibly friendly, well-socialized, and ready to bring a lifetime of smart, affectionate joy to your home.",
-  "cardPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_9502.JPG",
+  "cardPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_9501.JPG",
   "sirePhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/image_0044.jpg",
   "puppies": [
     {
@@ -59,28 +59,7 @@
       "name": "Mason (orange collar)",
       "gender": "Boy",
       "price": "$1,300",
-      "status": "Available",
-      "photos": [
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_9502.JPG",
-          "alt": "Bernedoodles in Indiana"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Medium Bernedoodles (Mason 5).JPG",
-          "alt": "Bernedoodles in Indiana"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Bernedoodle%20(Mason).JPG",
-          "alt": "Bernedoodles in Indiana"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Medium%20Bernedoodles%20(Mason).JPG"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_6939.JPG",
-          "alt": "Bernedoodles in Indiana"
-        }
-      ]
+      "status": "Sold"
     },
     {
       "name": "Morgan (purple collar)",
