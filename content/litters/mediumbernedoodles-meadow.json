@@ -59,7 +59,24 @@
       "name": "Mason (orange collar)",
       "gender": "Boy",
       "price": "$1,300",
-      "status": "Sold"
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_9502.JPG"
+        },
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Medium%20Bernedoodles%20(Mason%205).JPG"
+        },
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Bernedoodle%20(Mason).JPG"
+        },
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Medium%20Bernedoodles%20(Mason).JPG"
+        },
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_6939.JPG"
+        }
+      ]
     },
     {
       "name": "Morgan (purple collar)",
