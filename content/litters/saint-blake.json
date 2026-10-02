@@ -21,7 +21,7 @@
   "sireName": "Bamboo",
   "sireDesc": "AKC Standard Poodle",
   "cardDesc": "Standard F1B Saint Berdoodles — big-hearted, fluffy, endlessly cuddly. Blake × Bamboo litter.",
-  "cardPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/St.berdoodles%20(Benson%202).JPG",
+  "cardPhoto": "",
   "sirePhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/image_0074.jpg",
   "puppies": [
     {
@@ -30,6 +30,10 @@
       "price": "$1,800",
       "status": "Available",
       "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/St.Berdoodles (Becca 3).JPG",
+          "alt": "St.berdoodles in Indiana"
+        },
         {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/St.berdoodles (Becca 2).JPG",
           "alt": "St.berdoodles in Indiana"
@@ -47,6 +51,10 @@
       "status": "Available",
       "photos": [
         {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/St.Berdoodles (Benson 3).JPG",
+          "alt": "St.berdoodles in Indiana"
+        },
+        {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/St.berdoodles (Benson 2).JPG",
           "alt": "St.berdoodles in indiana"
         },
@@ -62,6 +70,10 @@
       "price": "$2,000",
       "status": "Available",
       "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/St.Berdoodles (Brian 3).JPG",
+          "alt": "St.berdoodles in Indiana"
+        },
         {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/St.berdoodles (Brian 2).JPG",
           "alt": "St.berdoodles in Indiana"
@@ -79,6 +91,10 @@
       "status": "Available",
       "photos": [
         {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/St.Berdoodles (Brett 3).JPG",
+          "alt": "St.berdoodles in indiana"
+        },
+        {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/St.berdoodles (Brett 2).JPG",
           "alt": "St.berdoodles in Indiana"
         },
@@ -94,6 +110,10 @@
       "price": "$1,800",
       "status": "Available",
       "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/St.Berdoodles (Brooke 3).JPG",
+          "alt": "St.berdoodles in Indiana"
+        },
         {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/St.berdoodles (Brooke 2).JPG",
           "alt": "St.berdoodles in Indiana"
