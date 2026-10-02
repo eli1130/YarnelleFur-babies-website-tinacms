@@ -20,7 +20,7 @@
   "sireName": "Sycamore",
   "sireDesc": "Mini F1 Tricolored Bernedoodle (40lbs)",
   "cardDesc": "Meet our sweet litter of Mini F2 Bernedoodles out of Sky and Sycamore, expected to mature into a perfect 30–40 lb size! These well-loved, playful pups are ready to bring endless joy and affection to your home.",
-  "cardPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/F2%20Bernedoodles%20(Silas%202).JPG",
+  "cardPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/F2%20Bernedoodles%20(Silas%203).JPG",
   "sirePhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/image_0061.jpg",
   "puppies": [
     {
@@ -29,6 +29,10 @@
       "price": "$3,200",
       "status": "Available",
       "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/F2 Bernedoodles (Silas 3).JPG",
+          "alt": "Bernedoodles in Indiana"
+        },
         {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/F2 Bernedoodles (Silas 2).JPG",
           "alt": "Bernedoodles in Indiana"
@@ -46,6 +50,10 @@
       "status": "Available",
       "photos": [
         {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/F2 Bernedoodles (Sophia 3).JPG",
+          "alt": "Bernedoodles in Indiana"
+        },
+        {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/F2 Bernedoodles (Sophia 2).JPG",
           "alt": "Bernedoodles in Indiana"
         },
@@ -62,6 +70,10 @@
       "status": "Available",
       "photos": [
         {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/F2 Bernedoodles (Slate 3).JPG",
+          "alt": "Bernedoodles in Indiana"
+        },
+        {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/F2 Bernedoodles (Slate 2).JPG",
           "alt": "Bernedoodles in Indiana"
         },
@@ -77,6 +89,10 @@
       "price": "$2,800",
       "status": "Available",
       "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/F2 Bernedoodles (Sutton 3).JPG",
+          "alt": "Bernedoodles in Indiana"
+        },
         {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/F2 Bernedoodles (Sutton 2).JPG",
           "alt": "Bernedoodles in Indiana"
