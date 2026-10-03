@@ -21,7 +21,7 @@
   "sireName": "Bamboo",
   "sireDesc": "AKC Standard Poodle",
   "cardDesc": "Standard F1B Saint Berdoodles — big-hearted, fluffy, endlessly cuddly. Blake × Bamboo litter.",
-  "cardPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/St.Berdoodles%20(Benson%203).JPG",
+  "cardPhoto": "",
   "sirePhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/image_0074.jpg",
   "puppies": [
     {
@@ -48,21 +48,7 @@
       "name": "Benson (Lime Green)",
       "gender": "Boy",
       "price": "$2,000",
-      "status": "Available",
-      "photos": [
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/St.Berdoodles (Benson 3).JPG",
-          "alt": "St.berdoodles in Indiana"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/St.berdoodles (Benson 2).JPG",
-          "alt": "St.berdoodles in indiana"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/St.Berdoodles (Benson).JPG",
-          "alt": "St.berdoodles in Indiana"
-        }
-      ]
+      "status": "Reserved"
     },
     {
       "name": "Brian (Red)",
@@ -128,7 +114,7 @@
       "name": "Barry (Orange)",
       "gender": "Boy",
       "price": "$1,800",
-      "status": "Reserved",
+      "status": "Sold",
       "photos": []
     },
     {
