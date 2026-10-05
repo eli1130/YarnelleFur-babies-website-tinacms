@@ -1,14 +1,14 @@
 {
-  "active": false,
+  "active": true,
   "sortOrder": 6,
   "title": "Saint Berdoodles — Gracie",
   "slug": "saint-gracie",
   "breeder": "Dakoda & Brooke Labenz",
   "generation": "F1B",
-  "priceRange": "$1,200",
+  "priceRange": "$2,000",
   "litterTitle": "Gracie × Pumpkin",
-  "dateOfBirth": "Febuary 1, 2026",
-  "takeHomeDate": "Ready Now!",
+  "dateOfBirth": "September 2, 2026",
+  "takeHomeDate": "October 28, 2026",
   "estimatedSize": "75–90+ lbs",
   "grooming": "Roughly every 3-4 months",
   "temperament": "Friendly, watchful, calm, gentle, sweet, love to cuddle, incredibly friendly with other dogs, cats, and kiddos",
@@ -20,50 +20,116 @@
   "sireName": "Pumpkin",
   "sireDesc": "AKC Standard Poodle",
   "cardDesc": "Standard F1B Saint Berdoodles — gentle giants, cuddly, calm, and great with families. Gracie × Pumpkin litter.",
-  "cardPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Georgia%20(gracie).PNG",
+  "cardPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Callies%20(Giana).PNG",
   "sirePhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/image_0141.jpg",
   "puppies": [
     {
-      "name": "Georgia",
-      "gender": "Girl",
-      "price": "$1,200",
-      "status": "Sold"
-    },
-    {
-      "name": "Gunner",
-      "gender": "Boy",
-      "price": "$1,200",
-      "status": "Sold"
-    },
-    {
-      "name": "Gemma",
-      "gender": "Girl",
-      "price": "$1,400",
-      "status": "Sold"
-    },
-    {
-      "name": "Grady",
-      "gender": "Boy",
-      "price": "$1,200",
-      "status": "Sold"
-    },
-    {
-      "name": "Granger",
-      "gender": "Boy",
-      "price": "$1,200",
-      "status": "Sold"
-    },
-    {
       "name": "Graham",
       "gender": "Boy",
-      "price": "$950",
-      "status": "Sold"
+      "price": "$2,000",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Callies (Graham).PNG",
+          "alt": "St.berdoodles in Indiana"
+        }
+      ]
     },
     {
-      "name": "Gianna",
+      "name": "Giana",
       "gender": "Girl",
-      "price": "$1,850",
-      "status": "Sold"
+      "price": "$2,000",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Callies (Giana).PNG",
+          "alt": "St.berdoodles in Indiana"
+        }
+      ]
+    },
+    {
+      "name": "Gibson",
+      "gender": "Boy",
+      "price": "$2,000",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Callies (Gibson).PNG",
+          "alt": "St.berdoodles in Indiana"
+        }
+      ]
+    },
+    {
+      "name": "Griffin ",
+      "gender": "Boy",
+      "price": "$2,000",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Callies (Griffin).PNG",
+          "alt": "St.berdoodles in indiana"
+        }
+      ]
+    },
+    {
+      "name": "George",
+      "gender": "Boy",
+      "price": "$2,000",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Callies (George).PNG",
+          "alt": "St.berdoodles in Indiana"
+        }
+      ]
+    },
+    {
+      "name": "Gavin",
+      "gender": "Boy",
+      "price": "$2,000",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Callies (Gavin).PNG",
+          "alt": "St.berdoodles in Indiana"
+        }
+      ]
+    },
+    {
+      "name": "Gwen",
+      "gender": "Girl",
+      "price": "$2,000",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Callies (Gwen).PNG",
+          "alt": "St.berdoodles in Indiana"
+        }
+      ]
+    },
+    {
+      "name": "Gabby ",
+      "gender": "Girl",
+      "price": "$2,000",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Callies (Gabby).PNG",
+          "alt": "St.berdoodles in Indiana"
+        }
+      ]
+    },
+    {
+      "name": "Garret",
+      "gender": "Boy",
+      "price": "$2,000",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Callies (Garett).PNG",
+          "alt": "St.berdoodles in Indiana"
+        }
+      ]
     }
   ],
   "showCarousel": true,
