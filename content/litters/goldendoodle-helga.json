@@ -1,5 +1,5 @@
 {
-  "active": true,
+  "active": false,
   "sortOrder": 7,
   "title": "Mini Goldendoodles",
   "slug": "goldendoodle-helga",
@@ -20,48 +20,20 @@
   "sireName": "Cedar",
   "sireDesc": "AKC Toy Poodle",
   "cardDesc": "Micro Mini F1B Goldendoodles — tiny bundles of golden joy, low-shedding. Helga × Cedar litter.",
-  "cardPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Mini%20Goldendoodles%20(Hope%203).JPG",
+  "cardPhoto": "",
   "sirePhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/image_0111.jpg",
   "puppies": [
     {
       "name": "Hope",
       "gender": "Girl",
       "price": "$1,500",
-      "status": "Available",
-      "photos": [
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Mini Goldendoodles (Hope 3).JPG",
-          "alt": "Goldendoodles in Indiana"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Mini Goldendoodles (Hope 2).JPG",
-          "alt": "Goldendoodles in Indiana"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Minigoldendoodles (Hope).JPG",
-          "alt": "Goldendoodles in Indiana"
-        }
-      ]
+      "status": "Sold"
     },
     {
       "name": "Henry (Black Collar)",
       "gender": "Boy",
       "price": "$1,500",
-      "status": "Available",
-      "photos": [
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Mini Goldendoodles (Henry 3).JPG",
-          "alt": "Goldendoodles in Indiana"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Mini Goldendoodles (Henry 2).JPG",
-          "alt": "Goldendoodles in Indiana"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Minigoldendoodles (Henry).JPG",
-          "alt": "Goldendoodles in Indiana"
-        }
-      ]
+      "status": "Sold"
     },
     {
       "name": "Hazel (Orange Collar) ",
