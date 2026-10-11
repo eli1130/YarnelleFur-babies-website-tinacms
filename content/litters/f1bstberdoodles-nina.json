@@ -1,0 +1,39 @@
+{
+  "active": true,
+  "sortOrder": 13,
+  "title": "Standard F1b Saint Berdoodles",
+  "slug": "f1bstberdoodles-nina",
+  "breeder": "Travis & Hannah Mullendore",
+  "generation": "F1B",
+  "priceRange": "$1,200 - $1,800",
+  "litterTitle": "Nina x Thomas",
+  "dateOfBirth": "September 22, 2026",
+  "takeHomeDate": "November 27, 2026",
+  "estimatedSize": "80-100+ lbs",
+  "grooming": "Roughly every 4-6 months",
+  "temperament": "Known for their friendly demeanor and high trainability, these Saint Berdoodles offer a wonderfully balanced temperament that brings a peaceful, happy presence to any home.",
+  "deposit": "$400",
+  "contact": "Hannah · (260) 410-4149",
+  "damName": "Nina ",
+  "damDesc": "Standard F1 Saint Berdoodle (80lbs)",
+  "damPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Nina pic.JPG",
+  "sireName": "Thomas ",
+  "sireDesc": "AKC Standard Poodle",
+  "cardDesc": "Meet our stunning Standard F1b Saint Berdoodles from Nina and Thomas, known for their calm demeanor, easygoing temperaments, and wavy, hypoallergenic coats. Highly affectionate and eager to please, these sweet-tempered pups make the perfect loving playmates for the entire family.",
+  "cardPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_2620.JPG",
+  "sirePhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Thomas%20pic.JPG",
+  "puppies": [
+    {
+      "name": "Boys & Girls",
+      "price": "$1,200 - $1,800",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_2620.JPG",
+          "alt": "St.berdoodles in Indiana"
+        }
+      ]
+    }
+  ],
+  "showCarousel": true
+}
