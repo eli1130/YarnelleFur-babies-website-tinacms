@@ -20,29 +20,9 @@
   "sireName": "Sycamore",
   "sireDesc": "Mini F1 Tricolored Bernedoodle (40lbs)",
   "cardDesc": "Meet our sweet litter of Mini F2 Bernedoodles out of Sky and Sycamore, expected to mature into a perfect 30–40 lb size! These well-loved, playful pups are ready to bring endless joy and affection to your home.",
-  "cardPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/F2%20Bernedoodles%20(Silas%203).JPG",
+  "cardPhoto": "",
   "sirePhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/image_0061.jpg",
   "puppies": [
-    {
-      "name": "Silas ",
-      "gender": "Boy",
-      "price": "$3,200",
-      "status": "Available",
-      "photos": [
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/F2 Bernedoodles (Silas 3).JPG",
-          "alt": "Bernedoodles in Indiana"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/F2 Bernedoodles (Silas 2).JPG",
-          "alt": "Bernedoodles in Indiana"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/F2 Bernedoodles (Silas).JPG",
-          "alt": "Bernedoodles in Indiana"
-        }
-      ]
-    },
     {
       "name": "Sophia ",
       "gender": "Girl",
@@ -102,6 +82,12 @@
           "alt": "Bernedoodles in Indiana"
         }
       ]
+    },
+    {
+      "name": "Silas ",
+      "gender": "Boy",
+      "price": "$3,200",
+      "status": "Sold"
     },
     {
       "name": "Sterling ",
