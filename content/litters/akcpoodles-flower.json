@@ -24,26 +24,6 @@
   "sirePhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/image_0044.jpg",
   "puppies": [
     {
-      "name": "Flint (Black Collar)",
-      "gender": "Boy",
-      "price": "$2,000",
-      "status": "Available",
-      "photos": [
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/AKC poodles (Flint 3).JPG",
-          "alt": "AKC standard poodles in Indiana"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/AKC poodles (Flint 2).JPG",
-          "alt": "Akc standard poodles"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/AKC poodles (Flint).JPG",
-          "alt": "AKC standard poodles in Indiana"
-        }
-      ]
-    },
-    {
       "name": "Fletcher (orange collar)",
       "gender": "Boy",
       "price": "$2,000",
@@ -122,6 +102,12 @@
           "alt": "AKC standard poodles in Indiana"
         }
       ]
+    },
+    {
+      "name": "Flint (Black Collar)",
+      "gender": "Boy",
+      "price": "$2,000",
+      "status": "Sold"
     },
     {
       "name": "Felicity (Pink collar)",
