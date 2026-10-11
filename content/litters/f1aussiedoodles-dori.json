@@ -5,7 +5,7 @@
   "slug": "f1aussiedoodles-dori",
   "breeder": "Travis & Hannah Mullendore",
   "generation": "F1",
-  "priceRange": "$1,200",
+  "priceRange": "$800",
   "litterTitle": "Dori x Thomas ",
   "dateOfBirth": "May 28, 2026",
   "takeHomeDate": "July 23, 2026",
@@ -20,15 +20,19 @@
   "sireName": "Thomas ",
   "sireDesc": "AKC Chocolate Phantom Standard Poodle (60lbs)",
   "cardDesc": "Meet Our F1 Aussiedoodles! 🐾\nThe ultimate blend of Aussie brains and Poodle beauty. These intelligent, loyal, and low-shedding pups are perfectly socialized and ready to join your family for a lifetime of adventure.",
-  "cardPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Aussiedoodles%20(Daisy%207).PNG",
+  "cardPhoto": "",
   "sirePhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Thomas pic.JPG",
   "puppies": [
     {
       "name": "Delilah",
       "gender": "Girl",
-      "price": "$1,200",
+      "price": "$800",
       "status": "Available",
       "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Aussiedoodles (Delilah).PNG",
+          "alt": "Aussiedoodles in Indiana"
+        },
         {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Aussiedoodles (Delilah 7).PNG",
           "alt": "Aussiedoodles in Indiana"
@@ -62,9 +66,13 @@
     {
       "name": "Daisy",
       "gender": "Girl",
-      "price": "$1,200",
+      "price": "$800",
       "status": "Available",
       "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Aussiedoodles (Daisy 8).PNG",
+          "alt": "Aussiedoodles in Indiana"
+        },
         {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Aussiedoodles (Daisy 7).PNG",
           "alt": "Aussiedoodles in Indiana"
