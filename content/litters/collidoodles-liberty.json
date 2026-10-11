@@ -5,7 +5,7 @@
   "slug": "collidoodles-liberty",
   "breeder": "John & Kathy Yarnelle",
   "generation": "F1",
-  "priceRange": "$1,200 - $1,400",
+  "priceRange": "$1,200",
   "litterTitle": "Liberty x Aspen",
   "dateOfBirth": "July 16, 2026",
   "takeHomeDate": "September 10, 2026",
@@ -20,7 +20,7 @@
   "sireName": "Aspen",
   "sireDesc": "AKC Standard Chocolate Parti Poodle (60lbs)",
   "cardDesc": "Meet our playful Standard F1 Colliedoodle puppies— low-shedding, sweet-natured companions combining the intelligence of the Standard Poodle with the loyal, gentle heart of the Collie. Socialized right on our farm, these clever and devoted pups are eager to fit seamlessly into active families.",
-  "cardPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Coliiedoodles(Leslie).JPG",
+  "cardPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Colliedoodles(Lola%203).JPG",
   "sirePhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/aspen pic.jpeg",
   "puppies": [
     {
@@ -29,6 +29,10 @@
       "price": "$1,200",
       "status": "Available",
       "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Colliedoodles(Laura 3).JPG",
+          "alt": "Colliedoodles in Indiana"
+        },
         {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Coliiedoodles(Laura).JPG",
           "alt": "Colliedoodles in Indiana"
@@ -40,27 +44,15 @@
       ]
     },
     {
-      "name": "Leslie",
-      "gender": "Girl",
-      "price": "$1,400",
-      "status": "Available",
-      "photos": [
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Coliiedoodles(Leslie).JPG",
-          "alt": "Colliedoodles in Indiana"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Colliedoodles(Leslie 2).JPG",
-          "alt": "Colliedoodles in Indiana"
-        }
-      ]
-    },
-    {
       "name": "Lincoln ",
       "gender": "Boy",
       "price": "$1,200",
       "status": "Available",
       "photos": [
+        {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Colliedoodles(Lincoln 3).JPG",
+          "alt": "Colliedoodles in Indiana"
+        },
         {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Coliiedoodles(Lincoln).JPG",
           "alt": "Colliedoodles in Indiana"
@@ -78,6 +70,10 @@
       "status": "Available",
       "photos": [
         {
+          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Colliedoodles(Lola 3).JPG",
+          "alt": "Colliedoodles in Indiana"
+        },
+        {
           "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Coliiedoodles(Lola).JPG",
           "alt": "Colliedoodles in Indiana"
         },
@@ -88,10 +84,16 @@
       ]
     },
     {
+      "name": "Leslie",
+      "gender": "Girl",
+      "price": "$1,400",
+      "status": "Sold"
+    },
+    {
       "name": "Layla ",
       "gender": "Girl",
       "price": "$1,200",
-      "status": "Reserved"
+      "status": "Sold"
     },
     {
       "name": "Luka",
