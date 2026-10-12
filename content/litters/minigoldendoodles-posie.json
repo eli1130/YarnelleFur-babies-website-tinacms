@@ -20,41 +20,9 @@
   "sireName": "Torque",
   "sireDesc": "Toy poodle (9 lbs)",
   "cardDesc": "Meet Posie and Torque's beautiful litter of Mini F1b Goldendoodles, where sweet personalities and cozy, low-shedding coats come together! These playful, well-loved little pups are eager to bring endless joy, wagging tails, and warm cuddles to your home.",
-  "cardPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/mingoldendoodles%20(Patrick%202).PNG",
+  "cardPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/mingoldendoodles%20(Preston%202).PNG",
   "sirePhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/typorama.PNG",
   "puppies": [
-    {
-      "name": "Patrick",
-      "gender": "Boy",
-      "price": "$1,400",
-      "status": "Available",
-      "photos": [
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/mingoldendoodles (Patrick 2).PNG",
-          "alt": "Goldendoodles in Indiana"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/MiniGoldendoodles (Patrick).PNG",
-          "alt": "Goldendoodles in Indiana"
-        }
-      ]
-    },
-    {
-      "name": "Peter",
-      "gender": "Boy",
-      "price": "$1,200",
-      "status": "Available",
-      "photos": [
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/mingoldendoodles (Peter 2).PNG",
-          "alt": "Goldendoodles in Indiana"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/MiniGoldendoodles (Peter).JPEG",
-          "alt": "Goldendoodles in Indiana"
-        }
-      ]
-    },
     {
       "name": "Preston",
       "gender": "Boy",
@@ -70,6 +38,18 @@
           "alt": "Goldendoodles in Indiana"
         }
       ]
+    },
+    {
+      "name": "Peter",
+      "gender": "Boy",
+      "price": "$1,200",
+      "status": "Sold"
+    },
+    {
+      "name": "Patrick",
+      "gender": "Boy",
+      "price": "$1,400",
+      "status": "Sold"
     },
     {
       "name": "Prince",
