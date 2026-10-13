@@ -20,7 +20,7 @@
   "sireName": "Thomas ",
   "sireDesc": "AKC Chocolate Phantom Standard Poodle (60lbs)",
   "cardDesc": "Meet Our F1 Aussiedoodles! 🐾\nThe ultimate blend of Aussie brains and Poodle beauty. These intelligent, loyal, and low-shedding pups are perfectly socialized and ready to join your family for a lifetime of adventure.",
-  "cardPhoto": "",
+  "cardPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Aussiedoodles%20(Delilah).PNG",
   "sirePhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Thomas pic.JPG",
   "puppies": [
     {
@@ -67,41 +67,7 @@
       "name": "Daisy",
       "gender": "Girl",
       "price": "$800",
-      "status": "Available",
-      "photos": [
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Aussiedoodles (Daisy 8).PNG",
-          "alt": "Aussiedoodles in Indiana"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Aussiedoodles (Daisy 7).PNG",
-          "alt": "Aussiedoodles in Indiana"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Aussiedoodles (Daisy 6).PNG",
-          "alt": "Aussiedoodles in Indiana"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Aussiedoodles (Daisy 5).JPEG",
-          "alt": "Aussiedoodles in Indiana"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Aussiedoodles (Daisy 4).PNG",
-          "alt": "Aussiedoodles in Indiana"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Aussiedoodles (Daisy 3).PNG",
-          "alt": "Aussiedoodles in Indiana"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Aussiedoodles Dori Daisy.PNG",
-          "alt": "Aussiedoodles in Indiana"
-        },
-        {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Aussiedoodles Daisy.JPG",
-          "alt": "Aussiedoodles in Indiana"
-        }
-      ]
+      "status": "Sold"
     },
     {
       "name": "Dylan",
