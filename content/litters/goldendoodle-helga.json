@@ -16,12 +16,12 @@
   "contact": "Sarah · (260) 494-0405",
   "damName": "Helga",
   "damDesc": "Micro Mini Goldendoodle",
-  "damPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/image_0110.jpg",
+  "damPhoto": "https://media.yarnellefur-babies.com/image_0110.jpg",
   "sireName": "Cedar",
   "sireDesc": "AKC Toy Poodle",
   "cardDesc": "Micro Mini F1B Goldendoodles — tiny bundles of golden joy, low-shedding. Helga × Cedar litter.",
   "cardPhoto": "",
-  "sirePhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/image_0111.jpg",
+  "sirePhoto": "https://media.yarnellefur-babies.com/image_0111.jpg",
   "puppies": [
     {
       "name": "Hope",
@@ -63,16 +63,16 @@
   "showCarousel": true,
   "previousPuppies": [
     {
-      "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/image_0112.jpg"
+      "src": "https://media.yarnellefur-babies.com/image_0112.jpg"
     },
     {
-      "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/image_0113.jpg"
+      "src": "https://media.yarnellefur-babies.com/image_0113.jpg"
     },
     {
-      "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/image_0114.jpg"
+      "src": "https://media.yarnellefur-babies.com/image_0114.jpg"
     },
     {
-      "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/image_0115.jpg"
+      "src": "https://media.yarnellefur-babies.com/image_0115.jpg"
     }
   ]
 }

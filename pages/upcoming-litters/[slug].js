@@ -37,7 +37,7 @@ export default function UpcomingLitterDetail({ litter }) {
         <meta name="description" content={`Join the waitlist for our upcoming ${litter.breed} litter at Yarnelle Fur-Babies. Expected ${litter.expectedDate}. Meet the parents and secure your spot.`} />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Jost:wght@300;400;500&display=swap" rel="stylesheet" />
-        <link rel="icon" href="https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_5493_gvo13y.jpg" />
+        <link rel="icon" href="https://media.yarnellefur-babies.com/IMG_5493_gvo13y.jpg" />
       </Head>
 
       <style>{`

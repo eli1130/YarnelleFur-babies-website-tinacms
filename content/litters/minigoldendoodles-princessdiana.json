@@ -16,12 +16,12 @@
   "contact": "Eli · (260) 445-4378",
   "damName": "Princess Diana",
   "damDesc": "AKC Sable Parti Standard Poodle (44lbs)",
-  "damPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/0-4.jpg",
+  "damPhoto": "https://media.yarnellefur-babies.com/0-4.jpg",
   "sireName": "Billy",
   "sireDesc": "Mini Blue Merle F1b Goldendoodle (23lbs)",
   "cardDesc": "Meet our gorgeous Mini F1bb Goldendoodles from Princess Diana and Billy! These highly desirable, low-shedding companion pups are raised with intentional care on our 10-acre farm, ensuring they are healthy, confident, and ready for their forever homes. Browse the litter now to see available puppies and submit your application.",
-  "cardPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_9503.JPG",
-  "sirePhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/image_0064.jpg",
+  "cardPhoto": "https://media.yarnellefur-babies.com/IMG_9503.JPG",
+  "sirePhoto": "https://media.yarnellefur-babies.com/image_0064.jpg",
   "puppies": [
     {
       "name": "Pearl",
@@ -30,19 +30,19 @@
       "status": "Available",
       "photos": [
         {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_9503.JPG",
+          "src": "https://media.yarnellefur-babies.com/IMG_9503.JPG",
           "alt": "Goldendoodles in Indiana"
         },
         {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/minigoldendoodles (Pearl 3).JPG",
+          "src": "https://media.yarnellefur-babies.com/minigoldendoodles (Pearl 3).JPG",
           "alt": "Goldendoodles in Indiana"
         },
         {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/F1bb Goldendoodles Pearl.JPG",
+          "src": "https://media.yarnellefur-babies.com/F1bb Goldendoodles Pearl.JPG",
           "alt": "Goldendoodles in Indiana"
         },
         {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Goldendoodle Pearl.JPG",
+          "src": "https://media.yarnellefur-babies.com/Goldendoodle Pearl.JPG",
           "alt": "Goldendoodles in Indiana"
         }
       ]
@@ -87,7 +87,7 @@
   "showCarousel": true,
   "previousPuppies": [
     {
-      "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_7744.jpeg",
+      "src": "https://media.yarnellefur-babies.com/IMG_7744.jpeg",
       "alt": "Mini f1bb goldendoodles"
     }
   ]

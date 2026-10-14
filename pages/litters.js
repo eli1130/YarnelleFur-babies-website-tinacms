@@ -121,7 +121,7 @@ export default function AllLitters({ litters }) {
         <meta name="description" content="Browse every current litter from every Yarnelle Fur-Babies family, filterable by breed." />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Jost:wght@300;400;500&display=swap" rel="stylesheet" />
-        <link rel="icon" href="https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_5493_gvo13y.jpg" />
+        <link rel="icon" href="https://media.yarnellefur-babies.com/IMG_5493_gvo13y.jpg" />
       </Head>
 
       <style>{`

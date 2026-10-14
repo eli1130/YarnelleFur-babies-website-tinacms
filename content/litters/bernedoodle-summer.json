@@ -16,12 +16,12 @@
   "contact": "Luke · (260) 213-1685",
   "damName": "Summer",
   "damDesc": "AKC Bernese Mountain Dog (90lbs)",
-  "damPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/New Summer pic.JPG",
+  "damPhoto": "https://media.yarnellefur-babies.com/New Summer pic.JPG",
   "sireName": "Bamboo",
   "sireDesc": "AKC Sable Parti Standard Poodle (60lbs)",
   "cardDesc": "Standard F1 Bernedoodles- They are incredibly friendly with other dogs, cats, and kiddo. Summer x Bamboo",
-  "cardPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_7125.JPG",
-  "sirePhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/image_0074.jpg",
+  "cardPhoto": "https://media.yarnellefur-babies.com/IMG_7125.JPG",
+  "sirePhoto": "https://media.yarnellefur-babies.com/image_0074.jpg",
   "puppies": [
     {
       "name": "Sienna",
@@ -30,29 +30,29 @@
       "status": "Available",
       "photos": [
         {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_7125.JPG",
+          "src": "https://media.yarnellefur-babies.com/IMG_7125.JPG",
           "alt": "Bernedoodles in Indiana"
         },
         {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_6841.JPG",
+          "src": "https://media.yarnellefur-babies.com/IMG_6841.JPG",
           "alt": "Bernedoodles in Indiana"
         },
         {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_6434.jpeg"
+          "src": "https://media.yarnellefur-babies.com/IMG_6434.jpeg"
         },
         {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_6392.JPG",
+          "src": "https://media.yarnellefur-babies.com/IMG_6392.JPG",
           "alt": "Bernedoodles in Indiana"
         },
         {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_6138.JPG",
+          "src": "https://media.yarnellefur-babies.com/IMG_6138.JPG",
           "alt": "Bernedoodles for sale in indiana"
         },
         {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Bernedoodle (Sienna) 1.JPG"
+          "src": "https://media.yarnellefur-babies.com/Bernedoodle (Sienna) 1.JPG"
         },
         {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_5807.JPG"
+          "src": "https://media.yarnellefur-babies.com/IMG_5807.JPG"
         }
       ]
     },
@@ -108,19 +108,19 @@
   "showCarousel": true,
   "previousPuppies": [
     {
-      "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Summer prev puppy pic 1.avif"
+      "src": "https://media.yarnellefur-babies.com/Summer prev puppy pic 1.avif"
     },
     {
-      "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Summer pre pup pic 2.avif"
+      "src": "https://media.yarnellefur-babies.com/Summer pre pup pic 2.avif"
     },
     {
-      "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Summer prev pup pic 3.avif"
+      "src": "https://media.yarnellefur-babies.com/Summer prev pup pic 3.avif"
     },
     {
-      "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Summer prev pup pic 4.avif"
+      "src": "https://media.yarnellefur-babies.com/Summer prev pup pic 4.avif"
     },
     {
-      "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Summer prev pup pic 5.avif"
+      "src": "https://media.yarnellefur-babies.com/Summer prev pup pic 5.avif"
     }
   ]
 }

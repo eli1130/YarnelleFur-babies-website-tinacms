@@ -16,12 +16,12 @@
   "contact": "Hannah · (260) 410-4149",
   "damName": "Dori",
   "damDesc": "ASDR Blue Merle Australian Shepherd (40lbs)",
-  "damPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Dori pic.JPEG",
+  "damPhoto": "https://media.yarnellefur-babies.com/Dori pic.JPEG",
   "sireName": "Thomas ",
   "sireDesc": "AKC Chocolate Phantom Standard Poodle (60lbs)",
   "cardDesc": "Meet Our F1 Aussiedoodles! 🐾\nThe ultimate blend of Aussie brains and Poodle beauty. These intelligent, loyal, and low-shedding pups are perfectly socialized and ready to join your family for a lifetime of adventure.",
-  "cardPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Aussiedoodles%20(Delilah).PNG",
-  "sirePhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Thomas pic.JPG",
+  "cardPhoto": "https://media.yarnellefur-babies.com/Aussiedoodles%20(Delilah).PNG",
+  "sirePhoto": "https://media.yarnellefur-babies.com/Thomas pic.JPG",
   "puppies": [
     {
       "name": "Delilah",
@@ -30,35 +30,35 @@
       "status": "Available",
       "photos": [
         {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Aussiedoodles (Delilah).PNG",
+          "src": "https://media.yarnellefur-babies.com/Aussiedoodles (Delilah).PNG",
           "alt": "Aussiedoodles in Indiana"
         },
         {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Aussiedoodles (Delilah 7).PNG",
+          "src": "https://media.yarnellefur-babies.com/Aussiedoodles (Delilah 7).PNG",
           "alt": "Aussiedoodles in Indiana"
         },
         {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Aussiedoodles (Delilah 6).PNG",
+          "src": "https://media.yarnellefur-babies.com/Aussiedoodles (Delilah 6).PNG",
           "alt": "Aussiedoodles in Indiana"
         },
         {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Aussiedoodles (Delilah 5).JPEG",
+          "src": "https://media.yarnellefur-babies.com/Aussiedoodles (Delilah 5).JPEG",
           "alt": "Aussiedoodles in Indiana"
         },
         {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Aussiedoodles (Delilah 4).PNG",
+          "src": "https://media.yarnellefur-babies.com/Aussiedoodles (Delilah 4).PNG",
           "alt": "Aussiedoodles in Indiana"
         },
         {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Aussiedoodles (Delilah 3).PNG",
+          "src": "https://media.yarnellefur-babies.com/Aussiedoodles (Delilah 3).PNG",
           "alt": "Aussiedoodles in Indiana"
         },
         {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Aussiedoodles Dori Delilah.PNG",
+          "src": "https://media.yarnellefur-babies.com/Aussiedoodles Dori Delilah.PNG",
           "alt": "Aussiedoodles in Indiana"
         },
         {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Aussiedoodles Delilah.JPG",
+          "src": "https://media.yarnellefur-babies.com/Aussiedoodles Delilah.JPG",
           "alt": "Aussiedoodles in Indiana"
         }
       ]
@@ -115,19 +115,19 @@
   "showCarousel": true,
   "previousPuppies": [
     {
-      "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Dori prev pup pics.jpeg",
+      "src": "https://media.yarnellefur-babies.com/Dori prev pup pics.jpeg",
       "alt": "Aussiedoodles in Indiana"
     },
     {
-      "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Dori prev pup pic 2.jpeg",
+      "src": "https://media.yarnellefur-babies.com/Dori prev pup pic 2.jpeg",
       "alt": "Aussiedoodles in Indiana"
     },
     {
-      "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Dori prev pup pic 3.jpeg",
+      "src": "https://media.yarnellefur-babies.com/Dori prev pup pic 3.jpeg",
       "alt": "Aussiedoodles in Indiana"
     },
     {
-      "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Dori prev pup pic 4.jpeg",
+      "src": "https://media.yarnellefur-babies.com/Dori prev pup pic 4.jpeg",
       "alt": "Aussiedoodles in Indiana"
     }
   ]

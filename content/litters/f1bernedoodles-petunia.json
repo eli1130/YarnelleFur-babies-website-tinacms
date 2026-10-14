@@ -16,12 +16,12 @@
   "contact": "Luke · (260) 213-1685",
   "damName": "Petunia",
   "damDesc": "AKC Tri Parti Standard Poodle (58lbs)",
-  "damPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/typorama 18.PNG",
+  "damPhoto": "https://media.yarnellefur-babies.com/typorama 18.PNG",
   "sireName": "Spruce",
   "sireDesc": "AKC Bernese Mountain Dog (100lbs)",
   "cardDesc": "Petunia (AKC Tri-Parti Poodle) and Spruce (AKC Bernese Mountain Dog) have welcomed a stunning new litter. Beautifully marked, family-raised, and ready for their forever homes!",
   "cardPhoto": "",
-  "sirePhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/0.jpg",
+  "sirePhoto": "https://media.yarnellefur-babies.com/0.jpg",
   "puppies": [
     {
       "name": "Paisley (Purple collar)",
@@ -87,7 +87,7 @@
   "showCarousel": true,
   "previousPuppies": [
     {
-      "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/petunia pre puppy pic.jpeg",
+      "src": "https://media.yarnellefur-babies.com/petunia pre puppy pic.jpeg",
       "alt": "Standard F1 Bernedoodles in Indiana"
     }
   ]

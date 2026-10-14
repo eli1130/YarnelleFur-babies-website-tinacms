@@ -16,12 +16,12 @@
   "contact": "Hannah · (260) 410-4149",
   "damName": "Raya",
   "damDesc": "Standard F1 Goldendoodle",
-  "damPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Raya pic.JPEG",
+  "damPhoto": "https://media.yarnellefur-babies.com/Raya pic.JPEG",
   "sireName": "Thomas ",
   "sireDesc": "AKC Standard Poodle",
   "cardDesc": "Raised on our farm with daily love, Raya and Thomas’s Standard F1b Goldendoodle puppies combine the best of intelligence, loyalty, and low-shedding coats. These outgoing, sweet-tempered pups make a seamless and joyful addition to any growing family.",
-  "cardPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_2609.JPG",
-  "sirePhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Thomas%20pic.JPG",
+  "cardPhoto": "https://media.yarnellefur-babies.com/IMG_2609.JPG",
+  "sirePhoto": "https://media.yarnellefur-babies.com/Thomas%20pic.JPG",
   "puppies": [
     {
       "name": "Rome",
@@ -30,7 +30,7 @@
       "status": "Available",
       "photos": [
         {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Goldendoodle (Rome).PNG",
+          "src": "https://media.yarnellefur-babies.com/Goldendoodle (Rome).PNG",
           "alt": "Goldendoodles in Indiana"
         }
       ]
@@ -42,7 +42,7 @@
       "status": "Available",
       "photos": [
         {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Goldendoodle (Ruth).PNG",
+          "src": "https://media.yarnellefur-babies.com/Goldendoodle (Ruth).PNG",
           "alt": "Goldendoodles in Indiana"
         }
       ]

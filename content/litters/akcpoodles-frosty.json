@@ -16,12 +16,12 @@
   "contact": "Brooke · (260) 443-9035",
   "damName": "Sallie (AKA Frosty)",
   "damDesc": "AKC Silver Beige Standard Poodle (45lbs)",
-  "damPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/frosty.jpeg",
+  "damPhoto": "https://media.yarnellefur-babies.com/frosty.jpeg",
   "sireName": "Pumpkin",
   "sireDesc": "AKC Standard Poodle (70lbs)",
   "cardDesc": "Meet our Frosty x Pumpkin pups! Sired by our 70lb AKC Standard Poodle, Pumpkin, and out of our beautiful 45lb Silver Beige dam, Frosty, these puppies are bred for temperament. They are the perfect addition for families seeking a loyal, kid-friendly companion who loves to cuddle.",
-  "cardPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Frida%205.PNG",
-  "sirePhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/image_0141.jpg",
+  "cardPhoto": "https://media.yarnellefur-babies.com/Frida%205.PNG",
+  "sirePhoto": "https://media.yarnellefur-babies.com/image_0141.jpg",
   "puppies": [
     {
       "name": "Frida",
@@ -30,31 +30,31 @@
       "status": "Sold",
       "photos": [
         {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Frida 5.PNG",
+          "src": "https://media.yarnellefur-babies.com/Frida 5.PNG",
           "alt": "AKC standard poodles"
         },
         {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Poodle Frida 3.PNG",
+          "src": "https://media.yarnellefur-babies.com/Poodle Frida 3.PNG",
           "alt": "Bernedoodles in Indiana"
         },
         {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Frida 3.PNG",
+          "src": "https://media.yarnellefur-babies.com/Frida 3.PNG",
           "alt": "AKC standard poodles"
         },
         {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Frida 2.PNG",
+          "src": "https://media.yarnellefur-babies.com/Frida 2.PNG",
           "alt": "AKC standard poodles"
         },
         {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Frida 1.PNG",
+          "src": "https://media.yarnellefur-babies.com/Frida 1.PNG",
           "alt": "AKC standard poodles"
         },
         {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Standard poodles (Frida 1).JPG",
+          "src": "https://media.yarnellefur-babies.com/Standard poodles (Frida 1).JPG",
           "alt": "Akc standard poodles"
         },
         {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/standard poodle (Frida).PNG",
+          "src": "https://media.yarnellefur-babies.com/standard poodle (Frida).PNG",
           "alt": "Akc standard poodles"
         }
       ]

@@ -26,6 +26,6 @@ export default createMediaHandler(
     },
   },
   {
-    cdnUrl: "https://pub-e847384c23164145a930ab957dbde017.r2.dev/",
+    cdnUrl: "https://media.yarnellefur-babies.com/",
   }
 );

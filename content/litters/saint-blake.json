@@ -17,12 +17,12 @@
   "contact": "Luke · (260) 213-1685",
   "damName": "Blake",
   "damDesc": "Standard F1 Saint Berdoodle",
-  "damPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/image_0073.jpg",
+  "damPhoto": "https://media.yarnellefur-babies.com/image_0073.jpg",
   "sireName": "Bamboo",
   "sireDesc": "AKC Standard Poodle",
   "cardDesc": "Standard F1B Saint Berdoodles — big-hearted, fluffy, endlessly cuddly. Blake × Bamboo litter.",
-  "cardPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/St.Berdoodles%20(Brian%203).JPG",
-  "sirePhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/image_0074.jpg",
+  "cardPhoto": "https://media.yarnellefur-babies.com/St.Berdoodles%20(Brian%203).JPG",
+  "sirePhoto": "https://media.yarnellefur-babies.com/image_0074.jpg",
   "puppies": [
     {
       "name": "Brian (Red)",
@@ -31,15 +31,15 @@
       "status": "Available",
       "photos": [
         {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/St.Berdoodles (Brian 3).JPG",
+          "src": "https://media.yarnellefur-babies.com/St.Berdoodles (Brian 3).JPG",
           "alt": "St.berdoodles in Indiana"
         },
         {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/St.berdoodles (Brian 2).JPG",
+          "src": "https://media.yarnellefur-babies.com/St.berdoodles (Brian 2).JPG",
           "alt": "St.berdoodles in Indiana"
         },
         {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/St.Berdoodles (Brian).JPG",
+          "src": "https://media.yarnellefur-babies.com/St.Berdoodles (Brian).JPG",
           "alt": "St.berdoodles in Indiana"
         }
       ]
@@ -51,15 +51,15 @@
       "status": "Available",
       "photos": [
         {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/St.Berdoodles (Brett 3).JPG",
+          "src": "https://media.yarnellefur-babies.com/St.Berdoodles (Brett 3).JPG",
           "alt": "St.berdoodles in indiana"
         },
         {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/St.berdoodles (Brett 2).JPG",
+          "src": "https://media.yarnellefur-babies.com/St.berdoodles (Brett 2).JPG",
           "alt": "St.berdoodles in Indiana"
         },
         {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/St.Berdoodles (Brett).JPG",
+          "src": "https://media.yarnellefur-babies.com/St.Berdoodles (Brett).JPG",
           "alt": "St.berdoodles in Indiana"
         }
       ]
@@ -71,15 +71,15 @@
       "status": "Available",
       "photos": [
         {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/St.Berdoodles (Brooke 3).JPG",
+          "src": "https://media.yarnellefur-babies.com/St.Berdoodles (Brooke 3).JPG",
           "alt": "St.berdoodles in Indiana"
         },
         {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/St.berdoodles (Brooke 2).JPG",
+          "src": "https://media.yarnellefur-babies.com/St.berdoodles (Brooke 2).JPG",
           "alt": "St.berdoodles in Indiana"
         },
         {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/St.Berdoodles (Brooke).JPG",
+          "src": "https://media.yarnellefur-babies.com/St.Berdoodles (Brooke).JPG",
           "alt": "St.berdoodles in Indiana"
         }
       ]
@@ -137,26 +137,26 @@
   "showCarousel": true,
   "previousPuppies": [
     {
-      "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/image_0045.jpg"
+      "src": "https://media.yarnellefur-babies.com/image_0045.jpg"
     },
     {
-      "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/image_0046.jpg"
+      "src": "https://media.yarnellefur-babies.com/image_0046.jpg"
     },
     {
-      "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/image_0047.jpg"
+      "src": "https://media.yarnellefur-babies.com/image_0047.jpg"
     },
     {
-      "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/image_0048.jpg"
+      "src": "https://media.yarnellefur-babies.com/image_0048.jpg"
     },
     {
-      "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/image_0049.jpg"
+      "src": "https://media.yarnellefur-babies.com/image_0049.jpg"
     },
     {
-      "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/image_0050.jpg"
+      "src": "https://media.yarnellefur-babies.com/image_0050.jpg"
     },
     {},
     {
-      "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/image_0051.jpg"
+      "src": "https://media.yarnellefur-babies.com/image_0051.jpg"
     }
   ]
 }

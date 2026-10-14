@@ -16,12 +16,12 @@
   "contact": "Eli · (260) 445-4378",
   "damName": "Lilly",
   "damDesc": "Mini F1 Bernedoodle (23lbs)",
-  "damPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/1713815163.605901-96E14EA9-9AEA-4A3A-AEAB-29C71A177820.PNG",
+  "damPhoto": "https://media.yarnellefur-babies.com/1713815163.605901-96E14EA9-9AEA-4A3A-AEAB-29C71A177820.PNG",
   "sireName": "Torque",
   "sireDesc": "Toy poodle (9 lbs)",
   "cardDesc": "Micro Mini Bernedoodles - Sweet and energetic cuddle buddies. Lilly x Torque",
   "cardPhoto": "",
-  "sirePhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/typorama.PNG",
+  "sirePhoto": "https://media.yarnellefur-babies.com/typorama.PNG",
   "puppies": [
     {
       "name": "Lena",
@@ -30,15 +30,15 @@
       "status": "Sold",
       "photos": [
         {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_6854.JPG",
+          "src": "https://media.yarnellefur-babies.com/IMG_6854.JPG",
           "alt": "Bernedoodles in Indiana"
         },
         {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_6140.JPG",
+          "src": "https://media.yarnellefur-babies.com/IMG_6140.JPG",
           "alt": "Micro mini bernedoodle in indiana"
         },
         {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_5724.JPG"
+          "src": "https://media.yarnellefur-babies.com/IMG_5724.JPG"
         }
       ]
     },

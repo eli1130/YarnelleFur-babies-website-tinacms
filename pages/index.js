@@ -75,7 +75,7 @@ export default function Home({ litters }) {
         <meta name="description" content="Family-raised doodle puppies from a close-knit family of 16 on a 10-acre farm in Columbia City, Indiana. Health-tested, socialized with children from birth." />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Jost:wght@300;400;500&display=swap" rel="stylesheet" />
-        <link rel="icon" href="https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_5493_gvo13y.jpg" />
+        <link rel="icon" href="https://media.yarnellefur-babies.com/IMG_5493_gvo13y.jpg" />
       </Head>
 
       <style>{`
@@ -263,7 +263,7 @@ export default function Home({ litters }) {
           </div>
         </div>
         <div className="hero-image-right">
-          <img src="https://pub-e847384c23164145a930ab957dbde017.r2.dev/66ab5b_448585b1bcec4e2299b81d66b11538a9_mv2_evkcl9.avif" alt="The Yarnelle Family" />
+          <img src="https://media.yarnellefur-babies.com/66ab5b_448585b1bcec4e2299b81d66b11538a9_mv2_evkcl9.avif" alt="The Yarnelle Family" />
         </div>
       </section>
 

@@ -16,12 +16,12 @@
   "contact": "Brooke · (260) 443-9035",
   "damName": "Melania",
   "damDesc": "Chinese Crested (7lbs)",
-  "damPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Melania pic.jpeg",
+  "damPhoto": "https://media.yarnellefur-babies.com/Melania pic.jpeg",
   "sireName": "Bobby",
   "sireDesc": "Toy poodle (9 lbs)",
   "cardDesc": "Meet our unique and charming Chinese Crestipoos! These affectionate, low-shedding little sweethearts combine a playful spirit with an incredibly loving nature, making them the ultimate companion for family snuggle time.",
-  "cardPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Chinese%20crestipoos%20Malachi.JPG",
-  "sirePhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_1428.JPEG",
+  "cardPhoto": "https://media.yarnellefur-babies.com/Chinese%20crestipoos%20Malachi.JPG",
+  "sirePhoto": "https://media.yarnellefur-babies.com/IMG_1428.JPEG",
   "puppies": [
     {
       "name": "Max ",
@@ -30,7 +30,7 @@
       "status": "Available",
       "photos": [
         {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Chinese crestipoos Max.JPG",
+          "src": "https://media.yarnellefur-babies.com/Chinese crestipoos Max.JPG",
           "alt": "Chinese crestipoos in Indiana "
         }
       ]
@@ -42,7 +42,7 @@
       "status": "Available",
       "photos": [
         {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Chinese crestipoos Millie.JPG",
+          "src": "https://media.yarnellefur-babies.com/Chinese crestipoos Millie.JPG",
           "alt": "Chinese Crestipoos in Indiana "
         }
       ]
@@ -54,7 +54,7 @@
       "status": "Available",
       "photos": [
         {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Chinese crestipoos Marie.JPG",
+          "src": "https://media.yarnellefur-babies.com/Chinese crestipoos Marie.JPG",
           "alt": "Chinese Crestipoos in Indiana "
         }
       ]
@@ -66,7 +66,7 @@
       "status": "Available",
       "photos": [
         {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Chinese crestipoos Malachi.JPG",
+          "src": "https://media.yarnellefur-babies.com/Chinese crestipoos Malachi.JPG",
           "alt": "Chinese Crestipoos in Indiana "
         }
       ]

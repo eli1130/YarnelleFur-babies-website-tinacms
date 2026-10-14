@@ -16,12 +16,12 @@
   "contact": "Hannah · (260) 410-4149",
   "damName": "Nina ",
   "damDesc": "Standard F1 Saint Berdoodle (80lbs)",
-  "damPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Nina pic.JPG",
+  "damPhoto": "https://media.yarnellefur-babies.com/Nina pic.JPG",
   "sireName": "Thomas ",
   "sireDesc": "AKC Standard Poodle",
   "cardDesc": "Meet our stunning Standard F1b Saint Berdoodles from Nina and Thomas, known for their calm demeanor, easygoing temperaments, and wavy, hypoallergenic coats. Highly affectionate and eager to please, these sweet-tempered pups make the perfect loving playmates for the entire family.",
-  "cardPhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_2620.JPG",
-  "sirePhoto": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/Thomas%20pic.JPG",
+  "cardPhoto": "https://media.yarnellefur-babies.com/IMG_2620.JPG",
+  "sirePhoto": "https://media.yarnellefur-babies.com/Thomas%20pic.JPG",
   "puppies": [
     {
       "name": "Boys & Girls",
@@ -29,7 +29,7 @@
       "status": "Available",
       "photos": [
         {
-          "src": "https://pub-e847384c23164145a930ab957dbde017.r2.dev/IMG_2620.JPG",
+          "src": "https://media.yarnellefur-babies.com/IMG_2620.JPG",
           "alt": "St.berdoodles in Indiana"
         }
       ]
