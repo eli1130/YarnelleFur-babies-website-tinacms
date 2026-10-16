@@ -1,5 +1,6 @@
 {
-  "active": false,
+  "active": true,
+  "featured": true,
   "sortOrder": 2,
   "title": "Standard F1 bernedoodles",
   "slug": "bernedoodle-summer",
@@ -7,102 +8,81 @@
   "generation": "F1",
   "priceRange": "$1,600",
   "litterTitle": "Summer x Bamboo",
-  "dateOfBirth": "March 17, 2026",
-  "takeHomeDate": "May 12, 2026",
+  "dateOfBirth": "September 21, 2026",
+  "takeHomeDate": "November 16, 2026",
   "estimatedSize": "80-100+ lbs",
   "grooming": "Roughly every 4-6 months",
   "temperament": "playful, goofy, laid back, sweet, eager to please, smart, love to cuddle, incredibly friendly with other dogs, cats, and kiddos",
   "deposit": "$600",
-  "contact": "Luke · (260) 213-1685",
+  "contact": "Eli · (260) 445-4378",
   "damName": "Summer",
   "damDesc": "AKC Bernese Mountain Dog (90lbs)",
   "damPhoto": "https://media.yarnellefur-babies.com/New Summer pic.JPG",
   "sireName": "Bamboo",
   "sireDesc": "AKC Sable Parti Standard Poodle (60lbs)",
   "cardDesc": "Standard F1 Bernedoodles- They are incredibly friendly with other dogs, cats, and kiddo. Summer x Bamboo",
-  "cardPhoto": "https://media.yarnellefur-babies.com/IMG_7125.JPG",
+  "cardPhoto": "https://media.yarnellefur-babies.com/S.Bernedoodles%20(Sadie).JPG",
   "sirePhoto": "https://media.yarnellefur-babies.com/image_0074.jpg",
   "puppies": [
     {
-      "name": "Sienna",
+      "name": "Sadie",
       "gender": "Girl",
-      "price": "$1,600",
+      "price": "$2,500",
       "status": "Available",
       "photos": [
         {
-          "src": "https://media.yarnellefur-babies.com/IMG_7125.JPG",
+          "src": "https://media.yarnellefur-babies.com/S.Bernedoodles (Sadie).JPG",
           "alt": "Bernedoodles in Indiana"
-        },
-        {
-          "src": "https://media.yarnellefur-babies.com/IMG_6841.JPG",
-          "alt": "Bernedoodles in Indiana"
-        },
-        {
-          "src": "https://media.yarnellefur-babies.com/IMG_6434.jpeg"
-        },
-        {
-          "src": "https://media.yarnellefur-babies.com/IMG_6392.JPG",
-          "alt": "Bernedoodles in Indiana"
-        },
-        {
-          "src": "https://media.yarnellefur-babies.com/IMG_6138.JPG",
-          "alt": "Bernedoodles for sale in indiana"
-        },
-        {
-          "src": "https://media.yarnellefur-babies.com/Bernedoodle (Sienna) 1.JPG"
-        },
-        {
-          "src": "https://media.yarnellefur-babies.com/IMG_5807.JPG"
         }
       ]
     },
     {
-      "name": "Sebastian",
+      "name": "Scottie",
       "gender": "Boy",
-      "price": "$1,600",
-      "status": "Sold"
-    },
-    {
-      "name": "Scott",
-      "gender": "Boy",
-      "price": "$1,800",
-      "status": "Sold"
-    },
-    {
-      "name": "Sawyer",
-      "gender": "Boy",
-      "price": "$1,800",
-      "status": "Sold"
-    },
-    {
-      "name": "Savannah",
-      "gender": "Girl",
-      "price": "$2,000",
-      "status": "Sold"
-    },
-    {
-      "name": "Sage",
-      "gender": "Girl",
-      "price": "$2,000",
-      "status": "Sold"
-    },
-    {
-      "name": "Silas",
-      "gender": "Boy",
-      "price": "$2,000",
-      "status": "Sold"
-    },
-    {
-      "name": "Skylar",
-      "gender": "Girl",
       "price": "$2,500",
-      "status": "Sold"
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://media.yarnellefur-babies.com/S.Bernedoodles (Scottie).JPG",
+          "alt": "Bernedoodles in Indiana"
+        }
+      ]
     },
     {
-      "name": "Sloane",
-      "gender": "Girl",
+      "name": "Saquon",
+      "gender": "Boy",
       "price": "$2,500",
-      "status": "Sold"
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://media.yarnellefur-babies.com/S.Bernedoodles (Saquon).JPG",
+          "alt": "Bernedoodles in Indiana"
+        }
+      ]
+    },
+    {
+      "name": "Sean",
+      "gender": "Boy",
+      "price": "$2,500",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://media.yarnellefur-babies.com/S.Bernedoodles (Sean).JPG",
+          "alt": "Bernedoodles in Indiana"
+        }
+      ]
+    },
+    {
+      "name": "Stephen",
+      "gender": "Boy",
+      "price": "$2,500",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://media.yarnellefur-babies.com/S.Bernedoodles (Stephen).JPG",
+          "alt": "Bernedoodles in Indiana"
+        }
+      ]
     }
   ],
   "showCarousel": true,
