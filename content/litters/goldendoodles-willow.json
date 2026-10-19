@@ -1,11 +1,11 @@
 {
-  "active": true,
+  "active": false,
   "sortOrder": 10,
   "title": "Standard F1B Goldendoodles",
   "slug": "goldendoodles-willow",
   "breeder": "Luke & Eli Yarnelle",
   "generation": "F1B",
-  "priceRange": "$1,000",
+  "priceRange": "",
   "litterTitle": "Willow x Bonsai",
   "dateOfBirth": "March 27, 2026",
   "takeHomeDate": "Ready Now!",
@@ -20,14 +20,14 @@
   "sireName": "Bonsai",
   "sireDesc": "AKC Standard Poodle (60lbs)",
   "cardDesc": "Standard F1B Goldendoodles — highly intelligent and social family companions. The ultimate \"velcro dog\" that is eager to please. Willow x Bonsai litter",
-  "cardPhoto": "https://media.yarnellefur-babies.com/Goldendoodles (wade)5 .JPG",
+  "cardPhoto": "",
   "sirePhoto": "https://media.yarnellefur-babies.com/image_0044.jpg",
   "puppies": [
     {
       "name": "Wade",
       "gender": "Boy",
       "price": "$1,000",
-      "status": "Available",
+      "status": "Sold",
       "photos": [
         {
           "src": "https://media.yarnellefur-babies.com/IMG_8087.JPG",
