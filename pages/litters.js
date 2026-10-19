@@ -29,6 +29,7 @@ const BREED_FILTERS = [
   { label: 'St.Berdoodle', slug: 'saint-berdoodle', match: ['saint berdoodle', 'st. berdoodle', 'st.berdoodle', 'st berdoodle'] },
   { label: 'Broodle Griffon', slug: 'broodle-griffon', match: ['broodle griffon'] },
   { label: 'Standard Poodle', slug: 'standard-poodle', match: ['standard poodle'] },
+  { label: 'Labrador', slug: 'labrador', match: ['labrador'] },
 ];
 
 // Accepts messy real-world query values (breed, Breed, bernedoodles, saint_berdoodle,
