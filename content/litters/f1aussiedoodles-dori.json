@@ -1,5 +1,5 @@
 {
-  "active": true,
+  "active": false,
   "sortOrder": 8,
   "title": "F1 Aussiedoodles ",
   "slug": "f1aussiedoodles-dori",
@@ -20,48 +20,14 @@
   "sireName": "Thomas ",
   "sireDesc": "AKC Chocolate Phantom Standard Poodle (60lbs)",
   "cardDesc": "Meet Our F1 Aussiedoodles! 🐾\nThe ultimate blend of Aussie brains and Poodle beauty. These intelligent, loyal, and low-shedding pups are perfectly socialized and ready to join your family for a lifetime of adventure.",
-  "cardPhoto": "https://media.yarnellefur-babies.com/Aussiedoodles%20(Delilah).PNG",
+  "cardPhoto": "",
   "sirePhoto": "https://media.yarnellefur-babies.com/Thomas pic.JPG",
   "puppies": [
     {
       "name": "Delilah",
       "gender": "Girl",
       "price": "$800",
-      "status": "Available",
-      "photos": [
-        {
-          "src": "https://media.yarnellefur-babies.com/Aussiedoodles (Delilah).PNG",
-          "alt": "Aussiedoodles in Indiana"
-        },
-        {
-          "src": "https://media.yarnellefur-babies.com/Aussiedoodles (Delilah 7).PNG",
-          "alt": "Aussiedoodles in Indiana"
-        },
-        {
-          "src": "https://media.yarnellefur-babies.com/Aussiedoodles (Delilah 6).PNG",
-          "alt": "Aussiedoodles in Indiana"
-        },
-        {
-          "src": "https://media.yarnellefur-babies.com/Aussiedoodles (Delilah 5).JPEG",
-          "alt": "Aussiedoodles in Indiana"
-        },
-        {
-          "src": "https://media.yarnellefur-babies.com/Aussiedoodles (Delilah 4).PNG",
-          "alt": "Aussiedoodles in Indiana"
-        },
-        {
-          "src": "https://media.yarnellefur-babies.com/Aussiedoodles (Delilah 3).PNG",
-          "alt": "Aussiedoodles in Indiana"
-        },
-        {
-          "src": "https://media.yarnellefur-babies.com/Aussiedoodles Dori Delilah.PNG",
-          "alt": "Aussiedoodles in Indiana"
-        },
-        {
-          "src": "https://media.yarnellefur-babies.com/Aussiedoodles Delilah.JPG",
-          "alt": "Aussiedoodles in Indiana"
-        }
-      ]
+      "status": "Sold"
     },
     {
       "name": "Daisy",
