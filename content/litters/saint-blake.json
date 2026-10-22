@@ -21,29 +21,9 @@
   "sireName": "Bamboo",
   "sireDesc": "AKC Standard Poodle",
   "cardDesc": "Standard F1B Saint Berdoodles — big-hearted, fluffy, endlessly cuddly. Blake × Bamboo litter.",
-  "cardPhoto": "https://media.yarnellefur-babies.com/St.Berdoodles%20(Brett%203).JPG",
+  "cardPhoto": "https://media.yarnellefur-babies.com/St.Berdoodles%20(Brooke%203).JPG",
   "sirePhoto": "https://media.yarnellefur-babies.com/image_0074.jpg",
   "puppies": [
-    {
-      "name": "Brett (Grey) ",
-      "gender": "Boy",
-      "price": "$1,800",
-      "status": "Available",
-      "photos": [
-        {
-          "src": "https://media.yarnellefur-babies.com/St.Berdoodles (Brett 3).JPG",
-          "alt": "St.berdoodles in indiana"
-        },
-        {
-          "src": "https://media.yarnellefur-babies.com/St.berdoodles (Brett 2).JPG",
-          "alt": "St.berdoodles in Indiana"
-        },
-        {
-          "src": "https://media.yarnellefur-babies.com/St.Berdoodles (Brett).JPG",
-          "alt": "St.berdoodles in Indiana"
-        }
-      ]
-    },
     {
       "name": "Brooke (No collar)",
       "gender": "Girl",
@@ -63,6 +43,12 @@
           "alt": "St.berdoodles in Indiana"
         }
       ]
+    },
+    {
+      "name": "Brett (Grey) ",
+      "gender": "Boy",
+      "price": "$1,800",
+      "status": "Sold"
     },
     {
       "name": "Becca (Purple)",
