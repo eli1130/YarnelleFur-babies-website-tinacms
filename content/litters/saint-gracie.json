@@ -20,7 +20,7 @@
   "sireName": "Pumpkin",
   "sireDesc": "AKC Standard Poodle",
   "cardDesc": "Standard F1B Saint Berdoodles — gentle giants, cuddly, calm, and great with families. Gracie × Pumpkin litter.",
-  "cardPhoto": "https://media.yarnellefur-babies.com/Callies%20(Giana).PNG",
+  "cardPhoto": "https://media.yarnellefur-babies.com/St.berdoodles%20(Gwen%202).PNG",
   "sirePhoto": "https://media.yarnellefur-babies.com/image_0141.jpg",
   "puppies": [
     {
@@ -29,6 +29,10 @@
       "price": "$2,000",
       "status": "Available",
       "photos": [
+        {
+          "src": "https://media.yarnellefur-babies.com/St.berdoodles (Graham 2).PNG",
+          "alt": "St.berdoodles in Indiana"
+        },
         {
           "src": "https://media.yarnellefur-babies.com/Callies (Graham).PNG",
           "alt": "St.berdoodles in Indiana"
@@ -42,6 +46,10 @@
       "status": "Available",
       "photos": [
         {
+          "src": "https://media.yarnellefur-babies.com/St.berdoodles (Giana 2).PNG",
+          "alt": "St.berdoodles in Indiana"
+        },
+        {
           "src": "https://media.yarnellefur-babies.com/Callies (Giana).PNG",
           "alt": "St.berdoodles in Indiana"
         }
@@ -53,6 +61,10 @@
       "price": "$2,000",
       "status": "Available",
       "photos": [
+        {
+          "src": "https://media.yarnellefur-babies.com/St.berdoodles (Gibson 2).PNG",
+          "alt": "St.berdoodles in Indiana"
+        },
         {
           "src": "https://media.yarnellefur-babies.com/Callies (Gibson).PNG",
           "alt": "St.berdoodles in Indiana"
@@ -66,6 +78,10 @@
       "status": "Available",
       "photos": [
         {
+          "src": "https://media.yarnellefur-babies.com/St.berdoodles (Griffin 2).PNG",
+          "alt": "St.berdoodles in indiana"
+        },
+        {
           "src": "https://media.yarnellefur-babies.com/Callies (Griffin).PNG",
           "alt": "St.berdoodles in indiana"
         }
@@ -77,6 +93,10 @@
       "price": "$2,000",
       "status": "Available",
       "photos": [
+        {
+          "src": "https://media.yarnellefur-babies.com/St.berdoodles (George 2).PNG",
+          "alt": "St.berdoodles in Indiana"
+        },
         {
           "src": "https://media.yarnellefur-babies.com/Callies (George).PNG",
           "alt": "St.berdoodles in Indiana"
@@ -96,6 +116,10 @@
       "status": "Available",
       "photos": [
         {
+          "src": "https://media.yarnellefur-babies.com/St.berdoodles (Gwen 2).PNG",
+          "alt": "St.berdoodles in Indiana"
+        },
+        {
           "src": "https://media.yarnellefur-babies.com/Callies (Gwen).PNG",
           "alt": "St.berdoodles in Indiana"
         }
@@ -108,6 +132,10 @@
       "status": "Available",
       "photos": [
         {
+          "src": "https://media.yarnellefur-babies.com/St.berdoodles (Gabby 2).JPEG",
+          "alt": "St.berdoodles in Indiana"
+        },
+        {
           "src": "https://media.yarnellefur-babies.com/Callies (Gabby).PNG",
           "alt": "St.berdoodles in Indiana"
         }
@@ -119,6 +147,10 @@
       "price": "$2,000",
       "status": "Available",
       "photos": [
+        {
+          "src": "https://media.yarnellefur-babies.com/St.berdoodles (Garett 2).PNG",
+          "alt": "St.berdoodles in Indiana"
+        },
         {
           "src": "https://media.yarnellefur-babies.com/Callies (Garett).PNG",
           "alt": "St.berdoodles in Indiana"
