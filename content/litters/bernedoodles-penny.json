@@ -1,0 +1,88 @@
+{
+  "active": true,
+  "sortOrder": 10,
+  "title": "Mini F2 bernedoodles (Penny)",
+  "slug": "bernedoodles-penny",
+  "breeder": "Luke & Eli Yarnelle",
+  "generation": "F2",
+  "priceRange": "$2,500",
+  "litterTitle": "Penny x Sycamore",
+  "dateOfBirth": "October 6, 2026",
+  "takeHomeDate": "December 1, 2026",
+  "estimatedSize": "30-40 lbs",
+  "grooming": "Roughly every 4 months",
+  "temperament": "Gentle, outgoing, and eager to please, these F2 Bernedoodles bring together the loyal, calm heart of the Bernese Mountain Dog and the playful intelligence of the Poodle in a low-shedding family companion.",
+  "deposit": "$600",
+  "contact": "Luke · (260) 213-1685",
+  "damName": "Penny",
+  "damDesc": "Mini F1 Bernedoodles (30lbs)",
+  "damPhoto": "https://media.yarnellefur-babies.com/Penny pic.JPG",
+  "sireName": "Sycamore",
+  "sireDesc": "Mini F1 Tricolored Bernedoodle (40lbs)",
+  "cardDesc": "Meet our sweet F2 Bernedoodle puppies, lovingly raised by Mom, Penny, and Dad, Sycamore! These gentle, intelligent pups inherit the best of both worlds—combining loyal, calm Bernese warmth with a low-shedding, highly trainable Poodle coat.",
+  "cardPhoto": "https://media.yarnellefur-babies.com/F2%20Bernedoodles%20(Pedro).JPG",
+  "sirePhoto": "https://media.yarnellefur-babies.com/image_0067.jpg",
+  "puppies": [
+    {
+      "name": "Pedro",
+      "gender": "Boy",
+      "price": "$2,500",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://media.yarnellefur-babies.com/F2 Bernedoodles (Pedro).JPG",
+          "alt": "Bernedoodles in Indiana"
+        }
+      ]
+    },
+    {
+      "name": "Paxton",
+      "gender": "Boy",
+      "price": "$2,500",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://media.yarnellefur-babies.com/F2 Bernedoodles (Paxton).JPG",
+          "alt": "Bernedoodles in Indiana"
+        }
+      ]
+    },
+    {
+      "name": "Paris",
+      "gender": "Girl",
+      "price": "$2,500",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://media.yarnellefur-babies.com/F2 Bernedoodles (Paris).JPG",
+          "alt": "Bernedoodles in Indiana"
+        }
+      ]
+    },
+    {
+      "name": "Pete",
+      "gender": "Boy",
+      "price": "$2,500",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://media.yarnellefur-babies.com/F2 Bernedoodles (Pete).JPG",
+          "alt": "Bernedoodles in Indiana"
+        }
+      ]
+    },
+    {
+      "name": "Paolo",
+      "gender": "Boy",
+      "price": "$2,500",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://media.yarnellefur-babies.com/F2 Bernedoodles (Paolo).JPG",
+          "alt": "Bernedoodles in Indiana"
+        }
+      ]
+    }
+  ],
+  "showCarousel": true
+}
