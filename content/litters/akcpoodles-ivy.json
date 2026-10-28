@@ -107,21 +107,7 @@
       "name": "Isaiah",
       "gender": "Boy",
       "price": "$700",
-      "status": "Available",
-      "photos": [
-        {
-          "src": "https://media.yarnellefur-babies.com/AKC poodles (Isaiah 3).JPG",
-          "alt": "AKC standard poodles in Indiana"
-        },
-        {
-          "src": "https://media.yarnellefur-babies.com/AKC poodles (Isaiah 2).JPG",
-          "alt": "AKC standard poodles in Indiana"
-        },
-        {
-          "src": "https://media.yarnellefur-babies.com/Akc poodles (Isaiah).JPG",
-          "alt": "Akc standard poodles in Indiana "
-        }
-      ]
+      "status": "Sold"
     },
     {
       "name": "Ian",
