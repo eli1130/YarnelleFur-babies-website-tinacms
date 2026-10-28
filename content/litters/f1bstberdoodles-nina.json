@@ -5,7 +5,7 @@
   "slug": "f1bstberdoodles-nina",
   "breeder": "Travis & Hannah Mullendore",
   "generation": "F1B",
-  "priceRange": "$1,200 - $1,800",
+  "priceRange": "$1,200 - $1,600",
   "litterTitle": "Nina x Thomas",
   "dateOfBirth": "September 22, 2026",
   "takeHomeDate": "November 27, 2026",
@@ -20,19 +20,52 @@
   "sireName": "Thomas ",
   "sireDesc": "AKC Standard Poodle",
   "cardDesc": "Meet our stunning Standard F1b Saint Berdoodles from Nina and Thomas, known for their calm demeanor, easygoing temperaments, and wavy, hypoallergenic coats. Highly affectionate and eager to please, these sweet-tempered pups make the perfect loving playmates for the entire family.",
-  "cardPhoto": "https://media.yarnellefur-babies.com/IMG_2620.JPG",
+  "cardPhoto": "https://media.yarnellefur-babies.com/St.berdoodles%20(Nehemiah%203).PNG",
   "sirePhoto": "https://media.yarnellefur-babies.com/Thomas%20pic.JPG",
   "puppies": [
     {
-      "name": "Boys & Girls",
-      "price": "$1,200 - $1,800",
+      "name": "Nehemiah",
+      "gender": "Boy",
+      "price": "$1,600",
       "status": "Available",
       "photos": [
         {
-          "src": "https://media.yarnellefur-babies.com/IMG_2620.JPG",
+          "src": "https://media.yarnellefur-babies.com/St.berdoodles (Nehemiah 3).PNG",
+          "alt": "St.berdoodles in Indiana"
+        },
+        {
+          "src": "https://media.yarnellefur-babies.com/St.berdoodles (Nehemiah 2).PNG",
           "alt": "St.berdoodles in Indiana"
         }
       ]
+    },
+    {
+      "name": "Naomi",
+      "gender": "Girl",
+      "price": "$1,200",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://media.yarnellefur-babies.com/St.berdoodles (Naomi 3).PNG",
+          "alt": ""
+        },
+        {
+          "src": "https://media.yarnellefur-babies.com/St.berdoodles (Naomi 2).PNG",
+          "alt": "St.berdoodles in indiana"
+        }
+      ]
+    },
+    {
+      "name": "Nathan",
+      "gender": "Boy",
+      "price": "$1,800",
+      "status": "Reserved"
+    },
+    {
+      "name": "Nevaeh",
+      "gender": "Girl",
+      "price": "$1,200",
+      "status": "Reserved"
     }
   ],
   "showCarousel": true
