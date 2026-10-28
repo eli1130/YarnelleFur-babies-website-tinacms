@@ -21,7 +21,7 @@
   "sireName": "Hickory",
   "sireDesc": "Tri Toy Poodle (7lbs)",
   "cardDesc": "Meet Poppi and Hickory’s stunning litter of micro mini F1bb Goldendoodles! Featuring rare Blue Merles and a classic solid black pup, these sweet, non-shedding cuties are ready for reservations.",
-  "cardPhoto": "https://media.yarnellefur-babies.com/Mini%20Goldendoodles%20(Polly%203).JPG",
+  "cardPhoto": "https://media.yarnellefur-babies.com/Mini%20Goldendoodles%20(Prisca%204).JPG",
   "sirePhoto": "https://media.yarnellefur-babies.com/Hickoy pic.jpeg",
   "puppies": [
     {
@@ -30,6 +30,10 @@
       "price": "$1,800",
       "status": "Available",
       "photos": [
+        {
+          "src": "https://media.yarnellefur-babies.com/Mini Goldendoodles (Pascal 4).JPG",
+          "alt": "Goldendoodles in Indiana"
+        },
         {
           "src": "https://media.yarnellefur-babies.com/Mini Goldendoodles (Pascal 3).JPG",
           "alt": "Goldendoodles in Indiana"
@@ -51,6 +55,10 @@
       "status": "Available",
       "photos": [
         {
+          "src": "https://media.yarnellefur-babies.com/Mini Goldendoodles (Penelope 4).JPG",
+          "alt": "Goldendoodles in Indiana"
+        },
+        {
           "src": "https://media.yarnellefur-babies.com/Mini Goldendoodles (Penelope 3).JPG",
           "alt": "Goldendoodles in Indiana"
         },
@@ -71,6 +79,10 @@
       "status": "Available",
       "photos": [
         {
+          "src": "https://media.yarnellefur-babies.com/Mini Goldendoodles (Prisca 4).JPG",
+          "alt": "Goldendoodles in Indiana"
+        },
+        {
           "src": "https://media.yarnellefur-babies.com/Mini Goldendoodles (Prisca 3).JPG",
           "alt": "Goldendoodles in Indiana"
         },
@@ -90,6 +102,10 @@
       "price": "$1,800",
       "status": "Available",
       "photos": [
+        {
+          "src": "https://media.yarnellefur-babies.com/Mini Goldendoodles (Polly 4).JPG",
+          "alt": "Goldendoodles in Indiana"
+        },
         {
           "src": "https://media.yarnellefur-babies.com/Mini Goldendoodles (Polly 3).JPG",
           "alt": "Goldendoodles in Indiana"
