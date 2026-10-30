@@ -20,25 +20,9 @@
   "sireName": "Pumpkin",
   "sireDesc": "AKC Standard Poodle",
   "cardDesc": "Standard F1B Saint Berdoodles — gentle giants, cuddly, calm, and great with families. Gracie × Pumpkin litter.",
-  "cardPhoto": "https://media.yarnellefur-babies.com/St.berdoodles%20(Gwen%202).PNG",
+  "cardPhoto": "",
   "sirePhoto": "https://media.yarnellefur-babies.com/image_0141.jpg",
   "puppies": [
-    {
-      "name": "Graham",
-      "gender": "Boy",
-      "price": "$2,000",
-      "status": "Available",
-      "photos": [
-        {
-          "src": "https://media.yarnellefur-babies.com/St.berdoodles (Graham 2).PNG",
-          "alt": "St.berdoodles in Indiana"
-        },
-        {
-          "src": "https://media.yarnellefur-babies.com/Callies (Graham).PNG",
-          "alt": "St.berdoodles in Indiana"
-        }
-      ]
-    },
     {
       "name": "Giana",
       "gender": "Girl",
@@ -88,44 +72,6 @@
       ]
     },
     {
-      "name": "George",
-      "gender": "Boy",
-      "price": "$2,000",
-      "status": "Available",
-      "photos": [
-        {
-          "src": "https://media.yarnellefur-babies.com/St.berdoodles (George 2).PNG",
-          "alt": "St.berdoodles in Indiana"
-        },
-        {
-          "src": "https://media.yarnellefur-babies.com/Callies (George).PNG",
-          "alt": "St.berdoodles in Indiana"
-        }
-      ]
-    },
-    {
-      "name": "Gavin",
-      "gender": "Boy",
-      "price": "$2,000",
-      "status": "Reserved"
-    },
-    {
-      "name": "Gwen",
-      "gender": "Girl",
-      "price": "$2,000",
-      "status": "Available",
-      "photos": [
-        {
-          "src": "https://media.yarnellefur-babies.com/St.berdoodles (Gwen 2).PNG",
-          "alt": "St.berdoodles in Indiana"
-        },
-        {
-          "src": "https://media.yarnellefur-babies.com/Callies (Gwen).PNG",
-          "alt": "St.berdoodles in Indiana"
-        }
-      ]
-    },
-    {
       "name": "Gabby ",
       "gender": "Girl",
       "price": "$2,000",
@@ -142,20 +88,34 @@
       ]
     },
     {
+      "name": "Gavin",
+      "gender": "Boy",
+      "price": "$2,000",
+      "status": "Sold"
+    },
+    {
+      "name": "George",
+      "gender": "Boy",
+      "price": "$2,000",
+      "status": "Sold"
+    },
+    {
+      "name": "Gwen",
+      "gender": "Girl",
+      "price": "$2,000",
+      "status": "Sold"
+    },
+    {
       "name": "Garret",
       "gender": "Boy",
       "price": "$2,000",
-      "status": "Available",
-      "photos": [
-        {
-          "src": "https://media.yarnellefur-babies.com/St.berdoodles (Garett 2).PNG",
-          "alt": "St.berdoodles in Indiana"
-        },
-        {
-          "src": "https://media.yarnellefur-babies.com/Callies (Garett).PNG",
-          "alt": "St.berdoodles in Indiana"
-        }
-      ]
+      "status": "Sold"
+    },
+    {
+      "name": "Graham",
+      "gender": "Boy",
+      "price": "$2,000",
+      "status": "Sold"
     }
   ],
   "showCarousel": true,
