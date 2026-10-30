@@ -40,38 +40,6 @@
       ]
     },
     {
-      "name": "Darla",
-      "gender": "Girl",
-      "price": "$1,000",
-      "status": "Available",
-      "photos": [
-        {
-          "src": "https://media.yarnellefur-babies.com/St.berdoodles (Darla 2).PNG",
-          "alt": "Aussiedoodles in Indiana"
-        },
-        {
-          "src": "https://media.yarnellefur-babies.com/Dahlia (Darla).PNG",
-          "alt": "Aussiedoodles in Indiana"
-        }
-      ]
-    },
-    {
-      "name": "Dottie",
-      "gender": "Girl",
-      "price": "$1,200",
-      "status": "Available",
-      "photos": [
-        {
-          "src": "https://media.yarnellefur-babies.com/St.berdoodles (Dottie 2).PNG",
-          "alt": "Aussiedoodles in Indiana"
-        },
-        {
-          "src": "https://media.yarnellefur-babies.com/Dahlia (Dottie).PNG",
-          "alt": "Aussiedoodles in Indiana"
-        }
-      ]
-    },
-    {
       "name": "Danica",
       "gender": "Girl",
       "price": "$1,200",
@@ -133,6 +101,18 @@
           "alt": "Aussiedoodles in Indiana"
         }
       ]
+    },
+    {
+      "name": "Dottie",
+      "gender": "Girl",
+      "price": "$1,200",
+      "status": "Reserved"
+    },
+    {
+      "name": "Darla",
+      "gender": "Girl",
+      "price": "$1,000",
+      "status": "Reserved"
     }
   ],
   "showCarousel": true
