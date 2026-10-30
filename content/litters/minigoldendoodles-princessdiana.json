@@ -1,5 +1,5 @@
 {
-  "active": true,
+  "active": false,
   "sortOrder": 7,
   "title": "Mini F1bb Goldendoodles",
   "slug": "minigoldendoodles-princessdiana",
@@ -20,70 +20,8 @@
   "sireName": "Billy",
   "sireDesc": "Mini Blue Merle F1b Goldendoodle (23lbs)",
   "cardDesc": "Meet our gorgeous Mini F1bb Goldendoodles from Princess Diana and Billy! These highly desirable, low-shedding companion pups are raised with intentional care on our 10-acre farm, ensuring they are healthy, confident, and ready for their forever homes. Browse the litter now to see available puppies and submit your application.",
-  "cardPhoto": "https://media.yarnellefur-babies.com/IMG_9503.JPG",
+  "cardPhoto": "",
   "sirePhoto": "https://media.yarnellefur-babies.com/image_0064.jpg",
-  "puppies": [
-    {
-      "name": "Pearl",
-      "gender": "Girl",
-      "price": "$1,000",
-      "status": "Available",
-      "photos": [
-        {
-          "src": "https://media.yarnellefur-babies.com/IMG_9503.JPG",
-          "alt": "Goldendoodles in Indiana"
-        },
-        {
-          "src": "https://media.yarnellefur-babies.com/minigoldendoodles (Pearl 3).JPG",
-          "alt": "Goldendoodles in Indiana"
-        },
-        {
-          "src": "https://media.yarnellefur-babies.com/F1bb Goldendoodles Pearl.JPG",
-          "alt": "Goldendoodles in Indiana"
-        },
-        {
-          "src": "https://media.yarnellefur-babies.com/Goldendoodle Pearl.JPG",
-          "alt": "Goldendoodles in Indiana"
-        }
-      ]
-    },
-    {
-      "name": "Patrick",
-      "gender": "Boy",
-      "price": "$1,800",
-      "status": "Sold"
-    },
-    {
-      "name": "Peyton",
-      "gender": "Girl",
-      "price": "$2,000",
-      "status": "Sold"
-    },
-    {
-      "name": "Poppy ",
-      "gender": "Girl",
-      "price": "$2,000",
-      "status": "Sold"
-    },
-    {
-      "name": "Piper",
-      "gender": "Girl",
-      "price": "$3,000",
-      "status": "Sold"
-    },
-    {
-      "name": "Paige",
-      "gender": "Girl",
-      "price": "$3,000",
-      "status": "Sold"
-    },
-    {
-      "name": "Paris",
-      "gender": "Girl",
-      "price": "$2,000",
-      "status": "Sold"
-    }
-  ],
   "showCarousel": true,
   "previousPuppies": [
     {
