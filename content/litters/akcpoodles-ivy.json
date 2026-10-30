@@ -44,26 +44,6 @@
       ]
     },
     {
-      "name": "Iris",
-      "gender": "Girl",
-      "price": "$700",
-      "status": "Available",
-      "photos": [
-        {
-          "src": "https://media.yarnellefur-babies.com/AKC poodles (Iris 3).JPG",
-          "alt": "Akc standard poodles in Indiana "
-        },
-        {
-          "src": "https://media.yarnellefur-babies.com/AKC poodles (Iris 2).JPG",
-          "alt": "Akc standard poodles in Indiana "
-        },
-        {
-          "src": "https://media.yarnellefur-babies.com/Akc poodles (Iris).JPG",
-          "alt": "AKC standard poodles in Indiana"
-        }
-      ]
-    },
-    {
       "name": "Irene",
       "gender": "Girl",
       "price": "$700",
@@ -113,7 +93,13 @@
       "name": "Ian",
       "gender": "Boy",
       "price": "$1,200",
-      "status": "Reserved"
+      "status": "Sold"
+    },
+    {
+      "name": "Iris",
+      "gender": "Girl",
+      "price": "$700",
+      "status": "Sold"
     },
     {
       "name": "Isaac",
