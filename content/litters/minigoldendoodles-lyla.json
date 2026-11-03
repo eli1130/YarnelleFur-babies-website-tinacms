@@ -27,21 +27,7 @@
       "name": "Lilah ",
       "gender": "Girl",
       "price": "$1,200",
-      "status": "Available",
-      "photos": [
-        {
-          "src": "https://media.yarnellefur-babies.com/Mini Goldendoodles (Lilah 3).JPG",
-          "alt": "Goldendoodles in Indiana"
-        },
-        {
-          "src": "https://media.yarnellefur-babies.com/mini goldendoodles (Lilah) 2.JPG",
-          "alt": "Goldendoodles in Indiana"
-        },
-        {
-          "src": "https://media.yarnellefur-babies.com/Lilah.JPG",
-          "alt": "Goldendoodles in Indiana"
-        }
-      ]
+      "status": "Sold"
     },
     {
       "name": "Laura (yellow collar)",
