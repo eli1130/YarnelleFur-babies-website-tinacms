@@ -28,25 +28,7 @@
       "name": "Pascal ",
       "gender": "Boy",
       "price": "$1,800",
-      "status": "Available",
-      "photos": [
-        {
-          "src": "https://media.yarnellefur-babies.com/Mini Goldendoodles (Pascal 4).JPG",
-          "alt": "Goldendoodles in Indiana"
-        },
-        {
-          "src": "https://media.yarnellefur-babies.com/Mini Goldendoodles (Pascal 3).JPG",
-          "alt": "Goldendoodles in Indiana"
-        },
-        {
-          "src": "https://media.yarnellefur-babies.com/Mini Goldendoodles (Pascal 2).JPG",
-          "alt": "Goldendoodles in Indiana"
-        },
-        {
-          "src": "https://media.yarnellefur-babies.com/Mini Goldendoodle (Pascal).JPG",
-          "alt": "Goldendoodles in Indiana"
-        }
-      ]
+      "status": "Sold"
     },
     {
       "name": "Penelope",
