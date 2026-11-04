@@ -65,7 +65,17 @@
       "name": "Nevaeh",
       "gender": "Girl",
       "price": "$1,200",
-      "status": "Reserved"
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://media.yarnellefur-babies.com/St.berdoodles (Nevaeh 3).PNG",
+          "alt": "St.berdoodles in indiana"
+        },
+        {
+          "src": "https://media.yarnellefur-babies.com/St.berdoodles (Nevaeh 2).PNG",
+          "alt": "St.berdoodles in indiana"
+        }
+      ]
     }
   ],
   "showCarousel": true
