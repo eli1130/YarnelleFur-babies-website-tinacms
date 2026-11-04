@@ -21,7 +21,7 @@
   "sireName": "Bamboo",
   "sireDesc": "AKC Standard Poodle (70lbs)",
   "cardDesc": "Meet our Standard F1B Bernedoodles out of Dora and Bamboo, bred for gorgeous low-to-non-shedding coats and gentle, family-ready temperaments. These pups bring together the best of both worlds, Dora’s sweet nature and Bamboo’s sharp intelligence making them ideal lifelong companions.",
-  "cardPhoto": "https://media.yarnellefur-babies.com/Bernedoodles%20(Dixie%205).JPG",
+  "cardPhoto": "https://media.yarnellefur-babies.com/Bernedoodles%20(dixie%206).JPG",
   "sirePhoto": "https://media.yarnellefur-babies.com/image_0074.jpg",
   "puppies": [
     {
@@ -30,6 +30,10 @@
       "price": "$1,600",
       "status": "Available",
       "photos": [
+        {
+          "src": "https://media.yarnellefur-babies.com/Bernedoodles (dixie 6).JPG",
+          "alt": "Bernedoodles in Indiana"
+        },
         {
           "src": "https://media.yarnellefur-babies.com/Bernedoodles (Dixie 5).JPG",
           "alt": "Bernedoodles in Indiana"
