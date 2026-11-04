@@ -20,7 +20,7 @@
   "sireName": "Pumpkin",
   "sireDesc": "AKC Standard Poodle",
   "cardDesc": "Standard F1B Saint Berdoodles — gentle giants, cuddly, calm, and great with families. Gracie × Pumpkin litter.",
-  "cardPhoto": "",
+  "cardPhoto": "https://media.yarnellefur-babies.com/St.berdoodles%20(Giana%202).PNG",
   "sirePhoto": "https://media.yarnellefur-babies.com/image_0141.jpg",
   "puppies": [
     {
@@ -35,22 +35,6 @@
         },
         {
           "src": "https://media.yarnellefur-babies.com/Callies (Giana).PNG",
-          "alt": "St.berdoodles in Indiana"
-        }
-      ]
-    },
-    {
-      "name": "Gibson",
-      "gender": "Boy",
-      "price": "$2,000",
-      "status": "Available",
-      "photos": [
-        {
-          "src": "https://media.yarnellefur-babies.com/St.berdoodles (Gibson 2).PNG",
-          "alt": "St.berdoodles in Indiana"
-        },
-        {
-          "src": "https://media.yarnellefur-babies.com/Callies (Gibson).PNG",
           "alt": "St.berdoodles in Indiana"
         }
       ]
@@ -89,6 +73,12 @@
     },
     {
       "name": "Gavin",
+      "gender": "Boy",
+      "price": "$2,000",
+      "status": "Sold"
+    },
+    {
+      "name": "Gibson",
       "gender": "Boy",
       "price": "$2,000",
       "status": "Sold"
