@@ -1,5 +1,5 @@
 {
-  "active": true,
+  "active": false,
   "sortOrder": 12,
   "title": "Standard F1b Goldendoodles",
   "slug": "f1bgoldendoodles-raya",
@@ -20,30 +20,20 @@
   "sireName": "Thomas ",
   "sireDesc": "AKC Standard Poodle",
   "cardDesc": "Raised on our farm with daily love, Raya and Thomas’s Standard F1b Goldendoodle puppies combine the best of intelligence, loyalty, and low-shedding coats. These outgoing, sweet-tempered pups make a seamless and joyful addition to any growing family.",
-  "cardPhoto": "https://media.yarnellefur-babies.com/Goldendoodle%20(ruth%202).PNG",
+  "cardPhoto": "",
   "sirePhoto": "https://media.yarnellefur-babies.com/Thomas%20pic.JPG",
   "puppies": [
     {
       "name": "Ruth",
       "gender": "Girl",
       "price": "$2,000",
-      "status": "Available",
-      "photos": [
-        {
-          "src": "https://media.yarnellefur-babies.com/Goldendoodle (ruth 2).PNG",
-          "alt": "Goldendoodles in Indiana"
-        },
-        {
-          "src": "https://media.yarnellefur-babies.com/Goldendoodle (Ruth).PNG",
-          "alt": "Goldendoodles in Indiana"
-        }
-      ]
+      "status": "Sold"
     },
     {
       "name": "Rome",
       "gender": "Boy",
       "price": "$1,600",
-      "status": "Reserved"
+      "status": "Sold"
     }
   ],
   "showCarousel": true
