@@ -49,18 +49,6 @@
       ]
     },
     {
-      "name": "Saquon",
-      "gender": "Boy",
-      "price": "$2,500",
-      "status": "Available",
-      "photos": [
-        {
-          "src": "https://media.yarnellefur-babies.com/S.Bernedoodles (Saquon).JPG",
-          "alt": "Bernedoodles in Indiana"
-        }
-      ]
-    },
-    {
       "name": "Stephen",
       "gender": "Boy",
       "price": "$2,500",
@@ -71,6 +59,12 @@
           "alt": "Bernedoodles in Indiana"
         }
       ]
+    },
+    {
+      "name": "Saquon",
+      "gender": "Boy",
+      "price": "$2,500",
+      "status": "Reserved"
     },
     {
       "name": "Sean",
