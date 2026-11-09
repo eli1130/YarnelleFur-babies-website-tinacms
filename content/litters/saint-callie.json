@@ -39,13 +39,7 @@
       "name": "Clara",
       "gender": "Girl",
       "price": "$2,000",
-      "status": "Available",
-      "photos": [
-        {
-          "src": "https://media.yarnellefur-babies.com/St.berdoodles (Clara).PNG",
-          "alt": "St.berdoodles in Indiana"
-        }
-      ]
+      "status": "Reserved"
     },
     {
       "name": "Chase",
