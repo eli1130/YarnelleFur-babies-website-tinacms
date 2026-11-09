@@ -5,10 +5,10 @@
   "slug": "saint-callie",
   "breeder": "Dakoda & Brooke Labenz",
   "generation": "F1B",
-  "priceRange": "$1,000 — $1,800",
+  "priceRange": "$1,800 - $2,200",
   "litterTitle": "Callie × Pumpkin",
-  "dateOfBirth": "February 14th, 2026",
-  "takeHomeDate": "April 11-April 25, 2026",
+  "dateOfBirth": "September 23, 2026",
+  "takeHomeDate": "November 18, 2026",
   "estimatedSize": "80+ lbs ",
   "grooming": "Roughly every 3-4 months",
   "temperament": "Friendly, watchful, calm, gentle, sweet, love to cuddle, incredibly friendly with other dogs, cats, and kiddos",
@@ -20,74 +20,128 @@
   "sireName": "Pumpkin",
   "sireDesc": "AKC Standard Poodle 70 lbs",
   "cardDesc": "Standard F1B Saint Berdoodles — gentle giants, cuddly, calm, and great with families. Callie × Pumpkin litter.\n\n",
-  "cardPhoto": "https://media.yarnellefur-babies.com/St.berdoodle%20(calliope)%202.PNG",
+  "cardPhoto": "https://media.yarnellefur-babies.com/St.berdoodles%20(Christian).PNG",
   "sirePhoto": "https://media.yarnellefur-babies.com/image_0141.jpg",
   "puppies": [
     {
-      "name": "Calliope",
-      "gender": "Girl",
-      "price": "$1,000",
-      "status": "Sold"
-    },
-    {
-      "name": "Camille",
-      "gender": "Girl",
-      "price": "$1,200",
-      "status": "Sold"
-    },
-    {
-      "name": "Charlotte",
-      "gender": "Girl",
-      "price": "$1,200",
-      "status": "Sold"
-    },
-    {
-      "name": "Candy",
-      "gender": "Girl",
-      "price": "$1,800",
-      "status": "Sold"
-    },
-    {
-      "name": "Cece",
-      "gender": "Girl",
-      "price": "$1,800",
-      "status": "Sold"
-    },
-    {
-      "name": "Chloe",
-      "gender": "Girl",
-      "price": "$1,200",
-      "status": "Sold"
-    },
-    {
-      "name": "Chuck",
+      "name": "Christian",
       "gender": "Boy",
-      "price": "$1,200",
-      "status": "Sold"
+      "price": "$2,200",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://media.yarnellefur-babies.com/St.berdoodles (Christian).PNG",
+          "alt": "St.berdoodles in Indiana"
+        }
+      ]
     },
     {
-      "name": "Claire",
+      "name": "Clara",
       "gender": "Girl",
       "price": "$2,000",
-      "status": "Sold"
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://media.yarnellefur-babies.com/St.berdoodles (Clara).PNG",
+          "alt": "St.berdoodles in Indiana"
+        }
+      ]
     },
     {
-      "name": "Cooper",
+      "name": "Chase",
       "gender": "Boy",
-      "price": "$1,200",
-      "status": "Sold"
+      "price": "$2,000",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://media.yarnellefur-babies.com/St.berdoodles (Chase).PNG",
+          "alt": "St.berdoodles in Indiana"
+        }
+      ]
     },
     {
-      "name": "Charles",
+      "name": "Cameron ",
       "gender": "Boy",
-      "price": "$1,200",
-      "status": "Sold"
+      "price": "$2,000",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://media.yarnellefur-babies.com/St.berdoodles (Cameron).PNG",
+          "alt": "St.berdoodles in Indiana"
+        }
+      ]
     },
     {
-      "name": "Cora",
+      "name": "Cassie",
       "gender": "Girl",
       "price": "$2,000",
-      "status": "Sold"
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://media.yarnellefur-babies.com/St.berdoodles (Cassie).PNG",
+          "alt": "St.berdoodles in Indiana"
+        }
+      ]
+    },
+    {
+      "name": "Carson",
+      "gender": "Boy",
+      "price": "$2,000",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://media.yarnellefur-babies.com/St.berdoodles (Carson).PNG",
+          "alt": "St.berdoodles in Indiana"
+        }
+      ]
+    },
+    {
+      "name": "Cookie",
+      "gender": "Girl",
+      "price": "$1,800",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://media.yarnellefur-babies.com/St.berdoodles (Cookie).PNG",
+          "alt": "St.berdoodles in Indiana"
+        }
+      ]
+    },
+    {
+      "name": "Carla",
+      "gender": "Girl",
+      "price": "$1,800",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://media.yarnellefur-babies.com/St.berdoodles (Carla).PNG",
+          "alt": "St.berdoodles in indiana"
+        }
+      ]
+    },
+    {
+      "name": "Cady",
+      "gender": "Girl",
+      "price": "$1,800",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://media.yarnellefur-babies.com/St.berdoodles (Cady).PNG",
+          "alt": "St.berdoodles in Indiana"
+        }
+      ]
+    },
+    {
+      "name": "Calvin",
+      "gender": "Boy",
+      "price": "$1,800",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://media.yarnellefur-babies.com/St.berdoodles (Calvin).PNG",
+          "alt": "St.berdoodles in Indiana"
+        }
+      ]
     }
   ],
   "showCarousel": true
