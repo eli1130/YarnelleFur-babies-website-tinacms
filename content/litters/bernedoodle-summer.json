@@ -21,21 +21,9 @@
   "sireName": "Bamboo",
   "sireDesc": "AKC Sable Parti Standard Poodle (60lbs)",
   "cardDesc": "Standard F1 Bernedoodles- They are incredibly friendly with other dogs, cats, and kiddo. Summer x Bamboo",
-  "cardPhoto": "https://media.yarnellefur-babies.com/S.Bernedoodles%20(Sadie).JPG",
+  "cardPhoto": "https://media.yarnellefur-babies.com/S.Bernedoodles%20(Scottie).JPG",
   "sirePhoto": "https://media.yarnellefur-babies.com/image_0074.jpg",
   "puppies": [
-    {
-      "name": "Sadie",
-      "gender": "Girl",
-      "price": "$2,500",
-      "status": "Available",
-      "photos": [
-        {
-          "src": "https://media.yarnellefur-babies.com/S.Bernedoodles (Sadie).JPG",
-          "alt": "Bernedoodles in Indiana"
-        }
-      ]
-    },
     {
       "name": "Scottie",
       "gender": "Boy",
@@ -59,6 +47,12 @@
           "alt": "Bernedoodles in Indiana"
         }
       ]
+    },
+    {
+      "name": "Sadie",
+      "gender": "Girl",
+      "price": "$2,500",
+      "status": "Reserved"
     },
     {
       "name": "Saquon",
