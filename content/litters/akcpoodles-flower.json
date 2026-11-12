@@ -5,7 +5,7 @@
   "slug": "akcpoodles-flower",
   "breeder": "Luke & Eli Yarnelle",
   "generation": "P",
-  "priceRange": "$1,500 - $2,000",
+  "priceRange": "$1,000 - $1,400",
   "litterTitle": "Flower x Bonsai",
   "dateOfBirth": "May 21, 2026",
   "takeHomeDate": "July 23, 2026",
@@ -26,7 +26,7 @@
     {
       "name": "Fletcher (orange collar)",
       "gender": "Boy",
-      "price": "$2,000",
+      "price": "$1,400",
       "status": "Available",
       "photos": [
         {
@@ -46,7 +46,7 @@
     {
       "name": "Forrest (Red collar)",
       "gender": "Boy",
-      "price": "$1,800",
+      "price": "$1,000",
       "status": "Available",
       "photos": [
         {
@@ -66,7 +66,7 @@
     {
       "name": "Fraser (Green collar)",
       "gender": "Boy",
-      "price": "$1,500",
+      "price": "$1,000",
       "status": "Available",
       "photos": [
         {
@@ -86,7 +86,7 @@
     {
       "name": "Finn (Blue collar)",
       "gender": "Boy",
-      "price": "$1,500",
+      "price": "$1,000",
       "status": "Available",
       "photos": [
         {
