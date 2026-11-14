@@ -20,7 +20,7 @@
   "sireName": "Aspen",
   "sireDesc": "AKC Standard Chocolate Parti Poodle (60lbs)",
   "cardDesc": "Meet our playful Standard F1 Colliedoodle puppies— low-shedding, sweet-natured companions combining the intelligence of the Standard Poodle with the loyal, gentle heart of the Collie. Socialized right on our farm, these clever and devoted pups are eager to fit seamlessly into active families.",
-  "cardPhoto": "https://media.yarnellefur-babies.com/Colliedoodles(Lola%203).JPG",
+  "cardPhoto": "https://media.yarnellefur-babies.com/Colliedoodles(Lola%204).JPG",
   "sirePhoto": "https://media.yarnellefur-babies.com/aspen pic.jpeg",
   "puppies": [
     {
@@ -29,6 +29,10 @@
       "price": "$1,000",
       "status": "Available",
       "photos": [
+        {
+          "src": "https://media.yarnellefur-babies.com/Colliedoodles(Laura 4).JPG",
+          "alt": "Colliedoodles in Indiana"
+        },
         {
           "src": "https://media.yarnellefur-babies.com/Colliedoodles(Laura 3).JPG",
           "alt": "Colliedoodles in Indiana"
@@ -49,6 +53,10 @@
       "price": "$1,000",
       "status": "Available",
       "photos": [
+        {
+          "src": "https://media.yarnellefur-babies.com/Colliedoodles(Lola 4).JPG",
+          "alt": "Colliedoodles in Indiana"
+        },
         {
           "src": "https://media.yarnellefur-babies.com/Colliedoodles(Lola 3).JPG",
           "alt": "Colliedoodles in Indiana"
