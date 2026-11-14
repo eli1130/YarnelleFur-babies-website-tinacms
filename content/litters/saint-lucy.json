@@ -1,27 +1,113 @@
 {
-  "active": false,
+  "active": true,
   "sortOrder": 1,
   "title": "Saint Berdoodles-Lucy",
   "slug": "saint-lucy",
   "breeder": "John & Kathy Yarnelle",
   "generation": "F1B",
-  "priceRange": "$1,200 — $2,000",
+  "priceRange": "$2,000-$2,400",
   "litterTitle": "Lucy × Bonsai",
-  "dateOfBirth": "January 7, 2026",
-  "takeHomeDate": "March 4, 2026",
+  "dateOfBirth": "October 26, 2026",
+  "takeHomeDate": "December 21, 2026",
   "estimatedSize": "75–90+ lbs",
   "grooming": "Roughly every 4 months",
   "temperament": "Friendly, watchful, calm, gentle, sweet, love to cuddle, incredibly friendly with other dogs, cats, and kiddos",
-  "deposit": "$400",
-  "contact": "Brooke-(260)443-9035",
+  "deposit": "$600",
+  "contact": "Luke · (260) 213-1685",
   "damName": "Lucy",
   "damDesc": "Standard F1 Saint Berdoodle · 100 lbs",
   "damPhoto": "https://media.yarnellefur-babies.com/image_0043.jpg",
   "sireName": "Bonsai",
   "sireDesc": "AKC Blue Merle Standard Poodle · 60 lbs",
   "cardDesc": "Standard F1B Saint Berdoodles — gentle giants with sweet temperaments. Lucy × Bonsai litter.",
-  "cardPhoto": "",
+  "cardPhoto": "https://media.yarnellefur-babies.com/St.berdoodles%20(Liam).JPG",
   "sirePhoto": "https://media.yarnellefur-babies.com/image_0044.jpg",
+  "puppies": [
+    {
+      "name": "Laken",
+      "gender": "Boy",
+      "price": "$2,400",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://media.yarnellefur-babies.com/St.berdoodles (Laken).JPG",
+          "alt": "St.berdoodles in Indiana"
+        }
+      ]
+    },
+    {
+      "name": "Lamar",
+      "gender": "Boy",
+      "price": "$2,400",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://media.yarnellefur-babies.com/St.berdoodles (Lamar).JPG",
+          "alt": "St.berdoodles in Indiana"
+        }
+      ]
+    },
+    {
+      "name": "Lance",
+      "gender": "Boy",
+      "price": "$2,000",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://media.yarnellefur-babies.com/St.berdoodles (Lance).JPG",
+          "alt": "St.berdoodles in Indiana"
+        }
+      ]
+    },
+    {
+      "name": "Leo ",
+      "gender": "Boy",
+      "price": "$2,000",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://media.yarnellefur-babies.com/St.berdoodles (Leo).JPG"
+        }
+      ]
+    },
+    {
+      "name": "Liam",
+      "gender": "Boy",
+      "price": "$2,600",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://media.yarnellefur-babies.com/St.berdoodles (Liam).JPG",
+          "alt": "St.berdoodles in Indiana"
+        }
+      ]
+    },
+    {
+      "name": "Lilac ",
+      "gender": "Girl",
+      "price": "$2,400",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://media.yarnellefur-babies.com/St.berdoodles (Lilac).JPG",
+          "alt": "St.berdoodles in Indiana"
+        }
+      ]
+    },
+    {
+      "name": "London",
+      "gender": "Boy",
+      "price": "$2,400",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://media.yarnellefur-babies.com/St.berdoodles (London).JPG",
+          "alt": "St.berdoodles in Indiana"
+        }
+      ]
+    }
+  ],
+  "showCarousel": true,
   "previousPuppies": [
     {
       "src": "https://media.yarnellefur-babies.com/image_0045.jpg"
