@@ -20,7 +20,7 @@
   "sireName": "Sycamore",
   "sireDesc": "Mini F1 Tricolored Bernedoodle (40lbs)",
   "cardDesc": "Meet our sweet F2 Bernedoodle puppies, lovingly raised by Mom, Penny, and Dad, Sycamore! These gentle, intelligent pups inherit the best of both worlds—combining loyal, calm Bernese warmth with a low-shedding, highly trainable Poodle coat.",
-  "cardPhoto": "https://media.yarnellefur-babies.com/F2%20Bernedoodles%20(Pedro).JPG",
+  "cardPhoto": "https://media.yarnellefur-babies.com/F2%20Bernedoodles%20(Paolo%202).JPG",
   "sirePhoto": "https://media.yarnellefur-babies.com/image_0067.jpg",
   "puppies": [
     {
@@ -29,6 +29,10 @@
       "price": "$2,500",
       "status": "Available",
       "photos": [
+        {
+          "src": "https://media.yarnellefur-babies.com/F2 Bernedoodles (Pedro 2).JPG",
+          "alt": "Bernedoodles in Indiana"
+        },
         {
           "src": "https://media.yarnellefur-babies.com/F2 Bernedoodles (Pedro).JPG",
           "alt": "Bernedoodles in Indiana"
@@ -42,6 +46,10 @@
       "status": "Available",
       "photos": [
         {
+          "src": "https://media.yarnellefur-babies.com/F2 Bernedoodles (Paxton 2).JPG",
+          "alt": "Bernedoodles in Indiana"
+        },
+        {
           "src": "https://media.yarnellefur-babies.com/F2 Bernedoodles (Paxton).JPG",
           "alt": "Bernedoodles in Indiana"
         }
@@ -53,6 +61,10 @@
       "price": "$2,500",
       "status": "Available",
       "photos": [
+        {
+          "src": "https://media.yarnellefur-babies.com/F2 Bernedoodles (Paris 2).JPG",
+          "alt": "Bernedoodles in Indiana"
+        },
         {
           "src": "https://media.yarnellefur-babies.com/F2 Bernedoodles (Paris).JPG",
           "alt": "Bernedoodles in Indiana"
@@ -66,6 +78,10 @@
       "status": "Available",
       "photos": [
         {
+          "src": "https://media.yarnellefur-babies.com/F2 Bernedoodles (Pete 2).JPG",
+          "alt": "Bernedoodles in Indiana"
+        },
+        {
           "src": "https://media.yarnellefur-babies.com/F2 Bernedoodles (Pete).JPG",
           "alt": "Bernedoodles in Indiana"
         }
@@ -77,6 +93,10 @@
       "price": "$2,500",
       "status": "Available",
       "photos": [
+        {
+          "src": "https://media.yarnellefur-babies.com/F2 Bernedoodles (Paolo 2).JPG",
+          "alt": "Bernedoodles in Indiana"
+        },
         {
           "src": "https://media.yarnellefur-babies.com/F2 Bernedoodles (Paolo).JPG",
           "alt": "Bernedoodles in Indiana"
