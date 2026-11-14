@@ -21,7 +21,7 @@
   "sireName": "Ash",
   "sireDesc": "Toy Cream Poodle (9lbs)",
   "cardDesc": "Our gorgeous mama, Everly (a Mini F1B St. Berdoodle), and handsome dad, Ash (a Toy Poodle), have welcomed a beautiful new litter of Mini F1BB St. Berdoodles! This special generation gives these sweet puppies an exceptionally low-to-non-shedding coat, making them the perfect allergy-friendly companions. Raised with endless love and daily socialization, these smart, compact, and affectionate sweethearts are ready to bring a lifetime of joy to your family.",
-  "cardPhoto": "https://media.yarnellefur-babies.com/Mini%20St.berdoodles%20(Emmanuel).JPG",
+  "cardPhoto": "https://media.yarnellefur-babies.com/Mini%20St.berdoodles%20(Edie%202).JPG",
   "sirePhoto": "https://media.yarnellefur-babies.com/Ash.jpg",
   "puppies": [
     {
@@ -30,6 +30,10 @@
       "price": "$2,400",
       "status": "Available",
       "photos": [
+        {
+          "src": "https://media.yarnellefur-babies.com/Mini St.berdoodles (Eleanor 2).JPG",
+          "alt": "st.berdoodles in indiana"
+        },
         {
           "src": "https://media.yarnellefur-babies.com/Mini St.berdoodles (Eleanor).JPG",
           "alt": "St.berdoodles in Indiana"
@@ -43,19 +47,11 @@
       "status": "Available",
       "photos": [
         {
-          "src": "https://media.yarnellefur-babies.com/Mini St.berdoodles (Elijah).JPG",
+          "src": "https://media.yarnellefur-babies.com/Mini St.berdoodles (Elijah 2).JPG",
           "alt": "St.berdoodles in Indiana"
-        }
-      ]
-    },
-    {
-      "name": "Esther",
-      "gender": "Girl",
-      "price": "$2,200",
-      "status": "Available",
-      "photos": [
+        },
         {
-          "src": "https://media.yarnellefur-babies.com/Mini St.berdoodles (Esther).JPG",
+          "src": "https://media.yarnellefur-babies.com/Mini St.berdoodles (Elijah).JPG",
           "alt": "St.berdoodles in Indiana"
         }
       ]
@@ -66,6 +62,10 @@
       "price": "$2,200",
       "status": "Available",
       "photos": [
+        {
+          "src": "https://media.yarnellefur-babies.com/Mini St.berdoodles (Edie 2).JPG",
+          "alt": "St.berdoodles in Indiana"
+        },
         {
           "src": "https://media.yarnellefur-babies.com/Mini St.berdoodles (Edie).JPG",
           "alt": "St.berdoodles in indiana"
@@ -79,6 +79,10 @@
       "status": "Available",
       "photos": [
         {
+          "src": "https://media.yarnellefur-babies.com/Mini St.berdoodles (Emmanuel 2).JPG",
+          "alt": "St.berdoodles in indiana"
+        },
+        {
           "src": "https://media.yarnellefur-babies.com/Mini St.berdoodles (Emmanuel).JPG"
         }
       ]
@@ -89,6 +93,10 @@
       "price": "$2,200",
       "status": "Available",
       "photos": [
+        {
+          "src": "https://media.yarnellefur-babies.com/Mini St.berdoodles (Emma 2).JPG",
+          "alt": "St.berdoodles in Indiana"
+        },
         {
           "src": "https://media.yarnellefur-babies.com/Mini St.berdoodles (Emma).JPG",
           "alt": "St.berdoodles in Indiana"
@@ -102,6 +110,10 @@
       "status": "Available",
       "photos": [
         {
+          "src": "https://media.yarnellefur-babies.com/Mini St.berdoodles (Everett 2).JPG",
+          "alt": "St.berdoodles in Indiana"
+        },
+        {
           "src": "https://media.yarnellefur-babies.com/Mini St.berdoodles (Everett).JPG",
           "alt": "St.berdoodles in Indiana"
         }
@@ -113,6 +125,10 @@
       "price": "$2,000",
       "status": "Available",
       "photos": [
+        {
+          "src": "https://media.yarnellefur-babies.com/Mini St.berdoodles (Ember 2).JPG",
+          "alt": "St.berdoodles in Indiana"
+        },
         {
           "src": "https://media.yarnellefur-babies.com/Mini St.berdoodles (Ember).JPG",
           "alt": "St.berdoodles in Indiana"
@@ -126,10 +142,20 @@
       "status": "Available",
       "photos": [
         {
+          "src": "https://media.yarnellefur-babies.com/Mini St.berdoodles (Elon 2).JPG",
+          "alt": "St.berdoodles in Indiana"
+        },
+        {
           "src": "https://media.yarnellefur-babies.com/Mini St.berdoodles (Elon).JPG",
           "alt": "St.berdoodles in Indiana"
         }
       ]
+    },
+    {
+      "name": "Esther",
+      "gender": "Girl",
+      "price": "$2,200",
+      "status": "Reserved"
     }
   ],
   "showCarousel": true
