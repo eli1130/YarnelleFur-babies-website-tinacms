@@ -67,21 +67,7 @@
       "name": "Indie",
       "gender": "Girl",
       "price": "$700",
-      "status": "Available",
-      "photos": [
-        {
-          "src": "https://media.yarnellefur-babies.com/AKC poodles (Indie 3).JPG",
-          "alt": "AKC standard poodles in Indiana"
-        },
-        {
-          "src": "https://media.yarnellefur-babies.com/AKC poodles (Indie 2).JPG",
-          "alt": "AKC standard poodles in Indiana"
-        },
-        {
-          "src": "https://media.yarnellefur-babies.com/Akc poodles (Indie).JPG",
-          "alt": "AKC standard poodles in Indiana"
-        }
-      ]
+      "status": "Sold"
     },
     {
       "name": "Isaiah",
