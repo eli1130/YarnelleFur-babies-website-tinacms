@@ -74,17 +74,7 @@
       "name": "Danny",
       "gender": "Boy",
       "price": "$1,200",
-      "status": "Available",
-      "photos": [
-        {
-          "src": "https://media.yarnellefur-babies.com/St.berdoodles (Danny 2).PNG",
-          "alt": "Aussiedoodles in Indiana"
-        },
-        {
-          "src": "https://media.yarnellefur-babies.com/Dahlia (Danny 2).PNG",
-          "alt": "Aussiedoodles in Indiana"
-        }
-      ]
+      "status": "Sold"
     },
     {
       "name": "Dean",
