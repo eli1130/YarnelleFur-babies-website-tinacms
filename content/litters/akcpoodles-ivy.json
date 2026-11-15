@@ -1,5 +1,5 @@
 {
-  "active": true,
+  "active": false,
   "sortOrder": 5,
   "title": "AKC Standard Poodles (Ivy)",
   "slug": "akcpoodles-ivy",
@@ -20,85 +20,7 @@
   "sireName": "Bamboo",
   "sireDesc": "AKC Standard Poodle (60lbs)",
   "cardDesc": "Meet our exceptional AKC Standard Poodle litter by Ivy and Bamboo, featuring unique sable and phantom coats with full rights included. Health-tested parents and dedicated early socialization make these puppies incredible additions to any home or program.",
-  "cardPhoto": "https://media.yarnellefur-babies.com/AKC%20poodles%20(Irene%203).JPG",
+  "cardPhoto": "",
   "sirePhoto": "https://media.yarnellefur-babies.com/image_0074.jpg",
-  "puppies": [
-    {
-      "name": "Ivory ",
-      "gender": "Girl",
-      "price": "$700",
-      "status": "Available",
-      "photos": [
-        {
-          "src": "https://media.yarnellefur-babies.com/AKC poodles (Ivory 3).JPG",
-          "alt": "AKC standard poodles in Indiana"
-        },
-        {
-          "src": "https://media.yarnellefur-babies.com/AKC poodles (Ivory 2).JPG",
-          "alt": "AKC standard poodles in Indiana"
-        },
-        {
-          "src": "https://media.yarnellefur-babies.com/Akc poodles (Ivory).JPG",
-          "alt": "AKC standard poodles in Indiana"
-        }
-      ]
-    },
-    {
-      "name": "Irene",
-      "gender": "Girl",
-      "price": "$700",
-      "status": "Available",
-      "photos": [
-        {
-          "src": "https://media.yarnellefur-babies.com/AKC poodles (Irene 3).JPG",
-          "alt": "AKC standard poodles in Indiana"
-        },
-        {
-          "src": "https://media.yarnellefur-babies.com/AKC poodles (Irene 2).JPG",
-          "alt": "AKC standard poodles in Indiana"
-        },
-        {
-          "src": "https://media.yarnellefur-babies.com/Akc poodles (Irene).JPG",
-          "alt": "AKC standard poodles in Indiana"
-        }
-      ]
-    },
-    {
-      "name": "Indie",
-      "gender": "Girl",
-      "price": "$700",
-      "status": "Sold"
-    },
-    {
-      "name": "Isaiah",
-      "gender": "Boy",
-      "price": "$700",
-      "status": "Sold"
-    },
-    {
-      "name": "Ian",
-      "gender": "Boy",
-      "price": "$1,200",
-      "status": "Sold"
-    },
-    {
-      "name": "Iris",
-      "gender": "Girl",
-      "price": "$700",
-      "status": "Sold"
-    },
-    {
-      "name": "Isaac",
-      "gender": "Boy",
-      "price": "$1,600",
-      "status": "Sold"
-    },
-    {
-      "name": "Isabella",
-      "gender": "Girl",
-      "price": "$3,200",
-      "status": "Sold"
-    }
-  ],
   "showCarousel": true
 }
