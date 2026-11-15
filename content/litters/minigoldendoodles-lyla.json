@@ -73,21 +73,7 @@
       "name": "Lucas (blue collar) ",
       "gender": "Boy",
       "price": "$1,000",
-      "status": "Available",
-      "photos": [
-        {
-          "src": "https://media.yarnellefur-babies.com/Mini Goldendoodles (Lucas 3).JPG",
-          "alt": "Goldendoodles in Indiana"
-        },
-        {
-          "src": "https://media.yarnellefur-babies.com/mini goldendoodles (Lucas) 2.JPG",
-          "alt": "Goldendoodles in Indiana"
-        },
-        {
-          "src": "https://media.yarnellefur-babies.com/Lucas.JPG",
-          "alt": "Goldendoodles in Indiana"
-        }
-      ]
+      "status": "Sold"
     },
     {
       "name": "Lucy (yellow collar)",
