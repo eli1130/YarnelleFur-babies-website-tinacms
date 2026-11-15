@@ -20,20 +20,14 @@
   "sireName": "Pumpkin",
   "sireDesc": "AKC Standard Poodle 70 lbs",
   "cardDesc": "Standard F1B Saint Berdoodles — gentle giants, cuddly, calm, and great with families. Callie × Pumpkin litter.\n\n",
-  "cardPhoto": "https://media.yarnellefur-babies.com/St.berdoodles%20(Christian).PNG",
+  "cardPhoto": "https://media.yarnellefur-babies.com/St.berdoodles%20(Cookie).PNG",
   "sirePhoto": "https://media.yarnellefur-babies.com/image_0141.jpg",
   "puppies": [
     {
       "name": "Christian",
       "gender": "Boy",
       "price": "$2,200",
-      "status": "Available",
-      "photos": [
-        {
-          "src": "https://media.yarnellefur-babies.com/St.berdoodles (Christian).PNG",
-          "alt": "St.berdoodles in Indiana"
-        }
-      ]
+      "status": "Sold"
     },
     {
       "name": "Clara",
@@ -81,13 +75,7 @@
       "name": "Carson",
       "gender": "Boy",
       "price": "$2,000",
-      "status": "Available",
-      "photos": [
-        {
-          "src": "https://media.yarnellefur-babies.com/St.berdoodles (Carson).PNG",
-          "alt": "St.berdoodles in Indiana"
-        }
-      ]
+      "status": "Sold"
     },
     {
       "name": "Cookie",
