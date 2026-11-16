@@ -5,7 +5,7 @@
   "slug": "aussiedoodle-dahlia",
   "breeder": "Dakoda & Brooke Labenz",
   "generation": "F1B",
-  "priceRange": "$1,000 - $1,500",
+  "priceRange": "$600-$800",
   "litterTitle": "Dahlia x Aspen",
   "dateOfBirth": "September 9, 2026",
   "takeHomeDate": "November 4, 2026",
@@ -26,7 +26,7 @@
     {
       "name": "Daisy ",
       "gender": "Girl",
-      "price": "$1,500",
+      "price": "$800",
       "status": "Available",
       "photos": [
         {
@@ -42,7 +42,7 @@
     {
       "name": "Danica",
       "gender": "Girl",
-      "price": "$1,200",
+      "price": "$600",
       "status": "Available",
       "photos": [
         {
@@ -56,30 +56,9 @@
       ]
     },
     {
-      "name": "Daxter ",
-      "gender": "Boy",
-      "price": "$1,000",
-      "status": "Available",
-      "photos": [
-        {
-          "src": "https://media.yarnellefur-babies.com/St.berdoodles (Daxter 2).PNG",
-          "alt": "Aussiedoodles in Indiana"
-        },
-        {
-          "src": "https://media.yarnellefur-babies.com/Dahlia (Daxter).PNG"
-        }
-      ]
-    },
-    {
-      "name": "Danny",
-      "gender": "Boy",
-      "price": "$1,200",
-      "status": "Sold"
-    },
-    {
       "name": "Dean",
       "gender": "Boy",
-      "price": "$1,000",
+      "price": "$600",
       "status": "Available",
       "photos": [
         {
@@ -93,16 +72,28 @@
       ]
     },
     {
+      "name": "Daxter ",
+      "gender": "Boy",
+      "price": "$1,000",
+      "status": "Sold"
+    },
+    {
+      "name": "Danny",
+      "gender": "Boy",
+      "price": "$1,200",
+      "status": "Sold"
+    },
+    {
       "name": "Dottie",
       "gender": "Girl",
       "price": "$1,200",
-      "status": "Reserved"
+      "status": "Sold"
     },
     {
       "name": "Darla",
       "gender": "Girl",
       "price": "$1,000",
-      "status": "Reserved"
+      "status": "Sold"
     }
   ],
   "showCarousel": true
