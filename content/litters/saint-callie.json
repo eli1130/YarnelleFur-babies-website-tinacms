@@ -33,7 +33,7 @@
       "name": "Clara",
       "gender": "Girl",
       "price": "$2,000",
-      "status": "Reserved"
+      "status": "Sold"
     },
     {
       "name": "Chase",
@@ -63,13 +63,7 @@
       "name": "Cassie",
       "gender": "Girl",
       "price": "$2,000",
-      "status": "Available",
-      "photos": [
-        {
-          "src": "https://media.yarnellefur-babies.com/St.berdoodles (Cassie).PNG",
-          "alt": "St.berdoodles in Indiana"
-        }
-      ]
+      "status": "Sold"
     },
     {
       "name": "Carson",
