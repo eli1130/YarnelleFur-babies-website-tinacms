@@ -20,19 +20,86 @@
   "sireName": "Cedar",
   "sireDesc": "Mini Poodle (17 lbs)",
   "cardDesc": "Zoey and Cedar's red mini F1b Goldendoodles bring together the ultimate low-to-no shedding coat, bright intelligence, and a sweet, people-loving personality. These gorgeous red pups are eager to please, gentle with families, and ready to fill your home with playful affection.",
-  "cardPhoto": "https://media.yarnellefur-babies.com/Mini goldendoodles .JPEG",
+  "cardPhoto": "",
   "sirePhoto": "https://media.yarnellefur-babies.com/image_0111.jpg",
   "puppies": [
     {
-      "name": "Boys & Girls",
+      "name": "Zeke",
+      "gender": "Boy",
       "price": "$2,200",
       "status": "Available",
       "photos": [
         {
-          "src": "https://media.yarnellefur-babies.com/Mini%20goldendoodles%20.JPEG",
+          "src": "https://media.yarnellefur-babies.com/Mini Goldendoodles (Zeke).PNG",
           "alt": "Goldendoodles in Indiana"
         }
       ]
+    },
+    {
+      "name": "Zander",
+      "gender": "Boy",
+      "price": "$2,200",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://media.yarnellefur-babies.com/Mini Goldendoodles (Zander).PNG",
+          "alt": "Goldendoodles in Indiana"
+        }
+      ]
+    },
+    {
+      "name": "Ziva",
+      "gender": "Girl",
+      "price": "$2,200",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://media.yarnellefur-babies.com/Mini Goldendoodles (Ziva).PNG",
+          "alt": "Goldendoodles in Indiana"
+        }
+      ]
+    },
+    {
+      "name": "Zayla",
+      "gender": "Girl",
+      "price": "$2,200",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://media.yarnellefur-babies.com/Mini Goldendoodles (Zayla).PNG",
+          "alt": "Goldendoodles in Indiana"
+        }
+      ]
+    },
+    {
+      "name": "Zelda",
+      "gender": "Girl",
+      "price": "$2,200",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://media.yarnellefur-babies.com/Mini Goldendoodles (Zelda).PNG",
+          "alt": "Goldendoodles in Indiana"
+        }
+      ]
+    },
+    {
+      "name": "Zaylee",
+      "gender": "Girl",
+      "price": "$2,200",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://media.yarnellefur-babies.com/Mini Goldendoodles (Zaylee).PNG",
+          "alt": "Goldendoodles in Indiana"
+        }
+      ]
+    },
+    {
+      "name": "Zaria",
+      "gender": "Girl",
+      "price": "$2,200",
+      "status": "Reserved"
     }
   ],
   "showCarousel": true
