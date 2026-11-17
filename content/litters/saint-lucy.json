@@ -51,13 +51,7 @@
       "name": "Lance",
       "gender": "Boy",
       "price": "$2,000",
-      "status": "Available",
-      "photos": [
-        {
-          "src": "https://media.yarnellefur-babies.com/St.berdoodles (Lance).JPG",
-          "alt": "St.berdoodles in Indiana"
-        }
-      ]
+      "status": "Reserved"
     },
     {
       "name": "Leo ",
