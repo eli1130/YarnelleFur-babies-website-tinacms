@@ -20,24 +20,14 @@
   "sireName": "Aspen",
   "sireDesc": "AKC Standard Poodle (60lbs)",
   "cardDesc": "Meet Dahlia and Aspen's Standard F1b Aussidoodle litter—smart, energetic, and endlessly affectionate pups with non-shedding, hypoallergenic coats. Inheriting the sharp intelligence of the Australian Shepherd and the eager-to-please nature of the Poodle, these babies will thrive in active homes full of play, learning, and cozy family downtime.",
-  "cardPhoto": "https://media.yarnellefur-babies.com/St.berdoodles%20(Daisy%202).PNG",
+  "cardPhoto": "https://media.yarnellefur-babies.com/St.berdoodles%20(Danica%202).PNG",
   "sirePhoto": "https://media.yarnellefur-babies.com/aspen%20pic.jpeg",
   "puppies": [
     {
       "name": "Daisy ",
       "gender": "Girl",
       "price": "$800",
-      "status": "Available",
-      "photos": [
-        {
-          "src": "https://media.yarnellefur-babies.com/St.berdoodles (Daisy 2).PNG",
-          "alt": "Aussiedoodles in Indiana"
-        },
-        {
-          "src": "https://media.yarnellefur-babies.com/Dahlia (Daisy).PNG",
-          "alt": "Aussiedoodles in Indiana"
-        }
-      ]
+      "status": "Sold"
     },
     {
       "name": "Danica",
