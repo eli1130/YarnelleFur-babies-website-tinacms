@@ -25,22 +25,6 @@
   "sirePhoto": "https://media.yarnellefur-babies.com/Ash.jpg",
   "puppies": [
     {
-      "name": "Eleanor",
-      "gender": "Girl",
-      "price": "$2,400",
-      "status": "Available",
-      "photos": [
-        {
-          "src": "https://media.yarnellefur-babies.com/Mini St.berdoodles (Eleanor 2).JPG",
-          "alt": "st.berdoodles in indiana"
-        },
-        {
-          "src": "https://media.yarnellefur-babies.com/Mini St.berdoodles (Eleanor).JPG",
-          "alt": "St.berdoodles in Indiana"
-        }
-      ]
-    },
-    {
       "name": "Elijah",
       "gender": "Boy",
       "price": "$2,400",
@@ -105,7 +89,7 @@
     },
     {
       "name": "Ember",
-      "gender": "Boy",
+      "gender": "Girl",
       "price": "$2,000",
       "status": "Available",
       "photos": [
@@ -136,8 +120,14 @@
       ]
     },
     {
+      "name": "Eleanor",
+      "gender": "Girl",
+      "price": "$2,400",
+      "status": "Reserved"
+    },
+    {
       "name": "Edie",
-      "gender": "Boy",
+      "gender": "Girl",
       "price": "$2,200",
       "status": "Reserved"
     },
