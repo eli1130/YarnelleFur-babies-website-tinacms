@@ -27,25 +27,7 @@
       "name": "Mallory",
       "gender": "Girl",
       "price": "$800",
-      "status": "Available",
-      "photos": [
-        {
-          "src": "https://media.yarnellefur-babies.com/Broodle Griffon (Mallory 4).JPG",
-          "alt": "Broodle Griffons in Indiana"
-        },
-        {
-          "src": "https://media.yarnellefur-babies.com/Broodle Griffon (Mallory 3).JPG",
-          "alt": "Broodle Griffons in Indiana"
-        },
-        {
-          "src": "https://media.yarnellefur-babies.com/Broodle Griffon (Mallory 2).JPG",
-          "alt": "Broodle Griffons in Indiana"
-        },
-        {
-          "src": "https://media.yarnellefur-babies.com/Broodle Griffon Mallory.JPG",
-          "alt": "Broodle Griffons in Indiana"
-        }
-      ]
+      "status": "Sold"
     },
     {
       "name": "Mitch",
