@@ -44,16 +44,7 @@
       "name": "Emmnuel",
       "gender": "Boy",
       "price": "$2,200",
-      "status": "Available",
-      "photos": [
-        {
-          "src": "https://media.yarnellefur-babies.com/Mini St.berdoodles (Emmanuel 2).JPG",
-          "alt": "St.berdoodles in indiana"
-        },
-        {
-          "src": "https://media.yarnellefur-babies.com/Mini St.berdoodles (Emmanuel).JPG"
-        }
-      ]
+      "status": "Reserved"
     },
     {
       "name": "Emma",
