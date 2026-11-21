@@ -8,7 +8,7 @@
   "priceRange": "$2,200",
   "litterTitle": "Zoey x Cedar",
   "dateOfBirth": "September 22, 2026",
-  "takeHomeDate": "November 17, 2026",
+  "takeHomeDate": "December 3, 2026",
   "estimatedSize": "15–20 lbs",
   "grooming": "Roughly every 4 months",
   "temperament": "Red mini F1b Goldendoodles are highly intelligent, affectionate, and low-shedding companions known for their eager-to-please nature and playful, family-friendly energy.",
@@ -63,13 +63,7 @@
       "name": "Zayla",
       "gender": "Girl",
       "price": "$2,200",
-      "status": "Available",
-      "photos": [
-        {
-          "src": "https://media.yarnellefur-babies.com/Mini Goldendoodles (Zayla).PNG",
-          "alt": "Goldendoodles in Indiana"
-        }
-      ]
+      "status": "Reserved"
     },
     {
       "name": "Zelda",
