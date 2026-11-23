@@ -1,5 +1,5 @@
 {
-  "active": true,
+  "active": false,
   "sortOrder": 12,
   "title": "Standard F1b Aussiedoodles",
   "slug": "aussiedoodle-dahlia",
@@ -20,71 +20,7 @@
   "sireName": "Aspen",
   "sireDesc": "AKC Standard Poodle (60lbs)",
   "cardDesc": "Meet Dahlia and Aspen's Standard F1b Aussidoodle litter—smart, energetic, and endlessly affectionate pups with non-shedding, hypoallergenic coats. Inheriting the sharp intelligence of the Australian Shepherd and the eager-to-please nature of the Poodle, these babies will thrive in active homes full of play, learning, and cozy family downtime.",
-  "cardPhoto": "https://media.yarnellefur-babies.com/St.berdoodles%20(Danica%202).PNG",
+  "cardPhoto": "",
   "sirePhoto": "https://media.yarnellefur-babies.com/aspen%20pic.jpeg",
-  "puppies": [
-    {
-      "name": "Daisy ",
-      "gender": "Girl",
-      "price": "$800",
-      "status": "Sold"
-    },
-    {
-      "name": "Danica",
-      "gender": "Girl",
-      "price": "$600",
-      "status": "Available",
-      "photos": [
-        {
-          "src": "https://media.yarnellefur-babies.com/St.berdoodles (Danica 2).PNG",
-          "alt": "Aussiedoodles in Indiana"
-        },
-        {
-          "src": "https://media.yarnellefur-babies.com/Dahlia (Danica).PNG",
-          "alt": "Aussiedoodles in Indiana"
-        }
-      ]
-    },
-    {
-      "name": "Dean",
-      "gender": "Boy",
-      "price": "$600",
-      "status": "Available",
-      "photos": [
-        {
-          "src": "https://media.yarnellefur-babies.com/St.berdoodles (Dean 2).PNG",
-          "alt": "Aussiedoodles in Indiana"
-        },
-        {
-          "src": "https://media.yarnellefur-babies.com/Dahlia (dean).PNG",
-          "alt": "Aussiedoodles in Indiana"
-        }
-      ]
-    },
-    {
-      "name": "Daxter ",
-      "gender": "Boy",
-      "price": "$1,000",
-      "status": "Sold"
-    },
-    {
-      "name": "Danny",
-      "gender": "Boy",
-      "price": "$1,200",
-      "status": "Sold"
-    },
-    {
-      "name": "Dottie",
-      "gender": "Girl",
-      "price": "$1,200",
-      "status": "Sold"
-    },
-    {
-      "name": "Darla",
-      "gender": "Girl",
-      "price": "$1,000",
-      "status": "Sold"
-    }
-  ],
   "showCarousel": true
 }
