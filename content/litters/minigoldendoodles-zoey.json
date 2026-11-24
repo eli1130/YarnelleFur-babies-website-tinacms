@@ -20,21 +20,9 @@
   "sireName": "Cedar",
   "sireDesc": "Mini Poodle (17 lbs)",
   "cardDesc": "Zoey and Cedar's red mini F1b Goldendoodles bring together the ultimate low-to-no shedding coat, bright intelligence, and a sweet, people-loving personality. These gorgeous red pups are eager to please, gentle with families, and ready to fill your home with playful affection.",
-  "cardPhoto": "https://media.yarnellefur-babies.com/Mini%20Goldendoodles%20(Zeke).PNG",
+  "cardPhoto": "https://media.yarnellefur-babies.com/Mini%20Goldendoodles%20(Zelda).PNG",
   "sirePhoto": "https://media.yarnellefur-babies.com/image_0111.jpg",
   "puppies": [
-    {
-      "name": "Zeke",
-      "gender": "Boy",
-      "price": "$2,200",
-      "status": "Available",
-      "photos": [
-        {
-          "src": "https://media.yarnellefur-babies.com/Mini Goldendoodles (Zeke).PNG",
-          "alt": "Goldendoodles in Indiana"
-        }
-      ]
-    },
     {
       "name": "Zander",
       "gender": "Boy",
@@ -58,12 +46,6 @@
           "alt": "Goldendoodles in Indiana"
         }
       ]
-    },
-    {
-      "name": "Zayla",
-      "gender": "Girl",
-      "price": "$2,200",
-      "status": "Reserved"
     },
     {
       "name": "Zelda",
@@ -93,7 +75,19 @@
       "name": "Zaria",
       "gender": "Girl",
       "price": "$2,200",
-      "status": "Reserved"
+      "status": "Sold"
+    },
+    {
+      "name": "Zayla",
+      "gender": "Girl",
+      "price": "$2,200",
+      "status": "Sold"
+    },
+    {
+      "name": "Zeke",
+      "gender": "Boy",
+      "price": "$2,200",
+      "status": "Sold"
     }
   ],
   "showCarousel": true
