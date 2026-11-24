@@ -24,18 +24,6 @@
   "sirePhoto": "https://media.yarnellefur-babies.com/image_0111.jpg",
   "puppies": [
     {
-      "name": "Zander",
-      "gender": "Boy",
-      "price": "$2,200",
-      "status": "Available",
-      "photos": [
-        {
-          "src": "https://media.yarnellefur-babies.com/Mini Goldendoodles (Zander).PNG",
-          "alt": "Goldendoodles in Indiana"
-        }
-      ]
-    },
-    {
       "name": "Ziva",
       "gender": "Girl",
       "price": "$2,200",
@@ -60,16 +48,16 @@
       ]
     },
     {
+      "name": "Zander",
+      "gender": "Boy",
+      "price": "$2,200",
+      "status": "Reserved"
+    },
+    {
       "name": "Zaylee",
       "gender": "Girl",
       "price": "$2,200",
-      "status": "Available",
-      "photos": [
-        {
-          "src": "https://media.yarnellefur-babies.com/Mini Goldendoodles (Zaylee).PNG",
-          "alt": "Goldendoodles in Indiana"
-        }
-      ]
+      "status": "Reserved"
     },
     {
       "name": "Zaria",
