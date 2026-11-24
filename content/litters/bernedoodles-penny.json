@@ -5,7 +5,7 @@
   "slug": "bernedoodles-penny",
   "breeder": "Luke & Eli Yarnelle",
   "generation": "F2",
-  "priceRange": "$2,500",
+  "priceRange": "$2,200",
   "litterTitle": "Penny x Sycamore",
   "dateOfBirth": "October 6, 2026",
   "takeHomeDate": "December 1, 2026",
@@ -26,7 +26,7 @@
     {
       "name": "Pedro",
       "gender": "Boy",
-      "price": "$2,500",
+      "price": "$2,200",
       "status": "Available",
       "photos": [
         {
@@ -42,7 +42,7 @@
     {
       "name": "Paxton",
       "gender": "Boy",
-      "price": "$2,500",
+      "price": "$2,200",
       "status": "Available",
       "photos": [
         {
@@ -58,7 +58,7 @@
     {
       "name": "Paris",
       "gender": "Girl",
-      "price": "$2,500",
+      "price": "$2,200",
       "status": "Available",
       "photos": [
         {
@@ -74,7 +74,7 @@
     {
       "name": "Pete",
       "gender": "Boy",
-      "price": "$2,500",
+      "price": "$2,200",
       "status": "Available",
       "photos": [
         {
@@ -90,7 +90,7 @@
     {
       "name": "Paolo",
       "gender": "Boy",
-      "price": "$2,500",
+      "price": "$2,200",
       "status": "Available",
       "photos": [
         {
