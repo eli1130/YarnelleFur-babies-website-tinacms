@@ -50,33 +50,13 @@
       "name": "Emma",
       "gender": "Girl",
       "price": "$2,200",
-      "status": "Available",
-      "photos": [
-        {
-          "src": "https://media.yarnellefur-babies.com/Mini St.berdoodles (Emma 2).JPG",
-          "alt": "St.berdoodles in Indiana"
-        },
-        {
-          "src": "https://media.yarnellefur-babies.com/Mini St.berdoodles (Emma).JPG",
-          "alt": "St.berdoodles in Indiana"
-        }
-      ]
+      "status": "Reserved"
     },
     {
       "name": "Everett",
       "gender": "Boy",
       "price": "$2,200",
-      "status": "Available",
-      "photos": [
-        {
-          "src": "https://media.yarnellefur-babies.com/Mini St.berdoodles (Everett 2).JPG",
-          "alt": "St.berdoodles in Indiana"
-        },
-        {
-          "src": "https://media.yarnellefur-babies.com/Mini St.berdoodles (Everett).JPG",
-          "alt": "St.berdoodles in Indiana"
-        }
-      ]
+      "status": "Reserved"
     },
     {
       "name": "Ember",
