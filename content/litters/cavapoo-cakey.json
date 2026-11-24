@@ -1,0 +1,50 @@
+{
+  "active": true,
+  "sortOrder": 8,
+  "title": "F1b cavapoos",
+  "slug": "cavapoo-cakey",
+  "breeder": "Dakoda & Brooke Labenz",
+  "generation": "F1B",
+  "priceRange": "$2,300-$2,500",
+  "litterTitle": "Cakey x Torque",
+  "dateOfBirth": "October 6, 2026",
+  "takeHomeDate": "December 21, 2026",
+  "estimatedSize": "10–15 lbs",
+  "grooming": "Roughly every 4 months",
+  "temperament": "1B Cavapoos are affectionate, playful, and highly intelligent companion dogs that thrive on human connection, blending the gentle, people-pleasing warmth of the Cavalier King Charles Spaniel with the eager-to-please trainability and adaptable energy of the Poodle.",
+  "deposit": "$600",
+  "contact": "Brooke · (260) 443-9035",
+  "damName": "Cakey",
+  "damDesc": "F1 Cavapoo",
+  "damPhoto": "https://media.yarnellefur-babies.com/Cakey pic.PNG",
+  "sireName": "Torque",
+  "sireDesc": "Toy poodle",
+  "cardDesc": "Out of Cakey, our gentle F1 Cavapoo, and Torque, our clever Toy Poodle, this sweet litter of F1B Cavapoo puppies blends affectionate, people-loving warmth with eager-to-please intelligence and low-shedding coats. Raised with daily care and socialization, these adaptable little companions are ready to bring endless joy, cuddles, and playful energy into their new homes.",
+  "cardPhoto": "https://media.yarnellefur-babies.com/F1b cavapoo (charlotte).PNG",
+  "sirePhoto": "https://media.yarnellefur-babies.com/typorama.PNG",
+  "puppies": [
+    {
+      "name": "Charlotte",
+      "gender": "Girl",
+      "price": "$2,300",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://media.yarnellefur-babies.com/F1b%20cavapoo%20(charlotte).PNG"
+        }
+      ]
+    },
+    {
+      "name": "Camille",
+      "gender": "Girl",
+      "price": "$2,500",
+      "status": "Available",
+      "photos": [
+        {
+          "src": "https://media.yarnellefur-babies.com/F1b cavapoo (Camille).PNG"
+        }
+      ]
+    }
+  ],
+  "showCarousel": true
+}
