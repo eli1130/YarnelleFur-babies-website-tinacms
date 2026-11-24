@@ -50,19 +50,19 @@
       "name": "Sadie",
       "gender": "Girl",
       "price": "$2,500",
-      "status": "Reserved"
+      "status": "Sold"
     },
     {
       "name": "Saquon",
       "gender": "Boy",
       "price": "$2,500",
-      "status": "Reserved"
+      "status": "Sold"
     },
     {
       "name": "Sean",
       "gender": "Boy",
       "price": "$2,500",
-      "status": "Reserved"
+      "status": "Sold"
     }
   ],
   "showCarousel": true,
