@@ -20,7 +20,7 @@
   "sireName": "Pumpkin",
   "sireDesc": "AKC Standard Poodle 70 lbs",
   "cardDesc": "Standard F1B Saint Berdoodles — gentle giants, cuddly, calm, and great with families. Callie × Pumpkin litter.\n\n",
-  "cardPhoto": "https://media.yarnellefur-babies.com/St.berdoodles%20(Cookie).PNG",
+  "cardPhoto": "https://media.yarnellefur-babies.com/St.berdoodles%20(Calvin%202).PNG",
   "sirePhoto": "https://media.yarnellefur-babies.com/image_0141.jpg",
   "puppies": [
     {
@@ -29,6 +29,10 @@
       "price": "$2,000",
       "status": "Available",
       "photos": [
+        {
+          "src": "https://media.yarnellefur-babies.com/St.berdoodles (Cameron 2).PNG",
+          "alt": "St.berdoodles in Indiana"
+        },
         {
           "src": "https://media.yarnellefur-babies.com/St.berdoodles (Cameron).PNG",
           "alt": "St.berdoodles in Indiana"
@@ -42,6 +46,10 @@
       "status": "Available",
       "photos": [
         {
+          "src": "https://media.yarnellefur-babies.com/St.berdoodles (Cookie 2).PNG",
+          "alt": "St.berdoodles in Indiana"
+        },
+        {
           "src": "https://media.yarnellefur-babies.com/St.berdoodles (Cookie).PNG",
           "alt": "St.berdoodles in Indiana"
         }
@@ -54,6 +62,10 @@
       "status": "Available",
       "photos": [
         {
+          "src": "https://media.yarnellefur-babies.com/St.berdoodles (Cady 2).PNG",
+          "alt": "St.berdoodles in Indiana"
+        },
+        {
           "src": "https://media.yarnellefur-babies.com/St.berdoodles (Cady).PNG",
           "alt": "St.berdoodles in Indiana"
         }
@@ -65,6 +77,10 @@
       "price": "$1,800",
       "status": "Available",
       "photos": [
+        {
+          "src": "https://media.yarnellefur-babies.com/St.berdoodles (Calvin 2).PNG",
+          "alt": "St.berdoodles in indiana"
+        },
         {
           "src": "https://media.yarnellefur-babies.com/St.berdoodles (Calvin).PNG",
           "alt": "St.berdoodles in Indiana"
