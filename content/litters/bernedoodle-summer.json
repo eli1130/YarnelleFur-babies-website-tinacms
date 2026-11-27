@@ -1,6 +1,6 @@
 {
-  "active": true,
-  "featured": true,
+  "active": false,
+  "featured": false,
   "sortOrder": 2,
   "title": "Standard F1 bernedoodles",
   "slug": "bernedoodle-summer",
@@ -28,17 +28,7 @@
       "name": "Scottie",
       "gender": "Boy",
       "price": "$2,500",
-      "status": "Available",
-      "photos": [
-        {
-          "src": "https://media.yarnellefur-babies.com/S.bernedoodles (Scottie 2).JPG",
-          "alt": "Bernedoodles in Indiana"
-        },
-        {
-          "src": "https://media.yarnellefur-babies.com/S.Bernedoodles (Scottie).JPG",
-          "alt": "Bernedoodles in Indiana"
-        }
-      ]
+      "status": "Sold"
     },
     {
       "name": "Stephen",
